@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="HandheldFriendly" content="true">
+	<title>SchedLink</title>
+
+	<!-- CSS files go here -->
+	<link rel="stylesheet" href="/global.99a46257.css">
+	<link rel="stylesheet" href="/home.871e090d.css">
+	<link rel="stylesheet" href="/alert.205faaae.css">
+	<link rel="stylesheet" href="/article.9fa219b7.css">
+	<link rel="stylesheet" href="/club.f94bcae8.css">
+	<link rel="stylesheet" href="/weather_data.f7f2eba8.css">
+	<link rel="stylesheet" href="/lunch_data.51a618c7.css">
+	<link rel="stylesheet" href="/error.be9ef201.css">
+
+	<!-- Current theme goes here -->
+	<link rel="stylesheet" href="/default.ae4ca6aa.css">
+<script src="/global.99a46257.js"></script><script src="/home.871e090d.js"></script><script src="/alert.205faaae.js"></script><script src="/article.9fa219b7.js"></script><script src="/club.f94bcae8.js"></script><script src="/weather_data.f7f2eba8.js"></script><script src="/lunch_data.51a618c7.js"></script><script src="/error.be9ef201.js"></script><script src="/default.ae4ca6aa.js"></script><script src="/calendar.js"></script></head>
+	<!-- Scripts go here -->
+	<script src="/DOM.b5e18724.js" charset="utf-8"></script>
+	<script src="/clockv4.e2df217a.js" charset="utf-8"></script>
+<body>
+
+<div class="wrapper">
+	<header></header>
+	<article id="main-content">
+		<!-- Clock -->
+		<section class="block">
+			<section class="row" id="period">
+				<button class="container arrow hover" id="prevPeriodBtn">&#8249;</button>
+				<div id="period__box" class="container">
+					<p id="period__header"></p>
+					<p id="period__time">Not School Hours</p>
+					<div id="period__gallery"></div>
+				</div>
+				<button class="container arrow hover" id="nextPeriodBtn">&#8250;</button>
+			</section>
+
+			<section class="row container" id="countdown">
+				<p id="countdown__timer">--:--</p>
+
+				<div id="countdown__bar">
+					<div id="countdown__progress"></div>
+				</div>
+			</section>
+			<section class="" id="sub">
+				<div class="row" id="sub_choose">
+
+				</div>
+			</section>
+			<section class="hidden" id="lunch">
+			  <div class="row" id="lunch__choose">
+			<button class="container hover" onclick="chooseLunch('A',this)">A</button>
+			<button class="container hover l-margin r-margin" onclick="chooseLunch('B',this)">B</button>
+			<button class="container hover" onclick="chooseLunch('C',this)">C</button>
+			</div>
+			<button id="lunch__toggle" class="row container hover" onclick="toggleLunch();">Toggle Lunch View</button>
+		  </section>
+		</section>
+		<!-- Clock -->
+	</article>
+	<!-- Bottom bar -->
+	<nav>
+		<div id="nav-tabs">
+			<a id="nav-tabs__home" href="/index.html" class="selected">
+				<div>
+					<!--gradcap here-->
+					<img src="/gradcap.24442cb5.png" alt="Home" width="34" height="34">
+				</div>
+			</a>
+			<a id="nav-tabs__clubs" href="/html\clubs.html">
+				<div>
+					<!--settings here-->
+					<img src="/clubs.4b45e10a.png" alt="Clubs" width="34" height="34">
+				</div>
+			</a>
+			<a id="nav-tabs__cal" href="/html\calendar.html">
+				<div>
+					<!--calendar here-->
+					<img src="/calendar.2312ea13.png" alt="Calendar" width="34" height="34">
+				</div>
+			</a>
+			<a id="nav-tabs__search" href="/html\search.html">
+				<div>
+					<!--settings here-->
+					<img src="/search.42b7d05d.png" alt="Search" width="34" height="34">
+				</div>
+			</a>
+			<a id="nav-tabs__set" href="/html\settings.html">
+				<div>
+					<!--settings here-->
+					<img src="/settings.37d29716.png" alt="Settings" width="34" height="34">
+				</div>
+			</a>
+		</div>
+	</nav>
+	<!-- Bottom bar -->
+</div>
+</body>
+
+<script>// Variables to reference the DOM elements
+var periodBox = document.getElementById("period__box");
+var countdown = document.getElementById("countdown");
+var subBox = document.getElementById("sub_choose");
+
+// Initialize the countdown clock
+function initializeClock() {
+  if (typeof init === "function") {
+    initializeCountdown();
+  }
+  document.getElementById("nav-tabs__home").classList.toggle("selected");
+  console.log("Default: the basic theme");
+
+  // Add event listeners for the arrow buttons
+  document.getElementById("prevPeriodBtn").addEventListener("click", advanceToPreviousPeriod);
+  document.getElementById("nextPeriodBtn").addEventListener("click", advanceToNextPeriod);
+}
+
+// Once the document content is loaded, initialize the clock
+document.addEventListener("DOMContentLoaded", initializeClock);</script>
+
+</html>

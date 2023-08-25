@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="HandheldFriendly" content="true">
+	<meta http-equiv="Cache-control" content="no-cache">
+
+	<title>Calendar</title>
+	<link rel="shortcut icon" type="image/ico" href="/mainIcon.0e3c69b4.ico">
+
+	<script src="/calendar.3c8f3788.js" charset="utf-8"></script>
+	<script src="/calendar_html.2c2c14b9.js" charset="utf-8"></script>
+
+	<link rel="stylesheet" href="/global.99a46257.css">
+	<link rel="stylesheet" href="/calendar.52a0354e.css">
+
+	<link rel="stylesheet" href="/default.ae4ca6aa.css">
+<script src="/calendar.52a0354e.js"></script></head>
+<body>
+<canvas id="canvas"></canvas>
+<div class="wrapper">
+	<noscript>
+		<style>#period,
+			#countdown {
+				display: none;
+			}</style>
+		<section class="block">
+			<section class="row">
+				<p style="background: pink; color: black; font-size: calc(24 * min(0.2vw, 1px)); font-weight: bold; text-align: center; padding: 0.4em 0.9em; border: calc(6 * min(0.2vw, 1px)) solid red; margin: 0;">
+					You currently have JavaScript disabled. For full functionality, enable JavaScript. (<a href="https://www.enable-javascript.com/" target="_blank" style="color: inherit; text-decoration: underline !important;">How?</a>)
+				</p>
+			</section>
+		</section>
+	</noscript>
+	<header>
+		<!-- <a href="/fishers"></a> -->
+		<a href="https://schedlink.com/fishers/info/">
+			<div>
+				<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+				  <path d="M18,3A15,15,0,1,0,33,18,15.005,15.005,0,0,0,18,3Zm0,4.5A4.5,4.5,0,1,1,13.5,12,4.494,4.494,0,0,1,18,7.5Zm0,21.3a10.8,10.8,0,0,1-9-4.83c.045-2.985,6-4.62,9-4.62s8.955,1.635,9,4.62a10.8,10.8,0,0,1-9,4.83Z" transform="translate(-3 -3)"/>
+				</svg> -->
+				<img src="/questionmark.7a2330a5.png" alt="?" width="34" height="34">
+				<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.985 17.17">
+				  <path d="M5.316,14.211v3.816l6.677,3.644,6.677-3.644V14.211l-6.677,3.644ZM11.993,4.5,1.5,10.223l10.493,5.723,8.585-4.684v6.591h1.908V10.223Z" transform="translate(-1.5 -4.5)"/>
+				</svg> -->
+			</div>
+		</a>
+	</header>
+	<article id="main_body">
+		<section id="calendar_section">
+			<div id="calendar_container" class="container">
+				<div class="calendar_head">
+					<button type="button" name="button" class="calendar_head_btn" value="-1"><p></p></button>
+					<div id="calendar_date"><p>undefined</p>
+					</div>
+					<button type="button" name="button" class="calendar_head_btn" value="1"><p></p></button>
+				</div>
+				<div class="calendar_body">
+					<div class="group"><p class="weekday">U</p>
+						<div class="day_group"><p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p></div>
+					</div>
+					<div class="group"><p class="weekday">U</p>
+						<div class="day_group"><p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p></div>
+					</div>
+					<div class="group"><p class="weekday">U</p>
+						<div class="day_group"><p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p></div>
+					</div>
+					<div class="group"><p class="weekday">U</p>
+						<div class="day_group"><p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p></div>
+					</div>
+					<div class="group"><p class="weekday">U</p>
+						<div class="day_group"><p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p></div>
+					</div>
+					<div class="group"><p class="weekday">U</p>
+						<div class="day_group"><p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p></div>
+					</div>
+					<div class="group"><p class="weekday">U</p>
+						<div class="day_group"><p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p>
+							<p class="day">0</p></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="schedule_section" class="hidden">
+			<div id="schedule_container">
+				<div class="schedule_head">
+
+				</div>
+				<div class="schedule_body">
+
+				</div>
+			</div>
+		</section>
+	</article>
+	<nav>
+		<div id="nav-tabs">
+			<a id="nav-tabs__home" href="/index.html" class="selected">
+				<div>
+					<!--gradcap here-->
+					<img src="/gradcap.24442cb5.png" alt="Home" width="34" height="34">
+				</div>
+			</a>
+			<a id="nav-tabs__clubs" href="/html\clubs.html">
+				<div>
+					<!--settings here-->
+					<img src="/clubs.4b45e10a.png" alt="Clubs" width="34" height="34">
+				</div>
+			</a>
+			<a id="nav-tabs__cal" href="/html\calendar.html">
+				<div>
+					<!--calendar here-->
+					<img src="/calendar.2312ea13.png" alt="Calendar" width="34" height="34">
+				</div>
+			</a>
+			<a id="nav-tabs__search" href="/html\search.html">
+				<div>
+					<!--settings here-->
+					<img src="/search.42b7d05d.png" alt="Search" width="34" height="34">
+				</div>
+			</a>
+			<a id="nav-tabs__set" href="/html\settings.html">
+				<div>
+					<!--settings here-->
+					<img src="/settings.37d29716.png" alt="Settings" width="34" height="34">
+				</div>
+			</a>
+		</div>
+	</nav>
+</div>
+
+<script>function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
+var calendarSection, scheduleSection, calendar;
+calendar = new Calendar(false);
+document.onreadystatechange = function () {
+  if (document.readyState === 'complete') {
+    findElements(document.body, false, "#nav-tabs__cal").classList.toggle("selected");
+    calendarSection = findElements(document.body, false, "#calendar_container");
+    scheduleSection = findElements(document.body, false, "#schedule_section");
+    scheduleSection.classList = "hidden";
+    scheduleSection.onclick = function (e) {
+      scheduleSection.classList = "hidden";
+    };
+
+    //set days of the week along the calendar
+    var weekDayNames = findElements(calendarSection, true, ".weekday");
+    DAYS_OF_WEEK_ABR.forEach(function (item, i) {
+      weekDayNames[i].innerHTML = item;
+    });
+    setCurrentMonthDisplay(); //show current month
+    //set arrow buttons to update calendar display
+    var _iterator = _createForOfIteratorHelper(findElements(calendarSection, true, '.calendar_head_btn')),
+      _step;
+    try {
+      var _loop = function _loop() {
+        var btn = _step.value;
+        btn.onclick = function () {
+          calendar.updateMonth(parseInt(btn.value));
+          setCurrentMonthDisplay();
+        };
+      };
+      for (_iterator.s(); !(_step = _iterator.n()).done;) {
+        _loop();
+      }
+
+      // -----------------------BEGIN THEME JS-------------------------
+    } catch (err) {
+      _iterator.e(err);
+    } finally {
+      _iterator.f();
+    }
+    console.log("Default: the basic theme");
+  }
+};</script>
+</body></html>
