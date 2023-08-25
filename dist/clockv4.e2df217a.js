@@ -268,7 +268,11 @@ function updateClock() {
   var seconds = Math.floor(timeRemaining % 60);
 
   // Display time
-  countdown.textContent = "".concat(hours, ":").concat(minutes < 10 ? '0' : '').concat(minutes, ":").concat(seconds < 10 ? '0' : '').concat(seconds);
+  if (hours > 0) {
+    countdown.textContent = "".concat(hours, ":").concat(minutes < 10 ? '0' : '').concat(minutes, ":").concat(seconds < 10 ? '0' : '').concat(seconds);
+  } else {
+    countdown.textContent = "".concat(minutes < 10 ? '0' : '').concat(minutes, ":").concat(seconds < 10 ? '0' : '').concat(seconds);
+  }
 
   // Update the progress bar
   var currentPeriodMapping = timePeriodMapping[currentPeriodIndex];
@@ -314,7 +318,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54809" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58293" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

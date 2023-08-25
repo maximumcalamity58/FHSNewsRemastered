@@ -122,7 +122,11 @@ function updateClock() {
     let seconds = Math.floor(timeRemaining % 60);
 
     // Display time
-    countdown.textContent = `${hours}:${minutes < 10 ? '0' : ''}${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+    if (hours > 0) {
+        countdown.textContent = `${hours}:${minutes < 10 ? '0' : ''}${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+    } else {
+        countdown.textContent = `${minutes < 10 ? '0' : ''}${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+    }
 
     // Update the progress bar
     let currentPeriodMapping = timePeriodMapping[currentPeriodIndex];
