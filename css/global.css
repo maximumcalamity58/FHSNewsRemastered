@@ -112,10 +112,10 @@ button:hover {
 	margin-right: 1vw;
 }
 
-/* .hover:hover {
+ .hover:hover {
   background: var(--container-hover);
   color: var(--container-hover-text-color);
-} */
+}
 
 body.fullsize-content {
 	overflow: auto;
@@ -143,7 +143,7 @@ header a:link {
 	color: var(--header-text-color);
 }
 
-/* #header__anchor {
+ #header__anchor {
   position: absolute;
   top: 46%;
   left: 50%;
@@ -155,7 +155,8 @@ header a:link {
   color: var(--header-text-color);
   background-color: transparent;
   transform: translate(-50%,-50%);
-} */
+}
+
 nav {
 	position: fixed;
 	bottom: 0;
@@ -188,9 +189,6 @@ header a div {
 	height: auto;
 }
 
-/* #nav-tabs a div:hover{
-  background-color: var(--anchor-hover);
-} */
 #nav-tabs a div img,
 header a div img {
 	margin: 1vw;

@@ -52,13 +52,11 @@
 
 				</div>
 			</section>
-			<section class="hidden" id="lunch">
-			  <div class="row" id="lunch__choose">
-			<button class="container hover" onclick="chooseLunch('A',this)">A</button>
-			<button class="container hover l-margin r-margin" onclick="chooseLunch('B',this)">B</button>
-			<button class="container hover" onclick="chooseLunch('C',this)">C</button>
-			</div>
-			<button id="lunch__toggle" class="row container hover" onclick="toggleLunch();">Toggle Lunch View</button>
+			<section class="row container" id="lunch">
+			  <div class="row container" id="lunch__choose">
+                <!-- this is all one line because if it isn't then it will add white space between the buttons -->
+				<button class="container hover lunch-btn" onclick="chooseLunch('A',this)">A</button><button class="container hover lunch-btn" onclick="chooseLunch('B',this)">B</button><button class="container hover lunch-btn" onclick="chooseLunch('C',this)">C</button><button class="container hover lunch-btn" onclick="chooseLunch('D',this)">D</button>
+			  </div>
 		  </section>
 		</section>
 		<!-- Clock -->

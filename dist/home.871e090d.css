@@ -49,39 +49,36 @@ body {
 }
 
 #period__gallery {
-	min-height: 8.4vw;
+    min-height: 8.4vw;
 }
 
 .gallery-dot {
-	width: 4.2vw;
-	padding: 4.2vw 0 0;
-	background: var(--secondary-background-color);
-	border-radius: 50%;
-	display: inline-block;
-	margin: 0 1.5vw 3vw;
-	position: relative;
-	cursor: default;
+    width: 4.2vw;
+    padding: 4.2vw 0 0;
+    background: var(--secondary-background-color);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 1.5vw 3vw;
+    position: relative;
+    cursor: default;
+    transition: background-color 0.3s ease-in-out;  /* Added transition effect */
 }
 
 .gallery-dot.active {
-	background-color: var(--active-color);
-}
-
-.gallery-dot:hover {
-	background-color: var(--secondary-background-color);
+    background-color: var(--active-color);
+    /* The transition will be inherited from .gallery-dot */
 }
 
 .gallery-dot:before {
-	content: '';
-	position: absolute;
-	background-color: transparent;
-	top: -1.1vw;
-	left: -1.1vw;
-	right: -1.1vw;
-	bottom: -1.1vw;
-	border-radius: 1.1vw;
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    top: -1.1vw;
+    left: -1.1vw;
+    right: -1.1vw;
+    bottom: -1.1vw;
+    border-radius: 1.1vw;
 }
-
 
 .arrow {
 	vertical-align: middle;
@@ -149,6 +146,80 @@ body {
 	font-family: var(--bold-font);
 }
 
+.lunch-btn {
+	width: calc(25%); /* Divides the width into fourths */
+	height: 75px; /* Adjust this value if you want the buttons taller or shorter */
+	font-size: 2.5em; /* Adjust the font size as needed */
+	line-height: 75px; /* This should be the same as the button height */
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: robotobold;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	background-color: transparent;
+    transition: color 0.2s, background-color 0.2s;
+}
+
+.lunch-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(rgb(255, 0, 0), rgb(255, 0, 0));
+    z-index: -1;
+    transition: opacity 0.2s;
+    opacity: 0;
+}
+
+.lunch-btn.selected::before {
+    opacity: 1;
+}
+
+.lunch-btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+}
+
+.lunch-btn:hover::after {
+    opacity: 1;
+}
+
+.lunch-btn.selected {
+    color: white; /* Make text white when selected */
+    background-color: rgb(255, 0, 0); /* Make selected buttons red */
+}
+
+.lunch-btn.selected:hover {
+    background-color: rgba(255, 0, 0, 0.8); /* Darken the red background on hover */
+}
+
+#lunch__choose {
+    white-space: nowrap;
+    overflow: hidden; /* or overflow: auto; if you prefer to have a scrollbar when content overflows */
+}
+
+#lunch__choose {
+	text-align: center;
+	width: 100%;
+}
+
+.l-margin.r-margin.lunch-btn {
+	width: calc(25%); /* Since this button has margins, we don't subtract the 2vw from the width */
+}
+
+
 #sub div button.active {
 	background-color: var(--active-color);
 	color: var(--button-active-color);
@@ -159,15 +230,15 @@ body {
 	color: var(--button-active-color);
 }
 
-/* #lunch #lunch__toggle {
+#lunch #lunch__toggle #lunch__choose {
   width: 100%;
   vertical-align: middle;
-  padding: 1vw;
+  padding: 0vw;
   font-size: 5vw;
   display: inline-block;
   top: 0px;
   font-family: var(--bold-font);
-} */
+}
 
 #extra-features {
 	display: flex;
@@ -455,7 +526,6 @@ body {
 }
 
 /* Hall Pass */
-/*
 #hall-pass {
   position: relative;
   font-size: 0;
@@ -485,11 +555,11 @@ body {
   line-height: 5vw;
   font-family: var(--bold-font);
   color: var(--highlight-text-color)
-} */
+}
 
 /* Video */
 
-/* #thank-you {
+#thank-you {
   width: 100%;
 }
 
@@ -543,7 +613,7 @@ body {
 }
 #help-popup a {
   color: white;
-} */
+}
 
 @media screen and (min-width: 500px) {
 	#help-popup {
@@ -567,6 +637,7 @@ body {
 		font-size: 20px;
 		margin: 10px auto 2.5px;
 		letter-spacing: 1px;
+		transition: 0.3s;
 	}
 
 	#period__header.active:focus-visible {
@@ -587,6 +658,7 @@ body {
 		width: 21px;
 		padding: 21px 0 0;
 		margin: 0 7.5px 15px;
+		transition: 0.3s;
 	}
 
 	.gallery-dot:before {
@@ -626,10 +698,6 @@ body {
 		font-size: 40px;
 	}
 
-	/* #lunch #lunch__toggle {
-	  padding: 5px;
-	  font-size: 25px;
-	} */
 	#extra-features a div {
 		padding: 5px;
 		font-size: 25px;
