@@ -7,6 +7,8 @@
 var countdown;
 var now = new Date();
 var endTime;
+let hasAdvanced = false;  // Add this flag at the top of the file to track whether we have already advanced the period
+let manualNavigation = false; // Flag to indicate manual navigation
 
 var timePeriodMapping = [
     { startTime: "08:00", endTime: "08:30", periodName: "Passing Period" },
@@ -15,7 +17,7 @@ var timePeriodMapping = [
     { startTime: "10:01", endTime: "11:24", periodName: "Period 2" },
     { startTime: "11:24", endTime: "13:24", periodName: "Period 3 & Lunch" },
     { startTime: "13:24", endTime: "13:32", periodName: "Passing Period" },
-    { startTime: "13:32", endTime: "15:00", periodName: "Period 4" }
+    { startTime: "13:32", endTime: "15:00", periodName: "Period 4" },
 ];
 
 var lunchTimings = {
@@ -39,7 +41,7 @@ function getCurrentPeriodIndex() {
             return i;
         }
     }
-    return 0; // Default to the first period if no matching period found
+    return -1; // Return 0 if outside of all periods
 }
 
 function to12HourFormat(timeStr) {
@@ -50,7 +52,7 @@ function to12HourFormat(timeStr) {
 }
 
 window.advanceToNextPeriod = function() {
-    console.log("e")
+    manualNavigation = true;
     if (currentPeriodIndex < timePeriodMapping.length - 1) {
         currentPeriodIndex++;
         updatePeriod();
@@ -58,7 +60,8 @@ window.advanceToNextPeriod = function() {
 }
 
 window.advanceToPreviousPeriod = function() {
-    if (currentPeriodIndex > 0) {
+    manualNavigation = true;
+    if (currentPeriodIndex > -1) {
         currentPeriodIndex--;
         updatePeriod();
     }
@@ -71,8 +74,19 @@ window.advanceToPreviousPeriod = function() {
 function initializeCountdown() {
     countdown = document.getElementById("countdown__timer");
     now = new Date();
+
+    if (!isSchoolHours() || getCurrentPeriodIndex() === -1) {
+        manualNavigation = true
+    }
+
     updatePeriod();
     tick();
+}
+
+function isSchoolHours() {
+    let firstStartTime = new Date().setHours(...timePeriodMapping[0].startTime.split(":"));
+    let lastEndTime = new Date().setHours(...timePeriodMapping.slice(-1)[0].endTime.split(":"));
+    return (new Date >= firstStartTime && new Date <= lastEndTime);
 }
 
 let selectedLunchType = null; // This will store the type of lunch selected, if any
@@ -80,15 +94,40 @@ let selectedLunchType = null; // This will store the type of lunch selected, if 
 function updatePeriod() {
     let currentPeriodMapping = timePeriodMapping[currentPeriodIndex];
 
+    let realCurrentPeriodIndex = getCurrentPeriodIndex();
+
     if (currentPeriodMapping) {
-        // Check if current period is "Period 3 & Lunch" and if a specific lunch type has been selected
+        // If current period is "Period 3 & Lunch"
         if (currentPeriodMapping.periodName === "Period 3 & Lunch" && selectedLunchType) {
             currentPeriodMapping = lunchTimings[selectedLunchType];
-        }
 
-        let [endHours, endMinutes] = currentPeriodMapping.endTime.split(":").map(Number);
-        endTime = new Date(now);
-        endTime.setHours(endHours, endMinutes, 0, 0);
+            let [lunchStartHours, lunchStartMinutes] = currentPeriodMapping.startTime.split(":").map(Number);
+            let lunchStartTime = new Date(now);
+            lunchStartTime.setHours(lunchStartHours, lunchStartMinutes, 0, 0);
+
+            if (now < lunchStartTime) {
+                // If the selected lunch has not started, set endTime to its startTime
+                endTime = lunchStartTime;
+            } else {
+                // If the selected lunch has started, set endTime to its actual endTime
+                let [lunchEndHours, lunchEndMinutes] = currentPeriodMapping.endTime.split(":").map(Number);
+                endTime = new Date(now);
+                endTime.setHours(lunchEndHours, lunchEndMinutes, 0, 0);
+            }
+        } else {
+            let [endHours, endMinutes] = currentPeriodMapping.endTime.split(":").map(Number);
+            let [startHours, startMinutes] = currentPeriodMapping.startTime.split(":").map(Number);
+
+            if (realCurrentPeriodIndex !== currentPeriodIndex) {
+                // If the period being looked at is not the current period, set endTime to startTime
+                endTime = new Date(now);
+                endTime.setHours(startHours, startMinutes, 0, 0);
+            } else {
+                // Otherwise, set endTime to the actual end time of the period
+                endTime = new Date(now);
+                endTime.setHours(endHours, endMinutes, 0, 0);
+            }
+        }
 
         document.getElementById("period__header").textContent = currentPeriodMapping.periodName;
         document.getElementById("period__time").textContent = `${to12HourFormat(currentPeriodMapping.startTime)} - ${to12HourFormat(currentPeriodMapping.endTime)}`;
@@ -108,7 +147,15 @@ function updatePeriod() {
     } else {
         endTime = new Date(now);
         document.getElementById("period__header").textContent = "Not School Hours";
-        document.getElementById("period__time").textContent = "";
+        // document.getElementById("period__time").textContent = "1:00" + " - " + "1:00";
+        // document.getElementById("period__time").textContent = to12HourFormat(timePeriodMapping[length-1].endTime) + " - " + to12HourFormat(timePeriodMapping[0].startTime);
+    }
+
+    if (manualNavigation) {
+        if (now > endTime) {
+            endTime.setDate(endTime.getDate() + 1);
+        }
+        manualNavigation = false; // Reset the flag
     }
 
     // Update gallery dots
@@ -160,6 +207,7 @@ window.chooseLunch = function(lunchType, buttonElement) {
     }
 
     // Update the period to reflect the changes
+    manualNavigation = true;
     updatePeriod();
 }
 
@@ -170,13 +218,41 @@ window.chooseLunch = function(lunchType, buttonElement) {
  */
 function updateClock() {
     now = new Date();
-    let timeRemaining = (endTime - now) / 1000; // in seconds
+    let timeRemaining;
 
-    // If the countdown has expired, update the period
-    if (timeRemaining <= 0) {
-        // Adjust endTime to the next day's end time
+    // If it's not school hours
+    if (currentPeriodIndex === -1) {
+        let [firstStartHours, firstStartMinutes] = timePeriodMapping[0].startTime.split(":").map(Number);
+        let firstStartTime = new Date(now);
+        firstStartTime.setHours(firstStartHours, firstStartMinutes, 0, 0);
+
+        // If the time has passed for today, set for next day
+        if (now > firstStartTime) {
+            firstStartTime.setDate(firstStartTime.getDate() + 1);
+        }
+
+        timeRemaining = (firstStartTime - now) / 1000; // in seconds
+    }
+    // Otherwise, it's a regular school period or passing period
+    else {
+        timeRemaining = (endTime - now) / 1000; // in seconds
+    }
+
+    // Reset hasAdvanced flag if the time is not yet expired
+    if (timeRemaining > 0) {
+        hasAdvanced = false;
+    }
+
+    if (timeRemaining <= 0 && !hasAdvanced && !manualNavigation) {
+        // ... (existing logic to advance the period)
+        hasAdvanced = true;
+    }
+
+    // If the time has already expired and it's a manual navigation
+    if (timeRemaining <= 0 && manualNavigation) {
         endTime.setDate(endTime.getDate() + 1);
         timeRemaining = (endTime - now) / 1000;
+        manualNavigation = false; // Reset the flag
     }
 
     // Calculate hours, minutes, seconds

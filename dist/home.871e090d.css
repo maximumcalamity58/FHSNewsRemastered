@@ -55,18 +55,15 @@ body {
 .gallery-dot {
     width: 4.2vw;
     padding: 4.2vw 0 0;
-    background: var(--secondary-background-color);
     border-radius: 50%;
     display: inline-block;
     margin: 0 1.5vw 3vw;
     position: relative;
-    cursor: default;
-    transition: background-color 0.3s ease-in-out;  /* Added transition effect */
+    background-color: lightgray;
 }
 
 .gallery-dot.active {
-    background-color: var(--active-color);
-    /* The transition will be inherited from .gallery-dot */
+    background-color: red;
 }
 
 .gallery-dot:before {
