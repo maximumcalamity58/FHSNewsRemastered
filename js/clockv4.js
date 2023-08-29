@@ -143,12 +143,13 @@ function updatePeriod() {
             lunchButtons.classList.add("hidden");
         }
 
+        console.log(currentPeriodMapping.periodName);
+
         updateProgressBar(periodStartTime, endTime);
     } else {
         endTime = new Date(now);
         document.getElementById("period__header").textContent = "Not School Hours";
-        // document.getElementById("period__time").textContent = "1:00" + " - " + "1:00";
-        // document.getElementById("period__time").textContent = to12HourFormat(timePeriodMapping[length-1].endTime) + " - " + to12HourFormat(timePeriodMapping[0].startTime);
+        document.getElementById("period__time").textContent = to12HourFormat(timePeriodMapping[length-1].endTime) + " - " + to12HourFormat(timePeriodMapping[0].startTime);
     }
 
     if (manualNavigation) {
@@ -157,6 +158,8 @@ function updatePeriod() {
         }
         manualNavigation = false; // Reset the flag
     }
+
+    console.log("sup")
 
     // Update gallery dots
     let gallery = document.getElementById("period__gallery");
@@ -245,8 +248,12 @@ function updateClock() {
 
     if (timeRemaining <= 0 && !hasAdvanced && !manualNavigation) {
         // ... (existing logic to advance the period)
+        advanceToNextPeriod();
+        console.log("hey");
         hasAdvanced = true;
     }
+
+    console.log("yo")
 
     // If the time has already expired and it's a manual navigation
     if (timeRemaining <= 0 && manualNavigation) {

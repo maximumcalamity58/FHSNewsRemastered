@@ -311,20 +311,21 @@ function updatePeriod() {
     } else {
       lunchButtons.classList.add("hidden");
     }
+    console.log(currentPeriodMapping.periodName);
     updateProgressBar(periodStartTime, endTime);
   } else {
     endTime = new Date(now);
     document.getElementById("period__header").textContent = "Not School Hours";
-    // document.getElementById("period__time").textContent = "1:00" + " - " + "1:00";
-    // document.getElementById("period__time").textContent = to12HourFormat(timePeriodMapping[length-1].endTime) + " - " + to12HourFormat(timePeriodMapping[0].startTime);
+    document.getElementById("period__time").textContent = to12HourFormat(timePeriodMapping[length - 1].endTime) + " - " + to12HourFormat(timePeriodMapping[0].startTime);
   }
-
   if (manualNavigation) {
     if (now > endTime) {
       endTime.setDate(endTime.getDate() + 1);
     }
     manualNavigation = false; // Reset the flag
   }
+
+  console.log("sup");
 
   // Update gallery dots
   var gallery = document.getElementById("period__gallery");
@@ -411,8 +412,11 @@ function updateClock() {
   }
   if (timeRemaining <= 0 && !hasAdvanced && !manualNavigation) {
     // ... (existing logic to advance the period)
+    advanceToNextPeriod();
+    console.log("hey");
     hasAdvanced = true;
   }
+  console.log("yo");
 
   // If the time has already expired and it's a manual navigation
   if (timeRemaining <= 0 && manualNavigation) {
@@ -478,7 +482,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50945" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55078" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
