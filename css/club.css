@@ -1,7 +1,20 @@
 .club_container {
+	width: 350px;
+	height: 400px;
 	display: flex;
 	flex-direction: column;
 	justify-content: left;
+	border: 2px transparent black;
+	box-shadow: inset;
+	margin: 20px;
+	border-radius: 20px;
+}
+
+#pageName {
+	color: white;
+	text-shadow: 1px;
+	font-size: 40px;
+	font-family: robotobold;
 }
 
 .club_container p {
@@ -18,8 +31,11 @@
 }
 
 .club_thumbnail {
-	max-height: 250px;
+	max-height: 200px;
 	object-fit: cover;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
 }
 
 .club_info {
@@ -30,9 +46,9 @@
 
 .club_headline {
 	font-family: var(--bold-font);
-	font-size: 40px;
+	font-size: 25px;
 	margin: 6px;
-	float: left;
+	float: center;
 }
 
 .club_subtitle p {
@@ -41,4 +57,11 @@
 
 .club_content {
 	margin: 0px 6px 6px 6px  !important;
+}
+
+.row_club {
+	padding-top: 70px;
+	flex-direction: row;
+	display: flex;
+
 }
