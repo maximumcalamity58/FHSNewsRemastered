@@ -149,7 +149,7 @@ function updatePeriod() {
     } else {
         endTime = new Date(now);
         document.getElementById("period__header").textContent = "Not School Hours";
-        document.getElementById("period__time").textContent = to12HourFormat(timePeriodMapping[length-1].endTime) + " - " + to12HourFormat(timePeriodMapping[0].startTime);
+        document.getElementById("period__time").textContent = to12HourFormat(timePeriodMapping[timePeriodMapping.length-1].endTime) + " - " + to12HourFormat(timePeriodMapping[0].startTime);
     }
 
     if (manualNavigation) {
@@ -248,7 +248,7 @@ function updateClock() {
 
     if (timeRemaining <= 0 && !hasAdvanced && !manualNavigation) {
         // ... (existing logic to advance the period)
-        advanceToNextPeriod();
+        // advanceToNextPeriod();
         console.log("hey");
         hasAdvanced = true;
     }
