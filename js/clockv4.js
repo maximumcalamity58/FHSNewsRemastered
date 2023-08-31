@@ -56,6 +56,9 @@ window.advanceToNextPeriod = function() {
     if (currentPeriodIndex < timePeriodMapping.length - 1) {
         currentPeriodIndex++;
         updatePeriod();
+    } else if (currentPeriodIndex === timePeriodMapping.length - 1) {
+        currentPeriodIndex = -1;
+        updatePeriod();
     }
 }
 
@@ -64,6 +67,9 @@ window.advanceToPreviousPeriod = function() {
     if (currentPeriodIndex > -1) {
         currentPeriodIndex--;
         updatePeriod();
+    } else if (currentPeriodIndex === -1) {
+        currentPeriodIndex = timePeriodMapping.length-1;
+        updatePeriod()
     }
 }
 
@@ -86,7 +92,7 @@ function initializeCountdown() {
 function isSchoolHours() {
     let firstStartTime = new Date().setHours(...timePeriodMapping[0].startTime.split(":"));
     let lastEndTime = new Date().setHours(...timePeriodMapping.slice(-1)[0].endTime.split(":"));
-    return (new Date >= firstStartTime && new Date <= lastEndTime);
+    return (new Date() >= firstStartTime && new Date() <= lastEndTime);
 }
 
 let selectedLunchType = null; // This will store the type of lunch selected, if any
@@ -248,18 +254,20 @@ function updateClock() {
 
     if (timeRemaining <= 0 && !hasAdvanced && !manualNavigation) {
         // ... (existing logic to advance the period)
-        // advanceToNextPeriod();
-        console.log("hey");
+        currentPeriodIndex = getCurrentPeriodIndex();
+        updatePeriod();
         hasAdvanced = true;
     }
-
-    console.log("yo")
 
     // If the time has already expired and it's a manual navigation
     if (timeRemaining <= 0 && manualNavigation) {
         endTime.setDate(endTime.getDate() + 1);
         timeRemaining = (endTime - now) / 1000;
         manualNavigation = false; // Reset the flag
+    }
+
+    if (timeRemaining < 0) {
+        timeRemaining = (endTime - now) / 1000
     }
 
     // Calculate hours, minutes, seconds

@@ -223,12 +223,18 @@ window.advanceToNextPeriod = function () {
   if (currentPeriodIndex < timePeriodMapping.length - 1) {
     currentPeriodIndex++;
     updatePeriod();
+  } else if (currentPeriodIndex === timePeriodMapping.length - 1) {
+    currentPeriodIndex = -1;
+    updatePeriod();
   }
 };
 window.advanceToPreviousPeriod = function () {
   manualNavigation = true;
   if (currentPeriodIndex > -1) {
     currentPeriodIndex--;
+    updatePeriod();
+  } else if (currentPeriodIndex === -1) {
+    currentPeriodIndex = timePeriodMapping.length - 1;
     updatePeriod();
   }
 };
@@ -412,17 +418,20 @@ function updateClock() {
   }
   if (timeRemaining <= 0 && !hasAdvanced && !manualNavigation) {
     // ... (existing logic to advance the period)
-    // advanceToNextPeriod();
-    console.log("hey");
+    currentPeriodIndex = getCurrentPeriodIndex();
+    updatePeriod();
     hasAdvanced = true;
   }
-  console.log("yo");
 
   // If the time has already expired and it's a manual navigation
   if (timeRemaining <= 0 && manualNavigation) {
     endTime.setDate(endTime.getDate() + 1);
     timeRemaining = (endTime - now) / 1000;
     manualNavigation = false; // Reset the flag
+  }
+
+  if (timeRemaining < 0) {
+    timeRemaining = (endTime - now) / 1000;
   }
 
   // Calculate hours, minutes, seconds
@@ -482,7 +491,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60264" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55009" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
