@@ -33,13 +33,18 @@
 				</div>
 			</a>
 		</header>
+		<section class="Info">
+			<div class="ClubInfo">
+				<p>Testing for now</p>
+			</div>
+		</section>
 		<section class="row_club">
-			<div class="container club_container">
+			<div class="container club_container" onclick="showInfo('NAH')">
 				<img class="club_thumbnail" src="../img/placeholder.png">
-				<p class="club_headline">Bread roll Enjoyers United</p>
+				<p class="club_headline">My Dear Brother in Christ</p>
 				<div class="club_desc">
 					<em class="club_subtitle"><p>We love bread roll!</p></em>
-					<p class="club_content">We think about bread roll in this club</p>
+					<p class="club_content">We think about bread roll in this clubWe think about bread roll in this clubWe think about bread roll in this clubWe think about bread roll in this clubWe think about bread roll in this clubWe think about bread roll in this clubWe think about bread roll in this clubWe think about bread roll in this clubWe think about bread roll in this clubWe think about bread roll in this clubWe think about bread roll in this clubWe think about bread roll in this clubWe think about bread roll in this club</p>
 				</div>
 			</div>
 
@@ -115,6 +120,16 @@
 			</div>
 			
 		</section>
+		<script>
+			const CI = document.querySelector(".ClubInfo");
+			// CI.style.display = "flex";
+			function showInfo(i) {
+				console.log(i);
+				console.log("lol");
+				alert(i);
+				CI.style.display = "flex";
+			}
+		</script>
 		<nav>
 			<div id="nav-tabs">
 				<a id="nav-tabs__home" href="../index.html" class="selected">
