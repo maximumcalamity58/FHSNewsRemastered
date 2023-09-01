@@ -58,6 +58,11 @@
 			</div>
 		</section>
 	</article>
+	<div id="eventModal" class="modal hidden">
+		<div class="modal-content">
+			<p id="eventContent">Events will go here</p>
+		</div>
+	</div>
 	<nav>
 		<div id="nav-tabs">
 			<a id="nav-tabs__home" href="../index.html" class="selected">
@@ -96,7 +101,6 @@
 
 <script type="text/javascript">
 	var calendarSection, scheduleSection, calendar;
-	calendar = new Calendar(false);
 	document.onreadystatechange = () => {
 		if (document.readyState === 'complete') {
 			findElements(document.body, false, "#nav-tabs__cal").classList.toggle("selected");

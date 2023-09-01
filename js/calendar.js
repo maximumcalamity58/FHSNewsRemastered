@@ -1,10 +1,25 @@
 // Create a class for the calendar
 class Calendar {
     constructor() {
-        // Initialize the current date
         this.currentDate = new Date();
         this.currentMonth = this.currentDate.getMonth();
         this.currentYear = this.currentDate.getFullYear();
+        this.calendarData = {};
+
+        this.loadJSONData().then(() => {
+            this.generateCalendar();
+            this.init(); // Initialize event listeners after calendar is generated
+        });
+    }
+
+    // Initialize event listeners
+    init() {
+        document.querySelectorAll('.calendar_head_btn').forEach(btn => {
+            btn.addEventListener("click", () => {
+                this.updateMonth(parseInt(btn.value));
+                this.generateCalendar();
+            });
+        });
     }
 
     // Function to update the month
@@ -19,6 +34,38 @@ class Calendar {
             this.currentMonth = 11;
             this.currentYear--;
         }
+    }
+
+    async loadJSONData() {
+        try {
+            const response = await fetch('../json/calendar_data.json');
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            this.calendarData = await response.json();
+        } catch (error) {
+            console.error('Fetch error:', error);
+        }
+    }
+
+    // Function to show events for clicked day
+    showEvents(dateString) {
+        const eventData = this.calendarData[dateString];
+        const events = eventData ? eventData.events.join(", ") : "No events";
+
+        // Create formatted date string for display
+        const displayDate = new Date(dateString);
+        const displayDateString = `${displayDate.toLocaleString('default', { month: 'short' })} ${displayDate.getDate()}`;
+
+        // Update the modal content
+        document.getElementById("eventContent").innerHTML = `
+        <strong>Events for ${displayDateString}</strong>
+        <br>
+        ${events}
+    `;
+
+        // Show the modal
+        document.getElementById("eventModal").classList.remove("hidden");
     }
 
     // Function to generate and display the calendar
@@ -87,6 +134,10 @@ class Calendar {
                     td.classList.add('weekend');  // Add a class to style the weekends
                 }
 
+                // Add click listener to show events
+                const dateString = `${this.currentYear}-${String(this.currentMonth + 1).padStart(2, '0')}-${String(date).padStart(2, '0')}`;
+                td.addEventListener('click', () => this.showEvents(dateString));
+
                 tr.appendChild(td);
             }
             tbody.appendChild(tr);
@@ -102,16 +153,37 @@ class Calendar {
 // Initialize calendar
 const calendar = new Calendar();
 
-// Show the current month's calendar on page load
-document.addEventListener("DOMContentLoaded", () => {
-    const calendar = new Calendar();
-    calendar.generateCalendar();
-
-    // Update and regenerate calendar when buttons are clicked
-    document.querySelectorAll('.calendar_head_btn').forEach(btn => {
-        btn.addEventListener("click", function() {
-            calendar.updateMonth(parseInt(this.value));
-            calendar.generateCalendar();
-        });
+// Update and regenerate calendar when buttons are clicked
+document.querySelectorAll('.calendar_head_btn').forEach(btn => {
+    btn.addEventListener("click", function() {
+        calendar.updateMonth(parseInt(this.value));
+        calendar.generateCalendar();
     });
+});
+
+// Show the modal
+function showModal() {
+    document.getElementById("eventModal").classList.remove("hidden");
+}
+
+// Hide the modal
+function hideModal() {
+    document.getElementById("eventModal").classList.add("hidden");
+}
+
+// Attach a click event to the modal background
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("eventModal").addEventListener("click", function(event) {
+        if (event.target === this) {
+            hideModal();
+        }
+    });
+});
+
+// Close the modal when the close button is clicked
+document.getElementById("eventModal").addEventListener("click", (event) => {
+    // Check if the click is outside the content box
+    if (event.target.id === "eventModal") {
+        document.getElementById("eventModal").classList.add("hidden");
+    }
 });

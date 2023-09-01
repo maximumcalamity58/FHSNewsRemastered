@@ -146,6 +146,7 @@ button {
 	text-align: center;
 	width: 40px;
 	height: 40px;
+	transition: 0.3s;
 }
 
 .calendar_body td .day-number {
@@ -180,6 +181,41 @@ button {
 	background-color: darkgray; /* Dark gray background */
 	color: black;  /* Black text */
 }
+
+.calendar_body td:hover {
+	cursor: pointer;
+	background-color: rgba(255, 180, 180, 0.8);
+	transition: 0.3s;
+}
+
+#eventModal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 1000;  /* Make sure the modal appears on top */
+}
+
+#eventContent {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	text-align: center;
+	width: 50%;  /* Set width */
+	box-sizing: border-box;  /* To include padding and border in the element's total width and height */
+}
+
+.hidden {
+	display: none;
+}
+
+
 
 #schedule_section {
 	position: absolute;
