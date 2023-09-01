@@ -296,7 +296,7 @@ function setMonthSchedules(containers) {
  * Sets the month heading to current month and year
  * Sets days of month with proper schedule and coloring
  * calendarSection - global variable reference to calendar in HTML
- * calendar - global Calendar object
+ * calendar - global Calendar_old object
  */
 function setCurrentMonthDisplay() {
   calendarSection.children[0].children[1].children[0].textContent = MONTH_NAMES[calendar.currentMonth - 1] + " " + calendar.currentYear;

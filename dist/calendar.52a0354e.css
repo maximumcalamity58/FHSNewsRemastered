@@ -82,14 +82,6 @@ button {
 	font-family: var(--bold-font);
 }
 
-.calendar_body {
-	width: 100%;
-	margin: auto;
-	height: auto;
-	/* background: var(--container-background-color); */
-	font-size: 0;
-}
-
 .calendar_body .group {
 	display: inline-block;
 	width: calc(100% / 7);
@@ -111,6 +103,83 @@ button {
 	display: inline-block;
 }
 
+.calendar_body table {
+	border-collapse: collapse; /* This makes sure borders are connected */
+	width: 100%;
+}
+
+.calendar_body th, .calendar_body td {
+	border: 1px solid black; /* This defines the grid lines */
+	text-align: center;
+	width: 40px;
+	height: 40px;
+}
+
+.calendar_table {
+	border-collapse: collapse;
+}
+
+.calendar_table th,
+.calendar_table td {
+	border: 1px solid black;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+}
+
+.calendar_table th {
+	background-color: #f2f2f2;
+}
+
+.calendar_body table {
+	border-collapse: collapse; /* This makes sure borders are connected */
+	width: 100%;
+}
+
+.calendar_body th {
+	text-align: center;
+	border: none;  /* Remove the border for the header row */
+}
+
+.calendar_body td {
+	border: 1px solid black; /* This defines the grid lines */
+	text-align: center;
+	width: 40px;
+	height: 40px;
+}
+
+.calendar_body td .day-number {
+	background-color: #EE0000; /* Red background */
+	color: white;  /* White text */
+	border-radius: 50%;  /* Makes it round */
+	width: 35px;   /* Width of the circle */
+	height: 35px;  /* Height of the circle */
+	display: inline-block;  /* Allows us to set width and height */
+	line-height: 33px;  /* Vertically centers the text */
+}
+
+.calendar_body td.weekend .day-number {
+	background-color: dimgray; /* Light gray background */
+	color: black;  /* Black text */
+}
+
+.calendar_body td.next-month {
+	background-color: lightgrey; /* Dark gray background */
+}
+
+.calendar_body td.prev-month {
+	background-color: lightgrey;
+}
+
+.calendar_body td.next-month .day-number {
+	background-color: darkgray; /* Dark gray background */
+	color: black;  /* Black text */
+}
+
+.calendar_body td.prev-month .day-number {
+	background-color: darkgray; /* Dark gray background */
+	color: black;  /* Black text */
+}
 
 #schedule_section {
 	position: absolute;

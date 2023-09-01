@@ -214,9 +214,15 @@ function to12HourFormat(timeStr) {
     _timeStr$split$map2 = _slicedToArray(_timeStr$split$map, 2),
     hours = _timeStr$split$map2[0],
     minutes = _timeStr$split$map2[1];
+  var ampm;
+  if (hours / 12 > 1) {
+    ampm = "PM";
+  } else {
+    ampm = "AM";
+  }
   hours = hours % 12 || 12; // Convert 0 hours to 12 for 12 AM
   minutes = minutes < 10 ? '0' + minutes : minutes;
-  return "".concat(hours, ":").concat(minutes);
+  return "".concat(hours, ":").concat(minutes, " ").concat(ampm);
 }
 window.advanceToNextPeriod = function () {
   manualNavigation = true;
@@ -358,6 +364,18 @@ function updateProgressBar(periodStartTime, periodEndTime) {
   // Set the width of the progress bar
   document.getElementById("countdown__progress").style.width = "".concat(progressPercentage, "%");
 }
+function updateProgressBarOutside() {
+  var periodStartTime = timePeriodMapping[timePeriodMapping.length - 1].endTime;
+  var periodEndTime = timePeriodMapping[0].startTime;
+  var totalDuration = periodEndTime - periodStartTime;
+  var elapsedDuration = now - periodStartTime;
+
+  // Calculate the percentage of time elapsed
+  var progressPercentage = elapsedDuration / totalDuration * 100;
+
+  // Set the width of the progress bar
+  document.getElementById("countdown__progress").style.width = "".concat(progressPercentage, "%");
+}
 window.chooseLunch = function (lunchType, buttonElement) {
   // Get all lunch buttons
   var allLunchButtons = document.querySelectorAll("#lunch__choose .container");
@@ -405,11 +423,11 @@ function updateClock() {
     if (now > firstStartTime) {
       firstStartTime.setDate(firstStartTime.getDate() + 1);
     }
-    timeRemaining = (firstStartTime - now) / 1000; // in seconds
+    timeRemaining = (firstStartTime - now + 2000) / 1000; // in seconds
   }
   // Otherwise, it's a regular school period or passing period
   else {
-    timeRemaining = (endTime - now) / 1000; // in seconds
+    timeRemaining = (endTime - now + 2000) / 1000; // in seconds
   }
 
   // Reset hasAdvanced flag if the time is not yet expired
@@ -426,12 +444,12 @@ function updateClock() {
   // If the time has already expired and it's a manual navigation
   if (timeRemaining <= 0 && manualNavigation) {
     endTime.setDate(endTime.getDate() + 1);
-    timeRemaining = (endTime - now) / 1000;
+    timeRemaining = (endTime - now + 2000) / 1000;
     manualNavigation = false; // Reset the flag
   }
 
   if (timeRemaining < 0) {
-    timeRemaining = (endTime - now) / 1000;
+    timeRemaining = (endTime - now + 2000) / 1000;
   }
 
   // Calculate hours, minutes, seconds
@@ -491,7 +509,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55009" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58083" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

@@ -118,155 +118,132 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"js/calendar.js":[function(require,module,exports) {
-/**
- * classes to represent a calendar year
- * @version December 20th, 2021
- * @authors Logan Cover
- **/
+function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
+function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+// Create a class for the calendar
+var Calendar = /*#__PURE__*/function () {
+  function Calendar() {
+    _classCallCheck(this, Calendar);
+    // Initialize the current date
+    this.currentDate = new Date();
+    this.currentMonth = this.currentDate.getMonth();
+    this.currentYear = this.currentDate.getFullYear();
+  }
 
-var MONTH_NAMES = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-var MONTH_NAMES_ABR = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-var DAYS_OF_WEEK = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-var DAYS_OF_WEEK_ABR = ['Sun', 'Mon', 'Tues', 'Wed', 'Thur', 'Fri', 'Sat'];
-var DAYS_OF_WEEK_LETTERS = ['U', 'M', 'T', 'W', 'R', 'F', 'S'];
-function Day(year, month, day) {
-  //represents a day of the year
-  this.year = year;
-  this.month = month;
-  this.day = day;
-  this.date = new Date(year, month - 1, day);
-  this.userData = undefined; //holds information about schedule
-}
+  // Function to update the month
+  _createClass(Calendar, [{
+    key: "updateMonth",
+    value: function updateMonth(n) {
+      this.currentMonth += n;
 
-Day.prototype = {
-  toString: function toString() {
-    return (this.month < 10 ? "0" + this.month : this.month + "") + "/" + (this.day < 10 ? "0" + this.day : this.day + "") + "/" + this.year;
-  },
-  getMonthName: function getMonthName(abr) {
-    if (abr) {
-      return MONTH_NAMES_ABR[this.month - 1];
+      // Overflow and underflow conditions
+      if (this.currentMonth > 11) {
+        this.currentMonth = 0;
+        this.currentYear++;
+      } else if (this.currentMonth < 0) {
+        this.currentMonth = 11;
+        this.currentYear--;
+      }
     }
-    return MONTH_NAMES[this.month - 1];
-  },
-  getDayOfWeek: function getDayOfWeek() {
-    return this.date.getDay();
-  }
-};
-function Month(year, month) {
-  //represents a month of the year
-  this.month = month;
-  this.year = year;
-  this.daysInMonth = new Date(year, month, 0).getDate();
-  this.days = [];
-  for (var i = 1; i < this.daysInMonth + 1; i++) {
-    this.days.push(new Day(year, month, i));
-  }
-}
-function Year(year) {
-  // represents a year
-  this.year = year;
-  this.months = [];
-  for (var i = 1; i < 13; i++) {
-    this.months.push(new Month(year, i));
-  }
-}
-Year.prototype = {
-  getNumberDaysPerMonth: function getNumberDaysPerMonth() {
-    return numberDaysInMonths = this.months.map(function (month) {
-      return month.daysInMonth;
+
+    // Function to generate and display the calendar
+  }, {
+    key: "generateCalendar",
+    value: function generateCalendar() {
+      var calendarBody = document.querySelector(".calendar_body");
+      var calendarDate = document.querySelector("#calendar_date p");
+
+      // Clear existing calendar
+      calendarBody.innerHTML = "";
+
+      // Display month and year
+      var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+      calendarDate.textContent = "".concat(monthNames[this.currentMonth], " ").concat(this.currentYear);
+
+      // Create the table and its body
+      var table = document.createElement('table');
+      var tbody = document.createElement('tbody');
+
+      // Generate the header row with weekdays
+      var tr = document.createElement('tr');
+      ["S", "M", "T", "W", "T", "F", "S"].forEach(function (day) {
+        var th = document.createElement('th');
+        th.textContent = day;
+        tr.appendChild(th);
+      });
+      tbody.appendChild(tr);
+
+      // Generate calendar days
+      var firstDay = new Date(this.currentYear, this.currentMonth, 1).getDay();
+      var lastDate = new Date(this.currentYear, this.currentMonth + 1, 0).getDate();
+
+      // Get the last day of the previous month
+      var prevMonthLastDate = new Date(this.currentYear, this.currentMonth, 0).getDate();
+
+      // Calculate the starting day of the previous month to display
+      var prevMonthDay = prevMonthLastDate - firstDay + 1;
+      var nextMonthDate = 1; // Initialize next month's date counter
+      var date = 1; // Initialize this month's date counter
+      for (var i = 0; i < 6; i++) {
+        tr = document.createElement('tr');
+        for (var j = 0; j < 7; j++) {
+          var td = document.createElement('td');
+          var span = document.createElement('span');
+          span.className = 'day-number'; // Add a class to style the number
+
+          if (i === 0 && j < firstDay) {
+            // Show the days of the previous month
+            span.textContent = prevMonthDay;
+            td.appendChild(span);
+            td.className = 'prev-month'; // Add a class to style the previous month's days
+            prevMonthDay++;
+          } else if (date <= lastDate) {
+            span.textContent = date;
+            td.appendChild(span);
+            date++;
+          } else {
+            // Show the days of the next month
+            span.textContent = nextMonthDate;
+            td.appendChild(span);
+            td.className = 'next-month'; // Add a class to style the next month's days
+            nextMonthDate++;
+          }
+          if (j === 0 || j === 6) {
+            // Weekend (0 = Sunday, 6 = Saturday)
+            td.classList.add('weekend'); // Add a class to style the weekends
+          }
+
+          tr.appendChild(td);
+        }
+        tbody.appendChild(tr);
+      }
+
+      // Append the tbody to the table, and the table to the calendar body
+      table.appendChild(tbody);
+      calendarBody.appendChild(table);
+    }
+  }]);
+  return Calendar;
+}(); // Initialize calendar
+var calendar = new Calendar();
+
+// Show the current month's calendar on page load
+document.addEventListener("DOMContentLoaded", function () {
+  var calendar = new Calendar();
+  calendar.generateCalendar();
+
+  // Update and regenerate calendar when buttons are clicked
+  document.querySelectorAll('.calendar_head_btn').forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      calendar.updateMonth(parseInt(this.value));
+      calendar.generateCalendar();
     });
-  }
-};
-function Calendar() {
-  var loopYear = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
-  // represents a calendar year
-  this.now = new Date(); //current user date
-  this.currentYear = this.now.getFullYear();
-  this.currentMonth = this.now.getMonth() + 1;
-  this.years = []; //list of currentYear -1, currentYear, currentYear +1
-  this.loopCurrentYear = loopYear; //current year to display
-  for (var i = -1; i < 2; i++) {
-    this.years.push(new Year(this.currentYear + i));
-  }
-}
-Calendar.prototype = {
-  getFullMonth: function getFullMonth() {
-    var m = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.currentMonth;
-    //returns month of 42 days (7 days by 6 weeks) (past month, current month, next month)
-    var arr = [],
-      month = m || this.currentMonth,
-      numPrev = this.years[1].months[month - 1].days[0].getDayOfWeek();
-    for (var i = 0; i < 42; i++) {
-      if (i < numPrev) {
-        //number of days in previous month that overlapp here
-        if (month == 1) {
-          //Check if January
-          arr.push(this.years[this.loopCurrentYear ? 1 : 0].months[11].days[31 - numPrev + i]);
-        } else {
-          arr.push(this.years[1].months[month - 2].days[this.years[1].months[month - 2].daysInMonth - numPrev + i]);
-        }
-      } else if (i < numPrev + this.years[1].months[month - 1].daysInMonth) {
-        arr.push(this.years[1].months[month - 1].days[i - numPrev]);
-      } else {
-        if (month == 12) {
-          //check if December
-          arr.push(this.years[this.loopCurrentYear ? 1 : 2].months[0].days[i - (numPrev + this.years[1].months[month - 1].daysInMonth)]);
-        } else {
-          arr.push(this.years[1].months[month].days[i - (numPrev + this.years[1].months[month - 1].daysInMonth)]);
-        }
-      }
-    }
-    return arr;
-  },
-  //only takes -1 and 1
-  updateYear: function updateYear(factor) {
-    if (factor === 0) {
-      return false;
-    }
-    if (factor > 0) {
-      this.currentYear = this.years[2].year;
-      this.years.shift();
-      this.years.push(new Year(this.currentYear + 1));
-    } else {
-      this.currentYear = this.years[0].year;
-      this.years.pop();
-      this.years.unshift(new Year(this.currentYear - 1));
-    }
-    return true;
-  },
-  //only takes -1 and 1
-  updateMonth: function updateMonth(factor) {
-    if (factor === 0) {
-      return false;
-    }
-    factor /= Math.abs(factor);
-    this.currentMonth += factor;
-    if (this.currentMonth == 13) {
-      this.currentMonth = 1;
-      if (!this.loopCurrentYear) {
-        return this.updateYear(factor);
-      }
-    } else if (this.currentMonth === 0) {
-      this.currentMonth = 12;
-      if (!this.loopCurrentYear) {
-        return this.updateYear(factor);
-      }
-    }
-    return false;
-  },
-  /**
-   * returns the Year object associated to the year parameter. Null if not in proper range
-   * year - numerical year value to find
-   */
-  getYear: function getYear(year) {
-    for (var i = 0; i < 3; i++) {
-      if (this.years[i].year == year) {
-        return this.years[i];
-      }
-    }
-    return null;
-  }
-};
+  });
+});
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -292,7 +269,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55009" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58083" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

@@ -46,9 +46,15 @@ function getCurrentPeriodIndex() {
 
 function to12HourFormat(timeStr) {
     let [hours, minutes] = timeStr.split(":").map(Number);
+    let ampm;
+    if (hours / 12 > 1) {
+        ampm = "PM"
+    } else {
+        ampm = "AM"
+    }
     hours = hours % 12 || 12; // Convert 0 hours to 12 for 12 AM
     minutes = minutes < 10 ? '0' + minutes : minutes;
-    return `${hours}:${minutes}`;
+    return `${hours}:${minutes} ${ampm}`;
 }
 
 window.advanceToNextPeriod = function() {
@@ -195,6 +201,20 @@ function updateProgressBar(periodStartTime, periodEndTime) {
     document.getElementById("countdown__progress").style.width = `${progressPercentage}%`;
 }
 
+function updateProgressBarOutside() {
+    let periodStartTime = timePeriodMapping[timePeriodMapping.length-1].endTime;
+    let periodEndTime = timePeriodMapping[0].startTime;
+
+    const totalDuration = periodEndTime - periodStartTime;
+    const elapsedDuration = now - periodStartTime;
+
+    // Calculate the percentage of time elapsed
+    const progressPercentage = (elapsedDuration / totalDuration) * 100;
+
+    // Set the width of the progress bar
+    document.getElementById("countdown__progress").style.width = `${progressPercentage}%`;
+}
+
 window.chooseLunch = function(lunchType, buttonElement) {
     // Get all lunch buttons
     let allLunchButtons = document.querySelectorAll("#lunch__choose .container");
@@ -240,11 +260,11 @@ function updateClock() {
             firstStartTime.setDate(firstStartTime.getDate() + 1);
         }
 
-        timeRemaining = (firstStartTime - now) / 1000; // in seconds
+        timeRemaining = ((firstStartTime - now) + 2000) / 1000; // in seconds
     }
     // Otherwise, it's a regular school period or passing period
     else {
-        timeRemaining = (endTime - now) / 1000; // in seconds
+        timeRemaining = ((endTime - now) + 2000) / 1000; // in seconds
     }
 
     // Reset hasAdvanced flag if the time is not yet expired
@@ -262,12 +282,12 @@ function updateClock() {
     // If the time has already expired and it's a manual navigation
     if (timeRemaining <= 0 && manualNavigation) {
         endTime.setDate(endTime.getDate() + 1);
-        timeRemaining = (endTime - now) / 1000;
+        timeRemaining = ((endTime - now) + 2000) / 1000;
         manualNavigation = false; // Reset the flag
     }
 
     if (timeRemaining < 0) {
-        timeRemaining = (endTime - now) / 1000
+        timeRemaining = ((endTime - now) + 2000) / 1000
     }
 
     // Calculate hours, minutes, seconds

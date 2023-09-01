@@ -86,11 +86,13 @@ body {
 	display: inline-block;
 	top: 0px;
 	font-family: var(--norm-font);
+	transition: 0.3s;
 }
 
 .arrow:hover {
 	background-color: var(--button-hover-background);
 	color: var(--button-hover-text);
+	transition: 0.3s;
 }
 
 #countdown {
