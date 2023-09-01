@@ -156,7 +156,7 @@ button {
 	width: 35px;   /* Width of the circle */
 	height: 35px;  /* Height of the circle */
 	display: inline-block;  /* Allows us to set width and height */
-	line-height: 33px;  /* Vertically centers the text */
+	line-height: 34px;  /* Vertically centers the text */
 }
 
 .calendar_body td.weekend .day-number {

@@ -38,11 +38,12 @@ class Calendar {
 
     async loadJSONData() {
         try {
-            const response = await fetch('../json/calendar_data.json');
+            const response = await fetch("../json/calendar_data.json");
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
             this.calendarData = await response.json();
+            console.log("Calendar data loaded:", this.calendarData);  // Debugging line
         } catch (error) {
             console.error('Fetch error:', error);
         }
@@ -50,6 +51,7 @@ class Calendar {
 
     // Function to show events for clicked day
     showEvents(dateString) {
+        console.log("Show events for:", dateString);  // Debugging line
         const eventData = this.calendarData[dateString];
         const events = eventData ? eventData.events.join(", ") : "No events";
 
@@ -100,43 +102,59 @@ class Calendar {
         // Get the last day of the previous month
         const prevMonthLastDate = new Date(this.currentYear, this.currentMonth, 0).getDate();
 
-        // Calculate the starting day of the previous month to display
+        // Initialize date counters
+        let date = 1;
+        let nextMonthDate = 1;
         let prevMonthDay = prevMonthLastDate - firstDay + 1;
 
-        let nextMonthDate = 1;  // Initialize next month's date counter
-        let date = 1;  // Initialize this month's date counter
         for (let i = 0; i < 6; i++) {
             tr = document.createElement('tr');
             for (let j = 0; j < 7; j++) {
                 const td = document.createElement('td');
                 const span = document.createElement('span');
-                span.className = 'day-number';  // Add a class to style the number
+                span.className = 'day-number';
+
+                let thisMonth = this.currentMonth;
+                let thisYear = this.currentYear;
+                let thisDate;
 
                 if (i === 0 && j < firstDay) {
-                    // Show the days of the previous month
-                    span.textContent = prevMonthDay;
-                    td.appendChild(span);
-                    td.className = 'prev-month';  // Add a class to style the previous month's days
-                    prevMonthDay++;
-                } else if (date <= lastDate) {
-                    span.textContent = date;
-                    td.appendChild(span);
-                    date++;
+                    thisDate = prevMonthDay++;
+                    thisMonth = this.currentMonth - 1;
+                    if (thisMonth < 0) {
+                        thisMonth = 11;
+                        thisYear--;
+                    }
+                    td.className = 'prev-month';
+                } else if (date > lastDate) {
+                    thisDate = nextMonthDate++;
+                    thisMonth = this.currentMonth + 1;
+                    if (thisMonth > 11) {
+                        thisMonth = 0;
+                        thisYear++;
+                    }
+                    td.className = 'next-month';
                 } else {
-                    // Show the days of the next month
-                    span.textContent = nextMonthDate;
-                    td.appendChild(span);
-                    td.className = 'next-month';  // Add a class to style the next month's days
-                    nextMonthDate++;
+                    thisDate = date;
+                    date++;
                 }
 
-                if (j === 0 || j === 6) {  // Weekend (0 = Sunday, 6 = Saturday)
-                    td.classList.add('weekend');  // Add a class to style the weekends
-                }
+                // Create a Date object with the current year, month, and date
+                const tempDate = new Date(thisYear, thisMonth, thisDate);
 
-                // Add click listener to show events
-                const dateString = `${this.currentYear}-${String(this.currentMonth + 1).padStart(2, '0')}-${String(date).padStart(2, '0')}`;
+                // Add 1 day
+                tempDate.setDate(tempDate.getDate() + 1);
+
+                // Generate the dateString for event listeners
+                const dateString = `${tempDate.getFullYear()}-${String(tempDate.getMonth() + 1).padStart(2, '0')}-${String(tempDate.getDate()).padStart(2, '0')}`;
                 td.addEventListener('click', () => this.showEvents(dateString));
+
+                span.textContent = thisDate;
+                td.appendChild(span);
+
+                if (j === 0 || j === 6) {
+                    td.classList.add('weekend');
+                }
 
                 tr.appendChild(td);
             }

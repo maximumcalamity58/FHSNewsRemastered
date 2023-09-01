@@ -180,7 +180,7 @@ var Calendar = /*#__PURE__*/function () {
             case 0:
               _context.prev = 0;
               _context.next = 3;
-              return fetch('../json/calendar_data.json');
+              return fetch("../json/calendar_data.json");
             case 3:
               response = _context.sent;
               if (response.ok) {
@@ -193,17 +193,18 @@ var Calendar = /*#__PURE__*/function () {
               return response.json();
             case 8:
               this.calendarData = _context.sent;
-              _context.next = 14;
+              console.log("Calendar data loaded:", this.calendarData); // Debugging line
+              _context.next = 15;
               break;
-            case 11:
-              _context.prev = 11;
+            case 12:
+              _context.prev = 12;
               _context.t0 = _context["catch"](0);
               console.error('Fetch error:', _context.t0);
-            case 14:
+            case 15:
             case "end":
               return _context.stop();
           }
-        }, _callee, this, [[0, 11]]);
+        }, _callee, this, [[0, 12]]);
       }));
       function loadJSONData() {
         return _loadJSONData.apply(this, arguments);
@@ -213,6 +214,7 @@ var Calendar = /*#__PURE__*/function () {
   }, {
     key: "showEvents",
     value: function showEvents(dateString) {
+      console.log("Show events for:", dateString); // Debugging line
       var eventData = this.calendarData[dateString];
       var events = eventData ? eventData.events.join(", ") : "No events";
 
@@ -264,44 +266,56 @@ var Calendar = /*#__PURE__*/function () {
       // Get the last day of the previous month
       var prevMonthLastDate = new Date(this.currentYear, this.currentMonth, 0).getDate();
 
-      // Calculate the starting day of the previous month to display
+      // Initialize date counters
+      var date = 1;
+      var nextMonthDate = 1;
       var prevMonthDay = prevMonthLastDate - firstDay + 1;
-      var nextMonthDate = 1; // Initialize next month's date counter
-      var date = 1; // Initialize this month's date counter
       for (var i = 0; i < 6; i++) {
         tr = document.createElement('tr');
         var _loop = function _loop() {
           var td = document.createElement('td');
           var span = document.createElement('span');
-          span.className = 'day-number'; // Add a class to style the number
-
+          span.className = 'day-number';
+          var thisMonth = _this3.currentMonth;
+          var thisYear = _this3.currentYear;
+          var thisDate;
           if (i === 0 && j < firstDay) {
-            // Show the days of the previous month
-            span.textContent = prevMonthDay;
-            td.appendChild(span);
-            td.className = 'prev-month'; // Add a class to style the previous month's days
-            prevMonthDay++;
-          } else if (date <= lastDate) {
-            span.textContent = date;
-            td.appendChild(span);
-            date++;
+            thisDate = prevMonthDay++;
+            thisMonth = _this3.currentMonth - 1;
+            if (thisMonth < 0) {
+              thisMonth = 11;
+              thisYear--;
+            }
+            td.className = 'prev-month';
+          } else if (date > lastDate) {
+            thisDate = nextMonthDate++;
+            thisMonth = _this3.currentMonth + 1;
+            if (thisMonth > 11) {
+              thisMonth = 0;
+              thisYear++;
+            }
+            td.className = 'next-month';
           } else {
-            // Show the days of the next month
-            span.textContent = nextMonthDate;
-            td.appendChild(span);
-            td.className = 'next-month'; // Add a class to style the next month's days
-            nextMonthDate++;
-          }
-          if (j === 0 || j === 6) {
-            // Weekend (0 = Sunday, 6 = Saturday)
-            td.classList.add('weekend'); // Add a class to style the weekends
+            thisDate = date;
+            date++;
           }
 
-          // Add click listener to show events
-          var dateString = "".concat(_this3.currentYear, "-").concat(String(_this3.currentMonth + 1).padStart(2, '0'), "-").concat(String(date).padStart(2, '0'));
+          // Create a Date object with the current year, month, and date
+          var tempDate = new Date(thisYear, thisMonth, thisDate);
+
+          // Add 1 day
+          tempDate.setDate(tempDate.getDate() + 1);
+
+          // Generate the dateString for event listeners
+          var dateString = "".concat(tempDate.getFullYear(), "-").concat(String(tempDate.getMonth() + 1).padStart(2, '0'), "-").concat(String(tempDate.getDate()).padStart(2, '0'));
           td.addEventListener('click', function () {
             return _this3.showEvents(dateString);
           });
+          span.textContent = thisDate;
+          td.appendChild(span);
+          if (j === 0 || j === 6) {
+            td.classList.add('weekend');
+          }
           tr.appendChild(td);
         };
         for (var j = 0; j < 7; j++) {
@@ -378,7 +392,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58083" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49207" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

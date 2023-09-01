@@ -1,5 +1,14 @@
 {
-  "2023-09-01": { "events": ["Event 1", "Event 2"] },
-  "2023-09-02": { "events": ["Event 3"] },
-  "2023-09-03": { "events": [] }
+  "2023-09-01": {
+    "events": ["Event 1", "Event 2"]
+  },
+  "2023-09-02": {
+    "events": ["Event 3"]
+  },
+  "2023-09-03": {
+    "events": []
+  },
+  "2023-09-04": {
+    "events": ["Maxime's 16th Birthday"]
+  }
 }
