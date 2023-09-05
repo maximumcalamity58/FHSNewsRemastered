@@ -136,14 +136,62 @@ var Calendar = /*#__PURE__*/function () {
     this.currentMonth = this.currentDate.getMonth();
     this.currentYear = this.currentDate.getFullYear();
     this.calendarData = {};
-    this.loadJSONData().then(function () {
+
+    // Fetch and initialize calendar data
+    this.fetchCalendarData().then(function () {
       _this.generateCalendar();
       _this.init(); // Initialize event listeners after calendar is generated
     });
   }
 
-  // Initialize event listeners
+  // Fetch calendar data from JSON
   _createClass(Calendar, [{
+    key: "fetchCalendarData",
+    value: function () {
+      var _fetchCalendarData = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
+        var response, text;
+        return _regeneratorRuntime().wrap(function _callee$(_context) {
+          while (1) switch (_context.prev = _context.next) {
+            case 0:
+              _context.prev = 0;
+              _context.next = 3;
+              return fetch('../json/calendar_data.json');
+            case 3:
+              response = _context.sent;
+              if (response.ok) {
+                _context.next = 7;
+                break;
+              }
+              console.error('Network response was not ok', response);
+              return _context.abrupt("return");
+            case 7:
+              _context.next = 9;
+              return response.text();
+            case 9:
+              text = _context.sent;
+              try {
+                this.calendarData = JSON.parse(text);
+              } catch (err) {
+                console.error('Error parsing JSON:', text);
+              }
+              _context.next = 16;
+              break;
+            case 13:
+              _context.prev = 13;
+              _context.t0 = _context["catch"](0);
+              console.error('Error fetching calendar data:', _context.t0);
+            case 16:
+            case "end":
+              return _context.stop();
+          }
+        }, _callee, this, [[0, 13]]);
+      }));
+      function fetchCalendarData() {
+        return _fetchCalendarData.apply(this, arguments);
+      }
+      return fetchCalendarData;
+    }() // Initialize event listeners
+  }, {
     key: "init",
     value: function init() {
       var _this2 = this;
@@ -170,47 +218,8 @@ var Calendar = /*#__PURE__*/function () {
         this.currentYear--;
       }
     }
-  }, {
-    key: "loadJSONData",
-    value: function () {
-      var _loadJSONData = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
-        var response;
-        return _regeneratorRuntime().wrap(function _callee$(_context) {
-          while (1) switch (_context.prev = _context.next) {
-            case 0:
-              _context.prev = 0;
-              _context.next = 3;
-              return fetch("../json/calendar_data.json");
-            case 3:
-              response = _context.sent;
-              if (response.ok) {
-                _context.next = 6;
-                break;
-              }
-              throw new Error('Network response was not ok');
-            case 6:
-              _context.next = 8;
-              return response.json();
-            case 8:
-              this.calendarData = _context.sent;
-              console.log("Calendar data loaded:", this.calendarData); // Debugging line
-              _context.next = 15;
-              break;
-            case 12:
-              _context.prev = 12;
-              _context.t0 = _context["catch"](0);
-              console.error('Fetch error:', _context.t0);
-            case 15:
-            case "end":
-              return _context.stop();
-          }
-        }, _callee, this, [[0, 12]]);
-      }));
-      function loadJSONData() {
-        return _loadJSONData.apply(this, arguments);
-      }
-      return loadJSONData;
-    }() // Function to show events for clicked day
+
+    // Function to show events for clicked day
   }, {
     key: "showEvents",
     value: function showEvents(dateString) {
@@ -225,7 +234,7 @@ var Calendar = /*#__PURE__*/function () {
       }), " ").concat(displayDate.getDate());
 
       // Update the modal content
-      document.getElementById("eventContent").innerHTML = "\n        <strong>Events for ".concat(displayDateString, "</strong>\n        <br>\n        ").concat(events, "\n    ");
+      document.getElementById("eventContent").innerHTML = "\n            <strong>Events for ".concat(displayDateString, "</strong>\n            <br>\n            ").concat(events, "\n        ");
 
       // Show the modal
       document.getElementById("eventModal").classList.remove("hidden");
@@ -392,7 +401,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49207" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51999" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

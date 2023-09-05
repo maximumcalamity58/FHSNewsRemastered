@@ -6,10 +6,30 @@ class Calendar {
         this.currentYear = this.currentDate.getFullYear();
         this.calendarData = {};
 
-        this.loadJSONData().then(() => {
+        // Fetch and initialize calendar data
+        this.fetchCalendarData().then(() => {
             this.generateCalendar();
             this.init(); // Initialize event listeners after calendar is generated
         });
+    }
+
+    // Fetch calendar data from JSON
+    async fetchCalendarData() {
+        try {
+            const response = await fetch('../json/calendar_data.json');
+            if (!response.ok) {
+                console.error('Network response was not ok', response);
+                return;
+            }
+            const text = await response.text();
+            try {
+                this.calendarData = JSON.parse(text);
+            } catch (err) {
+                console.error('Error parsing JSON:', text);
+            }
+        } catch (error) {
+            console.error('Error fetching calendar data:', error);
+        }
     }
 
     // Initialize event listeners
@@ -36,19 +56,6 @@ class Calendar {
         }
     }
 
-    async loadJSONData() {
-        try {
-            const response = await fetch("../json/calendar_data.json");
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            this.calendarData = await response.json();
-            console.log("Calendar data loaded:", this.calendarData);  // Debugging line
-        } catch (error) {
-            console.error('Fetch error:', error);
-        }
-    }
-
     // Function to show events for clicked day
     showEvents(dateString) {
         console.log("Show events for:", dateString);  // Debugging line
@@ -61,10 +68,10 @@ class Calendar {
 
         // Update the modal content
         document.getElementById("eventContent").innerHTML = `
-        <strong>Events for ${displayDateString}</strong>
-        <br>
-        ${events}
-    `;
+            <strong>Events for ${displayDateString}</strong>
+            <br>
+            ${events}
+        `;
 
         // Show the modal
         document.getElementById("eventModal").classList.remove("hidden");
