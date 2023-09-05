@@ -119,6 +119,7 @@ button:hover {
 
 body.fullsize-content {
 	overflow: auto;
+
 }
 
 body.fullsize-content #main-content {
@@ -263,7 +264,7 @@ img.svg-mask-only:after {
 	}
 
 	#main-content {
-		padding: 15px;
+		padding: 85px;
 		padding-bottom: 75px;
 	}
 
