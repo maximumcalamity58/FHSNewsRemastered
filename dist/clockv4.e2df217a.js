@@ -214,14 +214,23 @@ function to12HourFormat(timeStr) {
     _timeStr$split$map2 = _slicedToArray(_timeStr$split$map, 2),
     hours = _timeStr$split$map2[0],
     minutes = _timeStr$split$map2[1];
+  var ampm;
+  if (hours / 12 > 1) {
+    ampm = "PM";
+  } else {
+    ampm = "AM";
+  }
   hours = hours % 12 || 12; // Convert 0 hours to 12 for 12 AM
   minutes = minutes < 10 ? '0' + minutes : minutes;
-  return "".concat(hours, ":").concat(minutes);
+  return "".concat(hours, ":").concat(minutes, " ").concat(ampm);
 }
 window.advanceToNextPeriod = function () {
   manualNavigation = true;
   if (currentPeriodIndex < timePeriodMapping.length - 1) {
     currentPeriodIndex++;
+    updatePeriod();
+  } else if (currentPeriodIndex === timePeriodMapping.length - 1) {
+    currentPeriodIndex = -1;
     updatePeriod();
   }
 };
@@ -229,6 +238,9 @@ window.advanceToPreviousPeriod = function () {
   manualNavigation = true;
   if (currentPeriodIndex > -1) {
     currentPeriodIndex--;
+    updatePeriod();
+  } else if (currentPeriodIndex === -1) {
+    currentPeriodIndex = timePeriodMapping.length - 1;
     updatePeriod();
   }
 };
@@ -316,7 +328,7 @@ function updatePeriod() {
   } else {
     endTime = new Date(now);
     document.getElementById("period__header").textContent = "Not School Hours";
-    document.getElementById("period__time").textContent = to12HourFormat(timePeriodMapping[length - 1].endTime) + " - " + to12HourFormat(timePeriodMapping[0].startTime);
+    document.getElementById("period__time").textContent = to12HourFormat(timePeriodMapping[timePeriodMapping.length - 1].endTime) + " - " + to12HourFormat(timePeriodMapping[0].startTime);
   }
   if (manualNavigation) {
     if (now > endTime) {
@@ -343,6 +355,18 @@ function updatePeriod() {
   }
 }
 function updateProgressBar(periodStartTime, periodEndTime) {
+  var totalDuration = periodEndTime - periodStartTime;
+  var elapsedDuration = now - periodStartTime;
+
+  // Calculate the percentage of time elapsed
+  var progressPercentage = elapsedDuration / totalDuration * 100;
+
+  // Set the width of the progress bar
+  document.getElementById("countdown__progress").style.width = "".concat(progressPercentage, "%");
+}
+function updateProgressBarOutside() {
+  var periodStartTime = timePeriodMapping[timePeriodMapping.length - 1].endTime;
+  var periodEndTime = timePeriodMapping[0].startTime;
   var totalDuration = periodEndTime - periodStartTime;
   var elapsedDuration = now - periodStartTime;
 
@@ -399,11 +423,11 @@ function updateClock() {
     if (now > firstStartTime) {
       firstStartTime.setDate(firstStartTime.getDate() + 1);
     }
-    timeRemaining = (firstStartTime - now) / 1000; // in seconds
+    timeRemaining = (firstStartTime - now + 2000) / 1000; // in seconds
   }
   // Otherwise, it's a regular school period or passing period
   else {
-    timeRemaining = (endTime - now) / 1000; // in seconds
+    timeRemaining = (endTime - now + 2000) / 1000; // in seconds
   }
 
   // Reset hasAdvanced flag if the time is not yet expired
@@ -412,17 +436,20 @@ function updateClock() {
   }
   if (timeRemaining <= 0 && !hasAdvanced && !manualNavigation) {
     // ... (existing logic to advance the period)
-    advanceToNextPeriod();
-    console.log("hey");
+    currentPeriodIndex = getCurrentPeriodIndex();
+    updatePeriod();
     hasAdvanced = true;
   }
-  console.log("yo");
 
   // If the time has already expired and it's a manual navigation
   if (timeRemaining <= 0 && manualNavigation) {
     endTime.setDate(endTime.getDate() + 1);
-    timeRemaining = (endTime - now) / 1000;
+    timeRemaining = (endTime - now + 2000) / 1000;
     manualNavigation = false; // Reset the flag
+  }
+
+  if (timeRemaining < 0) {
+    timeRemaining = (endTime - now + 2000) / 1000;
   }
 
   // Calculate hours, minutes, seconds
@@ -482,7 +509,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55078" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55743" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

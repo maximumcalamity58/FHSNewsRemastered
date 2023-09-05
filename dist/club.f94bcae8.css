@@ -1,25 +1,36 @@
-.club_container {
-	display: flex;
-	flex-direction: column;
-	justify-content: left;
+
+#pageName {
+	text-shadow: 1px;
+	font-size: 40px;
+	font-family: robotobold;
 }
 
-.club_container p {
+/* .club_container p {
 	text-align: start;
 }
 
 .club_container em {
 	margin: 0;
 	text-align: start;
-}
+} */
 
 .club_body {
 	font-size: 20px;
 }
 
+/* .club_desc {
+	text-align: left;
+	margin: 2px;
+	font-size: 15px;
+	float: left;
+} */
+
 .club_thumbnail {
-	max-height: 250px;
+	max-height: 200px;
+	height: min-content;
 	object-fit: cover;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 
 .club_info {
@@ -30,17 +41,85 @@
 
 .club_headline {
 	font-family: var(--bold-font);
-	font-size: 40px;
+	font-size: 25px;
 	margin: 6px;
-	float: left;
+	float: center;
+	text-align: center;
 }
 
 .club_subtitle p {
+	font-family: var(--bold-font);
 	margin: 0px 6px 6px 6px;
+	float: center;
+	text-align: left;
 }
 
 .club_content {
 	margin: 0px 6px 6px 6px  !important;
+	text-align: left;
 }
+
+.club_container {
+	min-width: 300px;
+	max-width: 350px;
+	width: 22%;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 10px;
+	border-radius: 20px;
+}
+
+.club_container:hover {
+	cursor: pointer;
+}
+
+.row_club {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	max-width: 100%;
+	padding-top: 70px;
+	margin: auto;
+}
+
+/* Overlay */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1000; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal content */
+.modal-content {
+	background-color: #fefefe;
+	margin: 15% auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 70%; /* Could be more or less, depending on screen size */
+	border-radius: 10px;  /* This will give rounded corners */
+}
+
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover, .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
 
 /*# sourceMappingURL=/club.f94bcae8.css.map */
