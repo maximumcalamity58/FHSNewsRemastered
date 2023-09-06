@@ -256,7 +256,9 @@ img.svg-mask-only:after {
 	content: "\u00a0";
 	background: currentColor;
 }
-
+#main_body {
+	padding-top: 70px;
+}
 
 @media screen and (min-width: 500px) {
 	.wrapper {
