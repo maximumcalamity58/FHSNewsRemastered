@@ -1,0 +1,465 @@
+{
+    "1": [
+        {
+            "title": "Football Practice",
+            "time": null,
+            "location": "@"
+        },
+        {
+            "title": "Volleyball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH GYM - MAIN"
+        }
+    ],
+    "5": [
+        {
+            "title": "Football Practice",
+            "time": null,
+            "location": "@"
+        },
+        {
+            "title": "Cheer",
+            "time": "5:00pm - 6:30pm",
+            "location": "@Fishers Junior High - FJH GYM - AUX"
+        },
+        {
+            "title": "Volleyball Game",
+            "time": "5:30pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "6": [
+        {
+            "title": "Auditions for Play",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        },
+        {
+            "title": "Volleyball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH GYM - MAIN"
+        },
+        {
+            "title": "Football Game",
+            "time": "5:30pm - 8:30pm",
+            "location": "@Fishers Junior High - FJH FOOTBALL STADIUM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Volleyball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Mudsock Youth Athletics Volleyball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@"
+        }
+    ],
+    "7": [
+        {
+            "title": "Football Practice",
+            "time": null,
+            "location": "@"
+        },
+        {
+            "title": "Auditions for Play",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        },
+        {
+            "title": "Volleyball Game",
+            "time": "5:30pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "8": [
+        {
+            "title": "Football Practice",
+            "time": null,
+            "location": "@"
+        },
+        {
+            "title": "Volleyball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH GYM - MAIN"
+        }
+    ],
+    "9": [
+        {
+            "title": "Volleyball Game",
+            "time": "9:00am - 2:00pm",
+            "location": null
+        },
+        {
+            "title": "YMCA Track and Field Day",
+            "time": "12:30pm - 4:30pm",
+            "location": "@Fishers Junior High - FJH TRACK"
+        }
+    ],
+    "11": [
+        {
+            "title": "Football Practice",
+            "time": null,
+            "location": "@"
+        },
+        {
+            "title": "Volleyball Game",
+            "time": "5:30am - 8:30pm",
+            "location": null
+        },
+        {
+            "title": "Fall Play Rehearsal",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        },
+        {
+            "title": "YMCA Track and Field Day",
+            "time": "5:45pm - 7:30pm",
+            "location": "@Fishers Junior High - FJH TRACK"
+        }
+    ],
+    "12": [
+        {
+            "title": "Football Practice",
+            "time": null,
+            "location": "@"
+        },
+        {
+            "title": "Fall Play Rehearsal",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        },
+        {
+            "title": "Volleyball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH GYM - MAIN"
+        },
+        {
+            "title": "Cheer",
+            "time": "5:00pm - 6:30pm",
+            "location": "@Fishers Junior High - FJH GYM - AUX"
+        },
+        {
+            "title": "Boys' Basketball Fall Youth Academy",
+            "time": "6:15pm - 8:15pm",
+            "location": "@Fishers Junior High - FJH GYM - MAIN"
+        }
+    ],
+    "13": [
+        {
+            "title": "Fall Play Rehearsal",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        },
+        {
+            "title": "Volleyball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH GYM - MAIN"
+        },
+        {
+            "title": "Football Game",
+            "time": "5:30pm - 8:30pm",
+            "location": "@Fishers Junior High - FJH FOOTBALL STADIUM"
+        }
+    ],
+    "14": [
+        {
+            "title": "Football Practice",
+            "time": null,
+            "location": "@"
+        },
+        {
+            "title": "Volleyball Game",
+            "time": "5:30am - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Fall Play Rehearsal",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        },
+        {
+            "title": "Cheer",
+            "time": "5:00pm - 6:30pm",
+            "location": "@Fishers Junior High - FJH GYM - AUX"
+        }
+    ],
+    "15": [
+        {
+            "title": "Football Practice",
+            "time": null,
+            "location": "@"
+        },
+        {
+            "title": "Fall Play Rehearsal",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        },
+        {
+            "title": "Volleyball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH GYM - MAIN"
+        }
+    ],
+    "16": [
+        {
+            "title": "Cheer",
+            "time": "10:00am - 12:00pm",
+            "location": "@Fishers Junior High - FJH GYM - AUX"
+        },
+        {
+            "title": "YMCA Track and Field Day",
+            "time": "12:30pm - 4:30pm",
+            "location": "@Fishers Junior High - FJH TRACK"
+        }
+    ],
+    "18": [
+        {
+            "title": "Football Practice",
+            "time": null,
+            "location": "@"
+        },
+        {
+            "title": "Fall Play Rehearsal",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        },
+        {
+            "title": "Volleyball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH GYM - MAIN"
+        },
+        {
+            "title": "YMCA Track and Field Day",
+            "time": "5:45pm - 7:30pm",
+            "location": "@Fishers Junior High - FJH TRACK"
+        },
+        {
+            "title": "CTRY",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers Junior High - FJH GYM - AUX"
+        }
+    ],
+    "19": [
+        {
+            "title": "Volleyball Game",
+            "time": "5:30am - 8:30pm",
+            "location": null
+        },
+        {
+            "title": "Fall Play Rehearsal",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        },
+        {
+            "title": "Football Game",
+            "time": "5:30pm - 8:30pm",
+            "location": "@Fishers Junior High - FJH FOOTBALL STADIUM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Volleyball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Mudsock Youth Athletics Volleyball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@"
+        }
+    ],
+    "20": [
+        {
+            "title": "Football Practice",
+            "time": null,
+            "location": "@"
+        },
+        {
+            "title": "Volleyball Game",
+            "time": "5:30am - 8:30pm",
+            "location": null
+        },
+        {
+            "title": "Fall Play Rehearsal",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        },
+        {
+            "title": "YMCA Track and Field Day",
+            "time": "5:45pm - 6:45pm",
+            "location": "@Fishers Junior High - FJH TRACK"
+        }
+    ],
+    "21": [
+        {
+            "title": "Football Practice",
+            "time": null,
+            "location": "@"
+        },
+        {
+            "title": "Fall Play Rehearsal",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        },
+        {
+            "title": "Volleyball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH GYM - MAIN"
+        },
+        {
+            "title": "Mudsock Youth Athletics Volleyball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Mudsock Youth Athletics Volleyball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@"
+        }
+    ],
+    "22": [
+        {
+            "title": "Football Practice",
+            "time": null,
+            "location": "@"
+        },
+        {
+            "title": "Fall Play Rehearsal",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        },
+        {
+            "title": "Volleyball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH GYM - MAIN"
+        },
+        {
+            "title": "Mudsock Youth Athletics Girls Volleyball Rec Plus Practice / Net Sets",
+            "time": "6:00pm - 8:15pm",
+            "location": "@"
+        }
+    ],
+    "23": [
+        {
+            "title": "Mudsock Youth Athletics Volleyball Matches",
+            "time": "7:00am - 4:00pm",
+            "location": "@"
+        },
+        {
+            "title": "YMCA Track and Field Day",
+            "time": "12:30pm - 4:30pm",
+            "location": "@Fishers Junior High - FJH TRACK"
+        }
+    ],
+    "25": [
+        {
+            "title": "Football Practice",
+            "time": null,
+            "location": "@"
+        },
+        {
+            "title": "Fall Play Rehearsal",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        },
+        {
+            "title": "Volleyball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH GYM - MAIN"
+        },
+        {
+            "title": "Cheer",
+            "time": "5:00pm - 6:30pm",
+            "location": "@Fishers Junior High - FJH GYM - AUX"
+        },
+        {
+            "title": "CTRY",
+            "time": "5:00pm - 8:00pm",
+            "location": "@Fishers Junior High - FJH CAFETERIA"
+        },
+        {
+            "title": "YMCA Track and Field Day",
+            "time": "5:45pm - 7:30pm",
+            "location": "@Fishers Junior High - FJH TRACK"
+        }
+    ],
+    "26": [
+        {
+            "title": "Football Practice",
+            "time": null,
+            "location": "@"
+        },
+        {
+            "title": "Volleyball Game",
+            "time": "5:30am - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Fall Play Rehearsal",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        },
+        {
+            "title": "Cheer",
+            "time": "5:00pm - 6:30pm",
+            "location": "@Fishers Junior High - FJH GYM - AUX"
+        }
+    ],
+    "27": [
+        {
+            "title": "Fall Play Rehearsal",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        },
+        {
+            "title": "Volleyball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH GYM - MAIN"
+        },
+        {
+            "title": "Football Game",
+            "time": "5:30pm - 8:30pm",
+            "location": "@Fishers Junior High - FJH FOOTBALL STADIUM"
+        }
+    ],
+    "28": [
+        {
+            "title": "Football Practice",
+            "time": null,
+            "location": "@"
+        },
+        {
+            "title": "Volleyball Game",
+            "time": "5:30am - 8:30pm",
+            "location": null
+        },
+        {
+            "title": "Fall Play Rehearsal",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        },
+        {
+            "title": "Mudsock Youth Athletics Girls Volleyball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers Junior High - FJH GYM - MAIN"
+        }
+    ],
+    "29": [
+        {
+            "title": "Football Practice",
+            "time": null,
+            "location": "@"
+        },
+        {
+            "title": "Volleyball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH GYM - MAIN"
+        }
+    ],
+    "30": [
+        {
+            "title": "Volleyball Game",
+            "time": "9:00am - 3:00pm",
+            "location": null
+        }
+    ]
+}

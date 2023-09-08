@@ -14,90 +14,83 @@
     <script src="../js/calendar.js" charset="utf-8"></script>
     <!--	<script src="../js/calendar_html_old.js" charset="utf-8"></script>-->
 
-    <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/calendar.css">
+    <link rel="stylesheet" href="../css/global.css">
 
     <link rel="stylesheet" href="../themes/default.css">
 </head>
+
 <body>
-<canvas id="canvas"></canvas>
-<div class="wrapper">
-    <noscript>
-        <style>
-            #period,
-            #countdown {
-                display: none;
-            }
-        </style>
-    </noscript>
-    <header>
-        <!-- <a href="/fishers"></a> -->
-        <a href="https://schedlink.com/fishers/info/">
-            <div>
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
-                  <path d="M18,3A15,15,0,1,0,33,18,15.005,15.005,0,0,0,18,3Zm0,4.5A4.5,4.5,0,1,1,13.5,12,4.494,4.494,0,0,1,18,7.5Zm0,21.3a10.8,10.8,0,0,1-9-4.83c.045-2.985,6-4.62,9-4.62s8.955,1.635,9,4.62a10.8,10.8,0,0,1-9,4.83Z" transform="translate(-3 -3)"/>
-                </svg> -->
-                <img src="../img/questionmark_white.png" alt="?" width="34" height="34">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.985 17.17">
-                  <path d="M5.316,14.211v3.816l6.677,3.644,6.677-3.644V14.211l-6.677,3.644ZM11.993,4.5,1.5,10.223l10.493,5.723,8.585-4.684v6.591h1.908V10.223Z" transform="translate(-1.5 -4.5)"/>
-                </svg> -->
-            </div>
-        </a>
-    </header>
-    <article id="main_body">
-        <section id="calendar_section">
-            <div id="calendar_container" class="container">
-                <div class="calendar_head">
-                    <button type="button" name="button" class="calendar_head_btn" value='-1'><p></p></button>
-                    <div id="calendar_date"><p>undefined</p></div>
-                    <button type="button" name="button" class="calendar_head_btn" value='1'><p></p></button>
+    <div class="wrapper">
+        <header>
+            <!-- <a href="/fishers"></a> -->
+            <a href="https://schedlink.com/fishers/info/">
+                <div>
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+                      <path d="M18,3A15,15,0,1,0,33,18,15.005,15.005,0,0,0,18,3Zm0,4.5A4.5,4.5,0,1,1,13.5,12,4.494,4.494,0,0,1,18,7.5Zm0,21.3a10.8,10.8,0,0,1-9-4.83c.045-2.985,6-4.62,9-4.62s8.955,1.635,9,4.62a10.8,10.8,0,0,1-9,4.83Z" transform="translate(-3 -3)"/>
+                    </svg> -->
+                    <img src="../img/questionmark_white.png" alt="?" width="34" height="34">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.985 17.17">
+                      <path d="M5.316,14.211v3.816l6.677,3.644,6.677-3.644V14.211l-6.677,3.644ZM11.993,4.5,1.5,10.223l10.493,5.723,8.585-4.684v6.591h1.908V10.223Z" transform="translate(-1.5 -4.5)"/>
+                    </svg> -->
                 </div>
-                <div class="calendar_body">
-                    <!-- Calendar table will be inserted here by JS -->
+            </a>
+        </header>
+        <article id="main_body">
+            <section id="calendar_section">
+                <div id="calendar_container" class="container">
+                    <div class="calendar_head">
+                        <button type="button" name="button" class="calendar_head_btn" value='-1'><p></p></button>
+                        <div id="calendar_date"><p>undefined</p></div>
+                        <button type="button" name="button" class="calendar_head_btn" value='1'><p></p></button>
+                    </div>
+                    <div class="calendar_body">
+                        <!-- Calendar table will be inserted here by JS -->
+                    </div>
                 </div>
+            </section>
+        </article>
+        <div id="eventModal" class="modal hidden">
+            <div class="modal-content">
+                <p id="eventContent">Events will go here</p>
             </div>
-        </section>
-    </article>
-    <div id="eventModal" class="modal hidden">
-        <div class="modal-content">
-            <p id="eventContent">Events will go here</p>
         </div>
+        <nav>
+            <div id="nav-tabs">
+                <a id="nav-tabs__home" href="../index.html" class="selected">
+                    <div>
+                        <!--gradcap here-->
+                        <img src="../img/gradcap.png" alt="Home" width="34" height="34">
+                    </div>
+                </a>
+                <a id="nav-tabs__clubs" href="../html/clubs.html">
+                    <div>
+                        <!--settings here-->
+                        <img src="../img/clubs.png" alt="Clubs" width="34" height="34">
+                    </div>
+                </a>
+                <a id="nav-tabs__cal" href="../html/calendar.html">
+                    <div>
+                        <!--calendar here-->
+                        <img src="../img/calendar.png" alt="Calendar_old" width="34" height="34">
+                    </div>
+                </a>
+                <a id="nav-tabs__search" href="../html/search.html">
+                    <div>
+                        <!--settings here-->
+                        <img src="../img/search.png" alt="Search" width="34" height="34">
+                    </div>
+                </a>
+                <a id="nav-tabs__set" href="../html/settings.html">
+                    <div>
+                        <!--settings here-->
+                        <img src="../img/settings.png" alt="Settings" width="34" height="34">
+                    </div>
+                </a>
+            </div>
+        </nav>
     </div>
-    <nav>
-        <div id="nav-tabs">
-            <a id="nav-tabs__home" href="../index.html" class="selected">
-                <div>
-                    <!--gradcap here-->
-                    <img src="../img/gradcap.png" alt="Home" width="34" height="34">
-                </div>
-            </a>
-            <a id="nav-tabs__clubs" href="../html/clubs.html">
-                <div>
-                    <!--settings here-->
-                    <img src="../img/clubs.png" alt="Clubs" width="34" height="34">
-                </div>
-            </a>
-            <a id="nav-tabs__cal" href="../html/calendar.html">
-                <div>
-                    <!--calendar here-->
-                    <img src="../img/calendar.png" alt="Calendar_old" width="34" height="34">
-                </div>
-            </a>
-            <a id="nav-tabs__search" href="../html/search.html">
-                <div>
-                    <!--settings here-->
-                    <img src="../img/search.png" alt="Search" width="34" height="34">
-                </div>
-            </a>
-            <a id="nav-tabs__set" href="../html/settings.html">
-                <div>
-                    <!--settings here-->
-                    <img src="../img/settings.png" alt="Settings" width="34" height="34">
-                </div>
-            </a>
-        </div>
-    </nav>
-</div>
+</body>
 
 <script type="text/javascript">
     var calendarSection, scheduleSection, calendar;

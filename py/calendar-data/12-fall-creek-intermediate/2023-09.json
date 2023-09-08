@@ -1,0 +1,557 @@
+{
+    "1": [
+        {
+            "title": "Falcon Friday",
+            "time": "9:15am - 4:00pm",
+            "location": "@Entire Building - Fall Creek Intermediate"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "2": [
+        {
+            "title": "Soccer Practice/Games",
+            "time": "8:00am - 5:00pm",
+            "location": "@"
+        }
+    ],
+    "3": [
+        {
+            "title": "Soccer Practice/Games",
+            "time": "8:00am - 5:00pm",
+            "location": "@"
+        }
+    ],
+    "4": [
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "5": [
+        {
+            "title": "Cross Country Practice",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Fusion JH Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Fusion JH Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Softball Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "6": [
+        {
+            "title": "FCI Connect",
+            "time": "8:00am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Choir",
+            "time": "8:15am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI Music Room 210"
+        },
+        {
+            "title": "Cross Country Practice",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Fusion JH Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Fusion JH Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Softball Practices",
+            "time": "6:00pm - 7:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "7": [
+        {
+            "title": "Cross Country Practice",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "FCJH Cross Country Meet",
+            "time": "5:30pm - 8:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 7:30pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "7:30pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "8": [
+        {
+            "title": "Spell Bowl Try-outs",
+            "time": "8:10am - 9:00am",
+            "location": "@Room 514"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "5:30pm - 7:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "9": [
+        {
+            "title": "Soccer Practice/Games",
+            "time": "8:00am - 5:00pm",
+            "location": "@"
+        }
+    ],
+    "10": [
+        {
+            "title": "Soccer Practice/Games",
+            "time": "8:00am - 5:00pm",
+            "location": "@"
+        }
+    ],
+    "11": [
+        {
+            "title": "PTO meeting",
+            "time": "2:00pm",
+            "location": "@Fall Creek Intermediate - 200- Bookroom"
+        },
+        {
+            "title": "Girl Scout Meetings Troop 4921- FCI",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Fall Creek Intermediate - 200- Bookroom"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "12": [
+        {
+            "title": "Cross Country Practice",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "HHS Cross Country Meet",
+            "time": "5:00pm - 8:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Fusion JH Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Fusion JH Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "13": [
+        {
+            "title": "Choir",
+            "time": "8:15am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Cross Country Practice",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Girl Scout Meetings Troop 4321 - FCI",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI Media Center"
+        },
+        {
+            "title": "Fusion JH Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Fusion JH Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Softball Practices",
+            "time": "6:00pm - 7:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Student Council",
+            "time": "8:15pm",
+            "location": "@Room 613"
+        }
+    ],
+    "14": [
+        {
+            "title": "Cross Country Practice",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 7:30pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Softball Practices",
+            "time": "6:00pm - 7:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "7:30pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "15": [
+        {
+            "title": "Spell Bowl Practice",
+            "time": "8:20am - 9:00am",
+            "location": "@Room 514"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "5:30pm - 7:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "16": [
+        {
+            "title": "GEIST MARATHON",
+            "time": "6:00am - 12:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Geist Half Marathon",
+            "time": "7:00am - 1:00pm",
+            "location": "@Entire Building - Fall Creek Intermediate"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "8:00am - 5:00pm",
+            "location": "@"
+        }
+    ],
+    "17": [
+        {
+            "title": "Soccer Practice/Games",
+            "time": "8:00am - 5:00pm",
+            "location": "@"
+        }
+    ],
+    "18": [
+        {
+            "title": "FCJH Cross Country Meet",
+            "time": "5:30pm - 8:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "19": [
+        {
+            "title": "Cross Country Meet",
+            "time": "5:30pm",
+            "location": "@Riverside Intermediate School"
+        },
+        {
+            "title": "Fusion JH Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Fusion JH Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Softball Practices",
+            "time": "6:00pm - 7:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "20": [
+        {
+            "title": "FCI Connect",
+            "time": "8:00am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Choir",
+            "time": "8:15am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI Music Room 210"
+        },
+        {
+            "title": "Fusion JH Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Fusion JH Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Softball Practices",
+            "time": "6:00pm - 7:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "21": [
+        {
+            "title": "Chalk Walk",
+            "time": "9:15am - 4:00pm",
+            "location": "@Fall Creek Intermediate - FCI Parking Lot - Back"
+        },
+        {
+            "title": "Cross Country Practice",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "FCJH Cross Country Meet",
+            "time": "5:30pm - 8:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 7:30pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "7:30pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "22": [
+        {
+            "title": "Spell Bowl Practice",
+            "time": "8:20am - 9:00am",
+            "location": "@Room 514"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "5:30pm - 7:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "23": [
+        {
+            "title": "Soccer Practice/Games",
+            "time": "8:00am - 5:00pm",
+            "location": "@"
+        }
+    ],
+    "24": [
+        {
+            "title": "Soccer Practice/Games",
+            "time": "8:00am - 5:00pm",
+            "location": "@"
+        }
+    ],
+    "25": [
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "26": [
+        {
+            "title": "Cross Country Practice",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Fusion JH Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Fusion JH Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "27": [
+        {
+            "title": "Choir",
+            "time": "8:15am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Cross Country Practice",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Girl Scout Meetings Troop 4321 - FCI",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI Media Center"
+        },
+        {
+            "title": "Fusion JH Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Fusion JH Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Student Council",
+            "time": "8:15pm",
+            "location": "@Room 613"
+        }
+    ],
+    "28": [
+        {
+            "title": "Chalk Walk (Rain Day)",
+            "time": "9:15am - 4:00pm",
+            "location": "@Fall Creek Intermediate - FCI Parking Lot - Back"
+        },
+        {
+            "title": "Cross Country Practice",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 7:30pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "7:30pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "29": [
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "5:30pm - 7:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "30": [
+        {
+            "title": "Soccer Practice/Games",
+            "time": "8:00am - 5:00pm",
+            "location": "@"
+        }
+    ]
+}

@@ -1,0 +1,2212 @@
+{
+    "1": [
+        {
+            "title": "Blue Crew Meeting",
+            "time": "7:30am - 8:30am",
+            "location": "@Room J232 CCA Lab"
+        },
+        {
+            "title": "Riley Dance Marathon",
+            "time": "8:00am - 8:30am",
+            "location": "@HHS - HSE HS CCA Cafe E"
+        },
+        {
+            "title": "Muslim Student Association",
+            "time": "1:30pm - 3:00pm",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Riley Dance Marathon",
+            "time": "1:30pm - 2:20pm",
+            "location": "@HHS - HSE Cafe A"
+        },
+        {
+            "title": "World Connections Club",
+            "time": "1:30pm - 3:00pm",
+            "location": "@HHS - A136 - Lecture Hall"
+        },
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 6:30pm",
+            "location": "@"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 9:00pm",
+            "location": "@HHS - HSE HS PF1"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - A136 - Lecture Hall"
+        },
+        {
+            "title": "Freshman Volleyball",
+            "time": "3:30pm - 5:15pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "JV/Varsity Volleyball",
+            "time": "3:30pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "RCG Football Game",
+            "time": "3:30pm - 9:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Football Walk-through",
+            "time": "4:00pm - 5:15pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "4:30pm - 6:30pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Girls Soccer",
+            "time": "6:00pm",
+            "location": "@HHS - HSE HS SOCCER STADIUM"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Varsity Football Games",
+            "time": "7:00pm - 8:30pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        }
+    ],
+    "2": [
+        {
+            "title": "Occupied",
+            "time": "7:00am - 12:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "8:00am - 5:00pm",
+            "location": "@"
+        },
+        {
+            "title": "9th Football Games",
+            "time": "9:00am - 10:30am",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Boys Soccer JV Game",
+            "time": "10:00am - 11:30am",
+            "location": "@HHS - HSE HS SOCCER STADIUM"
+        },
+        {
+            "title": "Boys Soccer Varsity Game",
+            "time": "11:30am - 1:00pm",
+            "location": "@HHS - HSE HS SOCCER STADIUM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Knights Football Game",
+            "time": "1:00pm - 6:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Girls Soccer",
+            "time": "4:00pm",
+            "location": "@HHS - HSE HS SOCCER STADIUM"
+        }
+    ],
+    "3": [
+        {
+            "title": "Soccer Practice/Games",
+            "time": "8:00am - 5:00pm",
+            "location": "@"
+        }
+    ],
+    "4": [
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 6:30pm",
+            "location": "@"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 9:00pm",
+            "location": "@HHS - HSE HS PF1"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        },
+        {
+            "title": "Freshman Volleyball",
+            "time": "3:30pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "JV/Varsity Volleyball",
+            "time": "3:30pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "5": [
+        {
+            "title": "Nat'l Honor Society",
+            "time": "7:50am - 8:15am",
+            "location": "@HHS - HSE Cafe D"
+        },
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 4:30pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 6:30pm",
+            "location": "@"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 9:00pm",
+            "location": "@HHS - HSE HS PF1"
+        },
+        {
+            "title": "Nat'l Honor Society",
+            "time": "3:00pm - 3:30pm",
+            "location": "@HHS - HSE Cafe D"
+        },
+        {
+            "title": "Wrestling Callout Meeting",
+            "time": "3:10pm - 4:00pm",
+            "location": "@HHS - HSE Cafe B"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:15pm - 5:45pm",
+            "location": "@"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:00pm",
+            "location": null
+        },
+        {
+            "title": "Freshman Volleyball",
+            "time": "3:30pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "RCG Winds Rehearsal",
+            "time": "3:30pm - 6:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Girls Golf Matches",
+            "time": "4:30pm",
+            "location": null
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        },
+        {
+            "title": "Boys Soccer JV Game",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS SOCCER STADIUM"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Girls Lacrosse",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS AF3"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "RCG Percussion Rehearsal",
+            "time": "6:00pm - 9:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Volleyball",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "7:30pm - 9:00pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Boys Soccer Varsity Game",
+            "time": "8:00pm - 9:00pm",
+            "location": "@HHS - HSE HS SOCCER STADIUM"
+        }
+    ],
+    "6": [
+        {
+            "title": "Student Council",
+            "time": "7:45am - 8:15am",
+            "location": "@HHS - HSE Cafe D"
+        },
+        {
+            "title": "Parent Meeting",
+            "time": "11:30am - 3:00pm",
+            "location": "@Library Conference Room"
+        },
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 6:30pm",
+            "location": "@"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 9:00pm",
+            "location": "@HHS - HSE HS PF1"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Freshman Volleyball",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Boys & Girls Track Open Workouts",
+            "time": "5:00pm - 7:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Girls Lacrosse",
+            "time": "5:30pm - 7:00pm",
+            "location": "@HHS - HSE HS AF3"
+        },
+        {
+            "title": "Boys Volleyball",
+            "time": "6:00pm - 7:00pm",
+            "location": "@HHS - HSE Cafe D"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "RCG Guard Rehearsal",
+            "time": "6:00pm - 9:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Boys Lacrosse Parent Meeting",
+            "time": "7:00pm - 9:00pm",
+            "location": "@Royal Den"
+        },
+        {
+            "title": "Boys Volleyball",
+            "time": "7:00pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "7:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        }
+    ],
+    "7": [
+        {
+            "title": "Guiding Coalition",
+            "time": "7:30am - 8:30am",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 4:30pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:15pm - 5:45pm",
+            "location": "@"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 4:30pm",
+            "location": null
+        },
+        {
+            "title": "Girls Golf Matches",
+            "time": "4:30pm",
+            "location": null
+        },
+        {
+            "title": "Boys JV/V Tennis Matches",
+            "time": "5:00pm - 8:00pm",
+            "location": "@TENNIS COURTS 1-12"
+        },
+        {
+            "title": "FCJH Cross Country Meet",
+            "time": "5:30pm - 8:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Best Buddies",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE HS CCA Cafe E"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": null
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Girls Soccer",
+            "time": "6:00pm",
+            "location": null
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS AF3"
+        },
+        {
+            "title": "Marching Band",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Rec Softball Games",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE SBJV"
+        },
+        {
+            "title": "RCG Full Rehearsal",
+            "time": "6:00pm - 9:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Volleyball",
+            "time": "6:00pm - 9:30pm",
+            "location": "@"
+        }
+    ],
+    "8": [
+        {
+            "title": "Athletic Department Meeting",
+            "time": "7:30am - 8:30pm",
+            "location": "@Royal Den"
+        },
+        {
+            "title": "Meeting",
+            "time": "8:00am - 3:00pm",
+            "location": null
+        },
+        {
+            "title": "Asian Student Union",
+            "time": "1:37pm - 3:00pm",
+            "location": "@HHS - A136 - Lecture Hall"
+        },
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 6:30pm",
+            "location": "@"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 9:00pm",
+            "location": "@HHS - HSE HS PF1"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - A136 - Lecture Hall"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 4:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Freshman Volleyball",
+            "time": "3:30pm - 5:15pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "RCG Full Rehearsal",
+            "time": "3:30pm - 6:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Football Walk-through",
+            "time": "4:00pm - 5:15pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "9": [
+        {
+            "title": "Occupied",
+            "time": "7:00am - 12:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "8:00am - 5:00pm",
+            "location": "@"
+        },
+        {
+            "title": "RCG Competition",
+            "time": "9:00am - 11:45pm",
+            "location": "@"
+        },
+        {
+            "title": "Girls Soccer",
+            "time": "10:00am",
+            "location": "@HHS - HSE HS SOCCER STADIUM"
+        },
+        {
+            "title": "JV Football Games",
+            "time": "10:00am - 11:30am",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Girls Tennis",
+            "time": "11:00am - 4:00pm",
+            "location": "@HHS - HSE Parking Lot - Door 1"
+        },
+        {
+            "title": "Boys Soccer JV Game",
+            "time": "2:00pm - 3:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Girls Soccer",
+            "time": "3:00pm",
+            "location": null
+        },
+        {
+            "title": "Boys Soccer Varsity Game",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Volleyball",
+            "time": "9:00pm - 2:00pm",
+            "location": "@"
+        }
+    ],
+    "10": [
+        {
+            "title": "Soccer Practice/Games",
+            "time": "8:00am - 5:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Baseball",
+            "time": "9:00am - 5:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Rec Softball Games",
+            "time": "12:00pm - 6:00pm",
+            "location": "@HHS - HSE SBJV"
+        },
+        {
+            "title": "Girls Basketball Jr. High workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        }
+    ],
+    "11": [
+        {
+            "title": "Class Presentations",
+            "time": "8:00am - 3:00pm",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 6:30pm",
+            "location": "@"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 9:00pm",
+            "location": "@HHS - HSE HS PF1"
+        },
+        {
+            "title": "Volleyball Pre-Match Dinner",
+            "time": "3:00pm - 5:00pm",
+            "location": "@Royal Den"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        },
+        {
+            "title": "Freshman Volleyball",
+            "time": "3:30pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "JV/Varsity Volleyball",
+            "time": "3:30pm - 6:00pm",
+            "location": null
+        },
+        {
+            "title": "Boys JV/V Tennis Matches",
+            "time": "5:00pm - 8:00pm",
+            "location": "@TENNIS COURTS 1-12"
+        },
+        {
+            "title": "Girls Lacrosse",
+            "time": "5:30pm - 7:00pm",
+            "location": "@HHS - HSE HS AF3"
+        },
+        {
+            "title": "Girls Soccer",
+            "time": "5:30pm",
+            "location": null
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Boys Soccer 9th Grade Game",
+            "time": "7:00pm - 9:00pm",
+            "location": "@HHS - HSE HS SOCCER STADIUM"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "7:30pm - 9:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        }
+    ],
+    "12": [
+        {
+            "title": "Parent Meeting",
+            "time": "8:45am - 10:30am",
+            "location": "@Small Office Conference Room"
+        },
+        {
+            "title": "Football Turf Workouts",
+            "time": "1:00pm - 9:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "National Honor Society Induction",
+            "time": "1:30pm - 3:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:15pm - 5:45pm",
+            "location": "@"
+        },
+        {
+            "title": "RCG Winds Rehearsal",
+            "time": "3:30pm - 6:00pm",
+            "location": "@"
+        },
+        {
+            "title": "HHS Cross Country Meet",
+            "time": "5:00pm - 8:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Girls Lacrosse",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS AF3"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball Tryouts",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE HS AUX COURT 1"
+        },
+        {
+            "title": "Mudsock Youth Athletics Knights Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS AF2"
+        },
+        {
+            "title": "RCG Percussion Rehearsal",
+            "time": "6:00pm - 9:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Boys Volleyball",
+            "time": "6:30pm - 8:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Football/Competition Cheer Parent Meeting",
+            "time": "7:00pm - 9:00pm",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "7:30pm - 9:00pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        }
+    ],
+    "13": [
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 6:30pm",
+            "location": "@"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 9:00pm",
+            "location": "@HHS - HSE HS PF1"
+        },
+        {
+            "title": "Volleyball Pre-Match Dinner",
+            "time": "3:00pm - 5:00pm",
+            "location": "@Royal Den"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Boys & Girls Track Open Workouts",
+            "time": "5:00pm - 6:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Boys JV/V Tennis Matches",
+            "time": "5:00pm - 8:00pm",
+            "location": "@TENNIS COURTS 1-12"
+        },
+        {
+            "title": "Girls Lacrosse",
+            "time": "5:30pm - 7:00pm",
+            "location": "@HHS - HSE HS AF3"
+        },
+        {
+            "title": "Girls Soccer",
+            "time": "5:30pm",
+            "location": "@HHS - HSE HS SOCCER STADIUM"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Girls Basketball Jr. High workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Rec Softball Games",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE SBJV"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball Tryouts",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE HS AUX COURT 1"
+        },
+        {
+            "title": "RCG Guard Rehearsal",
+            "time": "6:00pm - 9:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "7:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        }
+    ],
+    "14": [
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 6:30pm",
+            "location": "@"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 9:00pm",
+            "location": "@HHS - HSE HS PF1"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:45pm",
+            "location": "@"
+        },
+        {
+            "title": "Freshman Volleyball",
+            "time": "3:30pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Football Team Dinner",
+            "time": "4:30pm - 7:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Boys Soccer 9th Grade Game",
+            "time": "5:30pm - 7:30pm",
+            "location": "@HHS - HSE HS SOCCER STADIUM"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS AF3"
+        },
+        {
+            "title": "Marching Band",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Rec Softball Games",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE SBJV"
+        },
+        {
+            "title": "Mudsock Youth Athletics Knights Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS AF2"
+        },
+        {
+            "title": "RCG Full Rehearsal",
+            "time": "6:00pm - 9:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Boys Volleyball",
+            "time": "6:30pm - 8:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Boys Volleyball",
+            "time": "7:00pm - 8:30pm",
+            "location": "@Royal Den"
+        }
+    ],
+    "15": [
+        {
+            "title": "RHO Kappa National Social Studies Honor Society",
+            "time": "1:30pm - 3:00pm",
+            "location": "@HHS - A136 - Lecture Hall"
+        },
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 6:30pm",
+            "location": "@"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 9:00pm",
+            "location": "@HHS - HSE HS PF1"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - A136 - Lecture Hall"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 4:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Freshman Volleyball",
+            "time": "3:30pm - 5:15pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "RCG Football Game",
+            "time": "3:30pm - 9:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Football Walk-through",
+            "time": "4:00pm - 5:15pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Girls Soccer",
+            "time": "5:30pm",
+            "location": null
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Varsity Football Games",
+            "time": "7:00pm - 8:30pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        }
+    ],
+    "16": [
+        {
+            "title": "Occupied",
+            "time": "7:00am - 12:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "RCG Competition",
+            "time": "7:00am - 10:00pm",
+            "location": "@"
+        },
+        {
+            "title": "9th Football Games",
+            "time": "10:00am - 11:30am",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Girls Lacrosse",
+            "time": "12:00pm - 3:00pm",
+            "location": "@HHS - HSE Parking Lot - Door 1"
+        }
+    ],
+    "17": [
+        {
+            "title": "Soccer Practice/Games",
+            "time": "8:00am - 5:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Riley Dance Marathon",
+            "time": "9:00am - 1:00pm",
+            "location": "@HHS - HSE Parking Lot - Door 1"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Rec Softball Games",
+            "time": "12:00pm - 6:00pm",
+            "location": "@HHS - HSE SBJV"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "1:00pm - 5:00pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Mudsock Youth Athletics 2023-2024 HHS Travel Boys Basketball Tryouts",
+            "time": "2:00pm - 7:30pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Girls Basketball Jr. High workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        }
+    ],
+    "18": [
+        {
+            "title": "Picture Retake",
+            "time": "6:30am - 3:30pm",
+            "location": "@HHS - Leonard Auditorium Lobby"
+        },
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 5:30pm",
+            "location": "@"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "SAT PREP COURSE",
+            "time": "3:00pm - 5:10pm",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        },
+        {
+            "title": "Freshman Volleyball",
+            "time": "3:30pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "JV/Varsity Volleyball",
+            "time": "3:30pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Boys JV/V Tennis Matches",
+            "time": "5:00pm - 8:00pm",
+            "location": "@TENNIS COURTS 1-12"
+        },
+        {
+            "title": "FCJH Cross Country Meet",
+            "time": "5:30pm - 8:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Girls Lacrosse",
+            "time": "5:30pm - 7:00pm",
+            "location": "@HHS - HSE HS AF3"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "JV Football Games",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Softball Clinic/Camp",
+            "time": "6:00pm - 8:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Boys Volleyball",
+            "time": "6:30pm - 8:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "7:30pm - 9:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        }
+    ],
+    "19": [
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 6:30pm",
+            "location": "@"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 9:00pm",
+            "location": "@HHS - HSE HS PF1"
+        },
+        {
+            "title": "SAT PREP COURSE",
+            "time": "3:00pm - 5:10pm",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:15pm - 5:45pm",
+            "location": "@"
+        },
+        {
+            "title": "RCG Winds Rehearsal",
+            "time": "3:30pm - 6:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Boys Soccer 9th Grade Game",
+            "time": "5:30pm - 7:30pm",
+            "location": "@HHS - HSE HS SOCCER STADIUM"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Girls Lacrosse",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS AF3"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "RCG Percussion Rehearsal",
+            "time": "6:00pm - 9:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Ski and Snowboard Club",
+            "time": "6:00pm - 7:00pm",
+            "location": "@HHS - HSE HS CCA Cafe E"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Volleyball",
+            "time": "6:00pm - 9:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Choir Concert",
+            "time": "7:00pm - 10:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Boys Soccer Varsity Game",
+            "time": "7:30pm - 9:00pm",
+            "location": "@HHS - HSE HS SOCCER STADIUM"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "7:30pm - 9:00pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        }
+    ],
+    "20": [
+        {
+            "title": "21st Century Scholars Meeting",
+            "time": "1:30pm - 2:30pm",
+            "location": "@HHS - A136 - Lecture Hall"
+        },
+        {
+            "title": "PLTW",
+            "time": "1:30pm - 3:00pm",
+            "location": "@HHS - HSE Cafe A"
+        },
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "21st Century Scholars Meeting",
+            "time": "2:30pm - 3:00pm",
+            "location": "@Room J232 CCA Lab"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 6:30pm",
+            "location": "@"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 9:00pm",
+            "location": "@HHS - HSE HS PF1"
+        },
+        {
+            "title": "SAT PREP COURSE",
+            "time": "3:00pm - 5:10pm",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Freshman Volleyball",
+            "time": "3:30pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Boys & Girls Track Open Workouts",
+            "time": "5:00pm - 6:00pm",
+            "location": null
+        },
+        {
+            "title": "Boys & Girls Track Open Workouts",
+            "time": "5:00pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Boys JV/V Tennis Matches",
+            "time": "5:00pm - 8:00pm",
+            "location": "@TENNIS COURTS 1-12"
+        },
+        {
+            "title": "Girls Lacrosse",
+            "time": "5:30pm - 7:00pm",
+            "location": "@HHS - HSE HS AF3"
+        },
+        {
+            "title": "Girls Soccer",
+            "time": "5:30pm",
+            "location": null
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "5:45pm - 8:00pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Rec Softball Games",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE SBJV"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "RCG Guard Rehearsal",
+            "time": "6:00pm - 9:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Boys Volleyball",
+            "time": "6:30pm - 8:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Boys Soccer 9th Grade Game",
+            "time": "6:45pm - 8:45pm",
+            "location": "@HHS - HSE HS SOCCER STADIUM"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "7:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        }
+    ],
+    "21": [
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "Class Ring",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - Leonard Auditorium Lobby"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 4:30pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "SAT PREP COURSE",
+            "time": "3:00pm - 5:10pm",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:15pm - 5:45pm",
+            "location": "@"
+        },
+        {
+            "title": "Best Buddies",
+            "time": "5:00pm - 7:00pm",
+            "location": "@HHS - HSE HS GREEN SPACE"
+        },
+        {
+            "title": "FCJH Cross Country Meet",
+            "time": "5:30pm - 8:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "5:45pm - 8:00pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS AF3"
+        },
+        {
+            "title": "Marching Band",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Rec Softball Games",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE SBJV"
+        },
+        {
+            "title": "RCG Full Rehearsal",
+            "time": "6:00pm - 9:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Volleyball",
+            "time": "6:00pm - 9:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Girls Basketball Jr. High workouts",
+            "time": "7:00pm - 9:00pm",
+            "location": "@"
+        }
+    ],
+    "22": [
+        {
+            "title": "Royal Pride",
+            "time": "9:00am - 11:00am",
+            "location": "@Library Conference Room"
+        },
+        {
+            "title": "Black Student Union",
+            "time": "1:37pm - 3:00pm",
+            "location": "@HHS - HSE Cafe A"
+        },
+        {
+            "title": "Class",
+            "time": "1:37pm - 3:00pm",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 6:30pm",
+            "location": "@"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 9:00pm",
+            "location": "@HHS - HSE HS PF1"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - A136 - Lecture Hall"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 4:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Freshman Volleyball",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "RCG Full Rehearsal",
+            "time": "3:30pm - 6:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Football Walk-through",
+            "time": "4:00pm - 5:15pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        }
+    ],
+    "23": [
+        {
+            "title": "Occupied",
+            "time": "7:00am - 12:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "8:00am - 5:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Boys JV/V Tennis Matches",
+            "time": "9:00am - 10:00am",
+            "location": "@TENNIS COURTS 1-12"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "9:00am - 4:00pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "RCG Band Practice",
+            "time": "9:00am - 4:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Mudsock Youth Athletics Knights Football Games",
+            "time": "1:00pm - 6:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        }
+    ],
+    "24": [
+        {
+            "title": "Soccer Practice/Games",
+            "time": "8:00am - 5:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Baseball",
+            "time": "9:00am - 5:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "9:00am - 4:00pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Rec Softball Games",
+            "time": "12:00pm - 6:00pm",
+            "location": "@HHS - HSE SBJV"
+        },
+        {
+            "title": "We The People",
+            "time": "2:00pm - 5:00pm",
+            "location": "@Library"
+        },
+        {
+            "title": "Football/Competition Cheer",
+            "time": "6:30pm - 8:00pm",
+            "location": "@"
+        }
+    ],
+    "25": [
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 6:30pm",
+            "location": "@"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 9:00pm",
+            "location": "@HHS - HSE HS PF1"
+        },
+        {
+            "title": "SAT PREP COURSE",
+            "time": "3:00pm - 5:10pm",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Volleyball Pre-Match Dinner",
+            "time": "3:00pm - 5:00pm",
+            "location": "@Royal Den"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        },
+        {
+            "title": "Freshman Volleyball",
+            "time": "3:30pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "JV/Varsity Volleyball",
+            "time": "3:30pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Girls Lacrosse",
+            "time": "5:30pm - 7:00pm",
+            "location": "@HHS - HSE HS AF3"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Softball Clinic/Camp",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "7:30pm - 9:00pm",
+            "location": "@"
+        }
+    ],
+    "26": [
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 6:30pm",
+            "location": "@"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 9:00pm",
+            "location": "@HHS - HSE HS PF1"
+        },
+        {
+            "title": "SAT PREP COURSE",
+            "time": "3:00pm - 5:10pm",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:15pm - 5:45pm",
+            "location": "@"
+        },
+        {
+            "title": "RCG Winds Rehearsal",
+            "time": "3:30pm - 6:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "5:45pm - 7:00pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Boys Soccer 9th Grade Game",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS SOCCER STADIUM"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Girls Lacrosse",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS AF3"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "RCG Percussion Rehearsal",
+            "time": "6:00pm - 9:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Volleyball",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "7:30pm - 9:00pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        }
+    ],
+    "27": [
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 6:30pm",
+            "location": "@"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 9:00pm",
+            "location": "@HHS - HSE HS PF1"
+        },
+        {
+            "title": "SAT PREP COURSE",
+            "time": "3:00pm - 5:10pm",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Freshman Volleyball",
+            "time": "3:30pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Boys & Girls Track Open Workouts",
+            "time": "5:00pm - 6:00pm",
+            "location": null
+        },
+        {
+            "title": "Girls Lacrosse",
+            "time": "5:30pm - 7:00pm",
+            "location": "@HHS - HSE HS AF3"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "RCG Guard Rehearsal",
+            "time": "6:00pm - 9:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Boys Volleyball",
+            "time": "6:30pm - 8:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Junior Parent College Night",
+            "time": "6:30pm - 8:30pm",
+            "location": "@HHS - Leonard Auditorium"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Boys Basketball Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Mudsock Youth Athletics Knights Football Practices",
+            "time": "6:30pm - 8:00pm",
+            "location": "@HHS - HSE HS AF2"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "7:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        }
+    ],
+    "28": [
+        {
+            "title": "PLTW",
+            "time": "1:30pm - 3:00pm",
+            "location": "@HHS - HSE Cafe A"
+        },
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 6:30pm",
+            "location": "@"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 9:00pm",
+            "location": "@HHS - HSE HS PF1"
+        },
+        {
+            "title": "SAT PREP COURSE",
+            "time": "3:00pm - 5:10pm",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "SAT PREP COURSE",
+            "time": "3:00pm - 5:10pm",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Volleyball Pre-Match Dinner",
+            "time": "3:00pm - 5:00pm",
+            "location": "@Royal Den"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:15pm - 5:45pm",
+            "location": "@"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "5:45pm - 7:00pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Boys Soccer JV Game",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE HS SOCCER STADIUM"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS AF3"
+        },
+        {
+            "title": "Marching Band",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "RCG Full Rehearsal",
+            "time": "6:00pm - 9:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Boys Volleyball",
+            "time": "6:30pm - 8:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Girls Basketball Jr. High workouts",
+            "time": "7:00pm - 9:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Boys Soccer Varsity Game",
+            "time": "7:30pm - 9:00pm",
+            "location": "@HHS - HSE HS SOCCER STADIUM"
+        }
+    ],
+    "29": [
+        {
+            "title": "Meeting",
+            "time": "8:00am - 12:00pm",
+            "location": "@HHS - HSE HS CCA Cafe E"
+        },
+        {
+            "title": "Occupied",
+            "time": "2:00pm - 9:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS PLATEAU Lower 4-6"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 6:30pm",
+            "location": "@"
+        },
+        {
+            "title": "HHS Soccer Practice",
+            "time": "3:00pm - 9:00pm",
+            "location": "@HHS - HSE HS PF1"
+        },
+        {
+            "title": "Football Team Meeting",
+            "time": "3:15pm - 4:00pm",
+            "location": "@HHS - A136 - Lecture Hall"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 4:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Freshman Volleyball",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "RCG Football Game",
+            "time": "3:30pm - 9:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Football Walk-through",
+            "time": "4:00pm - 5:15pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "6:00pm - 8:30pm",
+            "location": "@"
+        },
+        {
+            "title": "Varsity Football Games",
+            "time": "7:00pm - 9:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        }
+    ],
+    "30": [
+        {
+            "title": "Homecoming Dance",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Cheer Competition",
+            "time": "7:00am - 5:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Occupied",
+            "time": "7:00am - 12:00pm",
+            "location": "@HHS - Football/Track Locker Room"
+        },
+        {
+            "title": "Best Buddies",
+            "time": "8:00am - 2:00pm",
+            "location": "@HHS - HSE HS CCA Cafe E"
+        },
+        {
+            "title": "Soccer Practice/Games",
+            "time": "8:00am - 5:00pm",
+            "location": "@"
+        },
+        {
+            "title": "9th Football Games",
+            "time": "10:00am - 11:30am",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        }
+    ]
+}
