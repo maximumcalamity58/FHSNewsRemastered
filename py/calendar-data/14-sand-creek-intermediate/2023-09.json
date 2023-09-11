@@ -1,0 +1,94 @@
+{
+    "5": [
+        {
+            "title": "Girl Scout Troop 4949- SCI",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Sand Creek Intermediate - SCI CAFETERIA"
+        }
+    ],
+    "11": [
+        {
+            "title": "Intramural Basketball",
+            "time": "4:00pm - 6:30pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "12": [
+        {
+            "title": "Intramural Basketball",
+            "time": "4:00pm - 6:30pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "13": [
+        {
+            "title": "Intramural Basketball",
+            "time": "4:00pm - 6:30pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "14": [
+        {
+            "title": "Intramural Basketball",
+            "time": "4:00pm - 6:30pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "18": [
+        {
+            "title": "Intramural Basketball",
+            "time": "4:00pm - 6:30pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "19": [
+        {
+            "title": "Girl Scout Troop 4949- SCI",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Sand Creek Intermediate - SCI CAFETERIA"
+        },
+        {
+            "title": "Intramural Basketball",
+            "time": "4:00pm - 6:30pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        },
+        {
+            "title": "Cross Country- @RSI",
+            "time": "5:30pm",
+            "location": "@"
+        }
+    ],
+    "20": [
+        {
+            "title": "Intramural Basketball",
+            "time": "4:00pm - 6:30pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "21": [
+        {
+            "title": "Intramural Basketball",
+            "time": "4:00pm - 6:30pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "28": [
+        {
+            "title": "Solar Event",
+            "time": "5:00pm - 8:00pm",
+            "location": "@Sand Creek Intermediate - SCI MEDIA CENTER"
+        }
+    ],
+    "30": [
+        {
+            "title": "Band",
+            "time": "8:00am - 11:00pm",
+            "location": "@"
+        },
+        {
+            "title": "FHS Band Use",
+            "time": "12:00pm - 10:00pm",
+            "location": "@Entire Building - Sand Creek Intermediate"
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "6": [
+        {
+            "title": "Choir Practice",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Music Room"
+        }
+    ],
+    "11": [
+        {
+            "title": "PTO Meeting",
+            "time": "6:00pm - 7:30pm",
+            "location": "@Fishers Elementary - FES Media Center"
+        }
+    ],
+    "13": [
+        {
+            "title": "Choir Practice",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Music Room"
+        },
+        {
+            "title": "Cub Scout Den Meetings Pack 109 FES",
+            "time": "6:15pm - 8:15pm",
+            "location": "@"
+        }
+    ],
+    "15": [
+        {
+            "title": "Back to School BBQ",
+            "time": "5:30pm - 8:00pm",
+            "location": "@"
+        }
+    ],
+    "19": [
+        {
+            "title": "1st Grade Field Trip",
+            "time": "9:45am - 1:00pm",
+            "location": "@Fishers Elementary - FES Parking Lot - Front"
+        }
+    ],
+    "20": [
+        {
+            "title": "Choir Practice",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Music Room"
+        },
+        {
+            "title": "Parent Teacher Conference",
+            "time": "3:00pm - 6:00pm",
+            "location": null
+        },
+        {
+            "title": "Cub Scout Den Meetings Pack 109 FES",
+            "time": "6:15pm - 8:15pm",
+            "location": "@"
+        }
+    ],
+    "25": [
+        {
+            "title": "Tennis Club - FES",
+            "time": "2:10pm - 3:10pm",
+            "location": "@Fishers Elementary - FES Gym"
+        }
+    ],
+    "27": [
+        {
+            "title": "Tennis Club - FES",
+            "time": "2:10pm - 3:10pm",
+            "location": "@Fishers Elementary - FES Gym"
+        },
+        {
+            "title": "Choir Practice",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Music Room"
+        },
+        {
+            "title": "Parent Teacher Conference",
+            "time": "3:00pm - 6:00pm",
+            "location": null
+        }
+    ],
+    "29": [
+        {
+            "title": "Movie Night",
+            "time": "6:30pm - 8:30pm",
+            "location": "@Fishers Elementary - FES Gym"
+        }
+    ]
+}

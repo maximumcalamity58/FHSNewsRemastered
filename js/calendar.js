@@ -1,35 +1,9 @@
-// Create a class for the calendar
 class Calendar {
     constructor() {
         this.currentDate = new Date();
         this.currentMonth = this.currentDate.getMonth();
         this.currentYear = this.currentDate.getFullYear();
-        this.calendarData = {};
-
-        // Fetch and initialize calendar data
-        this.fetchCalendarData().then(() => {
-            this.generateCalendar();
-            this.init(); // Initialize event listeners after calendar is generated
-        });
-    }
-
-    // Fetch calendar data from JSON
-    async fetchCalendarData() {
-        try {
-            const response = await fetch('../json/calendar_data.json');
-            if (!response.ok) {
-                console.error('Network response was not ok', response);
-                return;
-            }
-            const text = await response.text();
-            try {
-                this.calendarData = JSON.parse(text);
-            } catch (err) {
-                console.error('Error parsing JSON:', text);
-            }
-        } catch (error) {
-            console.error('Error fetching calendar data:', error);
-        }
+        this.init();
     }
 
     // Initialize event listeners
@@ -40,6 +14,7 @@ class Calendar {
                 this.generateCalendar();
             });
         });
+        this.generateCalendar();
     }
 
     // Function to update the month
@@ -57,25 +32,54 @@ class Calendar {
     }
 
     // Function to show events for clicked day
-    showEvents(dateString) {
-        console.log("Show events for:", dateString);  // Debugging line
-        const eventData = this.calendarData[dateString];
-        const events = eventData ? eventData.events.join(", ") : "No events";
+    async showEvents(date) {
+        console.log("Show events for:", date);  // Debugging line
 
-        // Create formatted date string for display
-        const displayDate = new Date(dateString);
-        const displayDateString = `${displayDate.toLocaleString('default', { month: 'short' })} ${displayDate.getDate()}`;
+        const yearMonth = `${this.currentYear}-${String(this.currentMonth + 1).padStart(2, '0')}`; // Format: 'YYYY-MM'
+        const filePath = `/py/calendar-data/19-fishers-high-school/${yearMonth}.json`;
+
+        console.log("Fetching from filePath:", filePath);  // Debugging line
+
+        let eventData = [];
+        try {
+            const response = await fetch(filePath);
+            console.log("Response headers:", response.headers);  // Debugging line
+            console.log("Response status:", response.status);    // Debugging line
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            const data = await response.json();
+            console.log("Data received:", data);  // Debugging line
+            eventData = data[date.getDay()] || [];
+        } catch (error) {
+            console.error('Error fetching calendar data:', error);
+        }
+
+            // Format events for display in the modal
+        const formattedEvents = eventData.map(event => {
+            return `
+                <strong>${event.title}</strong><br>
+                Time: ${event.time}<br>
+                Location: ${event.location}<br><br>
+            `;
+        }).join('');
+
+
+        const displayData = formattedEvents || "No Events";
+        console.log(formattedEvents)
 
         // Update the modal content
         document.getElementById("eventContent").innerHTML = `
-            <strong>Events for ${displayDateString}</strong>
-            <br>
-            ${events}
+            <strong>Events for ${date.toDateString()}</strong>
+            <br><br>
+            ${displayData}
         `;
+
 
         // Show the modal
         document.getElementById("eventModal").classList.remove("hidden");
     }
+
 
     // Function to generate and display the calendar
     generateCalendar() {
@@ -149,12 +153,8 @@ class Calendar {
                 // Create a Date object with the current year, month, and date
                 const tempDate = new Date(thisYear, thisMonth, thisDate);
 
-                // Add 1 day
-                tempDate.setDate(tempDate.getDate() + 1);
-
                 // Generate the dateString for event listeners
-                const dateString = `${tempDate.getFullYear()}-${String(tempDate.getMonth() + 1).padStart(2, '0')}-${String(tempDate.getDate()).padStart(2, '0')}`;
-                td.addEventListener('click', () => this.showEvents(dateString));
+                td.addEventListener('click', () => this.showEvents(tempDate));
 
                 span.textContent = thisDate;
                 td.appendChild(span);
@@ -175,9 +175,6 @@ class Calendar {
     }
 }
 
-// Initialize calendar
-const calendar = new Calendar();
-
 // Update and regenerate calendar when buttons are clicked
 document.querySelectorAll('.calendar_head_btn').forEach(btn => {
     btn.addEventListener("click", function() {
@@ -196,8 +193,10 @@ function hideModal() {
     document.getElementById("eventModal").classList.add("hidden");
 }
 
-// Attach a click event to the modal background
+// Attach a click event to the modal background and load calendar
 document.addEventListener("DOMContentLoaded", () => {
+    const calendar = new Calendar();
+
     document.getElementById("eventModal").addEventListener("click", function(event) {
         if (event.target === this) {
             hideModal();

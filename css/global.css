@@ -130,7 +130,7 @@ body.fullsize-content #main-content {
 }
 
 header {
-	position: fixed;
+	position: relative;
 	height: 12vw;
 	width: 100%;
 	padding-top: 0;
@@ -139,7 +139,7 @@ header {
 	text-align: center;
 	background-color: var(--header-background-color);
 	z-index: 999;
-	
+
 }
 
 header a:link {
@@ -266,7 +266,6 @@ img.svg-mask-only:after {
 	}
 
 	#main-content {
-		padding: 85px;
 		padding-bottom: 75px;
 	}
 
