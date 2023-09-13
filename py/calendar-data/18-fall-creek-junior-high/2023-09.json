@@ -7,7 +7,7 @@
         },
         {
             "title": "Fishers Falcons 9U Baseball Practice",
-            "time": "6:30pm - 8:00pm",
+            "time": "6:30pm - 7:30pm",
             "location": "@Fall Creek Junior High - FCJH SB1"
         }
     ],
@@ -20,12 +20,17 @@
         {
             "title": "FCJH Boys Tennis",
             "time": "5:00pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH Tennis Court 1 , Fall Creek Junior High - FCJH Tennis Court 2 , Fall Creek Junior High - FCJH Tennis Court 3"
         },
         {
             "title": "Cross Country Meet",
             "time": "5:30pm - 8:00pm",
             "location": "@AWAY"
+        },
+        {
+            "title": "Indy Sharks Baseball Practice",
+            "time": "5:30pm - 7:30pm",
+            "location": "@Fall Creek Junior High - FCJH BB1"
         }
     ],
     "6": [
@@ -42,7 +47,7 @@
         {
             "title": "Mudsock Youth Athletics Girls Volleyball Practices",
             "time": "6:00pm - 9:00pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
         },
         {
             "title": "Camp T Counselor Training",
@@ -51,13 +56,13 @@
         },
         {
             "title": "Fishers Falcons 9U Baseball Practice",
-            "time": "6:30pm - 8:00pm",
+            "time": "6:30pm - 7:30pm",
             "location": "@Fall Creek Junior High - FCJH SB1"
         },
         {
             "title": "HCCTA Tennis Lessons/Camp - Fall",
             "time": "6:30pm - 7:30pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH Tennis Court 1 , Fall Creek Junior High - FCJH Tennis Court 2"
         }
     ],
     "7": [
@@ -69,7 +74,7 @@
         {
             "title": "FCJH Boys Tennis",
             "time": "5:00pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH Tennis Court 1 , Fall Creek Junior High - FCJH Tennis Court 2 , Fall Creek Junior High - FCJH Tennis Court 3"
         },
         {
             "title": "FCJH Girls Golf",
@@ -89,7 +94,7 @@
         {
             "title": "Mudsock Youth Athletics Girls Volleyball Practices",
             "time": "6:00pm - 9:00pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
         }
     ],
     "8": [
@@ -139,7 +144,7 @@
         },
         {
             "title": "Fishers Falcons 9U Baseball Practice",
-            "time": "6:30pm - 8:00pm",
+            "time": "6:30pm - 7:30pm",
             "location": "@Fall Creek Junior High - FCJH SB1"
         }
     ],
@@ -177,7 +182,7 @@
         {
             "title": "HCCTA Tennis Lessons/Camp - Fall",
             "time": "6:30pm - 7:30pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH Tennis Court 1 , Fall Creek Junior High - FCJH Tennis Court 2"
         }
     ],
     "12": [
@@ -189,12 +194,12 @@
         {
             "title": "FCJH Boys Tennis",
             "time": "5:00pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH Tennis Court 1 , Fall Creek Junior High - FCJH Tennis Court 2 , Fall Creek Junior High - FCJH Tennis Court 3"
         },
         {
             "title": "FCJH Volleyball (Girls 7 & 8)",
             "time": "5:30pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
         },
         {
             "title": "Cross Country Meet",
@@ -230,13 +235,13 @@
         },
         {
             "title": "Fishers Falcons 9U Baseball Practice",
-            "time": "6:30pm - 8:00pm",
+            "time": "6:30pm - 7:30pm",
             "location": "@Fall Creek Junior High - FCJH SB1"
         },
         {
             "title": "HCCTA Tennis Lessons/Camp - Fall",
             "time": "6:30pm - 7:30pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH Tennis Court 1 , Fall Creek Junior High - FCJH Tennis Court 2"
         }
     ],
     "14": [
@@ -258,12 +263,12 @@
         {
             "title": "FCJH Boys Tennis",
             "time": "5:00pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH Tennis Court 1 , Fall Creek Junior High - FCJH Tennis Court 2 , Fall Creek Junior High - FCJH Tennis Court 3"
         },
         {
             "title": "FCJH Volleyball (Girls 7 & 8)",
             "time": "5:30pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
         },
         {
             "title": "7th Grade Football Game",
@@ -292,7 +297,7 @@
         {
             "title": "GEIST MARATHON",
             "time": "6:00am - 12:00pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH AF1A + B, Fall Creek Junior High - FCJH AF2, Fall Creek Junior High - FCJH BB1, Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN, Fall Creek Junior High - FCJH SB1"
         },
         {
             "title": "Geist Half Marathon",
@@ -343,7 +348,7 @@
         },
         {
             "title": "Fishers Falcons 9U Baseball Practice",
-            "time": "6:30pm - 8:00pm",
+            "time": "6:30pm - 7:30pm",
             "location": "@Fall Creek Junior High - FCJH SB1"
         }
     ],
@@ -371,12 +376,12 @@
         {
             "title": "FCJH Volleyball (Girls 7 & 8)",
             "time": "5:30pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
         },
         {
             "title": "HCCTA Tennis Lessons/Camp - Fall",
             "time": "6:30pm - 7:30pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH Tennis Court 1 , Fall Creek Junior High - FCJH Tennis Court 2"
         }
     ],
     "19": [
@@ -403,7 +408,7 @@
         {
             "title": "Mudsock Youth Athletics Girls Volleyball Practices",
             "time": "6:00pm - 9:00pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
         }
     ],
     "20": [
@@ -429,13 +434,13 @@
         },
         {
             "title": "Fishers Falcons 9U Baseball Practice",
-            "time": "6:30pm - 8:00pm",
+            "time": "6:30pm - 7:30pm",
             "location": "@Fall Creek Junior High - FCJH SB1"
         },
         {
             "title": "HCCTA Tennis Lessons/Camp - Fall",
             "time": "6:30pm - 7:30pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH Tennis Court 1 , Fall Creek Junior High - FCJH Tennis Court 2"
         }
     ],
     "21": [
@@ -447,7 +452,7 @@
         {
             "title": "FCJH Boys Tennis",
             "time": "5:00pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH Tennis Court 1 , Fall Creek Junior High - FCJH Tennis Court 2 , Fall Creek Junior High - FCJH Tennis Court 3"
         },
         {
             "title": "Cross Country Meet",
@@ -456,6 +461,11 @@
         }
     ],
     "22": [
+        {
+            "title": "Junior Black Student Union Meeting",
+            "time": "8:20am - 9:15am",
+            "location": null
+        },
         {
             "title": "Math Tutoring",
             "time": "8:30am - 9:15am",
@@ -469,19 +479,24 @@
         {
             "title": "Mudsock Youth Athletics Girls Volleyball Practices",
             "time": "6:00pm - 9:00pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
         }
     ],
     "23": [
         {
             "title": "Mudsock Youth Athletics Girls Volleyball Games",
             "time": "7:00am - 5:00pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
         },
         {
             "title": "HCCTA Tennis Lessons/Camp - Fall",
             "time": "10:30am - 1:30pm",
             "location": "@Fall Creek Junior High - FCJH Tennis Court 1"
+        },
+        {
+            "title": "Indy Sharks Baseball Practice",
+            "time": "10:30am - 3:00pm",
+            "location": "@Fall Creek Junior High - FCJH BB1"
         }
     ],
     "24": [
@@ -502,7 +517,7 @@
         },
         {
             "title": "Fishers Falcons 9U Baseball Practice",
-            "time": "6:30pm - 8:00pm",
+            "time": "6:30pm - 7:30pm",
             "location": "@Fall Creek Junior High - FCJH SB1"
         }
     ],
@@ -535,19 +550,19 @@
         {
             "title": "Band Concert",
             "time": "6:00pm - 8:00pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
         },
         {
             "title": "HCCTA Tennis Lessons/Camp - Fall",
             "time": "6:30pm - 7:30pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH Tennis Court 1 , Fall Creek Junior High - FCJH Tennis Court 2"
         }
     ],
     "26": [
         {
             "title": "FCJH Volleyball (Girls 7 & 8)",
             "time": "5:30pm - 9:00pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
         },
         {
             "title": "Choir Concert",
@@ -588,13 +603,13 @@
         },
         {
             "title": "Fishers Falcons 9U Baseball Practice",
-            "time": "6:30pm - 8:00pm",
+            "time": "6:30pm - 7:30pm",
             "location": "@Fall Creek Junior High - FCJH SB1"
         },
         {
             "title": "HCCTA Tennis Lessons/Camp - Fall",
             "time": "6:30pm - 7:30pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH Tennis Court 1 , Fall Creek Junior High - FCJH Tennis Court 2"
         }
     ],
     "28": [
@@ -616,7 +631,7 @@
         {
             "title": "Mudsock Youth Athletics HHS Travel Boys Basketball Practices",
             "time": "7:00pm - 9:00pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
         }
     ],
     "29": [
@@ -648,9 +663,14 @@
             "location": "@Fall Creek Junior High - FCJH Tennis Court 1"
         },
         {
+            "title": "Indy Sharks Baseball Practice",
+            "time": "10:30am - 3:00pm",
+            "location": "@Fall Creek Junior High - FCJH BB1"
+        },
+        {
             "title": "FCJH Boys Tennis",
             "time": "5:00pm",
-            "location": "@"
+            "location": "Fall Creek Junior High - FCJH Tennis Court 1 , Fall Creek Junior High - FCJH Tennis Court 2 , Fall Creek Junior High - FCJH Tennis Court 3"
         }
     ]
 }

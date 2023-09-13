@@ -35,7 +35,7 @@ class Calendar {
     async showEvents(date) {
         console.log("Show events for:", date);  // Debugging line
 
-        const yearMonth = `${this.currentYear}-${String(this.currentMonth + 1).padStart(2, '0')}`; // Format: 'YYYY-MM'
+        const yearMonth = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`; // Format: 'YYYY-MM'
         const filePath = `/py/calendar-data/19-fishers-high-school/${yearMonth}.json`;
 
         console.log("Fetching from filePath:", filePath);  // Debugging line
@@ -50,19 +50,26 @@ class Calendar {
             }
             const data = await response.json();
             console.log("Data received:", data);  // Debugging line
-            eventData = data[date.getDay()] || [];
+            eventData = data[date.getDate()] || [];
         } catch (error) {
             console.error('Error fetching calendar data:', error);
         }
 
-            // Format events for display in the modal
+        // Format events for display in the modal
         const formattedEvents = eventData.map(event => {
+            let locationString = event.location ? `Location: ${event.location}<br>` : '';
+            let timeString = event.time ? `Time: ${event.time}<br>` : 'All Day<br>';
+            let eventClass = (!event.time && !event.location) ? 'green-background' : ''; // Only if both are null
+
             return `
-                <strong>${event.title}</strong><br>
-                Time: ${event.time}<br>
-                Location: ${event.location}<br><br>
+                <div class="event-box ${eventClass}">
+                    <strong>${event.title}</strong><br>
+                    ${timeString}
+                    ${locationString}
+                </div>
             `;
         }).join('');
+
 
 
         const displayData = formattedEvents || "No Events";
@@ -70,108 +77,141 @@ class Calendar {
 
         // Update the modal content
         document.getElementById("eventContent").innerHTML = `
-            <strong>Events for ${date.toDateString()}</strong>
-            <br><br>
-            ${displayData}
+            <div class="modal-title-container">
+                <strong>Events for ${date.toDateString()}</strong>
+                <div class="red-bar"></div>
+            </div>
+            <div class="modal-scroll-content">
+                ${displayData}
+            </div>
         `;
+
+
 
 
         // Show the modal
         document.getElementById("eventModal").classList.remove("hidden");
     }
 
+    async fetchMonthEvents() {
+        const yearMonth = `${this.currentYear}-${String(this.currentMonth + 1).padStart(2, '0')}`; // Format: 'YYYY-MM'
+        const filePath = `/py/calendar-data/19-fishers-high-school/${yearMonth}.json`;
+        try {
+            const response = await fetch(filePath);
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            const data = await response.json();
+            return data;
+        } catch (error) {
+            console.error('Error fetching calendar data:', error);
+            return {};
+        }
+    }
 
     // Function to generate and display the calendar
     generateCalendar() {
-        const calendarBody = document.querySelector(".calendar_body");
-        const calendarDate = document.querySelector("#calendar_date p");
-
-        // Clear existing calendar
-        calendarBody.innerHTML = "";
-
-        // Display month and year
-        const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-        calendarDate.textContent = `${monthNames[this.currentMonth]} ${this.currentYear}`;
-
-        // Create the table and its body
-        const table = document.createElement('table');
-        const tbody = document.createElement('tbody');
-
-        // Generate the header row with weekdays
-        let tr = document.createElement('tr');
-        ["S", "M", "T", "W", "T", "F", "S"].forEach(day => {
-            const th = document.createElement('th');
-            th.textContent = day;
-            tr.appendChild(th);
-        });
-        tbody.appendChild(tr);
-
-        // Generate calendar days
-        const firstDay = new Date(this.currentYear, this.currentMonth, 1).getDay();
-        const lastDate = new Date(this.currentYear, this.currentMonth + 1, 0).getDate();
-
-        // Get the last day of the previous month
-        const prevMonthLastDate = new Date(this.currentYear, this.currentMonth, 0).getDate();
-
-        // Initialize date counters
-        let date = 1;
-        let nextMonthDate = 1;
-        let prevMonthDay = prevMonthLastDate - firstDay + 1;
-
-        for (let i = 0; i < 6; i++) {
-            tr = document.createElement('tr');
-            for (let j = 0; j < 7; j++) {
-                const td = document.createElement('td');
-                const span = document.createElement('span');
-                span.className = 'day-number';
-
-                let thisMonth = this.currentMonth;
-                let thisYear = this.currentYear;
-                let thisDate;
-
-                if (i === 0 && j < firstDay) {
-                    thisDate = prevMonthDay++;
-                    thisMonth = this.currentMonth - 1;
-                    if (thisMonth < 0) {
-                        thisMonth = 11;
-                        thisYear--;
-                    }
-                    td.className = 'prev-month';
-                } else if (date > lastDate) {
-                    thisDate = nextMonthDate++;
-                    thisMonth = this.currentMonth + 1;
-                    if (thisMonth > 11) {
-                        thisMonth = 0;
-                        thisYear++;
-                    }
-                    td.className = 'next-month';
-                } else {
-                    thisDate = date;
-                    date++;
-                }
-
-                // Create a Date object with the current year, month, and date
-                const tempDate = new Date(thisYear, thisMonth, thisDate);
-
-                // Generate the dateString for event listeners
-                td.addEventListener('click', () => this.showEvents(tempDate));
-
-                span.textContent = thisDate;
-                td.appendChild(span);
-
-                if (j === 0 || j === 6) {
-                    td.classList.add('weekend');
-                }
-
-                tr.appendChild(td);
+        this.fetchMonthEvents().then(monthEvents => {
+            const allDayEvents = {};
+            for (const day in monthEvents) {
+                allDayEvents[day] = monthEvents[day].some(event => !event.time && !event.location);
             }
+
+            const calendarBody = document.querySelector(".calendar_body");
+            const calendarDate = document.querySelector("#calendar_date p");
+
+            // Clear existing calendar
+            calendarBody.innerHTML = "";
+
+            // Display month and year
+            const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+            calendarDate.textContent = `${monthNames[this.currentMonth]} ${this.currentYear}`;
+
+            // Create the table and its body
+            const table = document.createElement('table');
+            const tbody = document.createElement('tbody');
+
+            // Generate the header row with weekdays
+            let tr = document.createElement('tr');
+            ["S", "M", "T", "W", "T", "F", "S"].forEach(day => {
+                const th = document.createElement('th');
+                th.textContent = day;
+                tr.appendChild(th);
+            });
             tbody.appendChild(tr);
-        }
+
+            // Generate calendar days
+            const firstDay = new Date(this.currentYear, this.currentMonth, 1).getDay();
+            const lastDate = new Date(this.currentYear, this.currentMonth + 1, 0).getDate();
+
+            // Get the last day of the previous month
+            const prevMonthLastDate = new Date(this.currentYear, this.currentMonth, 0).getDate();
+
+            // Initialize date counters
+            let date = 1;
+            let nextMonthDate = 1;
+            let prevMonthDay = prevMonthLastDate - firstDay + 1;
+
+            for (let i = 0; i < 6; i++) {
+                tr = document.createElement('tr');
+                for (let j = 0; j < 7; j++) {
+                    const td = document.createElement('td');
+                    const span = document.createElement('span');
+                    span.className = 'day-number';
+
+                    let thisMonth = this.currentMonth;
+                    let thisYear = this.currentYear;
+                    let thisDate;
+
+                    if (i === 0 && j < firstDay) {
+                        thisDate = prevMonthDay++;
+                        thisMonth = this.currentMonth - 1;
+                        if (thisMonth < 0) {
+                            thisMonth = 11;
+                            thisYear--;
+                        }
+                        td.className = 'prev-month';
+                    } else if (date > lastDate) {
+                        thisDate = nextMonthDate++;
+                        thisMonth = this.currentMonth + 1;
+                        if (thisMonth > 11) {
+                            thisMonth = 0;
+                            thisYear++;
+                        }
+                        td.className = 'next-month';
+                    } else {
+                        thisDate = date;
+                        date++;
+                    }
+
+                    // Check for "All Day" events
+                    if (allDayEvents[thisDate]) {
+                        td.classList.add('green-day');
+                    }
+
+                    // Create a Date object with the current year, month, and date
+                    const tempDate = new Date(thisYear, thisMonth, thisDate);
+
+                    // Generate the dateString for event listeners
+                    td.addEventListener('click', () => this.showEvents(tempDate));
+
+                    span.textContent = thisDate;
+                    td.appendChild(span);
+
+                    if (j === 0 || j === 6) {
+                        td.classList.add('weekend');
+                    }
+
+                    tr.appendChild(td);
+                }
+                tbody.appendChild(tr);
+            }
 
 
-        // Append the tbody to the table, and the table to the calendar body
-        table.appendChild(tbody);
-        calendarBody.appendChild(table);
+            // Append the tbody to the table, and the table to the calendar body
+            table.appendChild(tbody);
+            calendarBody.appendChild(table);
+        })
     }
 }
 

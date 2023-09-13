@@ -1,6 +1,7 @@
 import scrapy
 import json
 import os
+import re
 from scrapy.signals import spider_closed
 from datetime import datetime
 
@@ -34,7 +35,15 @@ class HseCalendarSpider(scrapy.Spider):
             for event_div in day_li.css('.event'):
                 title = event_div.css('.event-desc a::text').get()
                 time = event_div.css('.event-time::text').get()
-                location = event_div.css('.event-desc-sub::text').get()
+                location_anchor = event_div.css('.event-desc-sub a::attr(href)').get()
+                if location_anchor and "javascript:alert" in location_anchor:
+                    location = re.search(r"alert\('([^']+)'\)", location_anchor)
+                    if location:
+                        location = location.group(1)
+                    else:
+                        location = event_div.css('.event-desc-sub::text').get()
+                else:
+                    location = event_div.css('.event-desc-sub::text').get()
 
                 events_data.append({
                     "date": date.strip() if date else None,

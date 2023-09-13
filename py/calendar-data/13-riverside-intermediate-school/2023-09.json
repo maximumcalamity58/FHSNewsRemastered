@@ -68,14 +68,14 @@
         {
             "title": "Mudsock Youth Athletics Girls Volleyball Rec Plus Practice / Net Sets",
             "time": "6:00pm - 8:00pm",
-            "location": "@"
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN, Riverside - RSI GYM"
         }
     ],
     "9": [
         {
             "title": "Mudsock Youth Athletics Volleyball Games",
             "time": "7:00am - 4:00pm",
-            "location": "@"
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN, Riverside - RSI GYM"
         }
     ],
     "10": [
@@ -108,11 +108,6 @@
         }
     ],
     "12": [
-        {
-            "title": "Mudsock Youth Athletics Volleyball Practices",
-            "time": "6:00pm - 9:00pm",
-            "location": "@Riverside - RSI GYM"
-        },
         {
             "title": "PTO Meeting",
             "time": "6:30pm",
@@ -169,12 +164,12 @@
         {
             "title": "Mudsock Youth Athletics Volleyball Matches",
             "time": "8:00am - 12:00pm",
-            "location": "@"
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RSI GYM, Riverside - RJH GYM - MAIN"
         },
         {
             "title": "Mudsock Youth Athletics Volleyball Matches",
             "time": "1:30pm - 3:30pm",
-            "location": "@"
+            "location": "Riverside - RSI GYM, Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
         }
     ],
     "17": [
@@ -326,7 +321,7 @@
         {
             "title": "Hawk Party",
             "time": "4:00pm - 5:30pm",
-            "location": "@"
+            "location": "Parking Lot Back, Riverside - RSI Cafeteria, Riverside - RSI GYM"
         },
         {
             "title": "Mudsock Youth Athletics Cross Country Practices",
@@ -348,19 +343,19 @@
         {
             "title": "Mudsock Youth Athletics Girls Volleyball Rec Plus Practice / Net Sets",
             "time": "6:30pm - 8:30pm",
-            "location": "@"
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN, Riverside - RSI GYM"
         }
     ],
     "30": [
         {
             "title": "Mudsock Youth Athletics Volleyball Matches",
             "time": "8:00am - 12:00pm",
-            "location": "@"
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RSI GYM, Riverside - RJH GYM - MAIN"
         },
         {
             "title": "Mudsock Youth Athletics Volleyball Matches",
             "time": "1:30pm - 3:30pm",
-            "location": "@"
+            "location": "Riverside - RSI GYM, Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
         }
     ]
 }

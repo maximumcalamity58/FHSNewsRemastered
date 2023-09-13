@@ -36,7 +36,7 @@
         {
             "title": "Blue and Gold Banquet Pack 106 NBE",
             "time": "6:15pm - 8:30pm",
-            "location": "@"
+            "location": "New Britton Elementary - NBE GYM, New Britton Elementary - NBE Cafeteria"
         }
     ],
     "13": [
@@ -49,6 +49,13 @@
             "title": "Travel club",
             "time": "2:15pm - 3:30pm",
             "location": "@New Britton Elementary - NBE GYM"
+        }
+    ],
+    "14": [
+        {
+            "title": "Travel Club Meeting",
+            "time": "6:00pm - 7:00pm",
+            "location": "@New Britton Elementary - NBE Cafeteria"
         }
     ],
     "18": [

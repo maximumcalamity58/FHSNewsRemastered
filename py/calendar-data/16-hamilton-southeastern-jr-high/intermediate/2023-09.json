@@ -176,7 +176,7 @@
         {
             "title": "Mudsock Youth Athletics Volleyball Practices",
             "time": "6:00pm - 9:00pm",
-            "location": "@"
+            "location": "HIJH - HJH GYM - AUXILIARY, HIJH - HJH GYM - MAIN"
         },
         {
             "title": "Mudsock Youth Athletics Rec Football Practice",
@@ -281,7 +281,7 @@
         {
             "title": "CCMT",
             "time": "5:30pm - 9:00pm",
-            "location": "@"
+            "location": "HIJH - HJH AF1, HIJH - HJH CC, HIJH - HJH SB1"
         },
         {
             "title": "TNS",
@@ -518,7 +518,7 @@
         {
             "title": "CCMT",
             "time": "5:30pm - 9:00pm",
-            "location": "@"
+            "location": "HIJH - HJH AF1, HIJH - HJH CC, HIJH - HJH SB1"
         },
         {
             "title": "TNS",
@@ -632,7 +632,7 @@
         {
             "title": "Mudsock Youth Athletics Volleyball Practices",
             "time": "6:00pm - 9:00pm",
-            "location": "@"
+            "location": "HIJH - HJH GYM - AUXILIARY, HIJH - HJH GYM - MAIN"
         },
         {
             "title": "Mudsock Youth Athletics Rec Football Practice",
@@ -698,7 +698,7 @@
         {
             "title": "Mudsock Youth Athletics HHS Travel Boys Basketball Practices",
             "time": "6:30pm - 9:00pm",
-            "location": "@"
+            "location": "HIJH - HJH GYM - AUXILIARY, HIJH - HJH GYM - MAIN"
         },
         {
             "title": "Music Department King's Island Trip- Parent Meeting",
@@ -715,7 +715,7 @@
         {
             "title": "CCMT",
             "time": "5:30pm - 9:00pm",
-            "location": "@"
+            "location": "HIJH - HJH AF1, HIJH - HJH CC, HIJH - HJH SB1"
         },
         {
             "title": "TNS",
@@ -733,6 +733,11 @@
             "title": "78TN",
             "time": "7:30am - 8:45am",
             "location": "@HIJH - HJH Tennis Courts 1-6"
+        },
+        {
+            "title": "TAB",
+            "time": "7:30am - 8:45am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
         },
         {
             "title": "HIJH Academic Team",

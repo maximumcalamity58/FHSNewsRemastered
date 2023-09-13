@@ -1,4 +1,4 @@
-29310
+29305
 90C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\py\calendar-data\3-fall-creek-elementary133385990700076424 1
 125C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\postcss-modules-values\node_modules\postcss\lib\declaration.js133372704833257685 0
 111C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\es-abstract\2021\AbstractRelationalComparison.js133372704840078428 0
@@ -53,7 +53,7 @@
 83C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\object-inspect\1.out133372704819374374 0
 75C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\ansi-to-html133372704830743250 1
 113C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\unicode-trie\node_modules\pako\lib\zlib\inffast.js133372704838684073 0
-55C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\.idea133386084201728035 1
+55C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\.idea133386543601933315 1
 83C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\pn\string_decoder.js133372704837411669 0
 97C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\type-fest\source\partial-deep.d.ts133385770849367518 0
 103C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\regjsparser\node_modules\jsesc\bin\jsesc133372704817703366 0
@@ -71,7 +71,7 @@
 152C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\packager-js\node_modules\@parcel\utils\test\input\sourcemap\referenced-min.js.map133385770923389711 0
 100C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\string.prototype.trimend\CHANGELOG.md133372704830201533 0
 84C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\is-regex\CHANGELOG.md133372704825603718 0
-54C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\html133384818707178481 1
+54C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\html133386538827696330 1
 101C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\es-abstract\2019\CreateDataProperty.js133372704853674871 0
 99C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\es-abstract\2015\IteratorComplete.js133372704865380660 0
 116C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\split-string\node_modules\extend-shallow\package.json133372704804311761 0
@@ -87,7 +87,7 @@
 144C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\transformer-css\node_modules\@parcel\utils\src\replaceBundleReferences.js133385770891906282 0
 95C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\stream-http\test\server\index.js133372704837471510 0
 70C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\envinfo133372704821232756 1
-53C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\css133385833109410118 1
+53C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\css133386543599819295 1
 95C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\url\node_modules\qs\lib\parse.js133372704822578606 0
 104C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\htmlparser2\node_modules\entities\LICENSE133372704813432466 0
 118C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\transformer-css\node_modules\@parcel\logger\lib133385770887847133 1
@@ -121,7 +121,7 @@
 84C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\object.assign\auto.js133372704834032253 0
 119C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\transformer-posthtml\node_modules\domelementtype133385770841618982 1
 103C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\unicode-trie\node_modules\pako\README.md133372704807590519 0
-54C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist133386082157458772 1
+54C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist133386539665091478 1
 98C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\unicode-trie\node_modules\pako\dist133372704832114310 1
 74C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@ampproject133372704771202889 1
 117C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\es-abstract\2023\ApplyStringOrNumericBinaryOperator.js133372704844287547 0
@@ -175,14 +175,14 @@
 59C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\README.md133374592528892541 0
 91C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\readable-stream\node_modules133372704772660443 1
 110C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\fs-search\fs-search.win32-x64-msvc.node133385770853668733 0
-60C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\index.html133383949983956420 0
+60C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\index.html133386535520695838 0
 91C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\browserify-cipher\browser.js133372704810199865 0
 76C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\node-releases133372704819520446 1
 86C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\es-abstract\2021\Set.js133372704871991271 0
 102C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\caniuse-lite\data\features\web-share.js133372704865059251 0
 99C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\py\calendar-data\2-durbin-elementary\2023-09.json133385990693724885 0
 149C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\pseudo\nth-last-of-type.js133385770857785880 0
-52C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\js133386084619961607 1
+52C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\js133386532204805523 1
 121C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\transformer-postcss\node_modules\@parcel\utils\lib133385770885434076 1
 86C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\lodash\fp\toIterator.js133372704866268150 0
 169C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\node_modules\csso\cjs\restructure\6-restructBlock.cjs133385770926293791 0
@@ -872,7 +872,6 @@
 128C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\runtime-js\node_modules\@parcel\utils\test\config.test.js133385770899333514 0
 84C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\jsesc\LICENSE-MIT.txt133372704810521985 0
 98C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\static-module\test\limit-parsing.js133372704840738194 0
-80C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\calendar.6dc15586.js133386082156780041 0
 82C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\srcset\package.json133372704810271130 0
 85C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\lightningcss\README.md133385770844823219 0
 72C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@swc\core133385770849876150 1
@@ -1785,7 +1784,6 @@
 131C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\transformer-image\node_modules\@parcel\utils\src\debounce.js133385770885573704 0
 82C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\cosmiconfig\LICENSE133372704810350915 0
 102C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\string.prototype.trimstart\CHANGELOG.md133372704830191556 0
-77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.17d3715c.css.map133386082157329114 0
 115C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\entities\lib133385770924367070 1
 101C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\core-js\fn\string\virtual\fontcolor.js133372704866137558 0
 117C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@babel\preset-modules\lib\plugins\transform-jsx-spread133372704824104384 1
@@ -2747,7 +2745,7 @@
 70C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\request133372704832474033 1
 69C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\nanoid133385770848220588 1
 129C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\regenerate-unicode-properties\General_Category\Titlecase_Letter.js133372704856678410 0
-86C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\questionmark_white.88710f9f.png133386082080366622 0
+86C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\questionmark_white.88710f9f.png133386539635158085 0
 113C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\cssstyle\lib\properties\webkitTextEmphasisColor.js133372704845559667 0
 111C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\micromatch\node_modules\extend-shallow\README.md133372704807600514 0
 126C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\uncss\node_modules\postcss-selector-parser\dist\selectors\id.js133372704839991468 0
@@ -3966,7 +3964,6 @@
 86C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\xmlchars\xml\1.0\ed4.js133372704818464776 0
 121C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\babel-plugin-polyfill-corejs2\node_modules\.bin\semver.cmd133372704881956709 0
 78C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\abab\LICENSE.md133372704816702474 0
-73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.17d3715c.css133386082156758193 0
 132C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\stylehacks\types\isMixin.d.ts133385770924905625 0
 130C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\parser\sequence.js133385770863191582 0
 81C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\create-hash\md5.js133372704818797815 0
@@ -4249,6 +4246,7 @@
 128C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\api\inheritance.json133385770844623754 0
 91C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\static-module\test\sourcemap133372704844317897 1
 90C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\core-js\library\es7\math.js133372704870534930 0
+81C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\calendar.e41ed805.css133386543693572547 0
 100C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\es-abstract\2020\SetFunctionLength.js133372704872072136 0
 134C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\convertPathData.js133385770935459307 0
 86C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\weak-lru-cache\index.js133385770836253736 0
@@ -4538,7 +4536,7 @@
 88C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@babel\plugin-syntax-flow133372704816386396 1
 101C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\type-fest\source\conditional-keys.d.ts133385770843566655 0
 84C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\lodash\_nativeKeys.js133372704853245415 0
-66C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\css\calendar.css133385833109400176 0
+66C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\css\calendar.css133386543599819295 0
 88C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\static-module\test\inline133372704840457615 1
 111C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\core-js\library\modules\core.object.is-object.js133372704856872318 0
 92C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\snapdragon\lib\source-maps.js133372704824104384 0
@@ -7141,7 +7139,7 @@
 119C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\packager-svg\node_modules\domelementtype\LICENSE133385770831179900 0
 122C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\transformer-svg\node_modules\semver\functions\eq.js133385770874044057 0
 93C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\source-map\lib\mapping-list.js133372704825734403 0
-73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.9b174a67.css133386082156798105 0
+73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.9b174a67.css133386539664453171 0
 91C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\source-map\lib\quick-sort.js133372704826994248 0
 97C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\core-js\library\fn\math\radians.js133372704872082100 0
 100C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\source-map\lib\source-map-consumer.js133372704828370219 0
@@ -8345,7 +8343,7 @@
 79C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\lodash\fp\lte.js133372704861802648 0
 102C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\regjsparser\node_modules\.bin\jsesc.ps1133372704881956709 0
 98C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\babel-runtime\core-js\symbol\for.js133372704851450912 0
-77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\clubs.9d84284f.js133386082156788121 0
+77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\clubs.9d84284f.js133386539664443591 0
 79C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\jsprim\README.md133372704820441643 0
 94C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\regexpu-core\rewrite-pattern.js133372704812311581 0
 83C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\path-dirname\license133372704810281102 0
@@ -8634,7 +8632,7 @@
 72C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\pn\tty.js133372704838142704 0
 127C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\css-what\lib\es\types.js133385770921983440 0
 131C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\postcss.js133372704837887903 0
-85C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\settings.cf2d83d8.css.map133386082157329114 0
+85C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\settings.cf2d83d8.css.map133386539664862081 0
 126C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\lexer\trace.js133385770864338490 0
 121C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\regenerate-unicode-properties\Script_Extensions\Marchen.js133372704852284769 0
 127C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\node-resolver-core\node_modules\@parcel\watcher\index.js133385770861031370 0
@@ -9128,7 +9126,7 @@
 142C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\terminal-highlight.js133372704839799395 0
 98C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\core-js\library\fn\object\assign.js133372704854846935 0
 129C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\regenerate-unicode-properties\General_Category\Uppercase_Letter.js133372704856862239 0
-73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.14ede171.css133386082156788121 0
+73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.14ede171.css133386539664443591 0
 124C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\entities\package.json133385770923369743 0
 127C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\regenerate-unicode-properties\Binary_Property\ASCII_Hex_Digit.js133372704829457474 0
 108C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\es-abstract\2022\ToZeroPaddedDecimalString.js133372704878635617 0
@@ -9700,7 +9698,6 @@
 96C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\postcss-normalize-url\LICENSE-MIT133372704810321000 0
 94C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\es-abstract\2019\ArrayCreate.js133372704844693951 0
 98C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\postcss-normalize-url\dist\index.js133372704816853332 0
-80C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\calendar.54b20739.js133386084294059806 0
 101C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\postcss-normalize-unicode\CHANGELOG.md133372704807163636 0
 96C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\caniuse-lite\data\features\u2f.js133372704864324345 0
 117C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\jsdom\lib\jsdom\living\nodes\HTMLAnchorElement-impl.js133372704855863273 0
@@ -10528,7 +10525,7 @@
 88C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\object-keys\test\index.js133372704827810270 0
 92C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\es-abstract\2020\ToInteger.js133372704877158986 0
 81C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\core-js\fn\asap.js133372704854703706 0
-69C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\.idea\workspace.xml133386084201698121 0
+69C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\.idea\workspace.xml133386543601903492 0
 82C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\parseurl\HISTORY.md133372704806912408 0
 195C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\node_modules\csso\node_modules\css-tree\cjs\syntax\node\PseudoClassSelector.cjs133385770941670608 0
 164C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-image\node_modules\@parcel\workers\test\integration\workerfarm\master-process-id.js133385770920840746 0
@@ -13114,7 +13111,6 @@
 118C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\cache\node_modules\@parcel\workers\src\index.js133385770872169054 0
 86C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\lodash\_castFunction.js133372704848192509 0
 119C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\css-modules-loader-core\node_modules\strip-ansi\index.js133372704807600514 0
-71C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\search.html133386082156758193 0
 82C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\lodash\_castRest.js133372704848293120 0
 83C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\lodash\_castSlice.js133372704848343418 0
 101C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\es-abstract\2016\AdvanceStringIndex.js133372704843163463 0
@@ -13146,6 +13142,7 @@
 83C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\lodash\fp\matches.js133372704862025130 0
 123C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\cache\node_modules\@parcel\workers\lib\childState.js133385770871764226 0
 84C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\lodash\_createFind.js133372704849856291 0
+84C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\calendar.0bc66191.js.map133386539664971792 0
 125C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\packager-html\node_modules\@parcel\utils\src\stream.js133385770918307521 0
 87C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\lodash\_createPadding.js133372704850093914 0
 87C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\lodash\_createPartial.js133372704850124604 0
@@ -16740,7 +16737,7 @@
 90C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\logger\src\emoji.js133372704828738487 0
 126C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@swc\helpers\_\_class_apply_descriptor_destructure\package.json133385770869191127 0
 95C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\array.prototype.reduce\README.md133372704831024884 0
-91C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\roboto-regular-webfont.34fd66d7.woff133386082074555303 0
+91C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\roboto-regular-webfont.34fd66d7.woff133386539631980384 0
 89C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\es-abstract\2022\ToInt8.js133372704877020056 0
 93C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\es-abstract\2017\RegExpExec.js133372704870340635 0
 102C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\es-abstract\2022\ToIntegerOrInfinity.js133372704877197040 0
@@ -17156,7 +17153,7 @@
 99C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\es-abstract\2020\thisBooleanValue.js133372704874761780 0
 130C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\transformer-js\node_modules\@parcel\utils\src\objectHash.js133385770895059531 0
 98C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\es-abstract\2020\thisNumberValue.js133372704874908826 0
-68C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\html\calendar.html133384816728746415 0
+68C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\html\calendar.html133386538827686170 0
 145C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\htmlnano\docs\versioned_docs\version-2.0.0133385770950647329 1
 98C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\es-abstract\2020\thisStringValue.js133372704875069701 0
 131C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\runtime-browser-hmr\node_modules\@parcel\utils\src\config.js133385770902150860 0
@@ -19223,7 +19220,7 @@
 102C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\caniuse-lite\data\features\gyroscope.js133372704856964969 0
 129C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\transformer-postcss\node_modules\semver\functions\clean.js133385770879225911 0
 108C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\core-js\modules\library\es6.regexp.replace.js133372704861752040 0
-73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.c8157866.css133386082156798105 0
+73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.c8157866.css133386539664453171 0
 172C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\node_modules\css-tree\cjs\syntax\node\MediaCondition.cjs133385770933195344 0
 94C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\caniuse-lite\data\regions\NF.js133372704860482363 0
 129C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-image\node_modules\@parcel\workers\src\Handle.js133385770920760954 0
@@ -19747,7 +19744,7 @@
 104C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\core-js\library\fn\array\virtual\slice.js133372704873331907 0
 109C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\packager-js\node_modules\@parcel\utils133385770918457118 1
 105C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\core-js\library\fn\array\virtual\values.js133372704875532562 0
-72C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.6cff84d5.js133386082156798105 0
+72C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.6cff84d5.js133386539664453171 0
 124C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\transformer-image\node_modules\supports-color\license133385770882632578 0
 90C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\core-js\library\es7\asap.js133372704854724668 0
 178C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\node_modules\csso\node_modules\css-tree\lib\tokenizer\names.js133385770958954312 0
@@ -20186,7 +20183,7 @@
 76C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\color\LICENSE133372704803545285 0
 81C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\color\package.json133372704810149748 0
 87C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\collection-visit\LICENSE133372704810049621 0
-70C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\clubs.html133386082156139860 0
+70C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\clubs.html133386539664134028 0
 85C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\browserify-aes\LICENSE133372704827390428 0
 79C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\coa\package.json133372704803344411 0
 77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\coa\lib\arg.js133372704822338961 0
@@ -21403,7 +21400,7 @@
 78C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\abab\index.d.ts133372704821432653 0
 76C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\abab\index.js133372704810812302 0
 80C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\abab\package.json133372704813625363 0
-73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.f63a6429.css133386082156768160 0
+73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.f63a6429.css133386539664433317 0
 120C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\packager-html\node_modules\domelementtype\LICENSE133385770831189873 0
 79C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\abab\lib\atob.js133372704804392089 0
 71C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@types\q133372704813635335 1
@@ -23281,7 +23278,7 @@
 119C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\transformer-image\node_modules\@parcel\utils\src133385770907332618 1
 139C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\transformer-image\node_modules\@parcel\utils\test\collection.test.js133385770885434076 0
 135C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\transformer-image\node_modules\@parcel\utils\test\config.test.js133385770885543787 0
-77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.9b174a67.css.map133386082157349057 0
+77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.9b174a67.css.map133386539664971792 0
 166C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\node_modules\css-tree\cjs\syntax\node\Function.cjs133385770927858820 0
 139C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\transformer-image\node_modules\@parcel\utils\test\DefaultMap.test.js133385770885603620 0
 126C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\transformer-image\node_modules\@parcel\utils\test\input133385770906509203 1
@@ -23327,7 +23324,7 @@
 146C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\transformer-image\node_modules\@parcel\utils\src\replaceBundleReferences.js133385770907173063 0
 129C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\transformer-image\node_modules\@parcel\utils\src\stream.js133385770907292743 0
 131C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\transformer-image\node_modules\@parcel\utils\src\throttle.js133385770907312695 0
-75C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\gradcap.205618a2.png133386082109453789 0
+75C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\gradcap.205618a2.png133386539645122622 0
 116C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\packager-css\node_modules\ansi-styles\license133385770913417725 0
 130C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\transformer-image\node_modules\@parcel\utils\src\urlJoin.js133385770907342616 0
 128C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\transformer-image\node_modules\@parcel\utils\lib\index.js133385770906449344 0
@@ -25521,7 +25518,7 @@
 132C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-swc\node_modules\@parcel\utils\src\openInBrowser.js133385770923978109 0
 123C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-swc\node_modules\@parcel\utils\src\path.js133385770924137685 0
 135C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-swc\node_modules\@parcel\utils\src\prettyDiagnostic.js133385770924257363 0
-77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.f63a6429.css.map133386082157329114 0
+77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.f63a6429.css.map133386539664862081 0
 135C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-swc\node_modules\@parcel\utils\src\progress-message.js133385770924277299 0
 131C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-swc\node_modules\@parcel\utils\src\PromiseQueue.js133385770924317191 0
 84C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\.bin\browserslist.cmd133372704881970480 0
@@ -25900,7 +25897,6 @@
 183C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\node_modules\csso\node_modules\css-tree\lib\syntax\node\Selector.js133385770960190998 0
 139C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-svgo\node_modules\@parcel\utils\src\generateCertificate.js133385770918497013 0
 134C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-svgo\node_modules\@parcel\utils\src\getCertificate.js133385770918636648 0
-84C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\calendar.6dc15586.js.map133386082157369078 0
 131C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-svgo\node_modules\@parcel\utils\src\getExisting.js133385770918696479 0
 124C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-svgo\node_modules\@parcel\utils\src\glob.js133385770918856065 0
 131C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-svgo\node_modules\@parcel\utils\src\http-server.js133385770918945847 0
@@ -26878,6 +26874,7 @@
 177C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\node_modules\css-select\lib\pseudo-selectors\aliases.d.ts.map133385770929644055 0
 175C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\node_modules\css-select\lib\pseudo-selectors\filters.js.map133385770932616898 0
 171C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\node_modules\css-select\lib\pseudo-selectors\index.d.ts133385770944867065 0
+85C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\calendar.e41ed805.css.map133386543693671958 0
 169C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\node_modules\css-select\lib\pseudo-selectors\index.js133385770928337544 0
 127C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss\lib\warning.d.ts133385770947725142 0
 173C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\node_modules\css-select\lib\pseudo-selectors\pseudos.d.ts133385770945535274 0
@@ -26940,7 +26937,7 @@
 148C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-ordered-values\src\rules\listStyle.js133385770930840849 0
 150C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-ordered-values\src\lib\joinGridValue.js133385770930641380 0
 150C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-ordered-values\src\lib\mathfunctions.js133385770931140059 0
-76C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\settings.9bcfd633.png133386082109463763 0
+76C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\settings.9bcfd633.png133386539645132562 0
 134C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@babel\preset-modules\lib\plugins\transform-edge-function-name\index.js133372704821637905 0
 153C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-ordered-values\src\lib\vendorUnprefixed.js133385770931588850 0
 143C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-normalize-whitespace\LICENSE-MIT133385770928676641 0
@@ -27065,6 +27062,7 @@
 153C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-discard-comments\src\lib\commentRemover.js133385770931179945 0
 137C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-convert-values\LICENSE-MIT133385770930860798 0
 138C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-convert-values\package.json133385770931758387 0
+77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.7e3e0be0.css.map133386539664961808 0
 129C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-convert-values\src133385770931538975 1
 131C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-convert-values\types133385770932497214 1
 148C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-convert-values\types\lib\convert.d.ts133385770932277803 0
@@ -27093,7 +27091,7 @@
 127C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss\lib\at-rule.d.ts133385770937296195 0
 127C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss\lib\comment.d.ts133385770938961757 0
 129C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss\lib\container.d.ts133385770940872083 0
-73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\calendar.html133385328985457796 0
+73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\calendar.html133386543693572547 0
 95C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\.bin\download-lmdb-prebuilds.cmd133385770968588510 0
 127C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss\lib\container.js133385770932596994 0
 128C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss\lib\document.d.ts133385770942902318 0
@@ -27408,7 +27406,7 @@
 132C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\css-declaration-sorter\orders133385770933334975 1
 135C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\css-declaration-sorter\readme.md133385770932178069 0
 129C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\css-declaration-sorter\src133385770933544420 1
-81C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\calendar.8b78e9b4.css133386082156788121 0
+81C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\calendar.8b78e9b4.css133386539664443591 0
 145C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\css-declaration-sorter\src\bubble-sort.mjs133385770932656784 0
 161C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\cache\node_modules\@parcel\workers\test\integration\workerfarm\resolve-shared-reference.js133385770872647778 0
 139C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-htmlnano\node_modules\css-declaration-sorter\src\main.d.ts133385770933594284 0
@@ -27472,6 +27470,7 @@
 125C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-css\node_modules\supports-color\package.json133385770933095611 0
 117C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-css\node_modules\has-flag\index.d.ts133385770932317701 0
 116C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-css\node_modules\has-flag\readme.md133385770932816359 0
+73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.7e3e0be0.css133386539664423642 0
 116C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-css\node_modules\color-name\LICENSE133385770932816359 0
 121C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-css\node_modules\color-name\package.json133385770932527288 0
 124C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\optimizer-css\node_modules\color-convert\CHANGELOG.md133385770932856264 0
@@ -27589,7 +27588,7 @@
 119C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\codeframe\node_modules\chalk\source\templates.js133385770860532704 0
 126C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\node-resolver-core\node_modules\color-name\package.json133385770859944276 0
 129C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\node-resolver-core\node_modules\color-convert\CHANGELOG.md133385770860193606 0
-85C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\calendar.8b78e9b4.css.map133386082157339109 0
+85C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\calendar.8b78e9b4.css.map133386539664951835 0
 131C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\node-resolver-core\node_modules\color-convert\conversions.js133385770860542674 0
 79C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@babel\generator133372704840437672 1
 129C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\node-resolver-core\node_modules\color-convert\package.json133385770859954248 0
@@ -27983,7 +27982,7 @@
 108C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\core\node_modules\ansi-styles\license133385770945275971 0
 110C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\core\node_modules\ansi-styles\readme.md133385770946313194 0
 102C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\core\node_modules\@parcel\utils133385770957727642 1
-72C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.30552387.js133386082156788121 0
+72C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.30552387.js133386539664443591 0
 96C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@babel\types\lib\validators\is.js133372704850654660 0
 104C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\core\node_modules\@parcel\workers133385770954640095 1
 117C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@parcel\core\node_modules\@parcel\workers\package.json133385770954490498 0
@@ -28461,7 +28460,7 @@
 100C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@babel\plugin-transform-block-scoping133372704828336893 1
 105C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@babel\plugin-transform-class-static-block133372704816365055 1
 94C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@babel\plugin-transform-classes133372704826418350 1
-76C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.30552387.js.map133386082157349057 0
+76C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.30552387.js.map133386539664961808 0
 100C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@babel\types\lib\validators\is.js.map133372704850695211 0
 100C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@babel\plugin-transform-destructuring133372704824485909 1
 99C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\@babel\plugin-transform-dotall-regex133372704816355085 1
@@ -29264,7 +29263,7 @@
 76C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\.bin\uuid.cmd133372704882020391 0
 76C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\.bin\uuid.ps1133372704882022669 0
 77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\node_modules\.bin\which.ps1133372704882010415 0
-64C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\js\calendar.js133386084619950422 0
+64C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\js\calendar.js133386532204795552 0
 59C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\js\DOM.js133370968284589802 0
 65C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\img\favicon.ico133377956710047758 0
 62C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\img\icon.png133370968284450173 0
@@ -29272,36 +29271,32 @@
 69C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\img\placeholder.png133370968284529959 0
 70C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\img\questionmark.png133370968284549913 0
 62C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\img\shop.png133370968284569854 0
-65C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\html\clubs.html133384818707168509 0
-66C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\html\search.html133371071641436749 0
-68C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\html\settings.html133383949983936498 0
-76C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\calendar.7a7687a3.png133386082109453789 0
-73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\clubs.062f77a8.png133386082080366622 0
-75C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\favicon.602ab493.ico133386082100159620 0
-59C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html133385328985682710 1
-77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.14ede171.css.map133386082157329114 0
-73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.626aa215.css133386082156788121 0
-77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.626aa215.css.map133386082157359038 0
-76C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.6cff84d5.js.map133386082157388950 0
-73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.a92cc4d1.css133386082156768160 0
-77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.a92cc4d1.css.map133386082157359038 0
-73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.aaaed3e3.css133386082156788121 0
-77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.aaaed3e3.css.map133386082157349057 0
-73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.bcc6c88b.css133386082156788121 0
-77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.bcc6c88b.css.map133386082157349057 0
-77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.c8157866.css.map133386082157359038 0
-65C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.html133386082156750457 0
-76C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\mainIcon.602ab493.ico133386082074505442 0
-79C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\placeholder.4fd00f20.png133386082109453789 0
-88C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\roboto-bold-webfont.c3e2124e.woff133386082100139665 0
-74C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\search.c3dbd2b2.png133386082109463763 0
-84C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\calendar.54b20739.js.map133386084294139596 0
-80C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\calendar.8cb7e18a.js133385328985453693 0
-84C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\calendar.8cb7e18a.js.map133385328985662785 0
-81C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\clubs.9d84284f.js.map133386082157339109 0
-81C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\settings.cf2d83d8.css133386082156780041 0
-73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\settings.html133386082156765230 0
-64C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\css\global.css133384818354779714 0
+65C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\html\clubs.html133386535520535789 0
+68C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\html\settings.html133386535520615563 0
+76C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\calendar.7a7687a3.png133386539645132562 0
+73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\clubs.062f77a8.png133386539635158085 0
+75C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\favicon.602ab493.ico133386539641995651 0
+59C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html133386543693681936 1
+77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.14ede171.css.map133386539664961808 0
+73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.626aa215.css133386539664443591 0
+77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.626aa215.css.map133386539664961808 0
+76C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.6cff84d5.js.map133386539664981772 0
+73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.a92cc4d1.css133386539664433317 0
+77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.a92cc4d1.css.map133386539664971792 0
+73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.aaaed3e3.css133386539664443591 0
+77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.aaaed3e3.css.map133386539664961808 0
+73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.bcc6c88b.css133386539664443591 0
+77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.bcc6c88b.css.map133386539664961808 0
+77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.c8157866.css.map133386539664971792 0
+65C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\index.html133386539664363412 0
+76C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\mainIcon.602ab493.ico133386539631940491 0
+79C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\placeholder.4fd00f20.png133386539645132562 0
+88C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\roboto-bold-webfont.c3e2124e.woff133386539641995651 0
+80C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\calendar.0bc66191.js133386539664433317 0
+81C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\clubs.9d84284f.js.map133386539664961808 0
+81C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\settings.cf2d83d8.css133386539664433317 0
+73C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\dist\html\settings.html133386539664423642 0
+64C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\css\global.css133386535520346587 0
 66C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\.idea\.gitignore133372700390614151 0
 77C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\.idea\FHSNewsRemastered.iml133372700345596190 0
 74C:\Users\maxim\Documents\GitHub\FHSNewsRemastered\.idea\inspectionProfiles133372700345922294 1

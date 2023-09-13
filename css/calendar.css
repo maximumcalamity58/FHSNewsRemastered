@@ -6,6 +6,54 @@
 	display: none !important;
 }
 
+.modal-title-container {
+    padding-bottom: 0;   /* Adjust based on desired spacing */
+    margin-bottom: 0;   /* Space between the title and the content below */
+    position: relative;    /* To position the red-bar relative to this container */
+}
+
+#eventContent {
+    position: relative; /* Ensure the positioning context is set to this container */
+    height: 100%;       /* Take up the full height available */
+    overflow: hidden;   /* Hide overflow so the title doesn't go outside */
+}
+
+.modal-title-container {
+    position: sticky;       /* Makes the title container stick to the top */
+    top: 0;                 /* Stick to the top */
+    z-index: 1;             /* Place it above the content */
+}
+
+.red-bar {
+    height: 4px;          /* Thickness of the bar */
+    width: 100%;          /* Full width of the container */
+    background: red;      /* Color of the bar */
+    border-radius: 4px 4px 4px 4px;  /* Rounded bottom edges */
+}
+
+.modal-scroll-content {
+    max-height: calc(100% - 40px); /* Decreased by an estimated height of the title container, adjust accordingly */
+	overflow-y: auto; /* Enable vertical scrolling */
+	margin-bottom: 10px;
+}
+
+.green-day {
+    background-color: lightgreen;
+}
+
+.event-box {
+    padding: 10px;
+    border-radius: 5px;      /* rounded corners */
+    margin: 2px 0;           /* margin at the top and bottom */
+    background-color: white;  /* light gray background */
+}
+
+.green-background {
+    background-color: lightgreen;
+	border: 2px solid limegreen;  /* light gray border */
+}
+
+
 p, button {
 	font-size: 1rem;
 	font-family: var(--norm-font);
@@ -202,12 +250,12 @@ button {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: white;
+	background-color: lightgrey;
 	padding: 20px;
 	max-height: 80vh;
 	border-radius: 8px;
 	text-align: center;
-	overflow-y: scroll;  /* Make content scrollable */
+	overflow-y: hidden;  /* Make content scrollable */
 	width: 50%;  /* Set width */
 	box-sizing: border-box;  /* To include padding and border in the element's total width and height */
 }
