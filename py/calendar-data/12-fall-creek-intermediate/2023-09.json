@@ -205,6 +205,11 @@
             "location": "@Fall Creek Intermediate - FCI GYM"
         },
         {
+            "title": "Student Council",
+            "time": "8:15am",
+            "location": "@Room 613"
+        },
+        {
             "title": "Cross Country Practice",
             "time": "4:00pm - 5:00pm",
             "location": "@Fall Creek Intermediate - FCI GYM"
@@ -233,11 +238,6 @@
             "title": "Soccer Practice/Games",
             "time": "6:00pm - 8:30pm",
             "location": "HHS - HSE HS PF4, Fall Creek Intermediate - FCI AF1A + B, Brooks School Elementary - BSE AF1A + B"
-        },
-        {
-            "title": "Student Council",
-            "time": "8:15pm",
-            "location": "@Room 613"
         }
     ],
     "14": [
@@ -478,6 +478,11 @@
             "location": "@Fall Creek Intermediate - FCI GYM"
         },
         {
+            "title": "Student Council",
+            "time": "8:15am",
+            "location": "@Room 613"
+        },
+        {
             "title": "Cross Country Practice",
             "time": "4:00pm - 5:00pm",
             "location": "@Fall Creek Intermediate - FCI GYM"
@@ -501,11 +506,6 @@
             "title": "Soccer Practice/Games",
             "time": "6:00pm - 8:30pm",
             "location": "HHS - HSE HS PF4, Fall Creek Intermediate - FCI AF1A + B, Brooks School Elementary - BSE AF1A + B"
-        },
-        {
-            "title": "Student Council",
-            "time": "8:15pm",
-            "location": "@Room 613"
         }
     ],
     "28": [

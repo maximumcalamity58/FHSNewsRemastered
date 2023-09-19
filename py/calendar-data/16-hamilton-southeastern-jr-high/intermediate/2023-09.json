@@ -479,6 +479,11 @@
             "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
         },
         {
+            "title": "Book Fair Community Night",
+            "time": "4:00pm - 7:00pm",
+            "location": "@HJH Library"
+        },
+        {
             "title": "78FB",
             "time": "4:15pm - 6:15pm",
             "location": "@HJH Football Game Field"
@@ -504,6 +509,11 @@
             "title": "Fall Book Fair",
             "time": "9:00am - 4:00pm",
             "location": "@HJH Library"
+        },
+        {
+            "title": "Social Studies",
+            "time": "9:00am - 4:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
         },
         {
             "title": "78FB",
@@ -553,18 +563,28 @@
             "location": "@HJH Library"
         },
         {
+            "title": "Social Studies",
+            "time": "9:00am - 12:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        },
+        {
             "title": "Aspire/ Student",
             "time": "11:15am",
             "location": "@009 Large Conference Room"
         },
         {
-            "title": "MTSS Committee",
-            "time": "12:45pm - 4:00pm",
-            "location": "@009 Large Conference Room"
+            "title": "Band & Orchestra",
+            "time": "12:00pm - 1:20pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        },
+        {
+            "title": "Social Studies",
+            "time": "1:50pm - 3:15pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
         },
         {
             "title": "YMI",
-            "time": "2:35pm - 3:55pm",
+            "time": "3:15pm - 3:55pm",
             "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
         },
         {
@@ -598,6 +618,11 @@
             "title": "Fall Book Fair",
             "time": "9:00am - 4:00pm",
             "location": "@HJH Library"
+        },
+        {
+            "title": "Social Studies",
+            "time": "9:00am - 4:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
         },
         {
             "title": "78FB",
@@ -647,13 +672,23 @@
             "location": "@HJH Library"
         },
         {
+            "title": "Social Studies",
+            "time": "9:00am - 12:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        },
+        {
             "title": "Band & Orchestra",
             "time": "12:00pm - 1:20pm",
             "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
         },
         {
+            "title": "Social Studies",
+            "time": "1:50pm - 3:15pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        },
+        {
             "title": "YMI",
-            "time": "2:35pm - 3:55pm",
+            "time": "3:15pm - 3:55pm",
             "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
         },
         {
@@ -707,6 +742,11 @@
         }
     ],
     "26": [
+        {
+            "title": "Band & Orchestra",
+            "time": "12:00pm - 1:20pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        },
         {
             "title": "78FB",
             "time": "4:15pm - 6:15pm",
@@ -786,6 +826,11 @@
         }
     ],
     "28": [
+        {
+            "title": "Band & Orchestra",
+            "time": "12:00pm - 1:20pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        },
         {
             "title": "78TN",
             "time": "4:00pm - 6:00pm",
