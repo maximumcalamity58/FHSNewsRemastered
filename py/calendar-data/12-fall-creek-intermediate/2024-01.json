@@ -1,0 +1,92 @@
+{
+    "10": [
+        {
+            "title": "Student Council",
+            "time": "8:15am",
+            "location": "@Room 613"
+        },
+        {
+            "title": "Boys Basketball Game",
+            "time": "5:30pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "13": [
+        {
+            "title": "Boys Basketball Tournament",
+            "time": null,
+            "location": "@Riverside Intermediate School"
+        }
+    ],
+    "17": [
+        {
+            "title": "Girl Scout Meetings Troop 4321 - FCI",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI Media Center"
+        },
+        {
+            "title": "Girls Basketball Game",
+            "time": "5:30pm - 7:30pm",
+            "location": null
+        }
+    ],
+    "19": [
+        {
+            "title": "Glow Party",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Entire Building - Fall Creek Intermediate"
+        }
+    ],
+    "22": [
+        {
+            "title": "PTO meeting",
+            "time": "2:00pm",
+            "location": "@Fall Creek Intermediate - 200- Bookroom"
+        },
+        {
+            "title": "Girl Scout Meetings Troop 4921- FCI",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Fall Creek Intermediate - 200- Bookroom"
+        },
+        {
+            "title": "Girls Basketball Game",
+            "time": "5:30pm - 7:30pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "23": [
+        {
+            "title": "Girls Basketball Game",
+            "time": "5:30pm - 7:30pm",
+            "location": null
+        }
+    ],
+    "24": [
+        {
+            "title": "Student Council",
+            "time": "8:15am",
+            "location": "@Room 613"
+        }
+    ],
+    "25": [
+        {
+            "title": "Girls Basketball Game",
+            "time": "5:30pm - 7:30pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "29": [
+        {
+            "title": "Girls Basketball Game",
+            "time": "5:30pm",
+            "location": null
+        }
+    ],
+    "31": [
+        {
+            "title": "Girl Scout Meetings Troop 4321 - FCI",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI Media Center"
+        }
+    ]
+}

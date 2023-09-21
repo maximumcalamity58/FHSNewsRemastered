@@ -1,0 +1,51 @@
+{
+    "5": [
+        {
+            "title": "PLC",
+            "time": "7:00am",
+            "location": "@Riverside - RJH AUDITERIA"
+        }
+    ],
+    "9": [
+        {
+            "title": "Show Choir",
+            "time": "9:00am - 12:00pm",
+            "location": "@Riverside - RJH AUDITERIA"
+        }
+    ],
+    "12": [
+        {
+            "title": "PLC",
+            "time": "7:00am",
+            "location": "@Riverside - RJH AUDITERIA"
+        }
+    ],
+    "13": [
+        {
+            "title": "Band Concert is 7:00-8:00",
+            "time": "7:00pm - 9:00pm",
+            "location": "Riverside - RJH AUDITERIA, Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "15": [
+        {
+            "title": "RSI Hawk Party",
+            "time": "4:00pm - 8:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RSI Cafeteria, Riverside - RSI GYM"
+        }
+    ],
+    "19": [
+        {
+            "title": "Choir Concert is 7:00-8:00 PM",
+            "time": "7:00pm - 9:00pm",
+            "location": "Riverside - RJH AUDITERIA, Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "20": [
+        {
+            "title": "Orchestra Concert 7:00-8:00 PM",
+            "time": "7:00pm - 9:00pm",
+            "location": "Riverside - RJH AUDITERIA, Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ]
+}

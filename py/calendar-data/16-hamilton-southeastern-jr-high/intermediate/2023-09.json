@@ -176,7 +176,7 @@
         {
             "title": "Mudsock Youth Athletics Volleyball Practices",
             "time": "6:00pm - 9:00pm",
-            "location": "HIJH - HJH GYM - AUXILIARY, HIJH - HJH GYM - MAIN"
+            "location": "Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY, HIJH - HJH GYM - MAIN"
         },
         {
             "title": "Mudsock Youth Athletics Rec Football Practice",
@@ -657,7 +657,7 @@
         {
             "title": "Mudsock Youth Athletics Volleyball Practices",
             "time": "6:00pm - 9:00pm",
-            "location": "HIJH - HJH GYM - AUXILIARY, HIJH - HJH GYM - MAIN"
+            "location": "Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY, HIJH - HJH GYM - MAIN"
         },
         {
             "title": "Mudsock Youth Athletics Rec Football Practice",
@@ -700,6 +700,11 @@
             "title": "78VB",
             "time": "4:15pm - 6:15pm",
             "location": "@HIJH - HJH GYM - MAIN"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball Practices",
+            "time": "6:00pm - 7:30pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
         }
     ],
     "24": [
@@ -715,6 +720,11 @@
         }
     ],
     "25": [
+        {
+            "title": "7th & 8th Grade Wellness",
+            "time": "9:00am - 4:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        },
         {
             "title": "78TN",
             "time": "4:00pm - 6:00pm",
@@ -733,7 +743,7 @@
         {
             "title": "Mudsock Youth Athletics HHS Travel Boys Basketball Practices",
             "time": "6:30pm - 9:00pm",
-            "location": "HIJH - HJH GYM - AUXILIARY, HIJH - HJH GYM - MAIN"
+            "location": "Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY, HIJH - HJH GYM - MAIN"
         },
         {
             "title": "Music Department King's Island Trip- Parent Meeting",

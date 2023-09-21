@@ -41,6 +41,26 @@
     background-color: lightgreen;
 }
 
+.red-day {
+    background-color: lightcoral;
+}
+
+.blue-day {
+    background-color: #9dd7e6;
+}
+
+.yellow-day {
+    background-color: #ffffc0;
+}
+
+.silver-day {
+	background-color: #e3e3e3;
+}
+
+.purple-day {
+	background-color: #e3b0fb;
+}
+
 .event-box {
     padding: 10px;
     border-radius: 5px;      /* rounded corners */
@@ -53,6 +73,30 @@
 	border: 2px solid limegreen;  /* light gray border */
 }
 
+.red-background {
+    background-color: lightcoral;
+	border: 2px solid red;  /* light gray border */
+}
+
+.blue-background {
+    background-color: lightblue;
+	border: 2px solid dodgerblue;  /* light gray border */
+}
+
+.yellow-background {
+    background-color: #ffffc0;
+	border: 2px solid yellow;  /* light gray border */
+}
+
+.silver-background {
+    background-color: #e4e4e4;
+	border: 2px solid silver;  /* light gray border */
+}
+
+.purple-background {
+	background-color: lavender;
+	border: 2px solid mediumpurple;
+}
 
 p, button {
 	font-size: 1rem;

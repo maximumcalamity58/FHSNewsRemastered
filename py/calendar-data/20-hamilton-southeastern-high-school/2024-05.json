@@ -1,0 +1,227 @@
+{
+    "2": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Guiding Coalition",
+            "time": "7:30am - 8:30am",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Guiding Coalition",
+            "time": "7:30am - 8:30am",
+            "location": null
+        },
+        {
+            "title": "Guiding Coalition",
+            "time": "7:30am - 8:30am",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Choir Concert",
+            "time": "7:00pm - 9:00pm",
+            "location": "HHS - H121 old CHOIR ROOM, HHS - H125 New Choir Room, HHS - H128 ORCHESTRA ROOM, HHS - H130 BAND ROOM, HHS - HSE Leonard Auditorium, HHS - Leonard Auditorium Lobby, HHS - Leonard Auditorium Wing"
+        }
+    ],
+    "3": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Choir Concert",
+            "time": "7:00pm - 9:00pm",
+            "location": "HHS - HSE Leonard Auditorium, HHS - Leonard Auditorium Lobby, HHS - Leonard Auditorium Wing"
+        }
+    ],
+    "4": [
+        {
+            "title": "ISSMA State Finals",
+            "time": null,
+            "location": "@Away- Location in Notes"
+        },
+        {
+            "title": "Thespian Tech",
+            "time": "8:00am - 8:00pm",
+            "location": "@HHS - Little Theater"
+        }
+    ],
+    "7": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Nat'l Honor Society",
+            "time": "7:50am - 8:15am",
+            "location": "@HHS - HSE Cafe D"
+        },
+        {
+            "title": "Nat'l Honor Society",
+            "time": "3:00pm - 3:30pm",
+            "location": "@HHS - HSE Cafe D"
+        }
+    ],
+    "8": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Boys Lacrosse Parent Meeting",
+            "time": "7:00pm - 9:00pm",
+            "location": "@Royal Den"
+        }
+    ],
+    "9": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Thespian Show",
+            "time": "7:00pm - 10:00pm",
+            "location": "@HHS - Little Theater"
+        }
+    ],
+    "10": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Thespian Show",
+            "time": "5:00pm - 10:00pm",
+            "location": "@HHS - Little Theater"
+        }
+    ],
+    "11": [
+        {
+            "title": "Thespian Show",
+            "time": "5:00pm - 10:00pm",
+            "location": "@HHS - Little Theater"
+        }
+    ],
+    "14": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Royals Varsity Club Meetng",
+            "time": "7:30am - 9:00am",
+            "location": "@Royal Den"
+        },
+        {
+            "title": "Band Concert",
+            "time": "7:00pm - 9:00pm",
+            "location": "HHS - HSE Leonard Auditorium, HHS - Leonard Auditorium Lobby, HHS - Leonard Auditorium Wing"
+        }
+    ],
+    "15": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Association Meeting",
+            "time": "4:00pm - 6:00pm",
+            "location": "@HHS - HSE HS CCA Cafe E"
+        }
+    ],
+    "16": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Track",
+            "time": "5:00pm - 9:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Orchestra Concert",
+            "time": "7:00pm - 9:30pm",
+            "location": "HHS - HSE Leonard Auditorium, HHS - Leonard Auditorium Lobby, HHS - Leonard Auditorium Wing"
+        }
+    ],
+    "17": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "YMI Meeting",
+            "time": "1:45pm - 2:45pm",
+            "location": "HHS - HSE Cafe D, Room K102"
+        },
+        {
+            "title": "Jazz Cafe",
+            "time": "7:00pm - 8:00pm",
+            "location": "HHS - HSE Cafe A, HHS - HSE Cafe B, HHS - HSE Cafe C"
+        }
+    ],
+    "20": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Track",
+            "time": "5:00pm - 9:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Senior Awards",
+            "time": "6:30pm - 9:30pm",
+            "location": "HHS - HSE Leonard Auditorium, HHS - Leonard Auditorium Lobby"
+        },
+        {
+            "title": "Theatre Arts Night",
+            "time": "7:00pm - 10:00pm",
+            "location": "@HHS - Little Theater"
+        }
+    ],
+    "30": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "SAGE Ceremony",
+            "time": null,
+            "location": "@HHS - HSE HS CCA Cafe E"
+        },
+        {
+            "title": "Drama Awards",
+            "time": "7:00pm - 10:00pm",
+            "location": "@HHS - Little Theater"
+        }
+    ],
+    "31": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Graduation Practice",
+            "time": null,
+            "location": "@Off site location please see notes"
+        }
+    ]
+}

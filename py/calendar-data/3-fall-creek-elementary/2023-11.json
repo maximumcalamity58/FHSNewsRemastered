@@ -1,0 +1,51 @@
+{
+    "1": [
+        {
+            "title": "Tennis Club - FCE",
+            "time": "2:15pm - 3:15pm",
+            "location": "@Fall Creek Elementary - FCE Gym"
+        }
+    ],
+    "9": [
+        {
+            "title": "Choir Concert",
+            "time": "2:00pm - 10:00pm",
+            "location": "@Fall Creek Elementary - FCE Gym"
+        }
+    ],
+    "10": [
+        {
+            "title": "Choir Concert Set up",
+            "time": "2:00am - 11:30am",
+            "location": "@Fall Creek Elementary - FCE Gym"
+        }
+    ],
+    "21": [
+        {
+            "title": "Choir Concert Set up",
+            "time": "2:00pm - 12:00am",
+            "location": "@Fall Creek Elementary - FCE Gym"
+        }
+    ],
+    "22": [
+        {
+            "title": "Choir Set up",
+            "time": "5:00am",
+            "location": "@Fall Creek Elementary - FCE Gym"
+        }
+    ],
+    "23": [
+        {
+            "title": "Choir Set up",
+            "time": "5:00am",
+            "location": "@Fall Creek Elementary - FCE Gym"
+        }
+    ],
+    "24": [
+        {
+            "title": "Choir Set up",
+            "time": "5:00am",
+            "location": "@Fall Creek Elementary - FCE Gym"
+        }
+    ]
+}

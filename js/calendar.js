@@ -59,7 +59,26 @@ class Calendar {
         const formattedEvents = eventData.map(event => {
             let locationString = event.location ? `Location: ${event.location}<br>` : '';
             let timeString = event.time ? `Time: ${event.time}<br>` : 'All Day<br>';
-            let eventClass = (!event.time && !event.location) ? 'green-background' : ''; // Only if both are null
+
+            let eventClass;
+            if (!event.time && !event.location) {
+                eventClass = 'green-background';
+            }
+            if (event.title.toLowerCase() === 'red day') {
+                eventClass = 'red-background';
+            }
+            if (event.title.toLowerCase() === 'silver day') {
+                eventClass = 'silver-background';
+            }
+            if (event.title.toLowerCase().includes('elearning')) {
+                eventClass = 'blue-background';
+            }
+            if (event.title.toLowerCase().includes('teacher day')) {
+                eventClass = 'yellow-background';
+            }
+            if (event.title.toLowerCase().includes('psat')) {
+                eventClass = 'purple-background';
+            }
 
             return `
                 <div class="event-box ${eventClass}">
@@ -94,7 +113,7 @@ class Calendar {
     }
 
     async fetchMonthEvents() {
-        const yearMonth = `${this.currentYear}-${String(this.currentMonth + 1).padStart(2, '0')}`; // Format: 'YYYY-MM'
+        const yearMonth = `${this.currentYear}-${String(this.currentMonth + 1).padStart(2, '0')}`;
         const filePath = `/py/calendar-data/19-fishers-high-school/${yearMonth}.json`;
         try {
             const response = await fetch(filePath);
@@ -102,6 +121,18 @@ class Calendar {
                 throw new Error('Network response was not ok ' + response.statusText);
             }
             const data = await response.json();
+
+            // Identify special events
+            for (const day in data) {
+                const events = data[day];
+                events.isAllDay = events.some(event => !event.time && !event.location);
+                events.isRedDay = events.some(e => e.title.toLowerCase() === 'red day');
+                events.isSilverDay = events.some(e => e.title.toLowerCase() === 'silver day');
+                events.isElearning = events.some(e => e.title.toLowerCase().includes('elearning'));
+                events.isTeacherDay = events.some(e => e.title.toLowerCase().includes('teacher day'));
+                events.isPSAT = events.some(e => e.title.toLowerCase() === 'psat');
+            }
+
             return data;
         } catch (error) {
             console.error('Error fetching calendar data:', error);
@@ -109,14 +140,10 @@ class Calendar {
         }
     }
 
+
     // Function to generate and display the calendar
     generateCalendar() {
         this.fetchMonthEvents().then(monthEvents => {
-            const allDayEvents = {};
-            for (const day in monthEvents) {
-                allDayEvents[day] = monthEvents[day].some(event => !event.time && !event.location);
-            }
-
             const calendarBody = document.querySelector(".calendar_body");
             const calendarDate = document.querySelector("#calendar_date p");
 
@@ -184,9 +211,24 @@ class Calendar {
                         date++;
                     }
 
-                    // Check for "All Day" events
-                    if (allDayEvents[thisDate]) {
+                    const eventData = monthEvents[String(thisDate)];
+                    if (eventData && eventData.isAllDay) {
                         td.classList.add('green-day');
+                    }
+                    if (eventData && eventData.isRedDay) {
+                        td.classList.add('red-day');
+                    }
+                    if (eventData && eventData.isSilverDay) {
+                        td.classList.add('silver-day');
+                    }
+                    if (eventData && eventData.isElearning) {
+                        td.classList.add('blue-day');
+                    }
+                    if (eventData && eventData.isTeacherDay) {
+                        td.classList.add('yellow-day');
+                    }
+                    if (eventData && eventData.isPSAT) {
+                        td.classList.add('purple-day');
                     }
 
                     // Create a Date object with the current year, month, and date

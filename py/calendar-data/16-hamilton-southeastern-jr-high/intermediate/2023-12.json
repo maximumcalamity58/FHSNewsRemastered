@@ -1,0 +1,294 @@
+{
+    "1": [
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        }
+    ],
+    "3": [
+        {
+            "title": "Church Services",
+            "time": "9:00am - 11:30am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall"
+        },
+        {
+            "title": "Church Services",
+            "time": "9:30am - 11:30am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        }
+    ],
+    "4": [
+        {
+            "title": "E-team Meetings",
+            "time": "9:30am - 11:30am",
+            "location": "@009 Large Conference Room"
+        },
+        {
+            "title": "PTO Meeting",
+            "time": "11:00am - 12:00am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        },
+        {
+            "title": "Spring Musical Auditions",
+            "time": "4:00pm - 8:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall"
+        }
+    ],
+    "5": [
+        {
+            "title": "6BBG",
+            "time": "5:30pm - 9:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        },
+        {
+            "title": "7BB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "8BB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        }
+    ],
+    "6": [
+        {
+            "title": "HIJH Academic Team",
+            "time": "7:50am - 9:00am",
+            "location": "@Room 223"
+        },
+        {
+            "title": "MTSS Committee",
+            "time": "9:00am - 12:00pm",
+            "location": "@009 Large Conference Room"
+        },
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        }
+    ],
+    "7": [
+        {
+            "title": "Aspire/ Student",
+            "time": "11:15am",
+            "location": "@007 Conference Rm"
+        },
+        {
+            "title": "6BBG",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "7BB",
+            "time": "5:45pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "8BB",
+            "time": "5:45pm - 9:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "8": [
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        },
+        {
+            "title": "8th Grade Choir at HSHS Winter Concert",
+            "time": "5:45pm - 9:00pm",
+            "location": "@HSE High School"
+        }
+    ],
+    "10": [
+        {
+            "title": "Church Services",
+            "time": "9:00am - 11:30am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall"
+        },
+        {
+            "title": "Church Services",
+            "time": "9:30am - 11:30am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        }
+    ],
+    "11": [
+        {
+            "title": "Show Choir Rehearsal & Performance",
+            "time": "4:00pm - 8:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall"
+        }
+    ],
+    "12": [
+        {
+            "title": "6BBG",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "7BB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        },
+        {
+            "title": "8BB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        }
+    ],
+    "13": [
+        {
+            "title": "HIJH Academic Team",
+            "time": "7:50am - 9:00am",
+            "location": "@Room 223"
+        },
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        },
+        {
+            "title": "Winter Orchestra Concert",
+            "time": "7:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall"
+        }
+    ],
+    "14": [
+        {
+            "title": "Aspire/ Student",
+            "time": "11:15am",
+            "location": "@007 Conference Rm"
+        },
+        {
+            "title": "6BBG",
+            "time": "5:30pm - 9:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        },
+        {
+            "title": "7BB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "8BB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        }
+    ],
+    "15": [
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        },
+        {
+            "title": "Winter Choir Concert Dress Rehearsal",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall"
+        }
+    ],
+    "17": [
+        {
+            "title": "Church Services",
+            "time": "9:00am - 11:30am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall"
+        },
+        {
+            "title": "Church Services",
+            "time": "9:30am - 11:30am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        }
+    ],
+    "18": [
+        {
+            "title": "Winter Choir Concert",
+            "time": "7:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall"
+        }
+    ],
+    "19": [
+        {
+            "title": "6BBG",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "Winter Band Concert",
+            "time": "7:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "20": [
+        {
+            "title": "HIJH Academic Team",
+            "time": "7:50am - 9:00am",
+            "location": "@Room 223"
+        },
+        {
+            "title": "7BB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "7GB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "8BB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        },
+        {
+            "title": "8GB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        }
+    ],
+    "21": [
+        {
+            "title": "Aspire/ Student",
+            "time": "11:15am",
+            "location": "@007 Conference Rm"
+        },
+        {
+            "title": "Reserved",
+            "time": "12:00pm - 11:59pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        }
+    ],
+    "22": [
+        {
+            "title": "Reserved",
+            "time": "6:00am - 4:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        }
+    ],
+    "24": [
+        {
+            "title": "Church Services",
+            "time": "9:00am - 11:30am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall"
+        },
+        {
+            "title": "Church Services",
+            "time": "9:30am - 11:30am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        }
+    ],
+    "31": [
+        {
+            "title": "Church Services",
+            "time": "9:00am - 11:30am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall"
+        },
+        {
+            "title": "Church Services",
+            "time": "9:30am - 11:30am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        }
+    ]
+}

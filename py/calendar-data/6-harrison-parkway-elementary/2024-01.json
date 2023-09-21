@@ -1,0 +1,42 @@
+{
+    "15": [
+        {
+            "title": "No School",
+            "time": null,
+            "location": null
+        }
+    ],
+    "19": [
+        {
+            "title": "3rd Grade",
+            "time": null,
+            "location": null
+        }
+    ],
+    "24": [
+        {
+            "title": "Ritchey Woods Outreach",
+            "time": null,
+            "location": null
+        }
+    ],
+    "25": [
+        {
+            "title": "Ritchey Woods Outreach",
+            "time": null,
+            "location": null
+        }
+    ],
+    "26": [
+        {
+            "title": "3rd Grade",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "PTO Movie Night",
+            "time": "6:30pm - 8:45pm",
+            "location": "Harrison Parkway Elementary - HPE Cafeteria, Harrison Parkway Elementary - HPE Gym"
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "1": [
+        {
+            "title": "Girls Basketball Game",
+            "time": "5:30pm - 7:30pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "2": [
+        {
+            "title": "Falcon Friday",
+            "time": "9:15am - 4:00pm",
+            "location": "@Entire Building - Fall Creek Intermediate"
+        }
+    ],
+    "5": [
+        {
+            "title": "PTO meeting",
+            "time": "2:00pm",
+            "location": "@Fall Creek Intermediate - 200- Bookroom"
+        },
+        {
+            "title": "Girl Scout Meetings Troop 4921- FCI",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Fall Creek Intermediate - 200- Bookroom"
+        },
+        {
+            "title": "Orchestra Concert",
+            "time": "6:30pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "8": [
+        {
+            "title": "Boys Basketball Game",
+            "time": "4:30pm",
+            "location": null
+        }
+    ],
+    "14": [
+        {
+            "title": "Student Council",
+            "time": "8:15am",
+            "location": "@Room 613"
+        },
+        {
+            "title": "Girl Scout Meetings Troop 4321 - FCI",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI Media Center"
+        }
+    ],
+    "15": [
+        {
+            "title": "6th grade Band/Orchestra/Choir",
+            "time": "9:40am - 10:15am",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Band Concert",
+            "time": "6:30pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "22": [
+        {
+            "title": "Girls Basketball Game",
+            "time": null,
+            "location": null
+        }
+    ],
+    "24": [
+        {
+            "title": "Girls Basketball Tournament",
+            "time": null,
+            "location": "@HIJH"
+        }
+    ],
+    "28": [
+        {
+            "title": "Student Council",
+            "time": "8:15am",
+            "location": "@Room 613"
+        },
+        {
+            "title": "Girl Scout Meetings Troop 4321 - FCI",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI Media Center"
+        }
+    ]
+}

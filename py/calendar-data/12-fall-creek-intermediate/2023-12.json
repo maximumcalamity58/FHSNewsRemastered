@@ -1,0 +1,162 @@
+{
+    "1": [
+        {
+            "title": "Falcon Friday",
+            "time": "9:15am - 4:00pm",
+            "location": "@Entire Building - Fall Creek Intermediate"
+        },
+        {
+            "title": "5th Grade Field Trip - Johnson Block1",
+            "time": "9:30am - 2:45pm",
+            "location": "@Hub & Spoke"
+        }
+    ],
+    "4": [
+        {
+            "title": "PTO meeting",
+            "time": "2:00pm",
+            "location": "@Fall Creek Intermediate - 200- Bookroom"
+        },
+        {
+            "title": "Girl Scout Meetings Troop 4921- FCI",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Fall Creek Intermediate - 200- Bookroom"
+        }
+    ],
+    "5": [
+        {
+            "title": "5th Grade Field Trip - Johnson Block2",
+            "time": "9:30am - 2:45pm",
+            "location": "@Hub & Spoke"
+        },
+        {
+            "title": "Boys Basketball Game",
+            "time": "5:30pm - 7:30pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "6": [
+        {
+            "title": "FCI Connect",
+            "time": "8:00am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "5th Grade Field Trip - Coffman Block1",
+            "time": "9:30am - 2:45pm",
+            "location": "@Hub & Spoke"
+        },
+        {
+            "title": "Girl Scout Meetings Troop 4321 - FCI",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI Media Center"
+        }
+    ],
+    "7": [
+        {
+            "title": "5th Grade Field Trip - Coffman Block2",
+            "time": "9:30am - 2:45pm",
+            "location": "@Hub & Spoke"
+        }
+    ],
+    "8": [
+        {
+            "title": "5th Grade Field Trip - Young Block1",
+            "time": "9:30am - 2:45pm",
+            "location": "@Hub & Spoke"
+        }
+    ],
+    "11": [
+        {
+            "title": "5th Grade Field Trip - Young Block2",
+            "time": "9:30am - 2:45pm",
+            "location": "@Hub & Spoke"
+        },
+        {
+            "title": "Boys Basketball Game",
+            "time": "5:30pm - 7:30pm",
+            "location": null
+        }
+    ],
+    "12": [
+        {
+            "title": "5th Grade Field Trip - Teal Block1",
+            "time": "9:30am - 2:45pm",
+            "location": "@Hub & Spoke"
+        }
+    ],
+    "13": [
+        {
+            "title": "Student Council",
+            "time": "8:15am",
+            "location": "@Room 613"
+        },
+        {
+            "title": "5th Grade Field Trip - Teal Block2",
+            "time": "9:30am - 2:45pm",
+            "location": "@Hub & Spoke"
+        }
+    ],
+    "14": [
+        {
+            "title": "5th Grade Field Trip - Villanyi Block1",
+            "time": "9:30am - 2:45pm",
+            "location": "@Hub & Spoke"
+        },
+        {
+            "title": "Boys Basketball Game",
+            "time": "5:30pm - 7:30pm",
+            "location": null
+        }
+    ],
+    "15": [
+        {
+            "title": "5th Grade Field Trip - Villanyi Block2",
+            "time": "9:30am - 2:45pm",
+            "location": "@Hub & Spoke"
+        }
+    ],
+    "19": [
+        {
+            "title": "Public Health Lesson for 6th Grade",
+            "time": "10:10am - 3:15pm",
+            "location": "@Room 601"
+        },
+        {
+            "title": "Boys Basketball Game",
+            "time": "5:30pm",
+            "location": null
+        }
+    ],
+    "20": [
+        {
+            "title": "FCI Connect",
+            "time": "8:00am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Girl Scout Meetings Troop 4321 - FCI",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI Media Center"
+        },
+        {
+            "title": "Boys Basketball Game",
+            "time": "4:30pm - 6:30pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "21": [
+        {
+            "title": "Band / Orchestra",
+            "time": "9:40am - 10:15am",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "22": [
+        {
+            "title": "Winter Party",
+            "time": "9:15am - 4:00pm",
+            "location": "@Entire Building - Fall Creek Intermediate"
+        }
+    ]
+}

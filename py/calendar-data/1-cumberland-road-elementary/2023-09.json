@@ -1,9 +1,9 @@
 {
     "4": [
         {
-            "title": "Mudsock Youth Athletics Fall Football Practices",
-            "time": "6:00pm - 8:00pm",
-            "location": "Cumberland Road Elementary - CRE AF1A + B, Cumberland Road Elementary - CRE AF2A + B , Cumberland Road Elementary - CRE BB1"
+            "title": "Red day",
+            "time": null,
+            "location": null
         },
         {
             "title": "Mudsock Youth Athletics Fall Football Practices",
@@ -13,9 +13,9 @@
     ],
     "6": [
         {
-            "title": "Mudsock Youth Athletics Fall Football Practices",
-            "time": "6:00pm - 8:00pm",
-            "location": "Cumberland Road Elementary - CRE AF1A + B, Cumberland Road Elementary - CRE AF2A + B , Cumberland Road Elementary - CRE BB1"
+            "title": "Silver day",
+            "time": null,
+            "location": null
         },
         {
             "title": "Mudsock Youth Athletics Fall Football Practices",
@@ -25,6 +25,11 @@
     ],
     "7": [
         {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
             "title": "Mudsock Youth Athletics Cheer Practices",
             "time": "6:00pm - 8:00pm",
             "location": "Cumberland Road Elementary - CRE AF1A + B, Cumberland Road Elementary - CRE AF2A + B , Cumberland Road Elementary - CRE BB1, Cumberland Road Elementary - CRE BB2"
@@ -32,9 +37,9 @@
     ],
     "11": [
         {
-            "title": "Mudsock Youth Athletics Fall Football Practices",
-            "time": "6:00pm - 8:00pm",
-            "location": "Cumberland Road Elementary - CRE AF1A + B, Cumberland Road Elementary - CRE AF2A + B , Cumberland Road Elementary - CRE BB1"
+            "title": "Silver day",
+            "time": null,
+            "location": null
         },
         {
             "title": "Mudsock Youth Athletics Fall Football Practices",
@@ -44,6 +49,11 @@
     ],
     "12": [
         {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
             "title": "Picture Day",
             "time": null,
             "location": null
@@ -51,9 +61,9 @@
     ],
     "13": [
         {
-            "title": "Mudsock Youth Athletics Fall Football Practices",
-            "time": "6:00pm - 8:00pm",
-            "location": "Cumberland Road Elementary - CRE AF1A + B, Cumberland Road Elementary - CRE AF2A + B , Cumberland Road Elementary - CRE BB1"
+            "title": "Silver day",
+            "time": null,
+            "location": null
         },
         {
             "title": "Mudsock Youth Athletics Fall Football Practices",
@@ -63,6 +73,11 @@
     ],
     "14": [
         {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
             "title": "Mudsock Youth Athletics Cheer Practices",
             "time": "6:00pm - 8:00pm",
             "location": "Cumberland Road Elementary - CRE AF1A + B, Cumberland Road Elementary - CRE AF2A + B , Cumberland Road Elementary - CRE BB1, Cumberland Road Elementary - CRE BB2"
@@ -70,9 +85,9 @@
     ],
     "18": [
         {
-            "title": "Mudsock Youth Athletics Fall Football Practices",
-            "time": "6:00pm - 8:00pm",
-            "location": "Cumberland Road Elementary - CRE AF1A + B, Cumberland Road Elementary - CRE AF2A + B , Cumberland Road Elementary - CRE BB1"
+            "title": "Silver day",
+            "time": null,
+            "location": null
         },
         {
             "title": "Mudsock Youth Athletics Fall Football Practices",
@@ -82,9 +97,9 @@
     ],
     "20": [
         {
-            "title": "Mudsock Youth Athletics Fall Football Practices",
-            "time": "6:00pm - 8:00pm",
-            "location": "Cumberland Road Elementary - CRE AF1A + B, Cumberland Road Elementary - CRE AF2A + B , Cumberland Road Elementary - CRE BB1"
+            "title": "Red day",
+            "time": null,
+            "location": null
         },
         {
             "title": "Mudsock Youth Athletics Fall Football Practices",
@@ -94,6 +109,11 @@
     ],
     "21": [
         {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
             "title": "Mudsock Youth Athletics Cheer Practices",
             "time": "6:00pm - 8:00pm",
             "location": "Cumberland Road Elementary - CRE AF1A + B, Cumberland Road Elementary - CRE AF2A + B , Cumberland Road Elementary - CRE BB1, Cumberland Road Elementary - CRE BB2"
@@ -101,9 +121,9 @@
     ],
     "25": [
         {
-            "title": "Mudsock Youth Athletics Fall Football Practices",
-            "time": "6:00pm - 8:00pm",
-            "location": "Cumberland Road Elementary - CRE AF1A + B, Cumberland Road Elementary - CRE AF2A + B , Cumberland Road Elementary - CRE BB1"
+            "title": "Red day",
+            "time": null,
+            "location": null
         },
         {
             "title": "Mudsock Youth Athletics Fall Football Practices",
@@ -113,9 +133,19 @@
     ],
     "27": [
         {
-            "title": "Mudsock Youth Athletics Fall Football Practices",
-            "time": "6:00pm - 8:00pm",
-            "location": "Cumberland Road Elementary - CRE AF1A + B, Cumberland Road Elementary - CRE AF2A + B , Cumberland Road Elementary - CRE BB1"
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Student Council Meeting",
+            "time": "2:10pm - 3:20pm",
+            "location": "@Room 147"
+        },
+        {
+            "title": "Book Fair",
+            "time": "3:00pm - 7:00pm",
+            "location": "@Cumberland Road Elementary - CRE Media Center"
         },
         {
             "title": "Mudsock Youth Athletics Fall Football Practices",
@@ -124,6 +154,11 @@
         }
     ],
     "28": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
         {
             "title": "Mudsock Youth Athletics Cheer Practices",
             "time": "6:00pm - 8:00pm",

@@ -1,0 +1,37 @@
+{
+    "4": [
+        {
+            "title": "Boys Basketball Game",
+            "time": "5:30pm - 8:30pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        }
+    ],
+    "5": [
+        {
+            "title": "Boys Basketball Game",
+            "time": "5:30pm - 8:30pm",
+            "location": null
+        }
+    ],
+    "9": [
+        {
+            "title": "Boys Basketball Game",
+            "time": "9:00am - 2:00pm",
+            "location": null
+        }
+    ],
+    "12": [
+        {
+            "title": "Boys Basketball Game",
+            "time": "5:30pm - 8:30pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        }
+    ],
+    "18": [
+        {
+            "title": "Boys Basketball Game",
+            "time": "5:30pm - 8:30pm",
+            "location": null
+        }
+    ]
+}

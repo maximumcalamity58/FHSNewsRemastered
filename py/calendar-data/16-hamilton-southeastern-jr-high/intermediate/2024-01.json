@@ -1,0 +1,337 @@
+{
+    "8": [
+        {
+            "title": "PTO Meeting",
+            "time": "11:00am - 12:00am",
+            "location": "@009 Large Conference Room"
+        }
+    ],
+    "9": [
+        {
+            "title": "6BBG",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "WR",
+            "time": "6:00pm - 9:00pm",
+            "location": null
+        }
+    ],
+    "10": [
+        {
+            "title": "HIJH Academic Team",
+            "time": "7:50am - 9:00am",
+            "location": "@Room 223"
+        },
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        },
+        {
+            "title": "7BB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        },
+        {
+            "title": "7GB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "8BB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "8GB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        }
+    ],
+    "11": [
+        {
+            "title": "IMEA Honor Choir",
+            "time": "8:00am - 4:00pm",
+            "location": "@Fort Wayne Embassy Theatre"
+        },
+        {
+            "title": "WR",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "7GB",
+            "time": "6:00pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "8GB",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "12": [
+        {
+            "title": "IMEA Honor Choir",
+            "time": "8:00am - 4:00pm",
+            "location": "@Fort Wayne Embassy Theatre"
+        },
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        }
+    ],
+    "13": [
+        {
+            "title": "6BBG",
+            "time": "9:00am - 1:00pm",
+            "location": null
+        }
+    ],
+    "16": [
+        {
+            "title": "5th & 6th  Grade Body Safety",
+            "time": "8:00am - 4:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        },
+        {
+            "title": "6GBG",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "7BB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "8BB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "WR",
+            "time": "5:30pm - 9:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "17": [
+        {
+            "title": "HIJH Academic Team",
+            "time": "7:50am - 9:00am",
+            "location": "@Room 223"
+        },
+        {
+            "title": "5th & 6th  Grade Body Safety",
+            "time": "8:00am - 4:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        },
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": null
+        },
+        {
+            "title": "7GB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "8GB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "18": [
+        {
+            "title": "5th & 6th  Grade Body Safety",
+            "time": "9:00am - 4:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        },
+        {
+            "title": "6GBG",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "7BB",
+            "time": "5:45pm - 9:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        },
+        {
+            "title": "8BB",
+            "time": "5:45pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        }
+    ],
+    "19": [
+        {
+            "title": "5th & 6th  Grade Body Safety",
+            "time": "9:00am - 4:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        },
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": "@007 Conference Rm"
+        }
+    ],
+    "21": [
+        {
+            "title": "Studio 7 Showcase",
+            "time": "7:00am - 7:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall"
+        }
+    ],
+    "22": [
+        {
+            "title": "Pics",
+            "time": "4:15pm - 6:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        }
+    ],
+    "23": [
+        {
+            "title": "7BB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "7GB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        },
+        {
+            "title": "8BB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "8GB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        }
+    ],
+    "24": [
+        {
+            "title": "HIJH Academic Team",
+            "time": "7:50am - 9:00am",
+            "location": "@Room 223"
+        },
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        },
+        {
+            "title": "6GBG",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "WR",
+            "time": "5:30pm - 9:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "25": [
+        {
+            "title": "7BB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "8BB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        },
+        {
+            "title": "8GB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "7GB",
+            "time": "5:45pm - 9:00pm",
+            "location": null
+        }
+    ],
+    "26": [
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        }
+    ],
+    "27": [
+        {
+            "title": "WR",
+            "time": "8:30am - 3:00pm",
+            "location": null
+        },
+        {
+            "title": "ISSMA W/P/S Solo & Ensemble",
+            "time": "9:00am - 4:00pm",
+            "location": "@Noblesville High School"
+        }
+    ],
+    "29": [
+        {
+            "title": "7BB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "8BB",
+            "time": "6:45pm - 9:00pm",
+            "location": null
+        }
+    ],
+    "30": [
+        {
+            "title": "6GBG",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "7GB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "8GB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "WR",
+            "time": "5:30pm - 9:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "31": [
+        {
+            "title": "HIJH Academic Team",
+            "time": "7:50am - 9:00am",
+            "location": "@Room 223"
+        },
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        },
+        {
+            "title": "7BB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "8BB",
+            "time": "6:45pm - 9:00pm",
+            "location": null
+        }
+    ]
+}

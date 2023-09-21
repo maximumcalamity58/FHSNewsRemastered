@@ -1,0 +1,66 @@
+{
+    "7": [
+        {
+            "title": "Back to School Open House",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Entire Building - Hoosier Road Elementary"
+        },
+        {
+            "title": "Preschool Meet the Teacher",
+            "time": "4:00pm - 6:00pm",
+            "location": "Room 02, Room 10"
+        },
+        {
+            "title": "Kindergarten Meet The Teacher Night",
+            "time": "6:15pm - 7:15pm",
+            "location": "Hoosier Road Elementary - HRE Parking Lot - Front, Room 03, Room 04, Room 05, Room 06"
+        }
+    ],
+    "8": [
+        {
+            "title": "Preschool Meet the Teacher",
+            "time": "10:45am - 6:00pm",
+            "location": "Room 02, Room 10"
+        }
+    ],
+    "16": [
+        {
+            "title": "1st - 4th Grade Meet the Teacher Night",
+            "time": "5:45pm - 7:00pm",
+            "location": "@Entire Building - Hoosier Road Elementary"
+        }
+    ],
+    "17": [
+        {
+            "title": "Cub Scout Meetings Pack 110 HRE",
+            "time": "6:30pm - 7:30pm",
+            "location": "@Hoosier Road Elementary - HRE Cafeteria"
+        }
+    ],
+    "23": [
+        {
+            "title": "School Picture Day",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary - HRE Gym"
+        },
+        {
+            "title": "PTO Meeting",
+            "time": "6:00pm - 7:00pm",
+            "location": "@Hoosier Road Elementary - HRE Cafeteria"
+        }
+    ],
+    "24": [
+        {
+            "title": "Boy Scout Recruitment Night",
+            "time": "6:30pm - 8:00pm",
+            "location": "Cumberland Road Elementary - CRE CAFETERIA, Fishers Elementary - FES Cafeteria, New Britton Elementary - NBE Cafeteria, Thorpe Creek Elementary - TCE Gym, Sand Creek Intermediate - SCI GYM, Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall, Riverside - RSI GYM, Brooks School Elementary - BSE Cafeteria, Hoosier Road Elementary - HRE Cafeteria, Deer Creek Elementary  - DCE Cafeteria, Sand Creek Elementary - SCE Cafeteria, Fall Creek Elementary - FCE Cafeteria, Harrison Parkway Elementary - HPE Cafeteria, Fall Creek Intermediate - FCI Cafeteria, Lantern Road Elementary - Picnic Shelter, Geist Elementary - GES Cafeteria, Southeastern Elementary School - SES Cafeteria, Geist Elementary - GES Gym, Brooks School Elementary - BSE Gym"
+        }
+    ],
+    "31": [
+        {
+            "title": "Cub Scout Meetings Pack 110 HRE",
+            "time": "6:30pm - 7:30pm",
+            "location": "@Hoosier Road Elementary - HRE Cafeteria"
+        }
+    ]
+}

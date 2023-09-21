@@ -1,0 +1,33 @@
+{
+    "3": [
+        {
+            "title": "First Friday",
+            "time": "7:00am - 2:00pm",
+            "location": "@Entire Building - Sand Creek Elementary"
+        }
+    ],
+    "11": [
+        {
+            "title": "Crft",
+            "time": "8:00am - 2:00pm",
+            "location": null
+        },
+        {
+            "title": "Pancake Breakfast",
+            "time": "8:00am - 10:00am",
+            "location": "@Sand Creek Elementary - SCE Cafeteria"
+        }
+    ],
+    "16": [
+        {
+            "title": "PTO Meeting",
+            "time": "7:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Cafeteria"
+        },
+        {
+            "title": "PTO Meeting",
+            "time": "7:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ]
+}

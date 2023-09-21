@@ -1,0 +1,44 @@
+{
+    "1": [
+        {
+            "title": "First Friday",
+            "time": "7:00am - 2:00pm",
+            "location": "@Entire Building - Sand Creek Elementary"
+        }
+    ],
+    "6": [
+        {
+            "title": "Music Program",
+            "time": "6:00pm - 7:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "7": [
+        {
+            "title": "PTO UPaint Night",
+            "time": "5:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Cafeteria"
+        }
+    ],
+    "11": [
+        {
+            "title": "Field Trip",
+            "time": "9:30am - 1:00pm",
+            "location": "Room 17, Room 20"
+        }
+    ],
+    "12": [
+        {
+            "title": "Field Trip",
+            "time": "9:30am - 1:00pm",
+            "location": "Room 18, Room 21"
+        }
+    ],
+    "13": [
+        {
+            "title": "Field Trip",
+            "time": "9:30am - 1:00pm",
+            "location": "@Room 20"
+        }
+    ]
+}
