@@ -1,0 +1,21 @@
+{
+    "1": [
+        {
+            "title": "Choir Practice",
+            "time": "2:15pm - 3:00pm",
+            "location": null
+        },
+        {
+            "title": "Cub Scout Den Meetings Pack 109 FES",
+            "time": "6:15pm - 8:15pm",
+            "location": "Fishers Elementary - FES Cafeteria, Fishers Elementary - FES Gym"
+        }
+    ],
+    "9": [
+        {
+            "title": "Choir Concert",
+            "time": "6:00pm - 7:00pm",
+            "location": "@Music Room"
+        }
+    ]
+}

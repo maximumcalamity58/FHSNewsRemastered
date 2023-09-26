@@ -2,112 +2,58 @@
 <html lang="en" dir="ltr">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="HandheldFriendly" content="true">
-	<title>FHS News</title>
-	<link rel="shortcut icon" type="image/ico" href="https://schedlink.com/global/images/favicon.ico">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="HandheldFriendly" content="true">
+  <title>FHS News</title>
+  <link rel="shortcut icon" type="image/ico" href="https://schedlink.com/global/images/favicon.ico">
 
-	<!-- CSS files go here -->
-	<link rel="stylesheet" href="../css/global.css">
-	<link rel="stylesheet" href="../css/club.css">
+  <!-- CSS files go here -->
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/club.css">
 
-	<!-- Current theme goes here -->
-	<link rel="stylesheet" href="../themes/default.css">
-
-	<script src="../js/DOM.js" charset="utf-8"></script>
-	<script src="../js/clubs.js" charset="utf-8"></script>
+  <!-- Current theme goes here -->
+  <link rel="stylesheet" href="../themes/default.css">
 </head>
+
 <body>
-	<header>
-		<!-- <a href="/fishers"></a> -->
-		<a href="https://schedlink.com/fishers/info/">
-			<div>
-				<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
-				  <path d="M18,3A15,15,0,1,0,33,18,15.005,15.005,0,0,0,18,3Zm0,4.5A4.5,4.5,0,1,1,13.5,12,4.494,4.494,0,0,1,18,7.5Zm0,21.3a10.8,10.8,0,0,1-9-4.83c.045-2.985,6-4.62,9-4.62s8.955,1.635,9,4.62a10.8,10.8,0,0,1-9,4.83Z" transform="translate(-3 -3)"/>
-				</svg> -->
-				<img src="../img/questionmark_white.png" alt="?" width="34" height="34">
-				<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.985 17.17">
-				  <path d="M5.316,14.211v3.816l6.677,3.644,6.677-3.644V14.211l-6.677,3.644ZM11.993,4.5,1.5,10.223l10.493,5.723,8.585-4.684v6.591h1.908V10.223Z" transform="translate(-1.5 -4.5)"/>
-				</svg> -->
-			</div>
-		</a>
-	</header>
-	<section class="row club">
-		<div id="club_one">
-			<div class="container club_container">
-				<img class="club_thumbnail" src="../img/placeholder.png">
-				<p class="club_headline">Bread roll Enjoyers United</p>
-				<em class="club_subtitle"><p>We love bread roll!</p></em>
-				<p class="club_content">We think about bread roll in this club</p>
-			</div>
-			<div id="clubModal" class="modal">
-				<div class="modal-content">
-					<span class="close">&times;</span>
-					<h2>Bread roll Enjoyers United</h2>
-					<p>We love bread roll! We think about bread roll in this club.</p>
-				</div>
-			</div>
-		</div>
-		<nav>
-			<div id="nav-tabs">
-				<a id="nav-tabs__home" href="../index.html" class="selected">
-					<div>
-						<!--gradcap here-->
-						<img src="../img/gradcap.png" alt="Home" width="34" height="34">
-					</div>
-				</a>
-				<a id="nav-tabs__clubs" href="../html/clubs.html">
-					<div>
-						<!--settings here-->
-						<img src="../img/clubs.png" alt="Clubs" width="34" height="34">
-					</div>
-				</a>
-				<a id="nav-tabs__cal" href="../html/calendar.html">
-					<div>
-						<!--calendar here-->
-						<img src="../img/calendar.png" alt="Calendar_old" width="34" height="34">
-					</div>
-				</a>
-				<a id="nav-tabs__set" href="../html/settings.html">
-					<div>
-						<!--settings here-->
-						<img src="../img/settings.png" alt="Settings" width="34" height="34">
-					</div>
-				</a>
-			</div>
-		</nav>
-	</section>
+  <header>
+    <a href="https://schedlink.com/fishers/info/">
+      <div>
+        <img src="../img/questionmark_white.png" alt="?" width="34" height="34">
+      </div>
+    </a>
+  </header>
+  <section class="row club">
+    <div id="modal-container"></div>
+    <nav>
+      <div id="nav-tabs">
+        <a id="nav-tabs__home" href="../index.html" class="selected">
+          <div>
+            <img src="../img/gradcap.png" alt="Home" width="34" height="34">
+          </div>
+        </a>
+        <a id="nav-tabs__clubs" href="../html/clubs.html">
+          <div>
+            <img src="../img/clubs.png" alt="Clubs" width="34" height="34">
+          </div>
+        </a>
+        <a id="nav-tabs__cal" href="../html/calendar.html">
+          <div>
+            <img src="../img/calendar.png" alt="Calendar_old" width="34" height="34">
+          </div>
+        </a>
+        <a id="nav-tabs__set" href="../html/settings.html">
+          <div>
+            <img src="../img/settings.png" alt="Settings" width="34" height="34">
+          </div>
+        </a>
+      </div>
+    </nav>
+  </section>
+
+  <script src="../js/DOM.js" charset="utf-8"></script>
+  <script src="../js/clubs.js" charset="utf-8"></script>
 </body>
 
-<script>
-	document.addEventListener('DOMContentLoaded', function() {
-		// Get the modal
-		var modal = document.getElementById("clubModal");
-
-		// Get the button that opens the modal
-		var btn = document.querySelector(".club_container");
-
-		// Get the <span> element that closes the modal
-		var span = document.querySelector(".close");
-
-		// When the user clicks on the button, open the modal
-		btn.onclick = function() {
-			modal.style.display = "block";
-		}
-
-		// When the user clicks on <span> (x), close the modal
-		span.onclick = function() {
-			modal.style.display = "none";
-		}
-
-		// When the user clicks anywhere outside of the modal, close it
-		window.onclick = function(event) {
-			if (event.target == modal) {
-				modal.style.display = "none";
-			}
-		}
-	});
-</script>
-</body>
 </html>

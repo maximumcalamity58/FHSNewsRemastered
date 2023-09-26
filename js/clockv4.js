@@ -59,6 +59,7 @@ function to12HourFormat(timeStr) {
 
 window.advanceToNextPeriod = function() {
     manualNavigation = true;
+    console.log("a")
     if (currentPeriodIndex < timePeriodMapping.length - 1) {
         currentPeriodIndex++;
         updatePeriod();
@@ -70,6 +71,7 @@ window.advanceToNextPeriod = function() {
 
 window.advanceToPreviousPeriod = function() {
     manualNavigation = true;
+    console.log("b")
     if (currentPeriodIndex > -1) {
         currentPeriodIndex--;
         updatePeriod();

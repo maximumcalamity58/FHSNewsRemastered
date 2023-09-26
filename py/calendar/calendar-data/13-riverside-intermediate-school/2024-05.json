@@ -1,0 +1,56 @@
+{
+    "1": [
+        {
+            "title": "Nature Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        }
+    ],
+    "8": [
+        {
+            "title": "Nature Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        }
+    ],
+    "14": [
+        {
+            "title": "PTO Meeting",
+            "time": "6:30pm",
+            "location": "@Media Center"
+        }
+    ],
+    "15": [
+        {
+            "title": "Nature Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        }
+    ],
+    "16": [
+        {
+            "title": "Track",
+            "time": "5:30pm",
+            "location": null
+        }
+    ],
+    "22": [
+        {
+            "title": "Best Buddies",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Riverside - RSI Cafeteria"
+        }
+    ],
+    "23": [
+        {
+            "title": "Orchestra Concert",
+            "time": "6:00pm",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Band Concert",
+            "time": "7:30pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ]
+}

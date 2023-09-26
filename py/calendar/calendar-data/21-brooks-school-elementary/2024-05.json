@@ -1,0 +1,23 @@
+{
+    "1": [
+        {
+            "title": "1st-Grade Field Trip",
+            "time": "9:30am - 1:30pm",
+            "location": "@Ritchey Woods"
+        }
+    ],
+    "15": [
+        {
+            "title": "Boy Scout Pack 130 Meetings BSE",
+            "time": "6:00pm - 8:00pm",
+            "location": "Brooks School Elementary - BSE Cafeteria, Brooks School Elementary - BSE Gym"
+        }
+    ],
+    "28": [
+        {
+            "title": "PTO Sponsored - Party in the Park",
+            "time": "5:00pm - 7:00pm",
+            "location": "@Brooks School Park"
+        }
+    ]
+}

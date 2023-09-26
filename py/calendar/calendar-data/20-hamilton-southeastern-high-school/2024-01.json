@@ -1,0 +1,595 @@
+{
+    "3": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Southeastern Symphony Rehearsals",
+            "time": "3:15pm - 5:15pm",
+            "location": "@HHS - H128 ORCHESTRA ROOM"
+        }
+    ],
+    "4": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - Cardio Room - D116"
+        }
+    ],
+    "8": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Boys & Girls Track Open Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        }
+    ],
+    "9": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Nat'l Honor Society",
+            "time": "7:50am - 8:15am",
+            "location": "@HHS - HSE Cafe D"
+        },
+        {
+            "title": "Nat'l Honor Society",
+            "time": "3:00pm - 3:30pm",
+            "location": "@HHS - HSE Cafe D"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Speech & Debate Team",
+            "time": "5:00pm - 7:00pm",
+            "location": "HHS - HSE HS CCA Gathering Stairs, Room K101 - Soft Seating, Room K101A, Room K101B, Room K101C, Room K102, Room K102A, Room K102B"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "5:30pm - 7:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Girls Lacrosse Conditioning",
+            "time": "6:30pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        }
+    ],
+    "10": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Riley Dance Marathon",
+            "time": "1:30pm - 3:00pm",
+            "location": "@HHS - HSE Cafe A"
+        },
+        {
+            "title": "Riley Dance Marathon",
+            "time": "1:30pm - 3:00pm",
+            "location": "@HHS - HSE Cafe A"
+        },
+        {
+            "title": "Southeastern Symphony Rehearsals",
+            "time": "3:15pm - 5:15pm",
+            "location": "@HHS - H128 ORCHESTRA ROOM"
+        },
+        {
+            "title": "Boys & Girls Track Open Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 1 OLD AUX, HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Boys Lacrosse Parent Meeting",
+            "time": "7:00pm - 9:00pm",
+            "location": "@Royal Den"
+        }
+    ],
+    "11": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Speech & Debate Team",
+            "time": "5:00pm - 7:00pm",
+            "location": "HHS - HSE HS CCA Gathering Stairs, Room K101 - Soft Seating, Room K101A, Room K101B, Room K101C, Room K102, Room K102A, Room K102B"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Girls Lacrosse Conditioning",
+            "time": "6:30pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        }
+    ],
+    "12": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": null
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6"
+        },
+        {
+            "title": "SSC MLK Meet",
+            "time": "4:00pm - 8:00pm",
+            "location": "HHS - Cardio Room - D116, HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        }
+    ],
+    "13": [
+        {
+            "title": "SSC MLK Meet",
+            "time": "6:00am - 8:00pm",
+            "location": "HHS - Cardio Room - D116, HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5, HHS - HSE HS Aux Court 6 NEW AUX"
+        }
+    ],
+    "14": [
+        {
+            "title": "SSC MLK Meet",
+            "time": "6:00am - 8:00pm",
+            "location": "HHS - Cardio Room - D116, HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5, HHS - HSE HS Aux Court 6 NEW AUX"
+        }
+    ],
+    "15": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Boys & Girls Track Open Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 1 OLD AUX, HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        }
+    ],
+    "16": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Royals Varsity Club Meetng",
+            "time": "7:30am - 9:00am",
+            "location": "@Royal Den"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Speech & Debate Team",
+            "time": "5:00pm - 7:00pm",
+            "location": "HHS - HSE HS CCA Gathering Stairs, Room K101 - Soft Seating, Room K101A, Room K101B, Room K101C, Room K102, Room K102A, Room K102B"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Girls Lacrosse Conditioning",
+            "time": "6:30pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        }
+    ],
+    "17": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Southeastern Symphony Rehearsals",
+            "time": "3:15pm - 5:15pm",
+            "location": "@HHS - H128 ORCHESTRA ROOM"
+        },
+        {
+            "title": "Association Meeting",
+            "time": "4:00pm - 6:00pm",
+            "location": "@HHS - HSE HS CCA Cafe E"
+        },
+        {
+            "title": "Boys & Girls Track Open Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 1 OLD AUX, HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        }
+    ],
+    "18": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Course Fair",
+            "time": null,
+            "location": "HHS - HSE Cafe A, HHS - HSE Cafe B, HHS - HSE Cafe C, HHS - HSE Cafe D, HHS - HSE HS CCA Cafe E, HHS - HSE Leonard Auditorium"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Speech & Debate Team",
+            "time": "5:00pm - 7:00pm",
+            "location": "HHS - HSE HS CCA Gathering Stairs, Room K101 - Soft Seating, Room K101A, Room K101B, Room K101C, Room K102, Room K102A, Room K102B"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "5:30pm - 7:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - Cardio Room - D116"
+        }
+    ],
+    "19": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Royal Pride",
+            "time": "9:00am - 11:00am",
+            "location": "@Library Conference Room"
+        },
+        {
+            "title": "Asian Student Union",
+            "time": "1:37pm - 3:00pm",
+            "location": "@HHS - A136 - Lecture Hall"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        }
+    ],
+    "22": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Boys & Girls Track Open Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": null
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        }
+    ],
+    "23": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Band Chamber Recital",
+            "time": "5:00pm - 8:00pm",
+            "location": "HHS - H121 old CHOIR ROOM, HHS - H125 New Choir Room, HHS - H128 ORCHESTRA ROOM, HHS - H130 BAND ROOM, HHS - HSE Leonard Auditorium, HHS - Leonard Auditorium Lobby, HHS - Leonard Auditorium Wing"
+        },
+        {
+            "title": "Speech & Debate Team",
+            "time": "5:00pm - 7:00pm",
+            "location": "HHS - HSE HS CCA Gathering Stairs, Room K101 - Soft Seating, Room K101A, Room K101B, Room K101C, Room K102, Room K102A, Room K102B"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "5:30pm - 7:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Wrestling",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Girls Lacrosse Conditioning",
+            "time": "6:30pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        }
+    ],
+    "24": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Southeastern Symphony Rehearsals",
+            "time": "3:15pm - 5:15pm",
+            "location": "@HHS - H128 ORCHESTRA ROOM"
+        },
+        {
+            "title": "Boys & Girls Track Open Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 1 OLD AUX, HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        }
+    ],
+    "25": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Speech & Debate Team",
+            "time": "5:00pm - 7:00pm",
+            "location": "HHS - HSE HS CCA Gathering Stairs, Room K101 - Soft Seating, Room K101A, Room K101B, Room K101C, Room K102, Room K102A, Room K102B"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "5:30pm - 7:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Girls Lacrosse Conditioning",
+            "time": "6:30pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "ISSMA S&E Recital",
+            "time": "7:00pm - 10:00pm",
+            "location": "HHS - H128 ORCHESTRA ROOM, HHS - Little Theater"
+        }
+    ],
+    "26": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        }
+    ],
+    "27": [
+        {
+            "title": "ISSMA District Solo & Ensemble",
+            "time": null,
+            "location": "@Away- Location in Notes"
+        }
+    ],
+    "28": [
+        {
+            "title": "Youth Wrestling Tournament",
+            "time": "8:00am - 5:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        }
+    ],
+    "29": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Boys & Girls Track Open Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": null
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        }
+    ],
+    "30": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "5:30pm - 7:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Girls Lacrosse Conditioning",
+            "time": "6:30pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        }
+    ],
+    "31": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Southeastern Symphony Rehearsals",
+            "time": "3:15pm - 5:15pm",
+            "location": "@HHS - H128 ORCHESTRA ROOM"
+        },
+        {
+            "title": "Boys & Girls Track Open Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 1 OLD AUX, HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "9th and 10th Grade Parent Night",
+            "time": "6:30pm - 9:00pm",
+            "location": "HHS - HSE Leonard Auditorium, HHS - Leonard Auditorium Lobby"
+        }
+    ]
+}

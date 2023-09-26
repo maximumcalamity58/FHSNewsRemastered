@@ -1,0 +1,545 @@
+{
+    "1": [
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "2": [
+        {
+            "title": "Mudsock Youth Athletics Cross Country Practices",
+            "time": "10:00am - 11:15am",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        }
+    ],
+    "3": [
+        {
+            "title": "SLDM CC Practice",
+            "time": "4:30pm - 6:00pm",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        }
+    ],
+    "5": [
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "6": [
+        {
+            "title": "Duplicate events Test 2",
+            "time": "6:00am - 8:00pm",
+            "location": "Riverside - RJH AUDITERIA, Riverside - 162"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 9:00pm",
+            "location": "Riverside - RSS Stadium, RSS Football Game Field, RSS Track"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Baseball Games",
+            "time": "6:00pm - 8:00pm",
+            "location": "Riverside - RSS BB1N, Riverside - RSS BB1S"
+        }
+    ],
+    "7": [
+        {
+            "title": "Musical Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 9:00pm",
+            "location": "Riverside - Cross Country Course Eller Loop, Riverside - RSS CC, RSS Cross Country Eller Loop"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 9:00pm",
+            "location": "RSS Athletic Field 1, RSS Athletic Field 2, RSS Athletic Field 3, RSS Tennis Courts 1-6"
+        }
+    ],
+    "8": [
+        {
+            "title": "Mudsock Youth Athletics Girls Volleyball Rec Plus Practice / Net Sets",
+            "time": "6:00pm - 8:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN, Riverside - RSI GYM"
+        }
+    ],
+    "9": [
+        {
+            "title": "Mudsock Youth Athletics Volleyball Games",
+            "time": "7:00am - 4:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RSI GYM, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "Mudsock Youth Athletics Cross Country Practices",
+            "time": "10:00am - 11:15am",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        },
+        {
+            "title": "RJHA",
+            "time": "8:00pm - 4:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN, Riverside - RSI GYM"
+        }
+    ],
+    "10": [
+        {
+            "title": "Mudsock Youth Athletics Fall Baseball Games",
+            "time": "12:00pm - 4:00pm",
+            "location": "Riverside - RSS BB1N, Riverside - RSS BB1S"
+        },
+        {
+            "title": "SLDM CC Practice",
+            "time": "4:30pm - 6:00pm",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        }
+    ],
+    "11": [
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "Indy Sharks Baseball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Riverside - RSS BB1S"
+        },
+        {
+            "title": "Mudsock Youth Athletics Cross Country Practices",
+            "time": "6:00pm - 7:15pm",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        },
+        {
+            "title": "Mudsock Youth Athletics Volleyball Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "Fishers Falcons 14U Baseball Practice",
+            "time": "7:00pm - 8:00pm",
+            "location": "@Riverside - RSS BB1N"
+        }
+    ],
+    "12": [
+        {
+            "title": "Musical Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 9:00pm",
+            "location": "Riverside - Cross Country Course Eller Loop, Riverside - RSS BB1N, Riverside - RSS BB1S, Riverside - RSS CC, RSS Athletic Field 1, RSS Athletic Field 2, RSS Athletic Field 3, RSS Cross Country Eller Loop, RSS Green Space"
+        }
+    ],
+    "13": [
+        {
+            "title": "Musical Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 9:00pm",
+            "location": "Riverside - RSS Stadium, RSS Football Game Field, RSS Track"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Baseball Games",
+            "time": "6:00pm - 8:00pm",
+            "location": "Riverside - RSS BB1N, Riverside - RSS BB1S"
+        },
+        {
+            "title": "Mudsock Youth Athletics Volleyball Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "14": [
+        {
+            "title": "Musical Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 9:00pm",
+            "location": "RSS Athletic Field 1, RSS Athletic Field 2, RSS Athletic Field 3, RSS Tennis Courts 1-6"
+        },
+        {
+            "title": "Mudsock Youth Athletics Cross Country Practices",
+            "time": "6:00pm - 7:15pm",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        },
+        {
+            "title": "Mudsock Youth Athletics Volleyball Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "15": [
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "Fishers Falcons Fall Baseball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Riverside - RSS BB1S"
+        },
+        {
+            "title": "Mudsock Youth Athletics Girls Volleyball Rec Plus Practice / Net Sets",
+            "time": "6:30pm - 8:30pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "16": [
+        {
+            "title": "Mudsock Youth Athletics Volleyball Matches",
+            "time": "8:00am - 12:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RSI GYM, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "Show Choir",
+            "time": "9:00am - 12:00pm",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "Mudsock Youth Athletics Cross Country Practices",
+            "time": "10:00am - 11:15am",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        },
+        {
+            "title": "Mudsock Youth Athletics Volleyball Matches",
+            "time": "1:30pm - 3:30pm",
+            "location": "Riverside - RSI GYM, Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "17": [
+        {
+            "title": "Mudsock Youth Athletics Fall Baseball Games",
+            "time": "12:00pm - 4:00pm",
+            "location": "Riverside - RSS BB1N, Riverside - RSS BB1S"
+        },
+        {
+            "title": "SLDM CC Practice",
+            "time": "4:30pm - 6:00pm",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        }
+    ],
+    "18": [
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "Indy Sharks Baseball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Riverside - RSS BB1S"
+        },
+        {
+            "title": "Mudsock Youth Athletics Cross Country Practices",
+            "time": "6:00pm - 7:15pm",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        },
+        {
+            "title": "Fishers Falcons 14U Baseball Practice",
+            "time": "6:30pm - 7:30pm",
+            "location": "@Riverside - RSS BB1N"
+        },
+        {
+            "title": "Mudsock Youth Athletics Volleyball Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "19": [
+        {
+            "title": "Musical Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 9:00pm",
+            "location": "RSS Athletic Field 1, RSS Athletic Field 2, RSS Athletic Field 3, RSS Tennis Courts 1-6"
+        }
+    ],
+    "20": [
+        {
+            "title": "Musical Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 9:00pm",
+            "location": "Riverside - RSS Stadium, RSS Football Game Field, RSS Track"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Baseball Games",
+            "time": "6:00pm - 8:00pm",
+            "location": "Riverside - RSS BB1N, Riverside - RSS BB1S"
+        },
+        {
+            "title": "Mudsock Youth Athletics Volleyball Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "21": [
+        {
+            "title": "Musical Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 9:00pm",
+            "location": "RSS Athletic Field 1, RSS Athletic Field 2, RSS Athletic Field 3, RSS Tennis Courts 1-6"
+        },
+        {
+            "title": "Mudsock Youth Athletics Cross Country Practices",
+            "time": "6:00pm - 7:15pm",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        }
+    ],
+    "22": [
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "23": [
+        {
+            "title": "Fishers Falcons 13U Practices",
+            "time": "8:30am - 10:00am",
+            "location": "@Riverside - RSS BB1N"
+        },
+        {
+            "title": "Fishers Falcons 14U Baseball Practice",
+            "time": "10:00am - 11:00am",
+            "location": "@Riverside - RSS BB1S"
+        },
+        {
+            "title": "Mudsock Youth Athletics Cross Country Practices",
+            "time": "10:00am - 11:15am",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        }
+    ],
+    "24": [
+        {
+            "title": "Mudsock Youth Athletics Fall Baseball Games",
+            "time": "12:00pm - 8:00pm",
+            "location": "Riverside - RSS BB1N, Riverside - RSS BB1S"
+        },
+        {
+            "title": "SLDM CC Practice",
+            "time": "4:30pm - 6:00pm",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        },
+        {
+            "title": "Mo - Gym Use",
+            "time": "7:00pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "25": [
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 9:00pm",
+            "location": "Riverside - Cross Country Course Eller Loop, Riverside - RSS CC, RSS Cross Country Eller Loop"
+        },
+        {
+            "title": "Fishers Falcons 13U Practices",
+            "time": "5:30pm - 7:00pm",
+            "location": "@Riverside - RSS BB1N"
+        },
+        {
+            "title": "Indy Sharks Baseball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Riverside - RSS BB1S"
+        },
+        {
+            "title": "Mudsock Youth Athletics Volleyball Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "26": [
+        {
+            "title": "PLC",
+            "time": "7:00am",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "Photo Retake Day",
+            "time": "8:30am - 11:00am",
+            "location": "@Riverside - RJH LGI ROOM"
+        },
+        {
+            "title": "Musical Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "27": [
+        {
+            "title": "Musical Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 9:00pm",
+            "location": "Riverside - RSS Stadium, RSS Football Game Field, RSS Track"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Baseball Games",
+            "time": "6:00pm - 8:00pm",
+            "location": "Riverside - RSS BB1N, Riverside - RSS BB1S"
+        },
+        {
+            "title": "Mudsock Youth Athletics Volleyball Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "28": [
+        {
+            "title": "Musical Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "Mudsock Youth Athletics Cross Country Practices",
+            "time": "6:00pm - 7:15pm",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        },
+        {
+            "title": "Mudsock Youth Athletics Volleyball Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "29": [
+        {
+            "title": "E-Learning PD",
+            "time": "8:00am - 4:00pm",
+            "location": "Riverside - RJH AUDITERIA, Riverside - RJH GYM - MAIN, Riverside - RJH LGI ROOM"
+        },
+        {
+            "title": "RJHA",
+            "time": "4:00pm - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "Mudsock Youth Athletics Girls Volleyball Rec Plus Practice / Net Sets",
+            "time": "6:30pm - 8:30pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN, Riverside - RSI GYM"
+        }
+    ],
+    "30": [
+        {
+            "title": "Mudsock Youth Athletics Volleyball Matches",
+            "time": "8:00am - 12:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RSI GYM, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "Fishers Falcons 13U Practices",
+            "time": "8:30am - 10:00am",
+            "location": "@Riverside - RSS BB1N"
+        },
+        {
+            "title": "Fishers Falcons 14U Baseball Practice",
+            "time": "10:00am - 11:00am",
+            "location": "@Riverside - RSS BB1S"
+        },
+        {
+            "title": "Mudsock Youth Athletics Cross Country Practices",
+            "time": "10:00am - 11:15am",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        },
+        {
+            "title": "Mudsock Youth Athletics Volleyball Matches",
+            "time": "1:30pm - 3:30pm",
+            "location": "Riverside - RSI GYM, Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ]
+}

@@ -1,0 +1,196 @@
+{
+    "1": [
+        {
+            "title": "Math Tutoring",
+            "time": "8:30am - 9:15am",
+            "location": null
+        },
+        {
+            "title": "FCJH Boys Golf",
+            "time": "4:45pm",
+            "location": "@AWAY"
+        }
+    ],
+    "2": [
+        {
+            "title": "FCJH Girls Tennis",
+            "time": "5:00pm",
+            "location": "@AWAY"
+        }
+    ],
+    "3": [
+        {
+            "title": "Math Tutoring",
+            "time": "8:30am - 9:15am",
+            "location": null
+        }
+    ],
+    "6": [
+        {
+            "title": "Girl Scout Meetings Troop 213 - FCJH",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Junior High - Conference Room"
+        },
+        {
+            "title": "FCJH Boys Golf",
+            "time": "4:30pm",
+            "location": "@AWAY"
+        }
+    ],
+    "7": [
+        {
+            "title": "Track Meet",
+            "time": "5:30pm",
+            "location": "@AWAY"
+        }
+    ],
+    "8": [
+        {
+            "title": "Math Tutoring",
+            "time": "8:30am - 9:15am",
+            "location": null
+        },
+        {
+            "title": "Track Meet",
+            "time": "5:30pm",
+            "location": "@AWAY"
+        }
+    ],
+    "9": [
+        {
+            "title": "FCJH Boys Golf",
+            "time": "4:30pm",
+            "location": "@AWAY"
+        },
+        {
+            "title": "FCJH Girls Tennis",
+            "time": "5:00pm",
+            "location": "@AWAY"
+        },
+        {
+            "title": "Track Meet",
+            "time": "5:30pm",
+            "location": "Fall Creek Junior High - FCJH AF1A + B, Fall Creek Junior High - FCJH AF2, Fall Creek Junior High - FCJH Stadium, Fall Creek Junior High - FCJH Track"
+        }
+    ],
+    "10": [
+        {
+            "title": "Math Tutoring",
+            "time": "8:30am - 9:15am",
+            "location": null
+        }
+    ],
+    "13": [
+        {
+            "title": "Choir Dress Rehearsal",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Junior High - FCJH Auditeria"
+        },
+        {
+            "title": "Track Meet",
+            "time": "5:30pm",
+            "location": "@AWAY"
+        }
+    ],
+    "14": [
+        {
+            "title": "Choir Concert",
+            "time": "4:00pm - 8:30pm",
+            "location": "@Fall Creek Junior High - FCJH Auditeria"
+        },
+        {
+            "title": "FCJH Boys Golf",
+            "time": "4:45pm",
+            "location": "@AWAY"
+        },
+        {
+            "title": "FCJH Girls Tennis",
+            "time": "5:00pm",
+            "location": "Fall Creek Junior High - FCJH Tennis Court 1 , Fall Creek Junior High - FCJH Tennis Court 2 , Fall Creek Junior High - FCJH Tennis Court 3"
+        }
+    ],
+    "15": [
+        {
+            "title": "Math Tutoring",
+            "time": "8:30am - 9:15am",
+            "location": null
+        },
+        {
+            "title": "FCJH Boys Golf",
+            "time": "4:45pm",
+            "location": "@AWAY"
+        }
+    ],
+    "16": [
+        {
+            "title": "Orchestra Concert / Setup / Practice",
+            "time": "1:00pm - 8:00pm",
+            "location": "@Fall Creek Junior High - FCJH Auditeria"
+        }
+    ],
+    "17": [
+        {
+            "title": "Junior Black Student Union Meeting",
+            "time": "8:20am - 9:15am",
+            "location": null
+        },
+        {
+            "title": "Math Tutoring",
+            "time": "8:30am - 9:15am",
+            "location": null
+        },
+        {
+            "title": "Orchestra Concert / Setup / Practice",
+            "time": "1:00pm - 8:00pm",
+            "location": "@Fall Creek Junior High - FCJH Auditeria"
+        },
+        {
+            "title": "Track Meet",
+            "time": "5:30pm",
+            "location": "@AWAY"
+        }
+    ],
+    "18": [
+        {
+            "title": "FCJH Girls Tennis",
+            "time": null,
+            "location": "@AWAY"
+        }
+    ],
+    "20": [
+        {
+            "title": "Girl Scout Meetings Troop 213 - FCJH",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Junior High - Conference Room"
+        },
+        {
+            "title": "Band Concert",
+            "time": "6:00pm - 8:00pm",
+            "location": "Fall Creek Junior High - FCJH Auditeria, Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        }
+    ],
+    "21": [
+        {
+            "title": "Orchestra Concert / Setup / Practice",
+            "time": "1:00pm - 8:00pm",
+            "location": "@Fall Creek Junior High - FCJH Auditeria"
+        }
+    ],
+    "22": [
+        {
+            "title": "Math Tutoring",
+            "time": "8:30am - 9:15am",
+            "location": null
+        },
+        {
+            "title": "Math Tutoring",
+            "time": "8:30am - 9:15am",
+            "location": null
+        },
+        {
+            "title": "Orchestra Concert",
+            "time": "6:00pm - 8:30pm",
+            "location": "@Fall Creek Junior High - FCJH Auditeria"
+        }
+    ]
+}

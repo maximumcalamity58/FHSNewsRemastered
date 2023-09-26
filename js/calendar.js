@@ -3,6 +3,7 @@ class Calendar {
         this.currentDate = new Date();
         this.currentMonth = this.currentDate.getMonth();
         this.currentYear = this.currentDate.getFullYear();
+        this.schoolFolder = '19-fishers-high-school'; // default folder
         this.init();
     }
 
@@ -31,12 +32,53 @@ class Calendar {
         }
     }
 
+    showLoadingBar() {
+        const loadingBarContainer = document.getElementById('loading-bar-container');
+        const loadingBar = document.getElementById('loading-bar');
+
+        // Show loading bar container
+        loadingBarContainer.style.opacity = '1';
+
+        // Initialize loading bar
+        loadingBar.style.width = '0';
+        loadingBar.style.backgroundColor = 'pink';
+
+        // Animate loading bar
+        let width = 0;
+        const interval = setInterval(() => {
+            if (width >= 100) {
+                clearInterval(interval);
+            } else {
+                if (width > 80) {
+                    width += 1/3;
+                } else {
+                    width++;
+                }
+                loadingBar.style.width = width + '%';
+                loadingBar.style.backgroundColor = 'red';
+            }
+        }, 12); // Adjust the interval time for faster or slower animation
+    }
+
+    hideLoadingBar() {
+        const loadingBarContainer = document.getElementById('loading-bar-container');
+        const loadingBar = document.getElementById('loading-bar');
+
+        // Hide loading bar container
+        loadingBarContainer.style.opacity = '0';
+
+        // Reset loading bar
+        loadingBar.style.width = '0';
+        loadingBar.style.backgroundColor = 'pink';
+    }
+
     // Function to show events for clicked day
     async showEvents(date) {
-        console.log("Show events for:", date);  // Debugging line
+        // Show the loading bar
+        this.showLoadingBar()
 
         const yearMonth = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`; // Format: 'YYYY-MM'
-        const filePath = `/py/calendar-data/19-fishers-high-school/${yearMonth}.json`;
+        const filePath = `/py/calendar-data/${this.schoolFolder}/${yearMonth}.json`;
 
         console.log("Fetching from filePath:", filePath);  // Debugging line
 
@@ -51,8 +93,13 @@ class Calendar {
             const data = await response.json();
             console.log("Data received:", data);  // Debugging line
             eventData = data[date.getDate()] || [];
+            // Hide the loading bar
+            this.hideLoadingBar()
         } catch (error) {
             console.error('Error fetching calendar data:', error);
+
+            // Hide the loading bar on error
+            this.hideLoadingBar()
         }
 
         // Format events for display in the modal
@@ -105,16 +152,17 @@ class Calendar {
             </div>
         `;
 
-
-
-
         // Show the modal
         document.getElementById("eventModal").classList.remove("hidden");
     }
 
     async fetchMonthEvents() {
+        // Show the loading bar
+        this.showLoadingBar()
+
         const yearMonth = `${this.currentYear}-${String(this.currentMonth + 1).padStart(2, '0')}`;
-        const filePath = `/py/calendar-data/19-fishers-high-school/${yearMonth}.json`;
+        const filePath = `/py/calendar/calendar-data/${this.schoolFolder}/${yearMonth}.json`;
+
         try {
             const response = await fetch(filePath);
             if (!response.ok) {
@@ -133,10 +181,56 @@ class Calendar {
                 events.isPSAT = events.some(e => e.title.toLowerCase() === 'psat');
             }
 
+            // Hide the loading bar
+            this.hideLoadingBar()
             return data;
         } catch (error) {
             console.error('Error fetching calendar data:', error);
+
+            // Hide the loading bar on error
+            this.hideLoadingBar()
             return {};
+        }
+    }
+
+    async populateSchoolDropdown() {
+        try {
+            const response = await fetch('../py/school-ids.json');
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            const schools = await response.json();
+
+            const dropdownOptionsContainer = document.querySelector('.dropdown-options');
+            dropdownOptionsContainer.innerHTML = ''; // Clear existing options
+
+            for (const schoolFolder in schools) {
+                const schoolName = schools[schoolFolder];
+                const option = document.createElement('div');
+                option.className = 'dropdown-option';
+                option.setAttribute('data-value', schoolFolder);
+                option.innerText = schoolName;
+
+                option.addEventListener('click', () => {
+                    // Update the school title
+                    document.getElementById('schoolTitle').innerText = schoolName;
+                    // Update the dropdown header text to reflect the selected school
+                    document.querySelector('.dropdown-header span').innerText = schoolName;
+                    // Update the schoolFolder property
+                    this.schoolFolder = schoolFolder;
+                    // Refresh the calendar data based on the new school
+                    this.generateCalendar();
+                    // Close the dropdown
+                    const dropdownOptions = document.querySelector('.dropdown-options');
+                    const dropdownArrow = document.querySelector('.dropdown-arrow');
+                    dropdownOptions.classList.remove('open');
+                    dropdownArrow.classList.remove('open');
+                });
+
+                dropdownOptionsContainer.appendChild(option);
+            }
+        } catch (error) {
+            console.error('Error fetching schools data:', error);
         }
     }
 
@@ -279,11 +373,79 @@ function hideModal() {
 document.addEventListener("DOMContentLoaded", () => {
     const calendar = new Calendar();
 
+    calendar.populateSchoolDropdown();
+
+    document.querySelector('.dropdown-header').addEventListener('click', function(event) {
+        event.stopPropagation();
+
+        const dropdownOptions = document.querySelector('.dropdown-options');
+        const dropdownArrow = document.querySelector('.dropdown-arrow');
+
+        // Toggle the dropdown open/close
+        if (dropdownOptions.classList.contains('open')) {
+            dropdownOptions.classList.remove('open');
+            dropdownArrow.classList.remove('open');
+        } else {
+            dropdownOptions.classList.add('open');
+            dropdownArrow.classList.add('open');
+        }
+    });
+
+    document.querySelectorAll('.dropdown-option').forEach(option => {
+        option.addEventListener('click', function() {
+            const selectedValue = this.getAttribute('data-value');
+            const selectedText = this.innerText;
+
+            // Update the school title
+            document.getElementById('schoolTitle').innerText = selectedText;
+
+            // Update the dropdown header text to reflect the selected school
+            document.querySelector('.dropdown-header span').innerText = selectedText;
+
+            // Update the global variable or property that holds the school's folder name
+            calendar.schoolFolder = selectedValue; // Assuming "calendar" is the instance of your Calendar class
+
+            // Show the loading bar
+            document.getElementById('loading-bar-container').style.opacity = '1';
+
+            // Close the dropdown
+            const dropdownOptions = document.querySelector('.dropdown-options');
+            const dropdownArrow = document.querySelector('.dropdown-arrow');
+            dropdownOptions.classList.remove('open');
+            dropdownArrow.classList.remove('open');
+
+            // Refresh the calendar data based on the new school
+            calendar.generateCalendar();
+
+            // Hide the loading bar
+            document.getElementById('loading-bar-container').style.opacity = '0';
+        });
+    });
+
+    // Get references to the dropdown and its options
+    const dropdownOptions = document.querySelector('.dropdown-options');
+    const dropdownArrow = document.querySelector('.dropdown-arrow');
+
+    // Add a click event listener to the document
+    document.addEventListener('click', (event) => {
+        // Check if the clicked target is not the dropdown or a descendant of the dropdown
+        if (!dropdownOptions.contains(event.target)) {
+            // Close the dropdown
+            dropdownOptions.classList.remove('open');
+            dropdownArrow.classList.remove('open');
+        }
+    });
+
     document.getElementById("eventModal").addEventListener("click", function(event) {
         if (event.target === this) {
             hideModal();
         }
     });
+});
+
+document.querySelector('.dropdown-header').addEventListener('click', function() {
+    const dropdownOptions = document.querySelector('.dropdown-options');
+    dropdownOptions.classList.toggle('hidden');
 });
 
 // Close the modal when the close button is clicked

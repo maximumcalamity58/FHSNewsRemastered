@@ -1,0 +1,264 @@
+{
+    "1": [
+        {
+            "title": "Choir Rehearsal",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Geist Elementary - GES Music Room"
+        }
+    ],
+    "4": [
+        {
+            "title": "Mudsock Youth Athletics Fall Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "Geist Elementary - GES AF1A + B, Geist Elementary - GES BB1"
+        }
+    ],
+    "5": [
+        {
+            "title": "School Wide Read Aloud",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "Geist Elementary - GES AF1A + B, Geist Elementary - GES BB1"
+        }
+    ],
+    "6": [
+        {
+            "title": "School Wide Read Aloud",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "Geist Elementary - GES AF1A + B, Geist Elementary - GES BB1"
+        }
+    ],
+    "7": [
+        {
+            "title": "Classroom Activity",
+            "time": "7:45am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "School Wide Read Aloud",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "Geist Elementary - GES AF1A + B, Geist Elementary - GES BB1"
+        }
+    ],
+    "8": [
+        {
+            "title": "School Wide Read Aloud",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Choir Rehearsal",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Geist Elementary - GES Music Room"
+        }
+    ],
+    "11": [
+        {
+            "title": "Mudsock Youth Athletics Fall Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "Geist Elementary - GES AF1A + B, Geist Elementary - GES BB1"
+        }
+    ],
+    "12": [
+        {
+            "title": "Mudsock Youth Athletics Fall Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "Geist Elementary - GES AF1A + B, Geist Elementary - GES BB1"
+        }
+    ],
+    "13": [
+        {
+            "title": "Culture Club",
+            "time": null,
+            "location": "Geist Elementary - GES Music Room, Room 26"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "Geist Elementary - GES AF1A + B, Geist Elementary - GES BB1"
+        }
+    ],
+    "14": [
+        {
+            "title": "Picture Day",
+            "time": "7:20am - 1:00pm",
+            "location": "@Geist Elementary - GES Cafeteria"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "Geist Elementary - GES AF1A + B, Geist Elementary - GES BB1"
+        }
+    ],
+    "15": [
+        {
+            "title": "Choir Rehearsal",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Geist Elementary - GES Music Room"
+        }
+    ],
+    "18": [
+        {
+            "title": "Career Week",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Field Trip",
+            "time": "9:30am - 1:30pm",
+            "location": "@Off-Site"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "Geist Elementary - GES AF1A + B, Geist Elementary - GES BB1"
+        }
+    ],
+    "19": [
+        {
+            "title": "Career Week",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Field Trip",
+            "time": "9:30am - 1:30pm",
+            "location": "@Off-Site"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "Geist Elementary - GES AF1A + B, Geist Elementary - GES BB1"
+        }
+    ],
+    "20": [
+        {
+            "title": "Career Week",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Parent Teacher Conferences",
+            "time": "3:00pm - 6:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "Geist Elementary - GES AF1A + B, Geist Elementary - GES BB1"
+        }
+    ],
+    "21": [
+        {
+            "title": "Career Week",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Field Trip",
+            "time": "9:30am - 1:30pm",
+            "location": "@Off-Site"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "Geist Elementary - GES AF1A + B, Geist Elementary - GES BB1"
+        }
+    ],
+    "22": [
+        {
+            "title": "Career Week",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Choir Rehearsal",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Geist Elementary - GES Music Room"
+        }
+    ],
+    "25": [
+        {
+            "title": "Mudsock Youth Athletics Fall Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "Geist Elementary - GES AF1A + B, Geist Elementary - GES BB1"
+        }
+    ],
+    "26": [
+        {
+            "title": "ENL Family Night",
+            "time": "5:30pm - 6:30pm",
+            "location": "Classrooms, Geist Elementary - GES Cafeteria, Geist Elementary - GES Gym, Geist Elementary - GES Music Room"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "Geist Elementary - GES AF1A + B, Geist Elementary - GES BB1"
+        }
+    ],
+    "27": [
+        {
+            "title": "Classroom Activity",
+            "time": "9:15am - 10:15am",
+            "location": "@Geist Elementary - GES Cafeteria"
+        },
+        {
+            "title": "Field Trip",
+            "time": "9:45am - 1:15pm",
+            "location": "@Off-Site"
+        },
+        {
+            "title": "Field Trip",
+            "time": "10:15am - 1:30am",
+            "location": "@Off-Site"
+        },
+        {
+            "title": "Parent Teacher Conferences",
+            "time": "3:00pm - 6:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "Geist Elementary - GES AF1A + B, Geist Elementary - GES BB1"
+        }
+    ],
+    "28": [
+        {
+            "title": "Field Trip",
+            "time": "9:45am - 1:15pm",
+            "location": "@Off-Site"
+        },
+        {
+            "title": "McCord Pointe HOA",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Geist Elementary - GES Cafeteria"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "Geist Elementary - GES AF1A + B, Geist Elementary - GES BB1"
+        }
+    ],
+    "29": [
+        {
+            "title": "Choir Rehearsal",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Geist Elementary - GES Music Room"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "2": [
+        {
+            "title": "First Friday",
+            "time": "7:00am - 2:00pm",
+            "location": "@Entire Building - Sand Creek Elementary"
+        }
+    ],
+    "9": [
+        {
+            "title": "Field Trip",
+            "time": "9:30am - 1:00pm",
+            "location": "@Room 20"
+        },
+        {
+            "title": "PTO Movie Night",
+            "time": "6:00pm - 8:00pm",
+            "location": "Sand Creek Elementary - SCE Cafeteria, Sand Creek Elementary - SCE Gym"
+        }
+    ]
+}

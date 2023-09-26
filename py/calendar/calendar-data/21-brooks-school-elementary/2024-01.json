@@ -1,0 +1,42 @@
+{
+    "16": [
+        {
+            "title": "PTO Executive Committee Meeting",
+            "time": "5:30pm - 6:00pm",
+            "location": "@Brooks School Elementary - BSE Cafeteria"
+        },
+        {
+            "title": "PTO General Meeting",
+            "time": "6:00pm - 7:00pm",
+            "location": "@Brooks School Elementary - BSE Cafeteria"
+        }
+    ],
+    "17": [
+        {
+            "title": "Boy Scout Pack 130 Meetings BSE",
+            "time": "6:00pm - 8:00pm",
+            "location": "Brooks School Elementary - BSE Cafeteria, Brooks School Elementary - BSE Gym"
+        }
+    ],
+    "25": [
+        {
+            "title": "Talent Show",
+            "time": "6:00pm - 7:30pm",
+            "location": "Brooks School Elementary - BSE Cafeteria, Brooks School Elementary - BSE Gym"
+        }
+    ],
+    "26": [
+        {
+            "title": "Pinewood Derby Pack 130 BSE",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Brooks School Elementary - BSE Gym"
+        }
+    ],
+    "27": [
+        {
+            "title": "Pinewood Derby Pack 130 BSE",
+            "time": "8:00am - 3:00pm",
+            "location": "@Brooks School Elementary - BSE Gym"
+        }
+    ]
+}

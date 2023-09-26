@@ -1,0 +1,30 @@
+{
+    "12": [
+        {
+            "title": "Girl Scout Troop 4949- SCI",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Sand Creek Intermediate - SCI CAFETERIA"
+        }
+    ],
+    "19": [
+        {
+            "title": "Choir Concert",
+            "time": "7:00pm - 9:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "26": [
+        {
+            "title": "Girl Scout Troop 4949- SCI",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Sand Creek Intermediate - SCI CAFETERIA"
+        }
+    ],
+    "27": [
+        {
+            "title": "Choir Concert",
+            "time": "2:30pm - 3:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ]
+}

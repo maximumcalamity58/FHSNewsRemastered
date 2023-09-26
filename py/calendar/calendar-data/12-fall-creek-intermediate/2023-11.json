@@ -1,0 +1,160 @@
+{
+    "1": [
+        {
+            "title": "FCI Connect",
+            "time": "8:00am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Choir",
+            "time": "8:15am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI Music Room 210"
+        }
+    ],
+    "3": [
+        {
+            "title": "Spell Bowl Practice",
+            "time": "8:20am - 9:00am",
+            "location": "@Room 514"
+        },
+        {
+            "title": "Falcon Friday",
+            "time": "9:15am - 4:00pm",
+            "location": "@Entire Building - Fall Creek Intermediate"
+        }
+    ],
+    "6": [
+        {
+            "title": "PTO meeting",
+            "time": "2:00pm",
+            "location": "@Fall Creek Intermediate - 200- Bookroom"
+        },
+        {
+            "title": "Girl Scout Meetings Troop 4921- FCI",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Fall Creek Intermediate - 200- Bookroom"
+        }
+    ],
+    "8": [
+        {
+            "title": "Choir",
+            "time": "8:15am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Student Council",
+            "time": "8:15am",
+            "location": "@Room 613"
+        },
+        {
+            "title": "Girl Scout Meetings Troop 4321 - FCI",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI Media Center"
+        }
+    ],
+    "10": [
+        {
+            "title": "Spell Bowl Practice",
+            "time": "8:20am - 9:00am",
+            "location": "@Room 514"
+        }
+    ],
+    "13": [
+        {
+            "title": "Spell Bowl Competition",
+            "time": "4:00pm - 8:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Royalwood HOA Meeting",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fall Creek Intermediate - FCI Cafeteria"
+        }
+    ],
+    "15": [
+        {
+            "title": "FCI Connect",
+            "time": "8:00am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Choir",
+            "time": "8:15am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI Music Room 210"
+        },
+        {
+            "title": "Choir Performance",
+            "time": "6:30pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "16": [
+        {
+            "title": "Boys Basketball Game",
+            "time": "5:30pm - 7:30pm",
+            "location": null
+        }
+    ],
+    "20": [
+        {
+            "title": "5th Grade Field Trip - Heideman Block1",
+            "time": "9:30am - 2:45pm",
+            "location": "@Hub & Spoke"
+        },
+        {
+            "title": "Boys Basketball Game",
+            "time": "5:30pm - 7:30pm",
+            "location": null
+        }
+    ],
+    "21": [
+        {
+            "title": "5th Grade Field Trip - Anderson Block1",
+            "time": "9:30am - 2:45pm",
+            "location": "@Hub & Spoke"
+        }
+    ],
+    "27": [
+        {
+            "title": "5th Grade Field Trip - Elliot Block1",
+            "time": "9:30am - 2:45pm",
+            "location": "@Hub & Spoke"
+        }
+    ],
+    "28": [
+        {
+            "title": "5th Grade Field Trip - Elliot Block2",
+            "time": "9:30am - 2:45pm",
+            "location": "@Hub & Spoke"
+        },
+        {
+            "title": "Boys Basketball Game",
+            "time": "5:30pm - 7:30pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "29": [
+        {
+            "title": "Student Council",
+            "time": "8:15am",
+            "location": "@Room 613"
+        },
+        {
+            "title": "5th Grade Field Trip - Chemelewski Block1",
+            "time": "9:30am - 2:45pm",
+            "location": "@Hub & Spoke"
+        }
+    ],
+    "30": [
+        {
+            "title": "5th Grade Field Trip - Chemelewski Block2",
+            "time": "9:30am - 2:45pm",
+            "location": "@Hub & Spoke"
+        },
+        {
+            "title": "Boys Basketball Game",
+            "time": "5:30pm - 7:30pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ]
+}

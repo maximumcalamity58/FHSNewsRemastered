@@ -1,0 +1,49 @@
+{
+    "6": [
+        {
+            "title": "FFD Safety Lesson",
+            "time": "9:00am - 4:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "7": [
+        {
+            "title": "Girl Scout Troop 4949- SCI",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Sand Creek Intermediate - SCI CAFETERIA"
+        }
+    ],
+    "13": [
+        {
+            "title": "FFD Safety Lesson",
+            "time": "9:00am - 4:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "14": [
+        {
+            "title": "Band Concert",
+            "time": "7:00pm - 9:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "20": [
+        {
+            "title": "FFD Safety Lesson",
+            "time": "9:00am - 4:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        },
+        {
+            "title": "FFD Safety Lesson",
+            "time": "9:00am - 4:00pm",
+            "location": null
+        }
+    ],
+    "21": [
+        {
+            "title": "Girl Scout Troop 4949- SCI",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Sand Creek Intermediate - SCI CAFETERIA"
+        }
+    ]
+}

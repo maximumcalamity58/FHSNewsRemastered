@@ -1,0 +1,112 @@
+{
+    "1": [
+        {
+            "title": "Choir practice",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Robotics",
+            "time": "2:10pm - 3:30pm",
+            "location": null
+        }
+    ],
+    "6": [
+        {
+            "title": "Spell Bowl",
+            "time": "2:10pm - 3:15pm",
+            "location": null
+        }
+    ],
+    "8": [
+        {
+            "title": "Choir practice",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Picture Retake Day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Spell Bowl",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Robotics",
+            "time": "2:10pm - 3:30pm",
+            "location": null
+        },
+        {
+            "title": "Spell Bowl",
+            "time": "2:10pm - 3:15pm",
+            "location": null
+        }
+    ],
+    "9": [
+        {
+            "title": "PTO Pottery",
+            "time": "6:00pm - 8:00pm",
+            "location": "Harrison Parkway Elementary - HPE Cafeteria, Harrison Parkway Elementary - HPE Gym"
+        }
+    ],
+    "15": [
+        {
+            "title": "Choir practice",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Robotics",
+            "time": "2:10pm - 3:30pm",
+            "location": null
+        }
+    ],
+    "16": [
+        {
+            "title": "PTO Meeting",
+            "time": "6:30pm - 7:00pm",
+            "location": "Harrison Parkway Elementary - HPE Cafeteria, Harrison Parkway Elementary - HPE Gym"
+        }
+    ],
+    "27": [
+        {
+            "title": "Book Fair",
+            "time": null,
+            "location": null
+        }
+    ],
+    "28": [
+        {
+            "title": "Book Fair",
+            "time": null,
+            "location": null
+        }
+    ],
+    "29": [
+        {
+            "title": "Book Fair",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Choir practice",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Robotics",
+            "time": "2:10pm - 3:30pm",
+            "location": null
+        }
+    ],
+    "30": [
+        {
+            "title": "Book Fair",
+            "time": null,
+            "location": null
+        }
+    ]
+}

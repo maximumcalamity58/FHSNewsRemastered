@@ -1,0 +1,103 @@
+{
+    "7": [
+        {
+            "title": "Girl Scout Meetings Troop 2383 - HRE",
+            "time": "6:00pm - 7:15pm",
+            "location": "@Hoosier Road Elementary - HRE Cafeteria"
+        }
+    ],
+    "8": [
+        {
+            "title": "Rolling Knoll HOA Meeting",
+            "time": "6:00pm - 8:30pm",
+            "location": "@Hoosier Road Elementary - HRE Cafeteria"
+        }
+    ],
+    "10": [
+        {
+            "title": "Veterans Day Program",
+            "time": "9:00am - 10:30am",
+            "location": "@Entire Building - Hoosier Road Elementary"
+        }
+    ],
+    "13": [
+        {
+            "title": "Book Fair",
+            "time": "6:00am - 10:00pm",
+            "location": "@Hoosier Road Elementary - HRE Media Center"
+        },
+        {
+            "title": "Cub Scout Meetings Pack 110 HRE",
+            "time": "6:30pm - 7:30pm",
+            "location": "@Hoosier Road Elementary - HRE Cafeteria"
+        }
+    ],
+    "14": [
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary - HRE Media Center"
+        }
+    ],
+    "15": [
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary - HRE Media Center"
+        }
+    ],
+    "16": [
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary - HRE Media Center"
+        },
+        {
+            "title": "PTO Special Person's Night",
+            "time": "5:30pm - 7:00pm",
+            "location": "@Entire Building - Hoosier Road Elementary"
+        }
+    ],
+    "17": [
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary - HRE Media Center"
+        }
+    ],
+    "21": [
+        {
+            "title": "Girl Scout Meetings Troop 2383 - HRE",
+            "time": "6:00pm - 7:15pm",
+            "location": "@Hoosier Road Elementary - HRE Cafeteria"
+        }
+    ],
+    "22": [
+        {
+            "title": "Thanksgiving Break - No School",
+            "time": null,
+            "location": "@Hoosier Road Elementary School"
+        }
+    ],
+    "23": [
+        {
+            "title": "Thanksgiving Break - No School",
+            "time": null,
+            "location": "@Hoosier Road Elementary School"
+        }
+    ],
+    "24": [
+        {
+            "title": "Thanksgiving Break - No School",
+            "time": null,
+            "location": "@Hoosier Road Elementary School"
+        }
+    ],
+    "30": [
+        {
+            "title": "Cub Scout Meetings Pack 110 HRE",
+            "time": "6:30pm - 7:30pm",
+            "location": "@Hoosier Road Elementary - HRE Cafeteria"
+        }
+    ]
+}

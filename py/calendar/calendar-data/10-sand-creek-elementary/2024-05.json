@@ -1,0 +1,42 @@
+{
+    "1": [
+        {
+            "title": "Field Trip",
+            "time": "9:30am - 1:00pm",
+            "location": "Room 17, Room 20"
+        }
+    ],
+    "2": [
+        {
+            "title": "Field Trip",
+            "time": "9:30am - 1:00pm",
+            "location": "Room 18, Room 21"
+        }
+    ],
+    "3": [
+        {
+            "title": "First Friday",
+            "time": "7:00am - 2:00pm",
+            "location": "@Entire Building - Sand Creek Elementary"
+        },
+        {
+            "title": "Field Trip",
+            "time": "9:30am - 1:00pm",
+            "location": "@Room 20"
+        }
+    ],
+    "15": [
+        {
+            "title": "Music Program",
+            "time": "6:00pm - 7:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "20": [
+        {
+            "title": "Field Day",
+            "time": "8:00am - 2:00pm",
+            "location": "Sand Creek Elementary - SCE Gym, Sand Creek Elementary - SCE Parking Lot - Side"
+        }
+    ]
+}

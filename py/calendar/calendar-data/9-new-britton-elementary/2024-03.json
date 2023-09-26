@@ -1,0 +1,132 @@
+{
+    "1": [
+        {
+            "title": "Folk Dance Club",
+            "time": "2:15pm - 3:30pm",
+            "location": "New Britton Elementary - NBE GYM, New Britton Elementary - NBE Music Room"
+        },
+        {
+            "title": "Blue and Gold Banquet Pack 106 NBE",
+            "time": "6:15pm - 8:30pm",
+            "location": "@New Britton Elementary - NBE Cafeteria"
+        }
+    ],
+    "2": [
+        {
+            "title": "Blue and Gold Banquet Pack 106 NBE",
+            "time": "8:30am - 12:00pm",
+            "location": "@New Britton Elementary - NBE Cafeteria"
+        }
+    ],
+    "4": [
+        {
+            "title": "3D Printing Club",
+            "time": "2:15pm - 3:30pm",
+            "location": "@New Britton Elementary - 31"
+        }
+    ],
+    "6": [
+        {
+            "title": "Math Bowl",
+            "time": "2:15pm - 3:30pm",
+            "location": "@New Britton Elementary - 30"
+        },
+        {
+            "title": "Student Council",
+            "time": "2:15pm - 3:30pm",
+            "location": "@New Britton Elementary - 31"
+        }
+    ],
+    "7": [
+        {
+            "title": "PTO Meeting",
+            "time": "6:45pm - 8:15pm",
+            "location": "@New Britton Elementary - NBE Media Center"
+        }
+    ],
+    "8": [
+        {
+            "title": "Folk Dance Club",
+            "time": "2:15pm - 3:30pm",
+            "location": "New Britton Elementary - NBE GYM, New Britton Elementary - NBE Music Room"
+        }
+    ],
+    "11": [
+        {
+            "title": "4th Grade Music Performance",
+            "time": "3:00pm - 9:00pm",
+            "location": "@New Britton Elementary - NBE GYM"
+        }
+    ],
+    "12": [
+        {
+            "title": "4th Grade Music Performance",
+            "time": "3:00pm - 9:00pm",
+            "location": "@New Britton Elementary - NBE GYM"
+        },
+        {
+            "title": "Blue and Gold Banquet Pack 106 NBE",
+            "time": "6:15pm - 8:30pm",
+            "location": "New Britton Elementary - NBE Cafeteria, New Britton Elementary - NBE GYM"
+        }
+    ],
+    "13": [
+        {
+            "title": "Math Bowl",
+            "time": "2:15pm - 3:30pm",
+            "location": "@New Britton Elementary - 30"
+        },
+        {
+            "title": "4th Grade Music Performance",
+            "time": "3:00pm - 9:00pm",
+            "location": "@New Britton Elementary - NBE GYM"
+        }
+    ],
+    "14": [
+        {
+            "title": "4th Grade Music Performance",
+            "time": "6:00pm - 8:30pm",
+            "location": "@Entire Building - New Britton Elementary"
+        }
+    ],
+    "15": [
+        {
+            "title": "Folk Dance Club",
+            "time": "2:15pm - 3:30pm",
+            "location": "New Britton Elementary - NBE GYM, New Britton Elementary - NBE Music Room"
+        }
+    ],
+    "20": [
+        {
+            "title": "Math Bowl",
+            "time": "2:15pm - 3:30pm",
+            "location": "@New Britton Elementary - 30"
+        }
+    ],
+    "22": [
+        {
+            "title": "Folk Dance Club",
+            "time": "2:15pm - 3:30pm",
+            "location": "New Britton Elementary - NBE GYM, New Britton Elementary - NBE Music Room"
+        },
+        {
+            "title": "Movie Night",
+            "time": "5:00pm - 9:00pm",
+            "location": "@"
+        }
+    ],
+    "25": [
+        {
+            "title": "3D Printing Club",
+            "time": "2:15pm - 3:30pm",
+            "location": "@New Britton Elementary - 31"
+        }
+    ],
+    "27": [
+        {
+            "title": "Math Bowl",
+            "time": "2:15pm - 3:30pm",
+            "location": "@New Britton Elementary - 30"
+        }
+    ]
+}

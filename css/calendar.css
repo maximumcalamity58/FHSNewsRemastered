@@ -106,6 +106,135 @@ p, button {
 	background: transparent;
 }
 
+.school-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#schoolTitle {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.custom-dropdown {
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown-header {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: red; /* You can adjust this */
+    color: white;
+	font-size: 30px;
+	user-select: none;
+	font-family: robotobold;
+}
+
+.dropdown-arrow {
+    margin-left: 5px;
+}
+
+.dropdown-options {
+    position: fixed; /* Changed from absolute to fixed */
+    top: 9%; /* Center vertically */
+    left: 32%; /* Center horizontally */
+    transform: translate(-0%, -0%); /* Adjust for exact centering */
+	max-height: 500px;
+	overflow-y: auto;
+	max-width: max-content;
+	min-width: max-content;
+    border: 2px solid darkred;
+	border-radius: 5px;
+    background-color: #fff;
+    z-index: 10;
+	transition: 0.3s;
+}
+
+.dropdown-option {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.dropdown-option:hover {
+    background-color: #ddd;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+
+.custom-dropdown {
+    z-index: 20; /* Give a higher z-index */
+}
+
+.dropdown-options {
+    /* existing styles */
+    visibility: hidden; /* hide it initially */
+    opacity: 0;
+    transform: translateY(-10px); /* slightly move it up for a slide-down effect */
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.6s ease-in-out, transform 0.3s ease-in-out; /* smooth transition effect */
+}
+
+.dropdown-options.open {
+    visibility: visible; /* show the dropdown */
+    opacity: 1;
+    transform: translateY(0); /* reset the position */
+}
+
+.dropdown-arrow {
+    /* existing styles */
+    transition: transform 0.3s ease-in-out; /* smooth rotation effect */
+}
+
+.dropdown-arrow.open {
+    transform: rotate(180deg); /* rotate the arrow 180 degrees */
+}
+
+#loading-bar-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 20px;
+  background-color: white; /* Set the background color of the container to white */
+  border: 20px solid white; /* Optionally, add a border */
+  border-radius: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+#loading-bar-background {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px; /* Adjust for the rounded corners of the container */
+}
+
+@keyframes loading {
+    0% {
+        width: 0;
+        background-color: pink;
+    }
+    100% {
+        width: 100%;
+        background-color: red;
+    }
+}
+
+#loading-bar {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+
 p {
 	margin: 0;
 	text-align: center;
@@ -135,7 +264,6 @@ button {
 .calendar_head {
 	display: flex;
 	align-items: center;
-	/* background: var(--container-background-color); */
 }
 
 .calendar_head > * {
@@ -147,12 +275,15 @@ button {
 	flex: 1;
 	padding: 0;
 	background: transparent;
+	border-radius: 5px;
+	transition: 0.3s;
 }
 
 .calendar_head button p::before {
 	display: inline-block;
 	font-size: 3rem;
 	line-height: 50%;
+	transition: 0.3s;
 }
 
 .calendar_head button:last-child p::before {
@@ -234,6 +365,7 @@ button {
 .calendar_body td {
 	border: 1px solid black; /* This defines the grid lines */
 	text-align: center;
+	user-select: none;
 	width: 40px;
 	height: 40px;
 	transition: 0.3s;

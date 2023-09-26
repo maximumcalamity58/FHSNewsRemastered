@@ -1,0 +1,283 @@
+{
+    "1": [
+        {
+            "title": "Testing - I AM",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - ILEARN",
+            "time": "8:02am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "2": [
+        {
+            "title": "Testing - I AM",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - ILEARN",
+            "time": "8:02am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "3": [
+        {
+            "title": "Testing - I AM",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - ILEARN",
+            "time": "8:02am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "6": [
+        {
+            "title": "Staff Appreciation Week",
+            "time": "7:40am - 2:10pm",
+            "location": "@Teacher's Lounge"
+        },
+        {
+            "title": "Testing - I AM",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - NWEA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - ILEARN",
+            "time": "8:02am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "7": [
+        {
+            "title": "Staff Appreciation Week",
+            "time": "7:40am - 2:10pm",
+            "location": "@Teacher's Lounge"
+        },
+        {
+            "title": "Testing - I AM",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - NWEA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - ILEARN",
+            "time": "8:02am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing Treat Tuesday",
+            "time": "10:30am - 1:00pm",
+            "location": "@Geist Elementary - GES Cafeteria"
+        }
+    ],
+    "8": [
+        {
+            "title": "Rehearsal",
+            "time": "7:00am - 7:30am",
+            "location": "@Geist Elementary - GES Gym"
+        },
+        {
+            "title": "Staff Appreciation Week",
+            "time": "7:40am - 2:10pm",
+            "location": "@Teacher's Lounge"
+        },
+        {
+            "title": "Testing - I AM",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - NWEA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - ILEARN",
+            "time": "8:02am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "9": [
+        {
+            "title": "Staff Appreciation Week",
+            "time": "7:40am - 2:10pm",
+            "location": "@Teacher's Lounge"
+        },
+        {
+            "title": "Testing - I AM",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - NWEA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - ILEARN",
+            "time": "8:02am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Kindergarten Concert",
+            "time": "6:30pm",
+            "location": "@Geist Elementary - GES Gym"
+        }
+    ],
+    "10": [
+        {
+            "title": "Staff Appreciation Week",
+            "time": "7:40am - 2:10pm",
+            "location": "@Teacher's Lounge"
+        },
+        {
+            "title": "Testing - I AM",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - NWEA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - ILEARN",
+            "time": "8:02am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "13": [
+        {
+            "title": "Testing - NWEA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "14": [
+        {
+            "title": "Testing - NWEA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "15": [
+        {
+            "title": "Field Trip",
+            "time": null,
+            "location": "@Off-Site"
+        },
+        {
+            "title": "Testing - NWEA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "16": [
+        {
+            "title": "Testing - NWEA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "17": [
+        {
+            "title": "Testing - NWEA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "20": [
+        {
+            "title": "Testing - NWEA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "21": [
+        {
+            "title": "Testing - NWEA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "22": [
+        {
+            "title": "Testing - NWEA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "23": [
+        {
+            "title": "Testing - NWEA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - SIGS",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "24": [
+        {
+            "title": "Testing - NWEA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - SIGS",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "25": [
+        {
+            "title": "Testing - SIGS",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "26": [
+        {
+            "title": "Testing - SIGS",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "27": [
+        {
+            "title": "Testing - SIGS",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "28": [
+        {
+            "title": "Testing - SIGS",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "29": [
+        {
+            "title": "Testing - SIGS",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "1": [
+        {
+            "title": "Culture Club",
+            "time": null,
+            "location": "Geist Elementary - GES Music Room, Room 26"
+        },
+        {
+            "title": "Picture Day",
+            "time": "8:00am - 10:00am",
+            "location": "@Geist Elementary - GES Gym"
+        },
+        {
+            "title": "Fox Hollow HOA Meeting",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Geist Elementary - GES Cafeteria"
+        }
+    ],
+    "3": [
+        {
+            "title": "Fall Festival",
+            "time": "5:00pm - 9:00pm",
+            "location": "Entire Building - Geist Elementary"
+        }
+    ],
+    "6": [
+        {
+            "title": "Choir Rehearsal",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Geist Elementary - GES Music Room"
+        }
+    ],
+    "8": [
+        {
+            "title": "Choir Rehearsal",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Geist Elementary - GES Music Room"
+        }
+    ],
+    "9": [
+        {
+            "title": "Rehearsal",
+            "time": "7:00am - 7:30am",
+            "location": "@Geist Elementary - GES Gym"
+        }
+    ],
+    "10": [
+        {
+            "title": "Veteran's Day Program",
+            "time": null,
+            "location": "@Geist Elementary - GES Gym"
+        },
+        {
+            "title": "Choir Rehearsal",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Geist Elementary - GES Music Room"
+        }
+    ],
+    "13": [
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": "@Media Center"
+        },
+        {
+            "title": "Spell Bowl",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Steeplechase HOA Meeting - GES",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Geist Elementary - GES Cafeteria"
+        }
+    ],
+    "14": [
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": "@Media Center"
+        },
+        {
+            "title": "Blood Drive",
+            "time": "3:00pm - 6:00pm",
+            "location": "@Geist Elementary - GES Parking Lot - Front"
+        }
+    ],
+    "15": [
+        {
+            "title": "Culture Club",
+            "time": null,
+            "location": "Geist Elementary - GES Music Room, Room 26"
+        },
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": "@Media Center"
+        },
+        {
+            "title": "Field Trip",
+            "time": "10:15am - 12:15pm",
+            "location": "@Off-Site"
+        },
+        {
+            "title": "Book Fair",
+            "time": "5:00pm - 7:00pm",
+            "location": "@Media Center"
+        }
+    ],
+    "16": [
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": "@Media Center"
+        }
+    ],
+    "17": [
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": "@Media Center"
+        }
+    ]
+}
