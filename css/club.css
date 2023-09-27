@@ -3,7 +3,8 @@
 	font-family: robotobold;
 }
 
-.row {
+.row-club {
+  margin: 70px 0 70px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -93,16 +94,16 @@
 	margin: auto;
 }
 
-.title {
+.clubs-title {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0px;
     font-weight: bold;
     position: relative;
-    padding: 0 10px;
+    padding: 7px 10px;
     color: white;
-	font-size: 40px;
+	font-size: 42px;
 	user-select: none;
 	font-family: robotobold;
 }

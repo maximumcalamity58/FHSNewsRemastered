@@ -27,8 +27,9 @@
 
 <div class="wrapper">
 	<header>
+		<div class="home-title">FHS News</div>
 		<!-- <a href="/fishers"></a> -->
-		<a href="https://schedlink.com/fishers/info/">
+		<a href="html/info.html">
 			<div>
 				<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
 				  <path d="M18,3A15,15,0,1,0,33,18,15.005,15.005,0,0,0,18,3Zm0,4.5A4.5,4.5,0,1,1,13.5,12,4.494,4.494,0,0,1,18,7.5Zm0,21.3a10.8,10.8,0,0,1-9-4.83c.045-2.985,6-4.62,9-4.62s8.955,1.635,9,4.62a10.8,10.8,0,0,1-9,4.83Z" transform="translate(-3 -3)"/>
@@ -63,7 +64,6 @@
 			</section>
 			<section class="" id="sub">
 				<div class="row" id="sub_choose">
-
 				</div>
 			</section>
 			<section class="row container hidden" id="lunch">
@@ -74,6 +74,17 @@
 		  </section>
 		</section>
 		<!-- Clock -->
+		<section class="block" id="icon-buttons">
+			<a href="https://hse.instructure.com" class="icon-button">
+				<img src="img/canvas.png" alt="Canvas" />
+			</a>
+			<a href="https://sis.hse.k12.in.us/scripts/wsisa.dll/WService=wsEAplus/seplog01.w" class="icon-button">
+				<img src="img/skyward.png" alt="Skyward" />
+			</a>
+			<a href="https://clever.com/in/hse/student/portal" class="icon-button">
+				<img src="img/clever.png" alt="Clever" />
+			</a>
+		</section>
 	</article>
 	<!-- Bottom bar -->
 	<nav>
@@ -114,13 +125,14 @@
     let countdown = document.getElementById("countdown");
     let subBox = document.getElementById("sub_choose");
 
-	document.getElementById('prevPeriodBtn').addEventListener('click', function() {
-	   advanceToPreviousPeriod();
-	});
-
-	document.getElementById('nextPeriodBtn').addEventListener('click', function() {
-	   advanceToNextPeriod();
-	});
+    // Initialize the countdown clock
+    function initializeClock() {
+		if (typeof init === "function") {
+			initializeCountdown();
+		}
+		document.getElementById("nav-tabs__home").classList.toggle("selected");
+		console.log("Default: the basic theme");
+	}
 
 
     // Once the document content is loaded, initialize the clock

@@ -93,9 +93,14 @@ function initializeCountdown() {
         manualNavigation = true
     }
 
+    // Attach event listeners for the arrow buttons here
+    document.getElementById("prevPeriodBtn").addEventListener("click", advanceToPreviousPeriod);
+    document.getElementById("nextPeriodBtn").addEventListener("click", advanceToNextPeriod);
+
     updatePeriod();
     tick();
 }
+
 
 function isSchoolHours() {
     let firstStartTime = new Date().setHours(...timePeriodMapping[0].startTime.split(":"));

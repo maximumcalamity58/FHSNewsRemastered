@@ -1,4 +1,5 @@
 body {
+	margin-top: -55px;
 	font-family: var(--norm-font);
 }
 
@@ -145,11 +146,24 @@ body {
 	font-family: var(--bold-font);
 }
 
+.home-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    font-weight: bold;
+    position: relative;
+    padding: 7px 10px;
+    color: white;
+	font-size: 42px;
+	user-select: none;
+	font-family: robotobold;
+}
+
 .lunch-btn {
 	width: calc(25%); /* Divides the width into fourths */
 	height: 75px; /* Adjust this value if you want the buttons taller or shorter */
 	font-size: 2.5em; /* Adjust the font size as needed */
-	line-height: 75px; /* This should be the same as the button height */
 	text-align: center;
 	display: inline-block;
 	vertical-align: middle;
@@ -206,12 +220,15 @@ body {
 
 #lunch__choose {
     white-space: nowrap;
+	box-sizing: border-box;
+	display: inline-block;
     overflow: hidden; /* or overflow: auto; if you prefer to have a scrollbar when content overflows */
 }
 
 #lunch__choose {
 	text-align: center;
 	width: 100%;
+	margin-bottom: 0;
 }
 
 .l-margin.r-margin.lunch-btn {
@@ -235,9 +252,36 @@ body {
   padding: 0vw;
   font-size: 5vw;
   display: inline-block;
-  top: 0px;
+  box-sizing: content-box;
+  top: 0;
+  bottom: 0;
   font-family: var(--bold-font);
 }
+
+#icon-buttons {
+    display: flex;
+    justify-content: center;
+    background-color: white; /* Adjust the background color as needed */
+    margin-bottom: 20px; /* Adjust the margin below the buttons as needed */
+}
+
+.icon-button {
+    display: flex;
+	width: calc(100% / 3);
+	justify-content: center;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.icon-button:hover {
+    background-color: #e0e0e0; /* Adjust the hover background color as needed */
+}
+
+.icon-button img {
+    width: 50px; /* Adjust the width of the icon as needed */
+    height: auto;
+}
+
 
 #extra-features {
 	display: flex;
@@ -677,6 +721,8 @@ body {
 	#countdown {
 		letter-spacing: 2.5px;
 		margin: 0 auto 0;
+	    justify-content: center;
+	    align-items: center;
 	}
 
 	#countdown__timer {
