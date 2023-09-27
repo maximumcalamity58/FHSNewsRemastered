@@ -1,11 +1,24 @@
 [
     {
+        "name": "2000s FUN",
+        "sponsors": "Erin Knapp,",
+        "description": "This is a throwback to childhood \u2013 with little-to-no technology. We\u2019re going to play board games, do crafts, work on puzzles, and use sidewalk chalk to create a stress-free environment for students to gather and socialize for fun! The goal is social interaction and creating a sense of belonging at FHS.",
+        "meeting_info": "We will meet twice a month, after school (3:00 to 4:00pm) .. See the schedule here:"
+    },
+    {
+        "name": "3D PRINTING CLUB",
         "sponsors": "Renee Isom,",
         "description": "We will meet to plan and execute 3D printing projects using the equipment in the media center. We will also fundraise to afford more printing materials. Open to everyone, regardless of experience!",
         "meeting_info": "TBD"
     },
     {
         "name": "ACADEMIC AMBUSH TEAM",
+        "sponsors": "Alex Smith, ; Katie Hagerty,",
+        "description": "The Academic Ambush is comprised of three teams: Quiz Bowl, Spell Bowl, and Academic Super Bowl. Quiz Bowl is a team-based, Jeopardy-like trivia competition. Spell Bowl is a team-based spelling bee. Academic Super Bowl is a multidisciplinary team competition unified by them. See Mr. Smith or Ms. Hagerty for information on all three!",
+        "meeting_info": "Spell Bowl meets every Monday after school in A135.  Quiz Bowl meets every Monday after school in A117.  Academic Super Bowl will begin in the Spring."
+    },
+    {
+        "name": "AMERICAN SIGN LANGUAGE (ASL) CLUB",
         "sponsors": "Angela V. Farrand,",
         "description": "ASL Club members will expand their knowledge of ASL and Deaf culture through ASL related activities and by attending events for the Deaf in our local community.",
         "meeting_info": "Meetings will be the 1st and 3rd Tuesday of each month from 3:05 pm to 4:05pm"
@@ -36,6 +49,12 @@
     },
     {
         "name": "ASIAN STUDENT UNION",
+        "sponsors": "Scott Black,",
+        "description": "TBD",
+        "meeting_info": "TBD"
+    },
+    {
+        "name": "AURA8 DANCE CLUB",
         "sponsors": "Taylor Meador,",
         "description": "If you love K-pop and also love to dance, Aura8 is a great space for you! Whether you have 10 years of dance experience or only one month, you can join this club1 We\u2019re here to learn and have fun while preparing to showcase our talent.",
         "meeting_info": "Every Wednesday from 3:00 to 5:00 pm (room TBD)"
@@ -53,6 +72,12 @@
     },
     {
         "name": "BIKING CLUB",
+        "sponsors": "Kristin Marr",
+        "description": "TBD",
+        "meeting_info": "TBD"
+    },
+    {
+        "name": "()",
         "sponsors": "TBD",
         "description": "Bring Change to Mind\u2019s High School Program gives teens a platform to share their voices and raise awareness around mental health. Our goal is to empower students to educate one another and to foster a culture of peer support about mental health at FHS.  The club organizes thematic monthly meetings or community outreach, maintains the Wellness Room in Guidance, and plans and staffs the student-run event, Hope for Happiness, which occurs every May in the Nickel Plate District.",
         "meeting_info": "TBD"
@@ -71,6 +96,12 @@
     },
     {
         "name": "CHESS CLUB",
+        "sponsors": "Brigham French,",
+        "description": "Chess club is a place to learn the basics of the game in a friendly environment and a place to play competitively with other students.",
+        "meeting_info": "Every other Tuesday (Next Meeting Sept 5th)"
+    },
+    {
+        "name": "CLUB MED / HOSA (\u201cHealth Occupations Students of America\u201d)",
         "sponsors": "Sarah Walker,",
         "description": "HOSA is a club that explores a wide range of occupations to give students a broad view of the medical community. We also try to give students some experience with medicine, by having a variety of speakers each year and a couple of field trips to relevant sites in the city (ex. The Medical Academic Center for a cadaver lab, Medical History Museum, etc.)",
         "meeting_info": "Wednesdays at 7:45am in A217 (Note: we do not meet every Wed)"
@@ -83,6 +114,12 @@
     },
     {
         "name": "CONRAD CHALLENGE",
+        "sponsors": "Dan Mach,",
+        "description": "The Conrad Challenge is a year-long entrepreneurial and innovation-focused competition where students work in teams of 2-5 to formulate a solution, in the form of a product or service, to a societal issue of their choice. If students\u2019 ideas are promising enough and qualify for later rounds of the challenge, they can travel to Houston to compete against teams across the globe, pitching their idea to a panel of judges, which can earn them impactful scholarships and allow them to engage in the true entrepreneurial process.",
+        "meeting_info": "TBD"
+    },
+    {
+        "name": "CREATING ACTION THROUGH SERVICE (C.A.T.S.)",
         "sponsors": "Renee Vanlandingham,",
         "description": "CATS is a student-led service club focused on developing resources and in-classroom activities for teachers, as well as creating service day camps for the HSE e-Learning day. K-4th grade students attend to learn foundational information for service-based learning and complete their own service projects.",
         "meeting_info": "Callout meeting will be on Thursday 08/24/2023, all other meetings will be Monday at 7:45am, Mz. Vanlandingham room (B236)"
@@ -117,21 +154,44 @@
     },
     {
         "name": "DECA",
+        "sponsors": "Braden Tribolet () and Jeremy Guler ()",
+        "description": "DECA prepares emerging leaders and entrepreneurs in marketing, finance, hospitality, and management in high schools and colleges around the globe. There are many ways to be involved with DECA for the social aspects, networking, leadership, scholarship opportunities, competition (district, state and international), community service, etc...",
+        "meeting_info": "Call-Out Meeting: Wednesday, September 14th at 7:30 am in Cafe A"
+    },
+    {
+        "name": "DESI (INDIAN) STUDENT ASSOCIATION",
         "sponsors": "Ryan Harris,",
         "description": "TBD.",
         "meeting_info": "TBD"
     },
     {
         "name": "DISNEY CLUB",
+        "sponsors": "Kristin Marr,",
+        "description": "Love everything Disney? Want a fun club to join? Just want to hang out and play games, do trivia, and watch movies? Disney Club is the club for you! We play Disney-themed games, engage in Disney trivia, play/take Disney-themed quizzes, watch Disney movies, read scripts from Disney movies, talk about Disney, and even sing Disney karaoke!",
+        "meeting_info": "Call out meeting will be August 26 from 3:10 to 4:10 in the CCA"
+    },
+    {
+        "name": "\u201cDO SOMETHING\u201d CLUB",
         "sponsors": "Suzie Huppenthal, ; club email",
         "description": "This club will be dedicated to the website . This organization provides many different opportunities for serving communities and provides action plans for seeing projects through. We will be doing our part to better the world. We will attempt to engage in a different campaign each meeting, with the goal of collecting donations for various causes. This club will be student-run (but supervised by a teacher).",
         "meeting_info": "Every other Wednesday after school (3:00 to 4:00pm)"
     },
     {
         "name": "DRAMA CLUB",
+        "description": "Drama Club is the organization for students who are involved or want to be involved in the extracurricular theatre program at FHS, whether onstage or behind-the-scenes. Drama Club helps support Theatre Fishers productions and meets independently of those rehearsals every other Friday from 3:05-4:00.",
+        "meeting_info": "CALLOUT MEETING for Drama Club is Aug 25th and 10th 3:00pm to 3:40pm in the Blackbox Theatre (G167)."
+    },
+    {
+        "name": "DUNGEONS & DRAGONS CLUB",
+        "sponsors": "Steven Curtis, ; Jacob Kapitan,",
+        "description": "Adventurers Needed! All are welcome to join in on the fun, playing one of the most popular table-top role playing games. If you\u2019ve never played, no problem! We would love to teach you how. If you are an experienced player, we are always in need of students to help DM and run a group through an adventure. We use 5th edition D&D materials. There is no requirement to purchase books since the basic rules for D&D play and character creation are available for free online.",
+        "meeting_info": "Club meets every other Tuesday after school until 4:30. Actual dates are available on the Dungeons and Dragons Club Canvas page."
+    },
+    {
+        "name": "E-SPORTS CLUB",
+        "sponsors": "Jacob Kapitan,",
         "description": "E-Sports Club is a place where you can connect and play with fellow students who take an interest in E-Sports. Join to find a team of friends to play in the competitive scene of whichever game you have an interest in or just join for casual gaming.",
-        "meeting_info": "TBD",
-        "sponsors": "Jacob Kapitan,"
+        "meeting_info": "TBD"
     },
     {
         "name": "ECONOMICS CLUB",
@@ -147,12 +207,30 @@
     },
     {
         "name": "ENVIRONMENTAL MOVIE CLUB",
+        "sponsors": "Heather Ferguson, ; Summer Noyes,",
+        "description": "This club was inspired by the final exam in AP Environmental Science and is built on watching environmental-related movies (examples: Finding Nemo, Blackfish, etc.) and discussing the relationship and messages that can related to our world. We will build projects related to recycling or other environmental causes and discuss how we, as citizens, can contribute less to nature\u2019s problems.",
+        "meeting_info": "TBD"
+    },
+    {
+        "name": "ETHICS BOWL & PHILOSOPHY CLUB",
         "sponsors": "Chris Edwards,",
         "description": "Philosophy Club is centered around civil discussions about ethical problems and questions. Most of the club is spent preparing for the Ethics Bowl Competition at the Prindle Institute for Ethics at DePauw University in the beginning of the second semester; thus, the club is considered to the FHS Ethics Bowl team. Join the Hamilton Southeastern Ethics Bowl Team, as well. The Ethics Bowl will take place via Zoom on February 2nd 2021. Email Dr. Edwards at   with questions.",
         "meeting_info": "tbd"
     },
     {
         "name": "EUCHRE CLUB",
+        "sponsors": "Terri Thompson-Mejias,",
+        "description": "Euchre Club is a great way to end the school week! If you like this traditional midwestern card game, this is the club for you. We meet every final RED day of the week. Everyone is welcome, from beginner to advanced players. Can\u2019t wait to see you there!",
+        "meeting_info": "We meet at the tables outside H205 at 7:30 a.m. on RED days.   Check social media for dates.."
+    },
+    {
+        "name": "FELLOWSHIP OF CHRISTIAN ATHLETES (FCA)",
+        "sponsors": "Lauren Votaw,",
+        "description": "F.C.A. is open to any student looking for fellowship with other students who enjoy sports through games, a devotional, and prayer. Donuts are always free!",
+        "meeting_info": "Kick-Off Meeting Wednesday, August 23rd  at 7:45 AM in LGI. We will meet every Wednesday beginning August 23rd. FCA will not meet on October 18th, November 22nd or December 20th."
+    },
+    {
+        "name": "FHS READS! BOOK CLUB",
         "sponsors": "Renee Isom,",
         "description": "A place where students can share their love of reading, participate in our state\u2019s book award program, and promote titles for others to read. We have fun, play some games and of course, READ.",
         "meeting_info": "TBD"
@@ -183,6 +261,24 @@
     },
     {
         "name": "FRENCH CLUB",
+        "sponsors": "Jessica Geisinger,  and Dahnya Chop",
+        "description": "We meet to eat!   Every meeting involves food.  Some of our big events of the year are:  a cr\u00eape party, a murder mystery dinner, a French yule log cake party, a French cooking night, a fondue party, French breakfast and more.",
+        "meeting_info": "Pay dues to your French teacher.  First meeting:  Cr\u00eape party on Sept. 6th!"
+    },
+    {
+        "name": "FSN BROADCASTING (HS SPORTS NETWORK)",
+        "sponsors": "Paul Kennedy, ; Michelle Greco,",
+        "description": "FSN is our FHS sports network that does live streaming and broadcasting of select FHS sporting events. There are several different roles to be played within the organization including broadcasting, player/coach interviews, camera work, production and design, creative - social media, and more.",
+        "meeting_info": "Please e-mail sponsors for information to join the club!"
+    },
+    {
+        "name": "FUTURE BLACK LEADERS (FBL)",
+        "sponsors": "Renee Isom,  (library)  and Nawla Williams (deans\u2019 office),",
+        "description": "The mission of Future Black Leaders (FBL) is to radiate excellence, promote racial equity, and empower black leaders.",
+        "meeting_info": "FBL meets Weds. Talk to the club sponsors"
+    },
+    {
+        "name": "FUTURE FARMERS OF AMERICA (FFA)",
         "sponsors": "Samuel Lawrence,",
         "description": "We are an agricultural career based leadership organization. We travel around the state and country showcasing our career skills in animal, plant, and natural resource career development events.",
         "meeting_info": "Practices Tuesday-Thursday after school for Career Development Events,"
@@ -203,14 +299,23 @@
         "name": "GIRLS WHO CODE",
         "sponsors": "Natalie Thomen,",
         "description": "TBD",
+        "meeting_info": "TBD"
+    },
+    {
+        "name": "GSA (GENDER & SEXUALITY ALLIANCE)",
+        "sponsors": "Michelle Greco, ; Chris Edwards,",
+        "description": "The mission of the FHS Gender & Sexuality Alliance (GSA) is to foster pride, create a safe harbor, empower the lonely, fortify the weak, and engage in learning about LGBTQIA+ history and current events. We believe a diverse school community prepares us for life in a dynamic world, and we celebrate what unites us and what makes us unique. We support the intersectionality of all identity affinity clubs that strive for diversity, equity, and inclusion.",
         "meeting_info": "We meet once per month, on  Wednesday from 3:05-4:05 P.M. in A105 (The schedule is posted outside A105.) Call-out meeting Wed, August 30."
     },
     {
         "name": "HARRY POTTER CLUB",
+        "sponsors": "Stephanie Gutting,",
+        "description": "The Harry Potter Club celebrates the world of Harry Potter. We read and discuss the books and movies of Harry Potter. We will discuss character developments and major plot events. We will do crafts, play trivia games, Sorting Hat, learn some \u201cspells and potions,\u201d and mostly have fun. Both new and old readers are welcome!",
         "meeting_info": "Once per month"
     },
     {
         "name": "HISPANIC HERITAGE CLUB",
+        "sponsors": "Sharon Placzek,",
         "description": "This is a club for Hispanic students (or those of Hispanic descent) or those who simply want to learn more about Hispanic cultures. This club is made to motivate the members to explore different Hispanic cultures and the Spanish language while connecting with the Fishers community.",
         "meeting_info": "Once a month after school"
     },
@@ -222,6 +327,18 @@
     },
     {
         "name": "INTERVIEW POWER",
+        "sponsors": "Jeremy Guler,",
+        "description": "The Interview Power welcomes any student who wants to develop skills and poise to have the perfect interview. Some skills and strategies will be taught to students, and then we will conduct mock interviews, where students will have a chance to practice and receive feedback. Those offering the instruction include FHS teachers and counselors, as well as local community members and college admissions personnel.",
+        "meeting_info": "Thursdays, 3:00 to 4:00 PM"
+    },
+    {
+        "name": "INTRAMURALS (BASKETBALL)",
+        "sponsors": "Jim Werbe,",
+        "description": "This program is run entirely through HSE S.P.O.R.T.S. The opportunity guarantees a player 8 officiated games, a team t-shirt, a season-ending bracket tournament with Champions and Runners-up awards. There are two co-ed leagues with four divisions: 9th & 10th grade advanced (competitive), 9th & 10th grade recreation, 11th & 12th grade advanced (competitive), and 11th & 12th grade recreation.",
+        "meeting_info": "TBD"
+    },
+    {
+        "name": "K-POP CLUB",
         "sponsors": "Taylor Meador,",
         "description": "Informal meetings of like-minded individuals gathering to watch YouTube videos, play video games, learn and choreograph dances, and enjoy each other\u2019s company while obsessing over all things K-Pop. The club also has a dance division, Aura8, that learn several routines each year in hopes of performing in front of audiences.",
         "meeting_info": "Where: B204, When: Wednesdays 3:15-4:15"
@@ -252,6 +369,18 @@
     },
     {
         "name": "MODEL UNITED NATIONS",
+        "sponsors": "Jennifer Gabbard,   /  Jenna Pritchard,",
+        "description": "Model United Nations is an opportunity for students to apply their knowledge and skills in a real-world situation. Students learn and become \u201cdelegates\u201d to various committees within the United Nations and then role-play through the procedures, debates, and negotiations that take place during UN meetings. During regular meetings and at optional competitions (both local and out-of-state), delegates work together to develop resolutions that solve a particular problem or provide new solutions to existing concerns. The skills necessary to do well in Model UN come from all disciplines, and no previous experience is required. Students share one common trait: they care and/or want to know more about the world around them.",
+        "meeting_info": "Callout meeting is Tuesday, August 29th, at 3pm in the LGI room (near FH1). We will continue to meet every Tuesday in the LGI room from 3:00-4:00 pm. Prior attendance isn\u2019t necessary--join us!"
+    },
+    {
+        "name": "MUSIC & SOUND RECORDING CLUB",
+        "sponsors": "Ray Masterson,",
+        "description": "Write, record and enjoy music.",
+        "meeting_info": "Red Day Wednesdays 3PM - 4:30PM"
+    },
+    {
+        "name": "MUSLIM STUDENT ASSOCIATION (MSA)",
         "sponsors": "Matt Bockenfeld,",
         "description": "The MSA is an organization devoted to activating the Muslim students in FHS via service and activism, educating both Muslims and people of other faiths about Islam, and cultivating a better environment for students.",
         "meeting_info": "Meet every other Wednesday (starting September 1) in B230"
@@ -287,6 +416,12 @@
     },
     {
         "name": "POKER CLUB",
+        "sponsors": "Bill Buckman,",
+        "description": "This club will meet Wednesday mornings (see dates below)  to play variations of the traditional game, Poker. In Poker club, no gambling is involved. Instead, members will play recreationally, with allergy-safe candy as a prize. In the first few meetings of the year, we will lead instructive games that will teach everyone the game, and then we will evolve into more of a competitive structure. The poker chips, playing cards, etc. will be supplied by the two presidents of the club.",
+        "meeting_info": "Meeting dates:  9/13, 9/27, 10/11, 10/25, 11/8, 12/6 and 12/20"
+    },
+    {
+        "name": "PUNJABI CULTURE CLUB (PCC)",
         "sponsors": "Matt Stahl,",
         "description": "TBD",
         "meeting_info": "TBD"
@@ -304,6 +439,12 @@
     },
     {
         "name": "ROCK CLIMBING CLUB",
+        "sponsors": "Monica Jordan,",
+        "description": "This club is for students who have a passion for rock climbing AND students who are interested in learning how to rock climb! The group meets at Climb Time Indy on a bi-weekly basis on Wednesdays from 6:00 to 8:00 PM beginning 09/20/2023. The group gets a school club discount ($10).",
+        "meeting_info": "The group meets at Climb Time Indy on a bi-weekly basis on Wednesdays from 6:00 to 8:00 PM beginning 09/20/2023. Call Out Meeting is 09/13/2023 in FHS Library."
+    },
+    {
+        "name": "RUGBY (GIRLS)",
         "sponsors": "Austin, Antoni,",
         "description": "TBD",
         "meeting_info": "TBD"
@@ -333,21 +474,37 @@
     },
     {
         "name": "SPANISH CLUB",
+        "sponsors": "Stephanie Gutting,   /  Michelle Helmkamp,",
+        "description": "\u00a1Ol\u00e9! Join Spanish Club! Normally, we take field trips to restaurants, cultural festivals, and more. We watch movies in Spanish, celebrate Hispanic holidays, and we would love to have you join us!",
+        "meeting_info": "TBD"
+    },
+    {
+        "name": "SPEECH & DEBATE TEAM",
         "sponsors": "Bob Hinshaw,",
         "description": "The Fishers Speech & Debate team competes in public speaking tournaments throughout the state and on the national circuit. Students can compete in theatrical performances, broadcasting, platform speaking, and multiple types of debate.",
         "meeting_info": "Built around student schedules\u2014 we can accommodate almost all conflicts"
     },
     {
         "name": "SPORTS TRADING CARD CLUB",
+        "sponsors": "Ryan Harris,",
+        "description": "Open to anyone with a passion for sports trading cards. This club will meet to discuss and share knowledge of the hobby and business of Sports Trading Cards."
+    },
+    {
+        "name": "STUDENT ALLIANCE FOR EQUITY (S.A.F.E.)",
         "sponsors": "Michelle Greco ,  Renee Isom,",
         "description": "This club is for students who wish to become allies with historically marginalized groups. We will work together to engage in open dialogue and action to undo racism, stereotypes, bias, and oppression.",
         "meeting_info": "Every other Tuesday in the library- join Remind or follow social media for more information."
     },
     {
         "name": "STUDENT GOVERNMENT",
+        "sponsors": "Jennifer Pope (), Lori Kixmiller (), and Matt Bockenfeld ()",
+        "description": "Student Government is the place to be to get involved in all things FHS. From organizing Homecoming week and Riley week to the Pasta Bowl, this club will get you locked in on all the major service and school spirit events that FHS has to offer."
+    },
+    {
+        "name": "STUDENT ORGAN DONATION ADVOCATES (SODA)",
         "sponsors": "Terri Hamilton,",
         "description": "SODA is a national organization and is supported by Indiana Donor Network. SODA\u2019s main goal is organ donation awareness to students, helping them decide if organ donation is a good fit for them and/or their family. Here is link to the website:",
-        "meeting_info": "First Red Tuesday of the Month, beginning September 5th."
+        "meeting_info": "First Red Tuesday of the Month, beginning September 5th. This group will meet after school in Room B136"
     },
     {
         "name": "STUDENTS IN ACTION",
@@ -357,6 +514,12 @@
     },
     {
         "name": "TECH CREW",
+        "sponsors": "Andy Smith,",
+        "description": "Tech crew is a group of people that help build scenery and run productions in the auditorium.",
+        "meeting_info": "Tech crew will meet Tuesdays and Tursdays (beginning date TBD)"
+    },
+    {
+        "name": "TECHNOLOGY STUDENT ASSOCIATION (TSA)",
         "sponsors": "Brigham French,",
         "description": "TSA is a national student organization dedicated to promoting skills in science, technology, engineering, and mathematics, as well as business education. FHS will have an official chapter of TSA, giving students interested in these fields an opportunity to enhance their learning and compete at the state conference annually.",
         "meeting_info": "TBD"
@@ -369,6 +532,12 @@
     },
     {
         "name": "TIGER LEADERS",
+        "sponsors": "Braden Tribolet,",
+        "description": "Tiger Leaders aims to create a more positive student experience at Fishers High School through student engagement and school spirit. Tiger Leaders look to create experiences that benefit the school as well as advertising the events at the school. Additionally, Tiger Leaders help build upon the student body connection and look to attend and be involved in all school events.",
+        "meeting_info": "Every Monday morning at 7:30am in H136"
+    },
+    {
+        "name": "WARHAMMER 40000 CLUB",
         "sponsors": "Steven Curtis,",
         "description": "The Warhammer 40000 Club is a branch of the Dungeons & Dragons (D&D) Club, where members will play and learn more about the game. The club will meet at the same time as D&D. The games will consist of multiple people that have already started an army of 500+ points and have some experience with the game.",
         "meeting_info": "TBD"

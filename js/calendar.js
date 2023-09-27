@@ -70,6 +70,7 @@ class Calendar {
         // Reset loading bar
         loadingBar.style.width = '0';
         loadingBar.style.backgroundColor = 'pink';
+        loadingBar.style.backgroundColor = 'pink';
     }
 
     // Function to show events for clicked day
@@ -78,7 +79,7 @@ class Calendar {
         this.showLoadingBar()
 
         const yearMonth = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`; // Format: 'YYYY-MM'
-        const filePath = `/py/calendar-data/${this.schoolFolder}/${yearMonth}.json`;
+        const filePath = `/py/calendar/calendar-data/${this.schoolFolder}/${yearMonth}.json`;
 
         console.log("Fetching from filePath:", filePath);  // Debugging line
 
@@ -195,7 +196,7 @@ class Calendar {
 
     async populateSchoolDropdown() {
         try {
-            const response = await fetch('../py/school-ids.json');
+            const response = await fetch('../py/calendar/school-ids.json');
             if (!response.ok) {
                 throw new Error('Network response was not ok ' + response.statusText);
             }

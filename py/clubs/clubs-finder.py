@@ -1,5 +1,5 @@
-import json
 from docx import Document
+import json
 
 # Load the .docx file
 doc_path = "../../data/clubs_doc.docx"
@@ -8,13 +8,26 @@ doc = Document(doc_path)
 # Initialize variables
 clubs = []
 current_club = {}
+extraction_started = False  # Flag to indicate whether the extraction of club information has started
 
 # Iterate through paragraphs and extract club information
 for para in doc.paragraphs:
     text = para.text.strip()
 
-    # Check for club name (assuming club name is a standalone paragraph)
-    if text and all(c.isupper() or c.isspace() for c in text):
+    # Skip empty paragraphs
+    if not text:
+        continue
+
+    # Check if the extraction of club information should start
+    if "2000s FUN" in text:
+        extraction_started = True
+
+    # If extraction has not started, skip the paragraph
+    if not extraction_started:
+        continue
+
+    # Check for club name (standalone paragraph, no colons, and shorter length)
+    if ':' not in text and len(text) < 80:
         # Save the previous club if exists
         if current_club:
             clubs.append(current_club)

@@ -93,6 +93,20 @@
 	margin: auto;
 }
 
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    font-weight: bold;
+    position: relative;
+    padding: 0 10px;
+    color: white;
+	font-size: 40px;
+	user-select: none;
+	font-family: robotobold;
+}
+
 /* Overlay */
 .modal {
 	display: none; /* Hidden by default */
