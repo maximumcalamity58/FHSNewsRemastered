@@ -221,7 +221,7 @@ body {
 #lunch__choose {
     white-space: nowrap;
 	box-sizing: border-box;
-	display: inline-block;
+	display: flex;
     overflow: hidden; /* or overflow: auto; if you prefer to have a scrollbar when content overflows */
 }
 
