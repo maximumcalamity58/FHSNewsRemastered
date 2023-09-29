@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "parcel build index.html",
-    "dev": "parcel serve index.html --open",
+    "build": "parcel build public/index.html",
+    "dev": "parcel serve public/index.html --open",
     "start": "npm run build && npm run dev"
   },
   "devDependencies": {
@@ -15,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.3.1",
+    "express": "^4.18.2",
     "mysql": "github:mysqljs/mysql"
   }
 }
