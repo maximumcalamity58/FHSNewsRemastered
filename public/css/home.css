@@ -517,7 +517,7 @@ body {
 	height: 5vw;
 	animation: shake 1s;
 	animation-iteration-count: infinite;
-	content: url("public/img/placeholder.png");
+	content: url("../img/placeholder.png");
 
 }
 
