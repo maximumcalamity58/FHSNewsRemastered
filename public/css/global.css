@@ -267,7 +267,7 @@ header {
 }
 
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 0px) {
 	.wrapper {
 		margin-top: 70px;
 		margin-bottom: -75px;
