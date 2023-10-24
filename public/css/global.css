@@ -180,6 +180,10 @@ header a div {
 	height: 100%;
 }
 
+header a div img {
+	margin: 0 12px 0
+}
+
 #nav-tabs a div svg,
 header a div svg {
 	margin: 1.5vh 0 0;
