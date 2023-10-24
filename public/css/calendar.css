@@ -144,7 +144,7 @@ p, button {
     position: fixed; /* Changed from absolute to fixed */
     top: calc(70px - 0.5vh); /* Center vertically */
     left: 30vw; /* Center horizontally */
-	max-height: 500px;
+	max-height: calc(300px + 15vh);
 	overflow-y: auto;
 	width: 40vw;
     border: 2px solid darkred;
