@@ -4,13 +4,13 @@
 }
 
 .row-club {
-  margin: 70px 0 70px;
+  margin: 70px 0 12vh;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .club_container {
-  flex: 22%; /* or whatever width you desire */
   margin: 1%; /* or whatever margin you desire */
 }
 
@@ -64,11 +64,10 @@
 }
 
 .club_container {
-	min-width: 23%;
-	max-width: 23%;
-	min-height: 300px;
-	max-height: 300px;
-	width: 22%;
+	min-height: 375px;
+	max-height: 375px;
+	width: 16%;
+	min-width: 200px;
 	height: fit-content;
 	display: flex;
 	flex-direction: column;

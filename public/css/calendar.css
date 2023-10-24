@@ -114,7 +114,7 @@ p, button {
 }
 
 #schoolTitle {
-    font-size: 1.2em;
+    font-size: calc(20px + 0.7vw);
     font-weight: bold;
 }
 
@@ -125,6 +125,8 @@ p, button {
 
 .dropdown-header {
     display: flex;
+	flex-display: block;
+	justify-content: center;
     align-items: center;
     padding: 7px 10px;
     background-color: red; /* You can adjust this */
@@ -140,13 +142,11 @@ p, button {
 
 .dropdown-options {
     position: fixed; /* Changed from absolute to fixed */
-    top: 9%; /* Center vertically */
-    left: 32%; /* Center horizontally */
-    transform: translate(-0%, -0%); /* Adjust for exact centering */
+    top: calc(70px - 0.5vh); /* Center vertically */
+    left: 30vw; /* Center horizontally */
 	max-height: 500px;
 	overflow-y: auto;
-	max-width: max-content;
-	min-width: max-content;
+	width: 40vw;
     border: 2px solid darkred;
 	border-radius: 5px;
     background-color: #fff;

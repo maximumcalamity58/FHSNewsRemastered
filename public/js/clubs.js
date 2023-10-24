@@ -59,9 +59,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 content.className = 'club_content';
 
                 // Check if the description is longer than 150 characters
-                if (club.description && club.description.length > 200) {
+                if (club.description && club.description.length > 150) {
                     // Truncate the description and add an ellipsis
-                    content.textContent = club.description.substring(0, 200) + "...";
+                    content.textContent = club.description.substring(0, 150) + "...";
                     // Add a class to apply the fade-out effect
                     content.classList.add('fade-out');
                 } else {

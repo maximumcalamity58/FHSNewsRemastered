@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 55px;
+    padding-bottom: 12vh;
 }
 
 header {

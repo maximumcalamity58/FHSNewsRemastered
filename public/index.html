@@ -91,30 +91,26 @@
 		<div id="nav-tabs">
 			<a id="nav-tabs__home" href="index.html" class="selected">
 				<div>
-					<!--gradcap here-->
-					<img src="img/gradcap.png" alt="Home" width="34" height="34">
+					<img class="svg-convert" src="img/gradcap.svg" alt="Home" width="34" height="34">
+					<span>Home</span>
 				</div>
 			</a>
 			<a id="nav-tabs__clubs" href="html/clubs.html">
 				<div>
-					<!--settings here-->
-					<img src="img/clubs.png" alt="Clubs" width="34" height="34">
+					<img class="svg-convert" src="img/clubs.svg" alt="Clubs" width="34" height="34">
+					<span>Clubs</span>
 				</div>
 			</a>
 			<a id="nav-tabs__cal" href="html/calendar.html">
 				<div>
-					<!--calendar here-->
-					<img src="img/calendar.png" alt="Calendar" width="34" height="34">
+					<img class="svg-convert" src="img/calendar.svg" alt="Calendar" width="34" height="34">
+					<span>Calendar</span>
 				</div>
 			</a>
-<!--			<a id="nav-tabs__set" href="html/settings.html">-->
-<!--				<div>-->
-<!--					&lt;!&ndash;settings here&ndash;&gt;-->
-<!--					<img src="img/settings.png" alt="Settings" width="34" height="34">-->
-<!--				</div>-->
-<!--			</a>-->
 		</div>
 	</nav>
+
+
 	<!-- Bottom bar -->
 </div>
 </body>
@@ -122,7 +118,6 @@
 <script type="text/javascript">
     // Variables to reference the DOM elements
     let periodBox = document.getElementById("period__box");
-    let countdown = document.getElementById("countdown");
     let subBox = document.getElementById("sub_choose");
 
     // Initialize the countdown clock
@@ -130,9 +125,31 @@
 		if (typeof init === "function") {
 			initializeCountdown();
 		}
-		document.getElementById("nav-tabs__home").classList.toggle("selected");
 		console.log("Default: the basic theme");
 	}
+
+	window.addEventListener('load', function() {
+	  // Get all img tags with svg-to-inline class
+	  var imgTags = document.querySelectorAll('.svg-convert');
+
+	  // Loop through each tag found
+	  imgTags.forEach(function(img) {
+		var imgURL = img.src;
+
+		// Fetch the SVG
+		fetch(imgURL)
+		  .then(response => response.text())
+		  .then(data => {
+			// Parse fetched SVG and replace img tag with it
+			var parser = new DOMParser();
+			var doc = parser.parseFromString(data, 'image/svg+xml');
+			img.parentNode.replaceChild(doc.documentElement, img);
+		  })
+		  .catch(error => {
+			console.error("Error fetching the SVG: ", error);
+		  });
+	  });
+	});
 
 
     // Once the document content is loaded, initialize the clock

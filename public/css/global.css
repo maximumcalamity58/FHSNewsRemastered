@@ -37,12 +37,6 @@ a:link {
 	text-decoration: underline;
 }
 
-a:visited {
-	color: var(--anchor-color);
-	background-color: transparent;
-	text-decoration: underline;
-}
-
 a:hover {
 	color: var(--anchor-hover);
 	background-color: transparent;
@@ -165,6 +159,7 @@ nav {
 #nav-tabs {
 	height: 12vw;
 	background: var(--navigation-background-color);
+	transition: 0.3s;
 	text-align: center;
 }
 
@@ -182,12 +177,12 @@ header a {
 header a div {
 	display: inline-block;
 	width: calc(100% / 3);
-	height: auto;
+	height: 100%;
 }
 
-#nav-tabs a div img,
-header a div img {
-	margin: 1vw;
+#nav-tabs a div svg,
+header a div svg {
+	margin: 1.5vh 0 0;
 	fill: var(--navigation-icon-color);
 }
 
@@ -195,8 +190,8 @@ header a div img {
 	fill: var(--header-icon-color);
 }
 
-#nav-tabs a.selected div img,
-header a.selected div img {
+#nav-tabs a.selected div svg,
+header a.selected div svg {
 	fill: var(--navigation-active-icon-color);
 }
 
@@ -229,7 +224,7 @@ footer {
 	padding: 10px 0;
 }
 
-footer img {
+footer svg {
 	width: 200px;
 	margin: 0 auto 10px;
 }
@@ -303,7 +298,41 @@ header {
 	}
 
 	#nav-tabs {
-		height: 60px;
+		height: 6vw;
+		min-height: 80px;
+	}
+
+	#nav-tabs a div {
+		text-align: center;
+	}
+
+	#nav-tabs a div {
+	  position: relative;
+	}
+
+	#nav-tabs a div::before {
+	  content: "";
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  background-color: #333;
+	  opacity: 0;
+	  pointer-events: none;  /* So it doesn't interfere with interactions */
+	  transition: opacity 0.3s;
+	}
+
+	#nav-tabs a div:hover::before {
+	  opacity: 0.3;
+	}
+
+	#nav-tabs a div span {
+		display: block;
+		font-size: 20px;  /* You can adjust this */
+		align-content: start;
+		justify-content: center;
+		color: var(--navigation-icon-color);  /* Set the text color */
 	}
 
 	header a div {
@@ -312,13 +341,11 @@ header {
 
 	#nav-tabs a div svg,
 	header a div svg {
-		margin: 10px;
-		height: 40px;
+		height: 5vh;
 	}
 
 	.block {
-		margin: auto;
-		margin-bottom: 25px;
+		margin: auto auto 25px;
 		width: calc(50% + 240px);
 	}
 

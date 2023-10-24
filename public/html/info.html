@@ -83,26 +83,54 @@
 
 	<nav>
 		<div id="nav-tabs">
-			<a id="nav-tabs__home" href="../index.html" class="selected">
+			<a id="nav-tabs__home" href="../index.html">
 				<div>
 					<!--gradcap here-->
-					<img src="../img/gradcap.png" alt="Home" width="34" height="34">
-				</div>
+					<img class="svg-convert" src="../img/gradcap.svg" alt="Home" width="34" height="34">
+					<span>Home</span>
+                </div>
 			</a>
 			<a id="nav-tabs__clubs" href="clubs.html">
 				<div>
 					<!--settings here-->
-					<img src="../img/clubs.png" alt="Clubs" width="34" height="34">
-				</div>
+					<img class="svg-convert" src="../img/clubs.svg" alt="Clubs" width="34" height="34">
+					<span>Clubs</span>
+                </div>
 			</a>
 			<a id="nav-tabs__cal" href="calendar.html">
 				<div>
 					<!--calendar here-->
-					<img src="../img/calendar.png" alt="Calendar" width="34" height="34">
-				</div>
+					<img class="svg-convert" src="../img/calendar.svg" alt="Calendar" width="34" height="34">
+					<span>Calendar</span>
+                </div>
 			</a>
 		</div>
 	</nav>
 </div>
 </body>
+
+<script type="text/javascript">
+    window.addEventListener('load', function() {
+	  // Get all img tags with svg-to-inline class
+	  var imgTags = document.querySelectorAll('.svg-convert');
+
+	  // Loop through each tag found
+	  imgTags.forEach(function(img) {
+		var imgURL = img.src;
+
+		// Fetch the SVG
+		fetch(imgURL)
+		  .then(response => response.text())
+		  .then(data => {
+			// Parse fetched SVG and replace img tag with it
+			var parser = new DOMParser();
+			var doc = parser.parseFromString(data, 'image/svg+xml');
+			img.parentNode.replaceChild(doc.documentElement, img);
+		  })
+		  .catch(error => {
+			console.error("Error fetching the SVG: ", error);
+		  });
+	  });
+	});
+</script>
 </html>
