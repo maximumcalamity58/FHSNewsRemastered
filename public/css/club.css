@@ -11,7 +11,7 @@
 }
 
 .club_container {
-  margin: 1%; /* or whatever margin you desire */
+  margin: 0.5%; /* or whatever margin you desire */
 }
 
 
@@ -67,12 +67,11 @@
 	min-height: 375px;
 	max-height: 375px;
 	width: 16%;
-	min-width: 200px;
+	min-width: 175px;
 	height: fit-content;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	margin: 10px;
 	border-width: 2px;
 	border-color: red;
 	border-style: solid;
