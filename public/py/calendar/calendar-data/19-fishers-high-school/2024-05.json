@@ -6,6 +6,11 @@
             "location": null
         },
         {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Breakfast",
             "time": "7:30am - 8:30am",
             "location": "@Fishers High School - FHS Cafe B"
@@ -24,6 +29,11 @@
             "title": "Gabbard - IB TI and Employability",
             "time": "1:30pm - 3:00pm",
             "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Orchestra",
@@ -46,6 +56,11 @@
             "title": "Red day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Breakfast",
@@ -73,6 +88,11 @@
             "location": "@Fishers High School - FHS LGI"
         },
         {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Show Choir",
             "time": "3:00pm - 6:00pm",
             "location": "FHS- PA F115, FHS- PA F116, FHS- PA F119, FHS- PA F117, FHS- PA F132, Fishers High School - FHS Large Auditorium"
@@ -88,6 +108,11 @@
             "title": "Silver day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Breakfast",
@@ -171,9 +196,9 @@
             "location": null
         },
         {
-            "title": "CRU",
-            "time": null,
-            "location": "@Fishers High School - FHS Cafe C/ CCA Commons"
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Breakfast",
@@ -221,9 +246,19 @@
             "location": "@FHS- Other Teacher's Lounge"
         },
         {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Choir",
             "time": "4:00pm - 7:00pm",
             "location": "FHS- PA F115, FHS- PA F116, FHS- PA F119, FHS- PA F137, FHS- PA F117, FHS- PA F132, Fishers High School - FHS Large Auditorium"
+        },
+        {
+            "title": "CRU",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS Cafe C/ CCA Commons"
         },
         {
             "title": "Theatre Fishers",
@@ -241,6 +276,11 @@
             "title": "Silver day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Breakfast",
@@ -268,14 +308,14 @@
             "location": "@FHS- ACA H136 Project Lab"
         },
         {
-            "title": "Model UN",
-            "time": "3:00pm - 4:00pm",
-            "location": "@Fishers High School - FHS LGI"
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Model UN",
             "time": "3:00pm - 4:00pm",
-            "location": null
+            "location": "@Fishers High School - FHS LGI"
         },
         {
             "title": "Choir",
@@ -298,6 +338,11 @@
             "title": "Red day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "NHS Meeting",
@@ -350,6 +395,11 @@
             "location": "@Fishers High School - FHS LGI"
         },
         {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "NHS Meeting",
             "time": "3:00pm - 4:00pm",
             "location": "@Fishers High School - FHS LGI"
@@ -382,6 +432,11 @@
             "location": null
         },
         {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Breakfast",
             "time": "7:30am - 8:30am",
             "location": "@Fishers High School - FHS Cafe B"
@@ -405,6 +460,11 @@
             "title": "Gabbard - IB TI and Employability",
             "time": "1:30pm - 3:00pm",
             "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Choir",
@@ -434,6 +494,11 @@
             "location": null
         },
         {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Breakfast",
             "time": "7:30am - 8:30am",
             "location": "@Fishers High School - FHS Cafe B"
@@ -441,7 +506,7 @@
         {
             "title": "Perfect Attendance Breakfast",
             "time": "7:30am - 8:30am",
-            "location": "@Z DONT USE (old cafe A)"
+            "location": "@Fishers High School - FHS Cafe A"
         },
         {
             "title": "Key Club",
@@ -481,7 +546,12 @@
         {
             "title": "Choir",
             "time": "3:00pm - 7:00pm",
-            "location": "Z DONT USE (old cafe A), FHS- PA F115, FHS- PA F116, FHS- PA F119, FHS- PA F137, FHS- PA F117, FHS- PA F132, Fishers High School - FHS Cafe B, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
+            "location": "FHS- PA F115, FHS- PA F116, FHS- PA F117, FHS- PA F119, FHS- PA F132, FHS- PA F137, Fishers High School - FHS Cafe A, Fishers High School - FHS Cafe B, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Theatre Fishers",
@@ -506,6 +576,11 @@
     ],
     "11": [
         {
+            "title": "FAST",
+            "time": "6:30am - 11:30am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Softball",
             "time": "8:00am - 12:00pm",
             "location": "@Fishers High School - FHS Gym - Aux"
@@ -523,9 +598,9 @@
             "location": null
         },
         {
-            "title": "CRU",
-            "time": null,
-            "location": "@Fishers High School - FHS Cafe C/ CCA Commons"
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Breakfast",
@@ -563,9 +638,19 @@
             "location": "@FHS- ACA H136 Project Lab"
         },
         {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Newspaper (FHS)",
             "time": "3:00pm - 10:00pm",
             "location": "@FHS- ACA A218"
+        },
+        {
+            "title": "CRU",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS Cafe C/ CCA Commons"
         },
         {
             "title": "Percussion Concert",
@@ -588,6 +673,11 @@
             "title": "Red day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Breakfast",
@@ -625,14 +715,14 @@
             "location": "@Fishers High School - FHS LGI"
         },
         {
-            "title": "Model UN",
-            "time": "3:00pm - 4:00pm",
-            "location": "@Fishers High School - FHS LGI"
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Model UN",
             "time": "3:00pm - 4:00pm",
-            "location": null
+            "location": "@Fishers High School - FHS LGI"
         },
         {
             "title": "Baseball",
@@ -655,6 +745,11 @@
             "title": "Silver day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Breakfast",
@@ -692,6 +787,11 @@
             "location": "FHS- PA F137, FHS- PA F138, FHS- PA F142, FHS- PA F143 PA LGI, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
         },
         {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "DECA",
             "time": "6:30pm - 7:30pm",
             "location": "Fishers High School - FHS Cafe A, Fishers High School - FHS Cafe B"
@@ -712,6 +812,11 @@
             "title": "Red day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "PLC Guiding Coalition",
@@ -754,6 +859,11 @@
             "location": "@Fishers High School - FHS LGI"
         },
         {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Orchestra",
             "time": "3:00pm - 7:00pm",
             "location": "FHS- PA F137, FHS- PA F142, FHS- PA F143 PA LGI, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
@@ -774,6 +884,11 @@
             "title": "Silver day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Athletics",
@@ -806,6 +921,11 @@
             "location": "@FHS- ACA H136 Project Lab"
         },
         {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Theatre Fishers",
             "time": "5:00pm",
             "location": "Fishers High School - FHS Large Auditorium Lobby, Fishers High School - FHS Little Theatre - Black Box"
@@ -813,7 +933,7 @@
         {
             "title": "DECA",
             "time": "6:30pm - 8:00pm",
-            "location": "@Z DONT USE (old cafe A)"
+            "location": "@Fishers High School - FHS Cafe A"
         },
         {
             "title": "Theatre Fishers",
@@ -827,6 +947,11 @@
         }
     ],
     "18": [
+        {
+            "title": "FAST",
+            "time": "6:30am - 11:30am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
         {
             "title": "Softball",
             "time": "8:00am - 12:00pm",
@@ -848,6 +973,11 @@
             "title": "Red day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Breakfast",
@@ -880,9 +1010,9 @@
             "location": "@FHS- Other Teacher's Lounge"
         },
         {
-            "title": "Band",
-            "time": "6:00pm - 8:00pm",
-            "location": "@FHS- PA F142"
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Band",
@@ -897,6 +1027,11 @@
             "location": null
         },
         {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Breakfast",
             "time": "7:30am - 8:30am",
             "location": "@Fishers High School - FHS Cafe B"
@@ -907,14 +1042,14 @@
             "location": "@FHS- ACA H136 Project Lab"
         },
         {
-            "title": "Model UN",
-            "time": "3:00pm - 4:00pm",
-            "location": "@Fishers High School - FHS LGI"
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Model UN",
             "time": "3:00pm - 4:00pm",
-            "location": null
+            "location": "@Fishers High School - FHS LGI"
         },
         {
             "title": "Band",
@@ -932,6 +1067,11 @@
             "title": "Red day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Breakfast",
@@ -969,6 +1109,11 @@
             "location": "@Fishers High School - FHS LGI"
         },
         {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "School Board Meeting",
             "time": "7:00pm",
             "location": null
@@ -979,6 +1124,11 @@
             "title": "Silver day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Breakfast",
@@ -1004,6 +1154,11 @@
             "title": "Gabbard - IB TI and Employability",
             "time": "1:30pm - 3:00pm",
             "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         }
     ],
     "24": [
@@ -1011,6 +1166,11 @@
             "title": "Semester Exams",
             "time": null,
             "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Breakfast",
@@ -1041,6 +1201,23 @@
             "title": "Sociology Class",
             "time": "8:30am - 9:53am",
             "location": "@Fishers High School - FHS LGI"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        }
+    ],
+    "25": [
+        {
+            "title": "FAST",
+            "time": "6:30am - 11:30am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Baseball",
+            "time": "8:00am - 12:00pm",
+            "location": "@Fishers High School - FHS Gym - Aux"
         }
     ],
     "27": [
@@ -1048,6 +1225,11 @@
             "title": "No School",
             "time": null,
             "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         }
     ],
     "28": [
@@ -1055,6 +1237,11 @@
             "title": "Semester Exams",
             "time": null,
             "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Breakfast",
@@ -1067,14 +1254,14 @@
             "location": "@FHS- ACA H136 Project Lab"
         },
         {
-            "title": "Model UN",
-            "time": "3:00pm - 4:00pm",
-            "location": "@Fishers High School - FHS LGI"
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Model UN",
             "time": "3:00pm - 4:00pm",
-            "location": null
+            "location": "@Fishers High School - FHS LGI"
         }
     ],
     "29": [
@@ -1089,9 +1276,19 @@
             "location": null
         },
         {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Breakfast",
             "time": "7:30am - 8:30am",
             "location": "@Fishers High School - FHS Cafe B"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         }
     ],
     "30": [
@@ -1099,6 +1296,16 @@
             "title": "Teacher Day - No Students",
             "time": null,
             "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         }
     ],
     "31": [
@@ -1111,6 +1318,20 @@
             "title": "Commencement Rehearsal",
             "time": null,
             "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Memorial Day",
+            "time": "All Day"
         }
     ]
 }

@@ -8,7 +8,7 @@
     ],
     "5": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
         },
@@ -20,7 +20,7 @@
     ],
     "6": [
         {
-            "title": "Red day",
+            "title": "Silver day",
             "time": null,
             "location": null
         },
@@ -32,7 +32,7 @@
     ],
     "7": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
         },
@@ -44,7 +44,7 @@
     ],
     "10": [
         {
-            "title": "Red day",
+            "title": "Silver day",
             "time": null,
             "location": null
         },
@@ -56,7 +56,7 @@
     ],
     "14": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
         },
@@ -64,6 +64,11 @@
             "title": "MEET",
             "time": "6:00am - 8:00pm",
             "location": "HHS - Cardio Room - D116, HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5, HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "HSE HS Girls Basketball Host Date",
+            "time": "6:00pm - 9:00pm",
+            "location": "HHS - HSE HS GYM - VARSITY, HHS - HSE HS GYM - AUXILIARY, HHS - HSE HS Gym - Auxiliary Gym 2"
         }
     ],
     "15": [
@@ -71,6 +76,11 @@
             "title": "MEET",
             "time": "6:00am - 8:00pm",
             "location": "HHS - Cardio Room - D116, HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5, HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "HSE HS Girls Basketball Host Date",
+            "time": "6:00pm - 9:00pm",
+            "location": "HHS - HSE HS GYM - VARSITY, HHS - HSE HS GYM - AUXILIARY, HHS - HSE HS Gym - Auxiliary Gym 2"
         }
     ],
     "16": [
@@ -78,6 +88,17 @@
             "title": "MEET",
             "time": "6:00am - 8:00pm",
             "location": "HHS - Cardio Room - D116, HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5, HHS - HSE HS Aux Court 6 NEW AUX"
+        }
+    ],
+    "19": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Juneteenth",
+            "time": "All Day"
         }
     ]
 }

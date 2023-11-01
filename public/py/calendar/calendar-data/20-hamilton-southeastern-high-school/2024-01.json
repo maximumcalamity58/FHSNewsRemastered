@@ -1,4 +1,31 @@
 {
+    "2": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "10:00am - 12:00pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "10:00am - 12:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "4:00pm - 6:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Girls Freshman Basketball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "HHS - HSE HS Aux Court 1 OLD AUX, HHS - HSE HS AUX COURT 2"
+        }
+    ],
     "3": [
         {
             "title": "Red day",
@@ -6,9 +33,34 @@
             "location": null
         },
         {
+            "title": "Boys 9th BBall Practice",
+            "time": "9:30am - 11:30am",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "9:30am - 11:30am",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "12:00pm - 2:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
             "title": "Southeastern Symphony Rehearsals",
             "time": "3:15pm - 5:15pm",
             "location": "@HHS - H128 ORCHESTRA ROOM"
+        },
+        {
+            "title": "Wrestling Matches (JV/V)",
+            "time": "4:00pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Track/Field Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
         }
     ],
     "4": [
@@ -18,9 +70,24 @@
             "location": null
         },
         {
+            "title": "Girls Basketball",
+            "time": "10:30am - 12:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:00pm - 5:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
             "title": "Football/Competition Cheer Practice",
             "time": "3:30pm - 5:30pm",
             "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Girls Freshman Basketball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
         },
         {
             "title": "Dance Team Practice",
@@ -31,13 +98,72 @@
             "title": "Dance Team Practice",
             "time": "6:00pm - 8:30pm",
             "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Girls Basketball JV/Varsity",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         }
     ],
-    "8": [
+    "5": [
         {
             "title": "Red day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "Track/Field Practice",
+            "time": "9:00am - 3:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "1:00pm - 3:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Girls Freshman Basketball Practice",
+            "time": "1:00pm - 3:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:30pm - 4:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        }
+    ],
+    "6": [
+        {
+            "title": "Swimming/Dive Meets- Boys/Girls",
+            "time": "7:00am - 2:00pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Track/Field Practice",
+            "time": "9:00am - 3:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Boys 9th Basketball Games",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Boys JV/V Basketball Games",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        }
+    ],
+    "8": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         },
         {
             "title": "Boys & Girls Track Open Workouts",
@@ -62,7 +188,7 @@
     ],
     "9": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
         },
@@ -72,9 +198,34 @@
             "location": "@HHS - HSE Cafe D"
         },
         {
+            "title": "Second Semester Begins",
+            "time": "8:30am - 3:00pm",
+            "location": null
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 5:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        },
+        {
             "title": "Nat'l Honor Society",
             "time": "3:00pm - 3:30pm",
             "location": "@HHS - HSE Cafe D"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         },
         {
             "title": "Football/Competition Cheer Practice",
@@ -104,7 +255,7 @@
     ],
     "10": [
         {
-            "title": "Red day",
+            "title": "Silver day",
             "time": null,
             "location": null
         },
@@ -117,6 +268,21 @@
             "title": "Riley Dance Marathon",
             "time": "1:30pm - 3:00pm",
             "location": "@HHS - HSE Cafe A"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
         },
         {
             "title": "Southeastern Symphony Rehearsals",
@@ -134,6 +300,11 @@
             "location": "HHS - HSE HS Aux Court 1 OLD AUX, HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
         },
         {
+            "title": "Boys Volleyball open gym",
+            "time": "6:30pm - 8:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
             "title": "Boys Lacrosse Parent Meeting",
             "time": "7:00pm - 9:00pm",
             "location": "@Royal Den"
@@ -141,9 +312,19 @@
     ],
     "11": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 5:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         },
         {
             "title": "Football/Competition Cheer Practice",
@@ -166,6 +347,16 @@
             "location": "@HHS - Cardio Room - D116"
         },
         {
+            "title": "Boys Volleyball open gym",
+            "time": "6:30pm - 8:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Football Speed & Strength Academy",
+            "time": "6:30pm - 7:45pm",
+            "location": "HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
             "title": "Girls Lacrosse Conditioning",
             "time": "6:30pm - 8:00pm",
             "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
@@ -173,9 +364,19 @@
     ],
     "12": [
         {
-            "title": "Red day",
+            "title": "Silver day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 5:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "HHS - HSE HS Aux Court 1 OLD AUX, HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
         },
         {
             "title": "Football/Competition Cheer Practice",
@@ -198,6 +399,21 @@
             "title": "SSC MLK Meet",
             "time": "6:00am - 8:00pm",
             "location": "HHS - Cardio Room - D116, HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5, HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Track/Field Practice",
+            "time": "7:00am - 9:00pm",
+            "location": "HHS - HSE HS GYM - AUXILIARY, HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "9:00am - 11:00am",
+            "location": null
+        },
+        {
+            "title": "Boys JV/V Basketball Games",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         }
     ],
     "14": [
@@ -209,8 +425,38 @@
     ],
     "15": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
+            "location": null
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 5:30pm",
+            "location": null
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": null
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "4:15pm - 6:00pm",
             "location": null
         },
         {
@@ -226,7 +472,7 @@
     ],
     "16": [
         {
-            "title": "Red day",
+            "title": "Silver day",
             "time": null,
             "location": null
         },
@@ -234,6 +480,21 @@
             "title": "Royals Varsity Club Meetng",
             "time": "7:30am - 9:00am",
             "location": "@Royal Den"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         },
         {
             "title": "Football/Competition Cheer Practice",
@@ -251,6 +512,11 @@
             "location": "@HHS - Cardio Room - D116"
         },
         {
+            "title": "Boys Volleyball open gym",
+            "time": "6:30pm - 8:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
             "title": "Girls Lacrosse Conditioning",
             "time": "6:30pm - 8:00pm",
             "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
@@ -258,9 +524,29 @@
     ],
     "17": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         },
         {
             "title": "Southeastern Symphony Rehearsals",
@@ -281,18 +567,33 @@
             "title": "Lacrosse Workouts",
             "time": "6:00pm - 8:00pm",
             "location": "HHS - HSE HS Aux Court 1 OLD AUX, HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Wrestling Matches (JV/V)",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         }
     ],
     "18": [
         {
-            "title": "Red day",
+            "title": "Silver day",
             "time": null,
             "location": null
         },
         {
-            "title": "Course Fair",
-            "time": null,
-            "location": "HHS - HSE Cafe A, HHS - HSE Cafe B, HHS - HSE Cafe C, HHS - HSE Cafe D, HHS - HSE HS CCA Cafe E, HHS - HSE Leonard Auditorium"
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
         },
         {
             "title": "Football/Competition Cheer Practice",
@@ -310,6 +611,11 @@
             "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
         },
         {
+            "title": "Course Fair",
+            "time": "5:30pm - 8:30pm",
+            "location": "HHS - HSE Cafe A, HHS - HSE Cafe B, HHS - HSE Cafe C, HHS - HSE Cafe D, HHS - HSE HS CCA Cafe E, HHS - HSE Leonard Auditorium"
+        },
+        {
             "title": "Dance Team Practice",
             "time": "6:00pm - 8:30pm",
             "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
@@ -318,11 +624,26 @@
             "title": "Dance Team Practice",
             "time": "6:00pm - 8:30pm",
             "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Boys Volleyball open gym",
+            "time": "6:30pm - 8:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Football Speed & Strength Academy",
+            "time": "6:30pm - 7:45pm",
+            "location": "HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Girls Lacrosse Conditioning",
+            "time": "6:33pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
         }
     ],
     "19": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
         },
@@ -337,16 +658,80 @@
             "location": "@HHS - A136 - Lecture Hall"
         },
         {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 4:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
             "title": "Football/Competition Cheer Practice",
             "time": "3:30pm - 5:30pm",
             "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Boys JV/V Basketball Games",
+            "time": "7:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        }
+    ],
+    "20": [
+        {
+            "title": "Softball Open Workouts",
+            "time": "8:00am - 10:00am",
+            "location": "HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Wrestling Matches (JV/V)",
+            "time": "9:00am - 12:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "10:30am - 12:30pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Girls JV/V Basketball Games",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        }
+    ],
+    "21": [
+        {
+            "title": "HSE Boys Basketball Host Date",
+            "time": "10:00am - 6:00pm",
+            "location": "HHS - HSE HS GYM - VARSITY, HHS - HSE HS Gym - Auxiliary Gym 2, HHS - HSE HS GYM - AUXILIARY"
         }
     ],
     "22": [
         {
-            "title": "Red day",
+            "title": "Silver day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
         },
         {
             "title": "Boys & Girls Track Open Workouts",
@@ -372,13 +757,28 @@
             "title": "Lacrosse Workouts",
             "time": "6:00pm - 8:00pm",
             "location": "HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Boys Volleyball open gym",
+            "time": "6:30pm - 8:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Football Speed & Strength Academy",
+            "time": "6:30pm - 7:45pm",
+            "location": null
         }
     ],
     "23": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         },
         {
             "title": "Football/Competition Cheer Practice",
@@ -406,9 +806,14 @@
             "location": "@HHS - Cardio Room - D116"
         },
         {
-            "title": "Wrestling",
-            "time": "6:00pm - 9:00pm",
+            "title": "Girls 9th Basketball Games",
+            "time": "6:00pm - 8:00pm",
             "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Girls JV/V Basketball Games",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         },
         {
             "title": "Girls Lacrosse Conditioning",
@@ -418,9 +823,24 @@
     ],
     "24": [
         {
-            "title": "Red day",
+            "title": "Silver day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         },
         {
             "title": "Southeastern Symphony Rehearsals",
@@ -436,13 +856,28 @@
             "title": "Lacrosse Workouts",
             "time": "6:00pm - 8:00pm",
             "location": "HHS - HSE HS Aux Court 1 OLD AUX, HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Wrestling Matches (JV/V)",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         }
     ],
     "25": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         },
         {
             "title": "Football/Competition Cheer Practice",
@@ -475,6 +910,11 @@
             "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
         },
         {
+            "title": "Wrestling",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
             "title": "ISSMA S&E Recital",
             "time": "7:00pm - 10:00pm",
             "location": "HHS - H128 ORCHESTRA ROOM, HHS - Little Theater"
@@ -482,9 +922,24 @@
     ],
     "26": [
         {
-            "title": "Red day",
+            "title": "Silver day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
         },
         {
             "title": "Football/Competition Cheer Practice",
@@ -497,6 +952,21 @@
             "title": "ISSMA District Solo & Ensemble",
             "time": null,
             "location": "@Away- Location in Notes"
+        },
+        {
+            "title": "Softball Open Workouts",
+            "time": "8:00am - 10:00am",
+            "location": "HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "10:00am - 1:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Boys JV/V Basketball Games",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         }
     ],
     "28": [
@@ -508,9 +978,24 @@
     ],
     "29": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
         },
         {
             "title": "Boys & Girls Track Open Workouts",
@@ -536,13 +1021,28 @@
             "title": "Lacrosse Workouts",
             "time": "6:00pm - 8:00pm",
             "location": "HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Football Speed & Strength Academy",
+            "time": "6:30pm - 7:45pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         }
     ],
     "30": [
         {
-            "title": "Red day",
+            "title": "Silver day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 5:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
         },
         {
             "title": "Football/Competition Cheer Practice",
@@ -560,6 +1060,11 @@
             "location": "@HHS - Cardio Room - D116"
         },
         {
+            "title": "Girls Basketball Games",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
             "title": "Girls Lacrosse Conditioning",
             "time": "6:30pm - 8:00pm",
             "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
@@ -567,9 +1072,24 @@
     ],
     "31": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         },
         {
             "title": "Southeastern Symphony Rehearsals",
@@ -588,8 +1108,24 @@
         },
         {
             "title": "9th and 10th Grade Parent Night",
-            "time": "6:30pm - 9:00pm",
+            "time": "6:30pm - 8:30pm",
             "location": "HHS - HSE Leonard Auditorium, HHS - Leonard Auditorium Lobby"
+        },
+        {
+            "title": "Boys Volleyball open gym",
+            "time": "6:30pm - 8:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        }
+    ],
+    "01": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "New Year's Day",
+            "time": "All Day"
         }
     ]
 }

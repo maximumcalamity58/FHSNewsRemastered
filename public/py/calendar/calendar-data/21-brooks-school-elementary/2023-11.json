@@ -4,12 +4,29 @@
             "title": "Spell Bowl (4th Grade)",
             "time": "2:10pm - 3:30pm",
             "location": "@Room 34"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Brooks School Elementary - BSE Gym"
+        }
+    ],
+    "2": [
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Brooks School Elementary - BSE Gym"
         }
     ],
     "4": [
         {
             "title": "3rd Grade Music Program",
             "time": "8:00am - 10:00pm",
+            "location": "@Brooks School Elementary - BSE Gym"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practice/Games",
+            "time": "9:00am - 6:00pm",
             "location": "@Brooks School Elementary - BSE Gym"
         }
     ],
@@ -35,12 +52,22 @@
             "title": "Spell Bowl (4th Grade)",
             "time": "2:10pm - 3:30pm",
             "location": "@Room 34"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Brooks School Elementary - BSE Gym"
         }
     ],
     "7": [
         {
             "title": "3rd Grade Music Program",
             "time": "8:00am - 10:00pm",
+            "location": "@Brooks School Elementary - BSE Gym"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practices",
+            "time": "6:00pm - 9:00pm",
             "location": "@Brooks School Elementary - BSE Gym"
         }
     ],
@@ -66,15 +93,30 @@
             "location": "@Room 34"
         },
         {
+            "title": "Student Council",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Room 27"
+        },
+        {
             "title": "Boy Scout Pack 130 Meetings BSE",
             "time": "6:00pm - 8:00pm",
             "location": "Brooks School Elementary - BSE Cafeteria, Brooks School Elementary - BSE Gym"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Brooks School Elementary - BSE Gym"
         }
     ],
     "9": [
         {
             "title": "3rd Grade Music Program",
             "time": "8:00am - 10:00pm",
+            "location": "@Brooks School Elementary - BSE Gym"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practices",
+            "time": "6:00pm - 9:00pm",
             "location": "@Brooks School Elementary - BSE Gym"
         }
     ],
@@ -85,18 +127,113 @@
             "location": "@Brooks School Elementary - BSE Gym"
         }
     ],
+    "11": [
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practice/Games",
+            "time": "9:00am - 6:00pm",
+            "location": "@Brooks School Elementary - BSE Gym"
+        },
+        {
+            "title": "Veterans Day",
+            "time": "All Day"
+        }
+    ],
     "13": [
         {
             "title": "Spell Bowl (4th Grade)",
             "time": "2:10pm - 3:30pm",
             "location": "@Room 34"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Brooks School Elementary - BSE Gym"
+        }
+    ],
+    "14": [
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Brooks School Elementary - BSE Gym"
         }
     ],
     "15": [
         {
+            "title": "Science Bowl (4th Grade)",
+            "time": "2:10pm - 3:30pm",
+            "location": "@Room 34"
+        },
+        {
+            "title": "Student Council",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Room 27"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Brooks School Elementary - BSE Gym"
+        },
+        {
             "title": "Oak Hall HOA - BSE",
             "time": "6:00pm - 8:30pm",
             "location": "@Brooks School Elementary - BSE Cafeteria"
+        }
+    ],
+    "16": [
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Brooks School Elementary - BSE Gym"
+        }
+    ],
+    "18": [
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practice/Games",
+            "time": "9:00am - 6:00pm",
+            "location": "@Brooks School Elementary - BSE Gym"
+        }
+    ],
+    "20": [
+        {
+            "title": "Science Bowl (4th Grade)",
+            "time": "2:10pm - 3:30pm",
+            "location": "@Room 34"
+        }
+    ],
+    "27": [
+        {
+            "title": "Science Bowl (4th Grade)",
+            "time": "2:10pm - 3:30pm",
+            "location": "@Room 34"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Brooks School Elementary - BSE Gym"
+        }
+    ],
+    "28": [
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Brooks School Elementary - BSE Gym"
+        }
+    ],
+    "29": [
+        {
+            "title": "Science Bowl (4th Grade)",
+            "time": "2:10pm - 3:30pm",
+            "location": "@Room 34"
+        },
+        {
+            "title": "Student Council",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Room 27"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Brooks School Elementary - BSE Gym"
         }
     ],
     "30": [
@@ -104,6 +241,17 @@
             "title": "Bingo Night",
             "time": "4:30pm - 7:30pm",
             "location": "Brooks School Elementary - BSE Cafeteria, Brooks School Elementary - BSE Gym"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Practices",
+            "time": "7:30pm - 9:00pm",
+            "location": "@Brooks School Elementary - BSE Gym"
+        }
+    ],
+    "25": [
+        {
+            "title": "Thanksgiving Day",
+            "time": "All Day"
         }
     ]
 }

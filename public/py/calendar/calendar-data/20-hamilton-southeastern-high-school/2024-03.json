@@ -1,7 +1,7 @@
 {
     "1": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
         },
@@ -14,6 +14,11 @@
             "title": "Musical Rehearsal",
             "time": "3:00pm - 9:00pm",
             "location": "@HHS - HSE Leonard Auditorium"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         }
     ],
     "2": [
@@ -26,11 +31,23 @@
             "title": "Musical Rehearsal",
             "time": "8:00am - 8:00pm",
             "location": "@HHS - HSE Leonard Auditorium"
+        },
+        {
+            "title": "Girls Lacrosse",
+            "time": "1:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        }
+    ],
+    "3": [
+        {
+            "title": "Mudsock Youth Athletics Softball Rec Evals",
+            "time": "9:00am - 6:00pm",
+            "location": "HHS - HSE HS GYM - AUXILIARY, HHS - HSE HS Gym - Auxiliary Gym 2"
         }
     ],
     "4": [
         {
-            "title": "Red day",
+            "title": "Silver day",
             "time": null,
             "location": null
         },
@@ -53,11 +70,21 @@
             "title": "Dance Team Practice",
             "time": "6:00pm - 8:30pm",
             "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Football Speed & Strength Academy",
+            "time": "6:30pm - 7:45pm",
+            "location": "HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
         }
     ],
     "5": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
         },
@@ -100,11 +127,21 @@
             "title": "Dance Team Practice",
             "time": "6:00pm - 8:30pm",
             "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Track/Field Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         }
     ],
     "6": [
         {
-            "title": "Red day",
+            "title": "Silver day",
             "time": null,
             "location": null
         },
@@ -119,6 +156,16 @@
             "location": "@HHS - H128 ORCHESTRA ROOM"
         },
         {
+            "title": "Boys Volleyball Scrimmage",
+            "time": "4:30pm - 8:30pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Football Speed & Strength Academy",
+            "time": "6:30pm - 7:45pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
             "title": "Boys Lacrosse Parent Meeting",
             "time": "7:00pm - 9:00pm",
             "location": "@Royal Den"
@@ -126,7 +173,7 @@
     ],
     "7": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
         },
@@ -159,11 +206,21 @@
             "title": "Dance Team Practice",
             "time": "6:00pm - 8:30pm",
             "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Track/Field Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         }
     ],
     "8": [
         {
-            "title": "Red day",
+            "title": "Silver day",
             "time": null,
             "location": null
         },
@@ -171,6 +228,11 @@
             "title": "International Night",
             "time": "3:00pm - 10:00pm",
             "location": "@HHS - HSE Cafe D"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         }
     ],
     "9": [
@@ -183,6 +245,16 @@
             "title": "Speech & Debate Team",
             "time": "8:00am - 5:00pm",
             "location": "@"
+        },
+        {
+            "title": "Boys Lacrosse Game",
+            "time": "10:30am - 2:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Boys Lacrosse Game",
+            "time": "4:30pm - 8:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
         }
     ],
     "10": [
@@ -194,7 +266,7 @@
     ],
     "11": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
         },
@@ -212,17 +284,27 @@
             "title": "HCC Banquet",
             "time": "6:00pm - 8:30pm",
             "location": "@HHS - HSE HS CCA Cafe E"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         }
     ],
     "12": [
         {
-            "title": "Red day",
+            "title": "Silver day",
             "time": null,
             "location": null
         },
         {
             "title": "Royals Varsity Club Meetng",
             "time": "7:30am - 9:00am",
+            "location": "@Royal Den"
+        },
+        {
+            "title": "Boys Volleyball Pre-Game Meal",
+            "time": "3:00pm - 4:30pm",
             "location": "@Royal Den"
         },
         {
@@ -239,11 +321,26 @@
             "title": "Dance Team Practice",
             "time": "6:00pm - 8:30pm",
             "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Track/Field Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Football Speed & Strength Academy",
+            "time": "6:30pm - 7:45pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
         }
     ],
     "13": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
         },
@@ -251,18 +348,53 @@
             "title": "Southeastern Symphony Rehearsals",
             "time": "3:15pm - 5:15pm",
             "location": "@HHS - H128 ORCHESTRA ROOM"
+        },
+        {
+            "title": "Boys Volleyball Match",
+            "time": "4:30pm - 7:30pm",
+            "location": null
+        },
+        {
+            "title": "Boys Volleyball Match",
+            "time": "4:30pm - 9:30pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Boys Volleyball Match",
+            "time": "4:30pm - 9:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Boys Volleyball Match",
+            "time": "4:30pm - 9:30pm",
+            "location": null
+        },
+        {
+            "title": "Girls Lacrosse",
+            "time": "6:00pm - 9:30pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
         }
     ],
     "14": [
         {
-            "title": "Red day",
+            "title": "Silver day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "Boys Volleyball Pre-Game Meal",
+            "time": "3:00pm - 4:30pm",
+            "location": "@Royal Den"
         },
         {
             "title": "Basketball Cheer",
             "time": "5:30pm - 7:30pm",
             "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Boys Lacrosse Game",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
         },
         {
             "title": "Dance Team Practice",
@@ -275,6 +407,16 @@
             "location": "@HHS - Cardio Room - D116"
         },
         {
+            "title": "Track/Field Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Football Speed & Strength Academy",
+            "time": "6:30pm - 7:45pm",
+            "location": "HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
             "title": "Spring Musical",
             "time": "7:00pm - 10:00pm",
             "location": "HHS - HSE Leonard Auditorium, HHS - Leonard Auditorium Lobby, HHS - Leonard Auditorium Wing"
@@ -282,9 +424,14 @@
     ],
     "15": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         },
         {
             "title": "Spring Musical",
@@ -294,14 +441,53 @@
     ],
     "16": [
         {
+            "title": "Boys Lacrosse Game",
+            "time": "5:00pm - 9:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
             "title": "Spring Musical",
             "time": "7:00pm - 10:00pm",
             "location": "HHS - HSE Leonard Auditorium, HHS - Leonard Auditorium Lobby, HHS - Leonard Auditorium Wing"
         }
     ],
-    "20": [
+    "18": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        }
+    ],
+    "19": [
         {
             "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Boys Volleyball Match",
+            "time": "4:30pm - 7:30pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Boys Volleyball Match",
+            "time": "4:30pm - 9:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Track/Field Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        }
+    ],
+    "20": [
+        {
+            "title": "Silver day",
             "time": null,
             "location": null
         },
@@ -314,6 +500,38 @@
             "title": "Association Meeting",
             "time": "4:00pm - 6:00pm",
             "location": "@HHS - HSE HS CCA Cafe E"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        }
+    ],
+    "21": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Junior College Fair",
+            "time": "11:00am - 3:00pm",
+            "location": "HHS - HSE HS Aux Court 1 OLD AUX, HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Boys Volleyball Match",
+            "time": "4:30pm - 7:30pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Boys Volleyball Match",
+            "time": "4:30pm - 9:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Track/Field Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
         }
     ],
     "22": [
@@ -331,6 +549,28 @@
             "title": "Asian Student Union",
             "time": "1:37pm - 3:00pm",
             "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        }
+    ],
+    "23": [
+        {
+            "title": "Boys Volleyball Match",
+            "time": "7:30am - 6:00pm",
+            "location": "HHS - HSE HS GYM - AUXILIARY, HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "State Student Section Leadership Conference",
+            "time": "8:00am - 4:00pm",
+            "location": "HHS - HSE HS CCA Cafe E, HHS - HSE Leonard Auditorium, HHS - Leonard Auditorium Lobby, HHS - Leonard Auditorium Wing, J Hallway Classrooms"
+        },
+        {
+            "title": "Girls Lacrosse",
+            "time": "10:30am - 7:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
         }
     ],
     "24": [
@@ -340,11 +580,38 @@
             "location": "Annex Hallway, HHS - HSE HS CCA Cafe E, HHS - HSE HS CCA Commons, HHS - HSE HS CCA Gathering Stairs, HHS - HSE Leonard Auditorium, HHS - Leonard Auditorium Lobby, Room K100 - Cafe, Room K101 - Soft Seating"
         }
     ],
-    "26": [
+    "25": [
         {
             "title": "Red day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        }
+    ],
+    "26": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Ivy Tech Day",
+            "time": "1:00pm - 3:00pm",
+            "location": "@Room K101 - Soft Seating"
+        },
+        {
+            "title": "Boys Volleyball Pre-Game Meal",
+            "time": "3:00pm - 4:30pm",
+            "location": "@Royal Den"
+        },
+        {
+            "title": "Track/Field Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
         },
         {
             "title": "ISSMA Preview Concert",
@@ -354,9 +621,14 @@
     ],
     "27": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "Boys Volleyball Pre-Game Meal",
+            "time": "3:00pm - 4:30pm",
+            "location": "@Royal Den"
         },
         {
             "title": "Southeastern Symphony Rehearsals",
@@ -367,6 +639,24 @@
             "title": "Transition Fair",
             "time": "6:00pm - 7:30pm",
             "location": "HHS - HSE HS CCA Cafe E, HHS - HSE HS CCA Commons, HHS - HSE HS CCA Gathering Stairs"
+        }
+    ],
+    "28": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Track/Field Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        }
+    ],
+    "17": [
+        {
+            "title": "St. Patrick's Day",
+            "time": "All Day"
         }
     ]
 }

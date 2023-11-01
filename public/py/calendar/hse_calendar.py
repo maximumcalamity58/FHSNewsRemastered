@@ -10,11 +10,9 @@ from datetime import datetime, timedelta, date
 class HseCalendarSpider(scrapy.Spider):
     name = "hsecalendar"
     school_name = None
-    school_id = 0  # Initialize with 0 so we can start with ID 1
+    school_id = 18  # Initialize with 0 so we can start with ID 1
     months_scraped = 0  # Track the number of months scraped for the current school
     last_day_encountered = False
-    # Define the path to the generate_titles_script.py file
-    script_path = 'path/to/generate_titles_script.py'
 
     base_url = "https://www.hsecalendars.org/public/genie/752/school/{}/date/{}/view/month/"
 
@@ -50,7 +48,7 @@ class HseCalendarSpider(scrapy.Spider):
 
         # Read the previous month's data
         school_dir = os.path.join('calendar-data', f'{self.school_id}-{self.school_name}')
-        filename = os.path.join(school_dir, f'{year}-{month}.data')
+        filename = os.path.join(school_dir, f'{year}-{month}.json')
         if not os.path.exists(filename):
             return None
 
@@ -128,17 +126,14 @@ class HseCalendarSpider(scrapy.Spider):
             self.logger.error(f"Failed to extract year and month from URL: {url}")
             return
 
-        # Ensure base directory exists
         base_dir = 'calendar-data'
         if not os.path.exists(base_dir):
             os.makedirs(base_dir)
 
-        # Create school-specific directory
         school_dir = os.path.join(base_dir, f'{self.school_id}-{self.school_name}')
         if not os.path.exists(school_dir):
             os.makedirs(school_dir)
 
-        # Format the data
         formatted_data = {}
         for item in data:
             date = item['date']
@@ -151,14 +146,30 @@ class HseCalendarSpider(scrapy.Spider):
                 formatted_data[date] = []
             formatted_data[date].append(event_data)
 
-            # Extract the year and month from the URL
-            match = re.search(r'date/(\d{4}-\d{2})-01', url)
-            if match:
-                year, month = match.group(1).split('-')
-            else:
-                return
+        with open('global_recurring_events.json', 'r') as f:
+            global_recurring_events = json.load(f)
 
-        # Get the last school day color of the previous month
+        for global_date, global_event_list in global_recurring_events.items():
+            global_month, global_day = global_date.split('-')
+            if global_month == month:
+                if global_day not in formatted_data:
+                    formatted_data[global_day] = []
+                formatted_data[global_day].extend(global_event_list)
+
+        with open('school_specific_recurring_events.json', 'r') as f:
+            school_specific_recurring_events = json.load(f)
+
+        school_id_str = str(self.school_id)
+        if school_id_str in school_specific_recurring_events:
+            school_recurring_events = school_specific_recurring_events[school_id_str]
+            for school_date, school_event_list in school_recurring_events.items():
+                school_month, school_day = school_date.split('-')
+                if school_month == month:
+                    school_day = str(int(school_day))  # Convert to integer and back to string to remove leading zeros
+                    if school_day not in formatted_data:
+                        formatted_data[school_day] = []
+                    formatted_data[school_day].extend(school_event_list)
+
         prev_month_last_day_color = self.get_last_month_day_color(year, month)
         if prev_month_last_day_color == "red day":
             current_day_color = "silver day"
@@ -170,7 +181,8 @@ class HseCalendarSpider(scrapy.Spider):
         # Keywords and phrases to skip
         skip_keywords = [
             "no school", "teacher day", "elearning", "testing day",
-            "flex day", "psat", "semester exams", "winter break"
+            "flex day", "psat", "semester exams", "winter break",
+            "thanksgiving break", "sat testing", "spring break"
         ]
 
         for day, events in sorted(formatted_data.items(), key=lambda x: int(x[0])):
@@ -209,20 +221,21 @@ class HseCalendarSpider(scrapy.Spider):
                 })
 
                 # Alternate colors for subsequent days
-                if current_day_color == "red day":
-                    current_day_color = "silver day"
-                else:
-                    current_day_color = "red day"
+                if not self.last_day_encountered:  # Add this condition
+                    if current_day_color == "red day":
+                        current_day_color = "silver day"
+                    else:
+                        current_day_color = "red day"
 
         # Modify file path to include school-specific directory and year-month
-        filename = os.path.join(school_dir, f'{year}-{month}.data')
+        filename = os.path.join(school_dir, f'{year}-{month}.json')
         with open(filename, 'w') as f:
             json.dump(formatted_data, f, indent=4)
 
     def spider_closed(self, spider):
         # Clear the hse-calendar.data
         # Use subprocess.run to execute the script
-        subprocess.run(['python', 'school-id-finder.py'], check=True)
+        subprocess.run(['calendar', 'school-id-finder.py'], check=True)
         with open('hse-calendar.json', 'w') as f:
             f.write('')
 

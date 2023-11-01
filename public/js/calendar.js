@@ -124,7 +124,7 @@ class Calendar {
             if (event.title.toLowerCase().includes('teacher day')) {
                 eventClass = 'yellow-background';
             }
-            if (event.title.toLowerCase().includes('psat')) {
+            if (event.title.toLowerCase().includes('psat') || event.title.toLowerCase().includes('sat')) {
                 eventClass = 'purple-background';
             }
 
@@ -179,7 +179,7 @@ class Calendar {
                 events.isSilverDay = events.some(e => e.title.toLowerCase() === 'silver day');
                 events.isElearning = events.some(e => e.title.toLowerCase().includes('elearning'));
                 events.isTeacherDay = events.some(e => e.title.toLowerCase().includes('teacher day'));
-                events.isPSAT = events.some(e => e.title.toLowerCase() === 'psat');
+                events.isSAT = events.some(e => e.title.toLowerCase() === 'psat' || e.title.toLowerCase() === 'sat testing');
             }
 
             // Hide the loading bar
@@ -322,7 +322,7 @@ class Calendar {
                     if (eventData && eventData.isTeacherDay) {
                         td.classList.add('yellow-day');
                     }
-                    if (eventData && eventData.isPSAT) {
+                    if (eventData && eventData.isSAT) {
                         td.classList.add('purple-day');
                     }
 

@@ -1,7 +1,24 @@
 {
-    "2": [
+    "1": [
         {
             "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Boys Volleyball Match",
+            "time": "4:30pm - 10:00pm",
+            "location": "HHS - HSE HS GYM - AUXILIARY, HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Girls Lacrosse",
+            "time": "6:00pm - 9:30pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        }
+    ],
+    "2": [
+        {
+            "title": "Silver day",
             "time": null,
             "location": null
         },
@@ -19,6 +36,11 @@
             "title": "Guiding Coalition",
             "time": "7:30am - 8:30am",
             "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Boys Volleyball Pre-Game Meal",
+            "time": "3:00pm - 4:30pm",
+            "location": "@Royal Den"
         },
         {
             "title": "Choir Concert",
@@ -28,9 +50,24 @@
     ],
     "3": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "AP TESTING",
+            "time": "7:00am - 11:00pm",
+            "location": "HHS - HSE HS LGI C120, Room J132 CCA Lab, Room J232 CCA Lab"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Boys Lacrosse Game",
+            "time": "6:00pm - 10:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
         },
         {
             "title": "Choir Concert",
@@ -45,9 +82,38 @@
             "location": "@Away- Location in Notes"
         },
         {
+            "title": "AP TESTING",
+            "time": "7:00am - 11:00pm",
+            "location": "HHS - HSE HS LGI C120, Room J132 CCA Lab, Room J232 CCA Lab"
+        },
+        {
             "title": "Thespian Tech",
             "time": "8:00am - 8:00pm",
             "location": "@HHS - Little Theater"
+        }
+    ],
+    "5": [
+        {
+            "title": "AP TESTING",
+            "time": "7:00am - 11:00pm",
+            "location": "HHS - HSE HS LGI C120, Room J132 CCA Lab, Room J232 CCA Lab"
+        }
+    ],
+    "6": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "AP TESTING",
+            "time": "7:00am - 11:00pm",
+            "location": "HHS - HSE HS LGI C120, Room J132 CCA Lab, Room J232 CCA Lab"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         }
     ],
     "7": [
@@ -55,6 +121,11 @@
             "title": "Red day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "AP TESTING",
+            "time": "7:00am - 11:00pm",
+            "location": "HHS - HSE HS LGI C120, Room J132 CCA Lab, Room J232 CCA Lab"
         },
         {
             "title": "Nat'l Honor Society",
@@ -65,6 +136,16 @@
             "title": "Nat'l Honor Society",
             "time": "3:00pm - 3:30pm",
             "location": "@HHS - HSE Cafe D"
+        },
+        {
+            "title": "Girls Lacrosse",
+            "time": "6:00pm - 9:30pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         }
     ],
     "8": [
@@ -72,6 +153,16 @@
             "title": "Silver day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "AP TESTING",
+            "time": "7:00am - 11:00pm",
+            "location": "HHS - HSE HS LGI C120, Room J132 CCA Lab, Room J232 CCA Lab"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         },
         {
             "title": "Boys Lacrosse Parent Meeting",
@@ -86,6 +177,16 @@
             "location": null
         },
         {
+            "title": "AP TESTING",
+            "time": "7:00am - 11:00pm",
+            "location": "HHS - HSE HS LGI C120, Room J132 CCA Lab, Room J232 CCA Lab"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
             "title": "Thespian Show",
             "time": "7:00pm - 10:00pm",
             "location": "@HHS - Little Theater"
@@ -98,28 +199,82 @@
             "location": null
         },
         {
+            "title": "AP TESTING",
+            "time": "7:00am - 11:00pm",
+            "location": "HHS - HSE HS LGI C120, Room J132 CCA Lab, Room J232 CCA Lab"
+        },
+        {
             "title": "Thespian Show",
             "time": "5:00pm - 10:00pm",
             "location": "@HHS - Little Theater"
+        },
+        {
+            "title": "Boys Lacrosse Game",
+            "time": "6:00pm - 10:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         }
     ],
     "11": [
+        {
+            "title": "AP TESTING",
+            "time": "7:00am - 11:00pm",
+            "location": "HHS - HSE HS LGI C120, Room J132 CCA Lab, Room J232 CCA Lab"
+        },
         {
             "title": "Thespian Show",
             "time": "5:00pm - 10:00pm",
             "location": "@HHS - Little Theater"
         }
     ],
-    "14": [
+    "12": [
+        {
+            "title": "AP TESTING",
+            "time": "7:00am - 11:00pm",
+            "location": "HHS - HSE HS LGI C120, Room J132 CCA Lab, Room J232 CCA Lab"
+        }
+    ],
+    "13": [
         {
             "title": "Red day",
             "time": null,
             "location": null
         },
         {
+            "title": "AP TESTING",
+            "time": "7:00am - 11:00pm",
+            "location": "HHS - HSE HS LGI C120, Room J132 CCA Lab, Room J232 CCA Lab"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        }
+    ],
+    "14": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "AP TESTING",
+            "time": "7:00am - 11:00pm",
+            "location": "HHS - HSE HS LGI C120, Room J132 CCA Lab, Room J232 CCA Lab"
+        },
+        {
             "title": "Royals Varsity Club Meetng",
             "time": "7:30am - 9:00am",
             "location": "@Royal Den"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         },
         {
             "title": "Band Concert",
@@ -129,26 +284,46 @@
     ],
     "15": [
         {
-            "title": "Silver day",
-            "time": null,
-            "location": null
-        },
-        {
-            "title": "Association Meeting",
-            "time": "4:00pm - 6:00pm",
-            "location": "@HHS - HSE HS CCA Cafe E"
-        }
-    ],
-    "16": [
-        {
             "title": "Red day",
             "time": null,
             "location": null
         },
         {
+            "title": "AP TESTING",
+            "time": "7:00am - 11:00pm",
+            "location": "HHS - HSE HS LGI C120, Room J132 CCA Lab, Room J232 CCA Lab"
+        },
+        {
+            "title": "Association Meeting",
+            "time": "4:00pm - 6:00pm",
+            "location": "@HHS - HSE HS CCA Cafe E"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        }
+    ],
+    "16": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "AP TESTING",
+            "time": "7:00am - 11:00pm",
+            "location": "HHS - HSE HS LGI C120, Room J132 CCA Lab, Room J232 CCA Lab"
+        },
+        {
             "title": "Track",
             "time": "5:00pm - 9:00pm",
             "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         },
         {
             "title": "Orchestra Concert",
@@ -158,14 +333,29 @@
     ],
     "17": [
         {
-            "title": "Silver day",
+            "title": "Red day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "AP TESTING",
+            "time": "7:00am - 11:00pm",
+            "location": "HHS - HSE HS LGI C120, Room J132 CCA Lab, Room J232 CCA Lab"
+        },
+        {
+            "title": "Senior Signing Day",
+            "time": "11:00am - 3:00pm",
+            "location": "@HHS - HSE HS FOOTBALL STADIUM"
         },
         {
             "title": "YMI Meeting",
             "time": "1:45pm - 2:45pm",
             "location": "HHS - HSE Cafe D, Room K102"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         },
         {
             "title": "Jazz Cafe",
@@ -175,7 +365,7 @@
     ],
     "20": [
         {
-            "title": "Red day",
+            "title": "Silver day",
             "time": null,
             "location": null
         },
@@ -183,6 +373,11 @@
             "title": "Track",
             "time": "5:00pm - 9:00pm",
             "location": "@HHS - HSE HS FOOTBALL STADIUM"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
         },
         {
             "title": "Senior Awards",
@@ -195,9 +390,86 @@
             "location": "@HHS - Little Theater"
         }
     ],
-    "30": [
+    "21": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        }
+    ],
+    "22": [
         {
             "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        }
+    ],
+    "23": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        }
+    ],
+    "24": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Final Exams",
+            "time": "8:00am - 3:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        },
+        {
+            "title": "Boys Volleyball Practice",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        }
+    ],
+    "28": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Final Exams",
+            "time": "8:00am - 3:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        }
+    ],
+    "29": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Final Exams",
+            "time": "8:00am - 3:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        }
+    ],
+    "30": [
+        {
+            "title": "Red day",
             "time": null,
             "location": null
         },
@@ -214,7 +486,7 @@
     ],
     "31": [
         {
-            "title": "Red day",
+            "title": "Silver day",
             "time": null,
             "location": null
         },
@@ -222,6 +494,10 @@
             "title": "Graduation Practice",
             "time": null,
             "location": "@Off site location please see notes"
+        },
+        {
+            "title": "Memorial Day",
+            "time": "All Day"
         }
     ]
 }

@@ -1,6 +1,16 @@
 {
     "1": [
         {
+            "title": "FAST",
+            "time": "6:30am - 11:30am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Baseball",
+            "time": "8:00am - 12:00pm",
+            "location": "@Fishers High School - FHS Gym - Aux"
+        },
+        {
             "title": "Commencement",
             "time": "3:00pm - 5:00pm",
             "location": "@Indiana Farmers Coliseum"
@@ -18,9 +28,19 @@
             "location": null
         },
         {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Summer PE",
             "time": "7:30am - 12:45pm",
             "location": "FHS- ATH Football Field, FHS- ATH Softball Field JV, FHS- ATH Track, FHS- ATH Varsity Gym Court 1, FHS- ATH Varsity Gym Court 2, Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS AUX COURT 3, Fishers High School - FHS AUX COURT 4, Fishers High School - FHS AUX COURT 5, Fishers High School - FHS AUX COURT 6, Fishers High School - FHS Cafe A, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Baseball",
@@ -35,9 +55,19 @@
             "location": null
         },
         {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Summer PE",
             "time": "7:30am - 12:45pm",
             "location": "FHS- ATH Football Field, FHS- ATH Softball Field JV, FHS- ATH Track, FHS- ATH Varsity Gym Court 1, FHS- ATH Varsity Gym Court 2, Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS AUX COURT 3, Fishers High School - FHS AUX COURT 4, Fishers High School - FHS AUX COURT 5, Fishers High School - FHS AUX COURT 6, Fishers High School - FHS Cafe A, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         }
     ],
     "5": [
@@ -47,9 +77,19 @@
             "location": null
         },
         {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Summer PE",
             "time": "7:30am - 12:45pm",
             "location": "FHS- ATH Football Field, FHS- ATH Softball Field JV, FHS- ATH Track, FHS- ATH Varsity Gym Court 1, FHS- ATH Varsity Gym Court 2, Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS AUX COURT 3, Fishers High School - FHS AUX COURT 4, Fishers High School - FHS AUX COURT 5, Fishers High School - FHS AUX COURT 6, Fishers High School - FHS Cafe A, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         }
     ],
     "6": [
@@ -59,9 +99,19 @@
             "location": null
         },
         {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Summer PE",
             "time": "7:30am - 12:45pm",
             "location": "FHS- ATH Football Field, FHS- ATH Softball Field JV, FHS- ATH Track, FHS- ATH Varsity Gym Court 1, FHS- ATH Varsity Gym Court 2, Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS AUX COURT 3, Fishers High School - FHS AUX COURT 4, Fishers High School - FHS AUX COURT 5, Fishers High School - FHS AUX COURT 6, Fishers High School - FHS Cafe A, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         }
     ],
     "7": [
@@ -69,6 +119,11 @@
             "title": "Silver day",
             "time": null,
             "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Summer PE",
@@ -86,6 +141,11 @@
             "title": "FAST",
             "time": "6:00am - 9:00pm",
             "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Baseball",
+            "time": "8:00am - 12:00pm",
+            "location": "@Fishers High School - FHS Gym - Aux"
         }
     ],
     "9": [
@@ -102,9 +162,19 @@
             "location": null
         },
         {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Summer PE",
             "time": "7:30am - 12:45pm",
             "location": "FHS- ATH Football Field, FHS- ATH Softball Field JV, FHS- ATH Track, FHS- ATH Varsity Gym Court 1, FHS- ATH Varsity Gym Court 2, Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS AUX COURT 3, Fishers High School - FHS AUX COURT 4, Fishers High School - FHS AUX COURT 5, Fishers High School - FHS AUX COURT 6, Fishers High School - FHS Cafe A, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         }
     ],
     "11": [
@@ -114,9 +184,19 @@
             "location": null
         },
         {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Summer PE",
             "time": "7:30am - 12:45pm",
             "location": "FHS- ATH Football Field, FHS- ATH Softball Field JV, FHS- ATH Track, FHS- ATH Varsity Gym Court 1, FHS- ATH Varsity Gym Court 2, Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS AUX COURT 3, Fishers High School - FHS AUX COURT 4, Fishers High School - FHS AUX COURT 5, Fishers High School - FHS AUX COURT 6, Fishers High School - FHS Cafe A, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         }
     ],
     "12": [
@@ -126,9 +206,19 @@
             "location": null
         },
         {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Summer PE",
             "time": "7:30am - 12:45pm",
             "location": "FHS- ATH Football Field, FHS- ATH Softball Field JV, FHS- ATH Track, FHS- ATH Varsity Gym Court 1, FHS- ATH Varsity Gym Court 2, Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS AUX COURT 3, Fishers High School - FHS AUX COURT 4, Fishers High School - FHS AUX COURT 5, Fishers High School - FHS AUX COURT 6, Fishers High School - FHS Cafe A, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         }
     ],
     "13": [
@@ -138,9 +228,19 @@
             "location": null
         },
         {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Summer PE",
             "time": "7:30am - 12:45pm",
             "location": "FHS- ATH Football Field, FHS- ATH Softball Field JV, FHS- ATH Track, FHS- ATH Varsity Gym Court 1, FHS- ATH Varsity Gym Court 2, Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS AUX COURT 3, Fishers High School - FHS AUX COURT 4, Fishers High School - FHS AUX COURT 5, Fishers High School - FHS AUX COURT 6, Fishers High School - FHS Cafe A, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         }
     ],
     "14": [
@@ -150,9 +250,26 @@
             "location": null
         },
         {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Summer PE",
             "time": "7:30am - 12:45pm",
             "location": "FHS- ATH Football Field, FHS- ATH Softball Field JV, FHS- ATH Track, FHS- ATH Varsity Gym Court 1, FHS- ATH Varsity Gym Court 2, Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS AUX COURT 3, Fishers High School - FHS AUX COURT 4, Fishers High School - FHS AUX COURT 5, Fishers High School - FHS AUX COURT 6, Fishers High School - FHS Cafe A, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        }
+    ],
+    "15": [
+        {
+            "title": "FAST",
+            "time": "6:30am - 11:30am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         }
     ],
     "17": [
@@ -162,9 +279,19 @@
             "location": null
         },
         {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Summer PE",
             "time": "7:30am - 12:45pm",
             "location": "FHS- ATH Football Field, FHS- ATH Softball Field JV, FHS- ATH Track, FHS- ATH Varsity Gym Court 1, FHS- ATH Varsity Gym Court 2, Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS AUX COURT 3, Fishers High School - FHS AUX COURT 4, Fishers High School - FHS AUX COURT 5, Fishers High School - FHS AUX COURT 6, Fishers High School - FHS Cafe A, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         }
     ],
     "18": [
@@ -174,9 +301,19 @@
             "location": null
         },
         {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Summer PE",
             "time": "7:30am - 12:45pm",
             "location": "FHS- ATH Football Field, FHS- ATH Softball Field JV, FHS- ATH Track, FHS- ATH Varsity Gym Court 1, FHS- ATH Varsity Gym Court 2, Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS AUX COURT 3, Fishers High School - FHS AUX COURT 4, Fishers High School - FHS AUX COURT 5, Fishers High School - FHS AUX COURT 6, Fishers High School - FHS Cafe A, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         },
         {
             "title": "Baseball",
@@ -191,9 +328,23 @@
             "location": null
         },
         {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Summer PE",
             "time": "7:30am - 12:45pm",
             "location": "FHS- ATH Football Field, FHS- ATH Softball Field JV, FHS- ATH Track, FHS- ATH Varsity Gym Court 1, FHS- ATH Varsity Gym Court 2, Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS AUX COURT 3, Fishers High School - FHS AUX COURT 4, Fishers High School - FHS AUX COURT 5, Fishers High School - FHS AUX COURT 6, Fishers High School - FHS Cafe A, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Juneteenth",
+            "time": "All Day"
         }
     ],
     "20": [
@@ -203,9 +354,19 @@
             "location": null
         },
         {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Summer PE",
             "time": "7:30am - 12:45pm",
             "location": "FHS- ATH Football Field, FHS- ATH Softball Field JV, FHS- ATH Track, FHS- ATH Varsity Gym Court 1, FHS- ATH Varsity Gym Court 2, Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS AUX COURT 3, Fishers High School - FHS AUX COURT 4, Fishers High School - FHS AUX COURT 5, Fishers High School - FHS AUX COURT 6, Fishers High School - FHS Cafe A, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         }
     ],
     "21": [
@@ -215,9 +376,118 @@
             "location": null
         },
         {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
             "title": "Summer PE",
             "time": "7:30am - 12:45pm",
             "location": "FHS- ATH Football Field, FHS- ATH Softball Field JV, FHS- ATH Track, FHS- ATH Varsity Gym Court 1, FHS- ATH Varsity Gym Court 2, Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS AUX COURT 3, Fishers High School - FHS AUX COURT 4, Fishers High School - FHS AUX COURT 5, Fishers High School - FHS AUX COURT 6, Fishers High School - FHS Cafe A, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        }
+    ],
+    "22": [
+        {
+            "title": "FAST",
+            "time": "6:30am - 11:30am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        }
+    ],
+    "24": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        }
+    ],
+    "25": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        }
+    ],
+    "26": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        }
+    ],
+    "27": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        }
+    ],
+    "28": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        }
+    ],
+    "29": [
+        {
+            "title": "FAST",
+            "time": "6:30am - 11:30am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         }
     ]
 }
