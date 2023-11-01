@@ -3,6 +3,12 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 3000;
 
+// Middleware to disable cache
+app.use((req, res, next) => {
+  res.set('Cache-Control', 'no-store, no-cache, must-revalidate, private');
+  next();
+});
+
 // Serve static files from the "public" directory
 app.use(express.static(path.join(__dirname, 'public')));
 
