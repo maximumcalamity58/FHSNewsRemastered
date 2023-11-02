@@ -1,22 +1,12 @@
 {
     "2": [
         {
-            "title": "Silver day",
-            "time": null,
-            "location": null
-        },
-        {
             "title": "FAST",
             "time": "3:00pm - 8:30pm",
             "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
         }
     ],
     "3": [
-        {
-            "title": "Red day",
-            "time": null,
-            "location": null
-        },
         {
             "title": "FAST",
             "time": "5:00am - 8:00am",
@@ -30,11 +20,6 @@
     ],
     "4": [
         {
-            "title": "Silver day",
-            "time": null,
-            "location": null
-        },
-        {
             "title": "FAST",
             "time": "5:00am - 8:00am",
             "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
@@ -47,11 +32,6 @@
     ],
     "5": [
         {
-            "title": "Red day",
-            "time": null,
-            "location": null
-        },
-        {
             "title": "FAST",
             "time": "5:00am - 8:00am",
             "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
@@ -63,11 +43,6 @@
         }
     ],
     "6": [
-        {
-            "title": "Silver day",
-            "time": null,
-            "location": null
-        },
         {
             "title": "FAST",
             "time": "5:00am - 8:00am",
@@ -88,11 +63,6 @@
     ],
     "9": [
         {
-            "title": "Silver day",
-            "time": null,
-            "location": null
-        },
-        {
             "title": "FAST",
             "time": "5:00am - 8:00am",
             "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
@@ -105,11 +75,6 @@
     ],
     "10": [
         {
-            "title": "Red day",
-            "time": null,
-            "location": null
-        },
-        {
             "title": "FAST",
             "time": "5:00am - 8:00am",
             "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
@@ -121,11 +86,6 @@
         }
     ],
     "11": [
-        {
-            "title": "Silver day",
-            "time": null,
-            "location": null
-        },
         {
             "title": "FAST",
             "time": "5:00am - 8:00am",
@@ -149,11 +109,6 @@
     ],
     "12": [
         {
-            "title": "Red day",
-            "time": null,
-            "location": null
-        },
-        {
             "title": "FAST",
             "time": "5:00am - 8:00am",
             "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
@@ -165,11 +120,6 @@
         }
     ],
     "13": [
-        {
-            "title": "Silver day",
-            "time": null,
-            "location": null
-        },
         {
             "title": "FAST",
             "time": "5:00am - 8:00am",
@@ -190,11 +140,6 @@
     ],
     "16": [
         {
-            "title": "Red day",
-            "time": null,
-            "location": null
-        },
-        {
             "title": "FAST",
             "time": "5:00am - 8:00am",
             "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
@@ -206,11 +151,6 @@
         }
     ],
     "17": [
-        {
-            "title": "Silver day",
-            "time": null,
-            "location": null
-        },
         {
             "title": "FAST",
             "time": "5:00am - 8:00am",
@@ -224,11 +164,6 @@
     ],
     "18": [
         {
-            "title": "Red day",
-            "time": null,
-            "location": null
-        },
-        {
             "title": "FAST",
             "time": "5:00am - 8:00am",
             "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
@@ -241,11 +176,6 @@
     ],
     "19": [
         {
-            "title": "Silver day",
-            "time": null,
-            "location": null
-        },
-        {
             "title": "FAST",
             "time": "5:00am - 8:00am",
             "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
@@ -257,11 +187,6 @@
         }
     ],
     "20": [
-        {
-            "title": "Red day",
-            "time": null,
-            "location": null
-        },
         {
             "title": "FAST",
             "time": "5:00am - 8:00am",
@@ -282,11 +207,6 @@
     ],
     "23": [
         {
-            "title": "Silver day",
-            "time": null,
-            "location": null
-        },
-        {
             "title": "FAST",
             "time": "5:00am - 8:00am",
             "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
@@ -298,11 +218,6 @@
         }
     ],
     "24": [
-        {
-            "title": "Red day",
-            "time": null,
-            "location": null
-        },
         {
             "title": "FAST",
             "time": "5:00am - 8:00am",
@@ -316,11 +231,6 @@
     ],
     "25": [
         {
-            "title": "Silver day",
-            "time": null,
-            "location": null
-        },
-        {
             "title": "FAST",
             "time": "5:00am - 8:00am",
             "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
@@ -333,11 +243,6 @@
     ],
     "26": [
         {
-            "title": "Red day",
-            "time": null,
-            "location": null
-        },
-        {
             "title": "FAST",
             "time": "5:00am - 8:00am",
             "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
@@ -349,11 +254,6 @@
         }
     ],
     "27": [
-        {
-            "title": "Silver day",
-            "time": null,
-            "location": null
-        },
         {
             "title": "FAST",
             "time": "5:00am - 8:00am",
@@ -374,11 +274,6 @@
     ],
     "30": [
         {
-            "title": "Red day",
-            "time": null,
-            "location": null
-        },
-        {
             "title": "FAST",
             "time": "5:00am - 8:00am",
             "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
@@ -390,11 +285,6 @@
         }
     ],
     "06": [
-        {
-            "title": "Red day",
-            "time": null,
-            "location": null
-        },
         {
             "title": "Labor Day",
             "time": "All Day"

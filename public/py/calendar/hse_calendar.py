@@ -182,7 +182,7 @@ class HseCalendarSpider(scrapy.Spider):
         skip_keywords = [
             "no school", "teacher day", "elearning", "testing day",
             "flex day", "psat", "semester exams", "winter break",
-            "thanksgiving break", "sat testing", "spring break"
+            "thanksgiving break", "sat testing", "spring break",
         ]
 
         for day, events in sorted(formatted_data.items(), key=lambda x: int(x[0])):
@@ -196,10 +196,6 @@ class HseCalendarSpider(scrapy.Spider):
             if day_date.weekday() >= 5:
                 continue
 
-            # Skip days based on keywords
-            if any(any(keyword in event["title"].lower() for keyword in skip_keywords) for event in events):
-                continue
-
             # Start the color rotation on the "first day of school" (this will override any previous setting)
             if any(event["title"].lower() == "first day of school" for event in events):
                 current_day_color = "red day"
@@ -210,6 +206,11 @@ class HseCalendarSpider(scrapy.Spider):
                 print(f"Last day of school encountered for {self.school_name} on {year}-{month}-{day}")
                 self.last_day_encountered = True
                 current_day_color = None
+                continue
+
+            # Skip days based on keywords
+            if any(any(keyword in event["title"].lower() for keyword in skip_keywords) for event in events):
+                continue
 
             # If the current color is set (either from the last day of the previous month or "first day of school")
             if current_day_color and not self.last_day_encountered:

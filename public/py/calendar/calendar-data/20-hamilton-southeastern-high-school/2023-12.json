@@ -351,11 +351,6 @@
             "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
         },
         {
-            "title": "Girls Lacrosse",
-            "time": "6:00pm - 8:00pm",
-            "location": "HHS - HSE Cafe A, HHS - HSE Cafe B, HHS - HSE Cafe C"
-        },
-        {
             "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
             "time": "6:00pm - 7:30pm",
             "location": "@HHS - HSE HS AUX COURT 3"
@@ -461,6 +456,11 @@
             "title": "Dance Team Practice",
             "time": "6:00pm - 8:30pm",
             "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Girls Lacrosse",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE Cafe A, HHS - HSE Cafe B, HHS - HSE Cafe C"
         },
         {
             "title": "Lacrosse Workouts",
