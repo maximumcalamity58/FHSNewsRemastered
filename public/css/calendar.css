@@ -432,7 +432,7 @@ button {
 	border-radius: 8px;
 	text-align: center;
 	overflow-y: hidden;  /* Make content scrollable */
-	width: 50%;  /* Set width */
+	width: calc(300px + 25vw);
 	box-sizing: border-box;  /* To include padding and border in the element's total width and height */
 }
 
