@@ -114,3 +114,11 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => console.error('Error loading clubs:', error));
 });
+
+// Close the modal when the close button is clicked
+document.getElementById("modal").addEventListener("click", (event) => {
+    // Check if the click is outside the content box
+    if (event.target.id === "modal") {
+        document.getElementById("modal").classList.add("hidden");
+    }
+});
