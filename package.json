@@ -3,7 +3,7 @@
   "version": "1.0.9",
   "description": "",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Maxime Hendryx-Parker",
