@@ -269,7 +269,7 @@ body {
 }
 
 .icon-button {
-	background-color: white;
+	background-color: white !important;
 	opacity: 1;
 	margin: 4px;
     display: flex;
