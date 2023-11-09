@@ -1,3 +1,4 @@
 /.cache/
 /dist/
 db.env
+.env
