@@ -258,14 +258,20 @@ body {
   font-family: var(--bold-font);
 }
 
-#icon-buttons {
+.marginal {
+	margin-top: -20px;
+}
+
+.icon-buttons {
     display: flex;
     justify-content: center;
-    background-color: white; /* Adjust the background color as needed */
     margin-bottom: 20px; /* Adjust the margin below the buttons as needed */
 }
 
 .icon-button {
+	background-color: white;
+	opacity: 1;
+	margin: 4px;
     display: flex;
 	width: calc(100% / 3);
 	justify-content: center;
