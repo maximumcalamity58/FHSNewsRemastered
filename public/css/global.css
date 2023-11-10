@@ -190,6 +190,10 @@ header a div svg {
 	fill: var(--navigation-icon-color);
 }
 
+#nav-tabs a div img {
+	margin: 1000px;
+}
+
 header a div img {
 	fill: var(--header-icon-color);
 }

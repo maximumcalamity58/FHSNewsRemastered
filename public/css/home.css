@@ -280,7 +280,7 @@ body {
 }
 
 .icon-button:hover {
-    background-color: #e0e0e0; /* Adjust the hover background color as needed */
+    background-color: #e0e0e0 !important; /* Adjust the hover background color as needed */
 }
 
 .icon-button img {
