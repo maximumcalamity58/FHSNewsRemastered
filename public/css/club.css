@@ -73,7 +73,7 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	border-width: 2px;
-	border-color: red;
+	border-color: var(--active-color);
 	border-style: solid;
 	border-radius: 20px;
 }
@@ -100,7 +100,7 @@
     font-weight: bold;
     position: relative;
     padding: 7px 10px;
-    color: white;
+    color: var(--header-text-color);
 	font-size: 42px;
 	user-select: none;
 	font-family: robotobold;
@@ -121,7 +121,7 @@
 
 /* Modal content */
 .modal-content {
-	background-color: #fefefe;
+	background-color: var(--container-background-color);
 	margin: 15% auto; /* 15% from the top and centered */
 	padding: 20px;
 	border: 1px solid #888;

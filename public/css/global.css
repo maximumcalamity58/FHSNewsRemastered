@@ -164,7 +164,7 @@ nav {
 }
 
 body.fullsize-content #nav-tabs {
-	background-color: var(--navigation-background-color);
+	background-color: var(--navigation-active-icon-color);
 }
 
 #nav-tabs a,
@@ -340,7 +340,7 @@ header {
 		font-size: 20px;  /* You can adjust this */
 		align-content: start;
 		justify-content: center;
-		color: var(--navigation-icon-color);  /* Set the text color */
+		color: var(--container-text-color);  /* Set the text color */
 	}
 
 	header a div {

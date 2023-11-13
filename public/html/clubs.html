@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="../css/club.css">
 
   <!-- Current theme goes here -->
-  <link rel="stylesheet" href="../themes/default.css">
+  <link rel="stylesheet" href="../themes/default.css" id="theme-style"> <!-- default theme -->
 </head>
 
 <body>
@@ -21,7 +21,7 @@
     <div class="clubs-title">Clubs</div>
     <a href="info.html">
       <div>
-        <img src="../img/questionmark_white.png" alt="?" width="34" height="34">
+        <img src="../img/questionmark_white.png" alt="?" width="40" height="40">
       </div>
     </a>
   </header>
@@ -78,6 +78,21 @@
 		  });
 	  });
 	});
+
+    	// Function to switch the theme and save the choice in localStorage
+	function switchTheme(themeName) {
+	  const themeLink = document.getElementById('theme-style');
+	  themeLink.href = `../themes/${themeName}.css`;
+	}
+
+    window.addEventListener('DOMContentLoaded', function () {
+    // Apply the saved theme when the page loads
+	  const savedTheme = localStorage.getItem('selectedTheme');
+	  if (savedTheme) {
+          switchTheme(savedTheme);
+
+      }
+    });
 </script>
 
 </html>

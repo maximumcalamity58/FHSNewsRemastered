@@ -27,7 +27,7 @@
 .red-bar {
     height: 4px;          /* Thickness of the bar */
     width: 100%;          /* Full width of the container */
-    background: red;      /* Color of the bar */
+    background: var(--active-color);      /* Color of the bar */
     border-radius: 4px 4px 4px 4px;  /* Rounded bottom edges */
 }
 
@@ -38,70 +38,69 @@
 }
 
 .green-day {
-    background-color: lightgreen;
+    background-color: var(--calendar-green);
 }
 
 .red-day {
-    background-color: lightcoral;
+    background-color: var(--calendar-red);
 }
 
 .blue-day {
-    background-color: #9dd7e6;
+    background-color: var(--calendar-blue);
 }
 
 .yellow-day {
-    background-color: #ffffc0;
+    background-color: var(--calendar-yellow);
 }
 
 .silver-day {
-	background-color: #e3e3e3;
+	background-color: var(--calendar-silver);
 }
 
 .purple-day {
-	background-color: #e3b0fb;
+	background-color: var(--calendar-purple);
 }
 
 .event-box {
     padding: 10px;
     border-radius: 5px;      /* rounded corners */
     margin: 2px 0;           /* margin at the top and bottom */
-    background-color: white;  /* light gray background */
+    background-color: var(--container-background-color);  /* light gray background */
 }
 
 .green-background {
-    background-color: lightgreen;
+    background-color: var(--calendar-green);
 	border: 2px solid limegreen;  /* light gray border */
 }
 
 .red-background {
-    background-color: lightcoral;
+    background-color: var(--calendar-red);
 	border: 2px solid red;  /* light gray border */
 }
 
 .blue-background {
-    background-color: lightblue;
+    background-color: var(--calendar-blue);
 	border: 2px solid dodgerblue;  /* light gray border */
 }
 
 .yellow-background {
-    background-color: #ffffc0;
+    background-color: var(--calendar-yellow);
 	border: 2px solid yellow;  /* light gray border */
 }
 
 .silver-background {
-    background-color: #e4e4e4;
+    background-color: var(--calendar-silver);
 	border: 2px solid silver;  /* light gray border */
 }
 
 .purple-background {
-	background-color: lavender;
+	background-color: var(--calendar-purple);
 	border: 2px solid mediumpurple;
 }
 
 p, button {
 	font-size: 1rem;
 	font-family: var(--norm-font);
-	color: var(--container-text-color);
 	line-height: 1.5;
 	background: transparent;
 }
@@ -129,8 +128,8 @@ p, button {
 	justify-content: center;
     align-items: center;
     padding: 7px 10px;
-    background-color: red; /* You can adjust this */
-    color: white;
+    background-color: var(--header-background-color); /* You can adjust this */
+    color: var(--header-text-color);
 	font-size: 35px;
 	user-select: none;
 	font-family: robotobold;
@@ -149,7 +148,7 @@ p, button {
 	width: 40vw;
     border: 2px solid darkred;
 	border-radius: 5px;
-    background-color: #fff;
+    background-color: var(--container-background-color);
     z-index: 10;
 	transition: 0.3s;
 }
@@ -371,6 +370,10 @@ button {
 	transition: 0.3s;
 }
 
+.calendar_body td.weekend {
+	background-color: var(--calendar-white);
+}
+
 .calendar_body td .day-number {
 	background-color: #EE0000; /* Red background */
 	color: white;  /* White text */
@@ -387,11 +390,11 @@ button {
 }
 
 .calendar_body td.next-month {
-	background-color: lightgrey; /* Dark gray background */
+	background-color: var(--calendar-gray); /* Dark gray background */
 }
 
 .calendar_body td.prev-month {
-	background-color: lightgrey;
+	background-color: var(--calendar-gray);
 }
 
 .calendar_body td.next-month .day-number {
@@ -426,7 +429,7 @@ button {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: lightgrey;
+	background-color: var(--secondary-background-color);
 	padding: 20px;
 	max-height: 80vh;
 	border-radius: 8px;

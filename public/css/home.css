@@ -21,6 +21,7 @@ body {
 	overflow-y: hidden;
 	font-size: 0;
 	border-radius: 0;
+	transition: 0.3s;
 }
 
 #period__header {
@@ -60,11 +61,11 @@ body {
     display: inline-block;
     margin: 0 1.5vw 3vw;
     position: relative;
-    background-color: lightgray;
+    background-color: var(--gallery-dot-color);
 }
 
 .gallery-dot.active {
-    background-color: red;
+    background-color: var(--active-color);
 }
 
 .gallery-dot:before {
@@ -102,6 +103,7 @@ body {
 	text-align: center;
 	font-size: 0;
 	overflow-y: hidden;
+	transition: 0.3s;
 }
 
 #countdown__timer {
@@ -109,7 +111,7 @@ body {
 	padding: 0;
 	margin: 0;
 	font-size: 12vw;
-	color: var(--active-color);
+	color: var(--countdown-text-color);
 }
 
 #countdown__bar, #hall-pass .countdown__bar {
@@ -154,10 +156,42 @@ body {
     font-weight: bold;
     position: relative;
     padding: 7px 10px;
-    color: white;
+    color: var(--button-text-color-alt);
 	font-size: 42px;
 	user-select: none;
 	font-family: robotobold;
+}
+
+#themes_selector {
+	margin-top: -5px;
+	margin-bottom: 5px;
+}
+
+.theme-button {
+  display: inline-block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: 2px solid black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.theme-button::after {
+  content: '';
+  display: none;
+  position: absolute;
+  top: 4px; /* 2px from the top edge of the <a> element */
+  left: 2px; /* 2px from the left edge of the <a> element */
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  background-image: url('../img/checkmark.svg'); /* Replace with your checkmark icon */
+  background-size: cover;
+}
+
+.theme-button.active::after {
+  display: block;
 }
 
 .lunch-btn {
@@ -182,7 +216,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(rgb(255, 0, 0), rgb(255, 0, 0));
+    background-image: linear-gradient(var(--active-color), var(--active-color));
     z-index: -1;
     transition: opacity 0.2s;
     opacity: 0;
@@ -210,8 +244,8 @@ body {
 }
 
 .lunch-btn.selected {
-    color: white; /* Make text white when selected */
-    background-color: rgb(255, 0, 0); /* Make selected buttons red */
+    color: var(--button-text-color-alt); /* Make text white when selected */
+    background-color: var(--active-color); /* Make selected buttons red */
 }
 
 .lunch-btn.selected:hover {
@@ -269,7 +303,7 @@ body {
 }
 
 .icon-button {
-	background-color: white !important;
+	background-color: var(--button-active-color) !important;
 	opacity: 1;
 	margin: 4px;
     display: flex;
@@ -280,7 +314,7 @@ body {
 }
 
 .icon-button:hover {
-    background-color: #e0e0e0 !important; /* Adjust the hover background color as needed */
+    background-color: var(--button-hover-background) !important; /* Adjust the hover background color as needed */
 }
 
 .icon-button img {
