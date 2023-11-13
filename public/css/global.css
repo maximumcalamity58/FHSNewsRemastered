@@ -18,7 +18,9 @@ html {
 
 body {
 	height: 100%;
+	background-image: var(--background-image);
 	background-color: var(--background-color);
+	background-size: 100%;
 	overflow-y: scroll;
 	margin: 0;
 	font-family: var(--norm-font);
@@ -127,6 +129,7 @@ header {
 	text-align: center;
 	background-color: var(--header-background-color);
 	z-index: 999;
+	transition: 0.3s;
 
 }
 
@@ -164,7 +167,7 @@ nav {
 }
 
 body.fullsize-content #nav-tabs {
-	background-color: var(--navigation-background-color);
+	background-color: var(--navigation-active-icon-color);
 }
 
 #nav-tabs a,
@@ -340,7 +343,7 @@ header {
 		font-size: 20px;  /* You can adjust this */
 		align-content: start;
 		justify-content: center;
-		color: var(--navigation-icon-color);  /* Set the text color */
+		color: var(--container-text-color);  /* Set the text color */
 	}
 
 	header a div {

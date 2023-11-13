@@ -18,7 +18,7 @@
 	<link rel="stylesheet" href="css/error.css">
 
 	<!-- Current theme goes here -->
-	<link rel="stylesheet" href="themes/default.css">
+	<link rel="stylesheet" href="themes/default.css" id="theme-style"> <!-- default theme -->
 </head>
 	<!-- Scripts go here -->
 	<script src="js/DOM.js" charset="utf-8"></script>
@@ -42,6 +42,21 @@
 		</a>
 	</header>
 	<article id="main-content">
+		<section class="block" id="themes_selector">
+			<div id="theme-buttons">
+			  <a class="theme-button" data-theme="default" style="background-color: red;"></a>
+			  <a class="theme-button" data-theme="blue" style="background-color: #3030e0;"></a>
+			  <a class="theme-button" data-theme="purple" style="background-color: purple;"></a>
+			  <a class="theme-button" data-theme="dark" style="background-color: #444;"></a>
+			  <a class="theme-button" data-theme="snow" style="background-image: url('img/snowflake.svg'); background-repeat: no-repeat; background-position: center; background-color: #9dd7e6"></a>
+			  <a class="theme-button" data-theme="forest" style="background-image: url('img/tree.svg'); background-repeat: no-repeat; background-position: center; background-color: #90ee90"></a>
+			  <a class="theme-button" data-theme="ocean" style="background-image: url('img/wave.svg'); background-repeat: no-repeat; background-position: center; background-color: #87cefa"></a>
+
+				<!-- Add more buttons for additional themes -->
+			</div>
+
+		</section>
+
 		<!-- Clock -->
 		<section class="block">
 			<section class="row" id="period">
@@ -162,6 +177,45 @@
 
     // Once the document content is loaded, initialize the clock
     document.addEventListener("DOMContentLoaded", initializeClock);
+
+	// Function to switch the theme and save the choice in localStorage
+	function switchTheme(themeName) {
+	  const themeLink = document.getElementById('theme-style');
+	  themeLink.href = `themes/${themeName}.css`;
+	  localStorage.setItem('selectedTheme', themeName); // Save the theme to localStorage
+	}
+
+	// Function to set the active button visually
+	function setActiveButton(activeButton) {
+	  const buttons = document.querySelectorAll('.theme-button');
+	  buttons.forEach(button => {
+		button.classList.remove('active');
+	  });
+	  activeButton.classList.add('active');
+	}
+
+	// Event listener for theme buttons
+	document.addEventListener('DOMContentLoaded', () => {
+	  const themeButtons = document.querySelectorAll('.theme-button');
+
+	  themeButtons.forEach(button => {
+		button.addEventListener('click', function() {
+		  const theme = this.getAttribute('data-theme');
+		  switchTheme(theme);
+		  setActiveButton(this);
+		});
+	  });
+
+	  // Apply the saved theme when the page loads
+	  const savedTheme = localStorage.getItem('selectedTheme');
+	  if (savedTheme) {
+		switchTheme(savedTheme);
+		// Set the active class on the saved theme button
+		document.querySelector(`.theme-button[data-theme="${savedTheme}"]`).classList.add('active');
+	  }
+	});
+
+
 </script>
 
 </html>

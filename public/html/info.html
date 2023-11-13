@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="../css/info.css">
 
 	<!-- Current theme goes here -->
-	<link rel="stylesheet" href="../themes/default.css">
+    <link rel="stylesheet" href="../themes/default.css" id="theme-style"> <!-- default theme -->
 </head>
 	<!-- Scripts go here -->
 	<script src="../js/DOM.js" charset="utf-8"></script>
@@ -130,5 +130,20 @@
 		  });
 	  });
 	});
+
+    // Function to switch the theme and save the choice in localStorage
+	function switchTheme(themeName) {
+	  const themeLink = document.getElementById('theme-style');
+	  themeLink.href = `../themes/${themeName}.css`;
+	}
+
+    window.addEventListener('DOMContentLoaded', function () {
+    // Apply the saved theme when the page loads
+	  const savedTheme = localStorage.getItem('selectedTheme');
+	  if (savedTheme) {
+          switchTheme(savedTheme);
+
+      }
+    });
 </script>
 </html>
