@@ -112,6 +112,7 @@ body {
 	margin: 0;
 	font-size: 12vw;
 	color: var(--countdown-text-color);
+	transition: 0.3s;
 }
 
 #countdown__bar, #hall-pass .countdown__bar {
