@@ -4,27 +4,6 @@ const mysql = require('mysql2');
 const app = express();
 const port = process.env.PORT || 3000;
 
-
-// require('dotenv').config();
-
-// const dbConnection = mysql.createConnection({
-//   host: process.env.DB_HOST,
-//   user: process.env.DB_USER,
-//   password: process.env.DB_PASS,
-//   database: process.env.DB_NAME
-// });
-//
-// dbConnection.connect(err => {
-//   if (err) throw err;
-//   console.log('Connected to the database!');
-// });
-
-// // Middleware to disable cache
-// app.use((req, res, next) => {
-//   res.set('Cache-Control', 'no-store, no-cache, must-revalidate, private');
-//   next();
-// });
-
 // Serve static files from the "public" directory
 app.use(express.static(path.join(__dirname, 'public')));
 
