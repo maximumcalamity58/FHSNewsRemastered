@@ -3,6 +3,10 @@ body {
 	font-family: var(--norm-font);
 }
 
+.block {
+	max-width: 95%;
+}
+
 #period {
 	display: flex;
 	justify-content: center;
@@ -18,7 +22,7 @@ body {
 	flex: 5;
 	margin-left: 1vw;
 	margin-right: 1vw;
-	overflow-y: hidden;
+	overflow: hidden;
 	font-size: 0;
 	border-radius: 0;
 	transition: 0.3s;

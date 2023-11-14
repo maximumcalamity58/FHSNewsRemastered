@@ -17,8 +17,23 @@
 	<link rel="stylesheet" href="css/lunch_data.css">
 	<link rel="stylesheet" href="css/error.css">
 
+	<link rel="preload" as="image" href="img/snow.png">
+	<link rel="preload" as="image" href="img/forest.png">
+	<link rel="preload" as="image" href="img/ocean.png">
+
+	<script>
+    // Self-invoking function to set the theme from localStorage
+    (function() {
+      var savedTheme = localStorage.getItem('selectedTheme') || 'default';
+      var themeLink = document.getElementById('theme-style');
+      if (themeLink) {
+        themeLink.setAttribute('href', 'themes/' + savedTheme + '.css');
+      }
+    })();
+  	</script>
+
 	<!-- Current theme goes here -->
-	<link rel="stylesheet" href="themes/default.css" id="theme-style"> <!-- default theme -->
+	<link rel="stylesheet" href="" id="theme-style"> <!-- default theme -->
 </head>
 	<!-- Scripts go here -->
 	<script src="js/DOM.js" charset="utf-8"></script>
@@ -181,7 +196,10 @@
 	// Function to switch the theme and save the choice in localStorage
 	function switchTheme(themeName) {
 	  const themeLink = document.getElementById('theme-style');
-	  themeLink.href = `themes/${themeName}.css`;
+	  // Only change the theme if it's different
+	  if (themeLink.getAttribute('href') !== `themes/${themeName}.css`) {
+		themeLink.setAttribute('href', `themes/${themeName}.css`);
+	  }
 	  localStorage.setItem('selectedTheme', themeName); // Save the theme to localStorage
 	}
 
@@ -207,12 +225,10 @@
 	  });
 
 	  // Apply the saved theme when the page loads
-	  const savedTheme = localStorage.getItem('selectedTheme');
-	  if (savedTheme) {
-		switchTheme(savedTheme);
-		// Set the active class on the saved theme button
-		document.querySelector(`.theme-button[data-theme="${savedTheme}"]`).classList.add('active');
-	  }
+	  const savedTheme = localStorage.getItem('selectedTheme') || 'default';
+	  switchTheme(savedTheme); // Ensure the theme is set on load
+	  // Set the active class on the saved theme button
+	  document.querySelector(`.theme-button[data-theme="${savedTheme}"]`).classList.add('active');
 	});
 
 
