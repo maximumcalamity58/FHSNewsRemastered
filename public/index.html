@@ -7,6 +7,14 @@
 	<title>FHS News</title>
 	<link rel="shortcut icon" type="image/ico" href="img/favicon.ico">
 
+	<!-- Inline script to set the theme immediately -->
+	<script>
+	(function() {
+	  var savedTheme = localStorage.getItem('selectedTheme') || 'default';
+	  document.write('<link rel="stylesheet" href="themes/' + savedTheme + '.css" id="theme-style">');
+	})();
+	</script>
+
 	<!-- CSS files go here -->
 	<link rel="stylesheet" href="css/global.css">
 	<link rel="stylesheet" href="css/home.css">
@@ -20,17 +28,6 @@
 	<link rel="preload" as="image" href="img/snow.png">
 	<link rel="preload" as="image" href="img/forest.png">
 	<link rel="preload" as="image" href="img/ocean.png">
-
-	<script>
-    // Self-invoking function to set the theme from localStorage
-    (function() {
-      var savedTheme = localStorage.getItem('selectedTheme') || 'default';
-      var themeLink = document.getElementById('theme-style');
-      if (themeLink) {
-        themeLink.setAttribute('href', 'themes/' + savedTheme + '.css');
-      }
-    })();
-  	</script>
 
 	<!-- Current theme goes here -->
 	<link rel="stylesheet" href="" id="theme-style"> <!-- default theme -->
