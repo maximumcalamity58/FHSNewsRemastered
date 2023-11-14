@@ -7,12 +7,20 @@
 	<title>FHS News</title>
 	<link rel="shortcut icon" type="image/ico" href="../img/favicon.ico">
 
+    	<!-- Inline script to set the theme immediately -->
+	<script>
+	(function() {
+	  var savedTheme = localStorage.getItem('selectedTheme') || 'default';
+	  document.write('<link rel="stylesheet" href="../themes/' + savedTheme + '.css" id="theme-style">');
+	})();
+	</script>
+
 	<!-- CSS files go here -->
 	<link rel="stylesheet" href="../css/global.css">
 	<link rel="stylesheet" href="../css/info.css">
 
 	<!-- Current theme goes here -->
-    <link rel="stylesheet" href="../themes/default.css" id="theme-style"> <!-- default theme -->
+    <link rel="stylesheet" href="" id="theme-style"> <!-- default theme -->
 </head>
 	<!-- Scripts go here -->
 	<script src="../js/DOM.js" charset="utf-8"></script>
@@ -75,6 +83,14 @@
         <div class="panel-title">Contact Us</div>
         <div class="panel-content">
             <p class="contact-email">fhsnewssite@gmail.com</p>
+        </div>
+    </div>
+
+    <div class="panel">
+        <div class="panel-content version">
+            <span class="version-text">Version 2.0.3</span>
+            <span class="version-text">Build 78</span>
+            <span class="version-text">© 2023</span>
         </div>
     </div>
 </div>
