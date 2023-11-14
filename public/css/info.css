@@ -24,6 +24,7 @@ header {
 }
 
 .content {
+    min-width: 400px;
     width: 60%;
 }
 
@@ -60,4 +61,14 @@ header {
 .contact-email {
     font-size: 16px;
     font-weight: bold;
+}
+
+.panel-content.version {
+  display: flex;        /* Use flexbox to layout children */
+  justify-content: space-around; /* Distribute space evenly around the items */
+  text-align: center;   /* Center text inside each flex item */
+}
+
+.version-text {
+  flex: 1;              /* Each flex item can grow equally */
 }

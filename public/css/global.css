@@ -21,6 +21,7 @@ body {
 	background-image: var(--background-image);
 	background-color: var(--background-color);
 	background-size: 100%;
+	background-attachment: fixed;
 	overflow-y: scroll;
 	margin: 0;
 	font-family: var(--norm-font);

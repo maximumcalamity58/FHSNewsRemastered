@@ -13,12 +13,12 @@
   --button-background-color: white;
   --button-text-color: black;
   --button-text-color-alt: white;
-  --button-hover-background: #e0e0e0;
+  --button-hover-background: rgba(196, 196, 196, 0.5);
   --button-hover-background-alt: rgba(173, 216, 230, 0.8);
   --button-hover-text: black;
   --button-active-color: rgba(255, 255, 255, 0.5);
 
-  --soft-color: lightcoral;
+  --soft-color: #abd6ef;
 
   --calendar-red: lightcoral;
   --calendar-green: lightgreen;
