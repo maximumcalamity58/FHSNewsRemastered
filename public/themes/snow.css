@@ -7,7 +7,7 @@
   --secondary-background-color: rgb(210,210,210);
   --container-background-color: rgba(255, 255, 255, 0.5);
   --container-text-color: black;
-  --countdown-text-color: #ADD8E6;
+  --countdown-text-color: #a8d7e7;
   --gallery-dot-color: #D3D3D3;
 
   --button-background-color: white;
@@ -41,6 +41,7 @@
 
   --active-color: #ADD8E6;
   --active-hover-color: rgb(150,170,230);
+  --dark-color: darkblue;
 
   --outline-color: rgb(180,180,180);
 
