@@ -436,6 +436,7 @@ button {
 	text-align: center;
 	overflow-y: hidden;  /* Make content scrollable */
 	width: calc(300px + 25vw);
+	max-width: 90%;
 	box-sizing: border-box;  /* To include padding and border in the element's total width and height */
 }
 

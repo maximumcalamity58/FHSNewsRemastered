@@ -267,11 +267,11 @@ function updateClock() {
             firstStartTime.setDate(firstStartTime.getDate() + 1);
         }
 
-        timeRemaining = ((firstStartTime - now) + 2000) / 1000; // in seconds
+        timeRemaining = ((firstStartTime - now) + 500) / 1000; // in seconds
     }
     // Otherwise, it's a regular school period or passing period
     else {
-        timeRemaining = ((endTime - now) + 2000) / 1000; // in seconds
+        timeRemaining = ((endTime - now) + 500) / 1000; // in seconds
     }
 
     // Reset hasAdvanced flag if the time is not yet expired
@@ -289,12 +289,12 @@ function updateClock() {
     // If the time has already expired and it's a manual navigation
     if (timeRemaining <= 0 && manualNavigation) {
         endTime.setDate(endTime.getDate() + 1);
-        timeRemaining = ((endTime - now) + 2000) / 1000;
+        timeRemaining = ((endTime - now) + 500) / 1000;
         manualNavigation = false; // Reset the flag
     }
 
     if (timeRemaining < 0) {
-        timeRemaining = ((endTime - now) + 2000) / 1000
+        timeRemaining = ((endTime - now) + 500) / 1000
     }
 
     // Calculate hours, minutes, seconds
