@@ -28,11 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
         checkSnowThemeUnlock('snow');
     });
 
-    // Event listener for the "Check Answer" button for the dark theme
-    document.getElementById('check-answer-space').addEventListener('click', () => {
-        checkSpaceThemeUnlock();
-    });
-
     // Event listener to submit on pressing the "Enter" key
     document.addEventListener('keypress', function(event) {
         if (event.key === 'Enter') {
@@ -59,9 +54,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else if (document.getElementById('part-2-ocean').style.display !== 'none') {
                     checkAnswer('ocean', 1)
                 }
-            }
-            if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'space') {
-                checkSpaceThemeUnlock();
             }
         }
     });
@@ -453,7 +445,7 @@ $(document).ready(function() {
             sourceSquare = undefined;
 
             // Make the best move for black
-            window.setTimeout(makeRandomMove, 250);
+            window.setTimeout(makeBestMove, 250);
         }
     }
 
@@ -471,15 +463,101 @@ $(document).ready(function() {
         }
     }
 
-    function makeRandomMove() {
-        let possibleMoves = game.moves();
+    function evaluateBoard(game) {
+        var totalEvaluation = 0;
 
-        // Exit if the game is over
-        if (game.game_over() || possibleMoves.length === 0) return;
+        game.SQUARES.forEach(function(square) {
+            var piece = game.get(square);
+            totalEvaluation += getPieceValue(piece);
+        });
 
-        let randomIdx = Math.floor(Math.random() * possibleMoves.length);
-        game.move(possibleMoves[randomIdx]);
+        return totalEvaluation;
+    }
+
+    function getPieceValue(piece) {
+        if (piece === null) {
+            return 0;
+        }
+
+        var getAbsoluteValue = function (piece) {
+            if (piece.type === 'p') {
+                return 10;
+            } else if (piece.type === 'r') {
+                return 50;
+            } else if (piece.type === 'n') {
+                return 30;
+            } else if (piece.type === 'b') {
+                return 30;
+            } else if (piece.type === 'q') {
+                return 90;
+            } else if (piece.type === 'k') {
+                return 2000;
+            }
+            throw "Unknown piece type: " + piece.type;
+        };
+
+        var absoluteValue = getAbsoluteValue(piece);
+        return piece.color === 'w' ? absoluteValue : -absoluteValue;
+    }
+
+
+    function minimax(game, depth, alpha, beta, isMaximisingPlayer) {
+        if (depth === 0) {
+            return -evaluateBoard(game);
+        }
+
+        var newGameMoves = game.moves();
+
+        if (isMaximisingPlayer) {
+            let bestMove = -9999;
+            for (var i = 0; i < newGameMoves.length; i++) {
+                game.move(newGameMoves[i]);
+                bestMove = Math.max(bestMove, minimax(game, depth - 1, alpha, beta, !isMaximisingPlayer));
+                game.undo();
+                alpha = Math.max(alpha, bestMove);
+                if (beta <= alpha) {
+                    return bestMove;
+                }
+            }
+            return bestMove;
+        } else {
+            let bestMove = 9999;
+            for (var i = 0; i < newGameMoves.length; i++) {
+                game.move(newGameMoves[i]);
+                bestMove = Math.min(bestMove, minimax(game, depth - 1, alpha, beta, !isMaximisingPlayer));
+                game.undo();
+                beta = Math.min(beta, bestMove);
+                if (beta <= alpha) {
+                    return bestMove;
+                }
+            }
+            return bestMove;
+        }
+    }
+
+    function makeBestMove() {
+        var bestMove = getBestMove(game);
+        game.move(bestMove);
         board.position(game.fen());
+        updateStatus();
+    }
+
+    function getBestMove(game) {
+        let newGameMoves = game.moves();
+        let bestMove = null;
+        let bestValue = -9999;
+
+        newGameMoves.forEach(function(move) {
+            game.move(move);
+            let boardValue = minimax(game, 1, -10000, 10000, false);
+            game.undo();
+            if (boardValue > bestValue) {
+                bestValue = boardValue;
+                bestMove = move;
+            }
+        });
+
+        return bestMove;
     }
 
     function onDrop(source, target) {
@@ -494,7 +572,7 @@ $(document).ready(function() {
         if (move === null) return 'snapback';
 
         // Make the best move for black
-        window.setTimeout(makeRandomMove, 250);
+        window.setTimeout(makeBestMove, 250);
     }
 
     function onSnapEnd() {
