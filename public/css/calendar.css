@@ -146,9 +146,9 @@ p, button {
 	max-height: calc(300px + 15vh);
 	overflow-y: auto;
 	width: 40vw;
-    border: 2px solid darkred;
+    border: 2px solid var(--dark-color);
 	border-radius: 5px;
-    background-color: var(--container-background-color);
+    background-color: var(--navigation-background-color);
     z-index: 10;
 	transition: 0.3s;
 }
@@ -436,6 +436,7 @@ button {
 	text-align: center;
 	overflow-y: hidden;  /* Make content scrollable */
 	width: calc(300px + 25vw);
+	max-width: 90%;
 	box-sizing: border-box;  /* To include padding and border in the element's total width and height */
 }
 

@@ -38,7 +38,8 @@
   --calendar-white: #ccc;
 
   --active-color: black;
-  --active-hover-color: rgb(230,0,0);
+  --active-hover-color: rgb(30, 30, 30);
+  --dark-color: #333;
 
   --outline-color: rgb(180,180,180);
 

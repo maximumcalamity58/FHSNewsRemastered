@@ -1,17 +1,10 @@
 const express = require('express');
 const path = require('path');
-const mysql = require('mysql2');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3003;
 
 // Serve static files from the "public" directory
 app.use(express.static(path.join(__dirname, 'public')));
-
-// If you have API routes, you can define them before the catch-all route
-// For example:
-// app.get('/api/some-data', (req, res) => {
-//   res.json({ key: 'value' });
-// });
 
 // Catch-all route to handle all other requests and return the index.html file
 app.get('*', (req, res) => {
@@ -23,18 +16,6 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/index.html'));
   }
 });
-
-// const dbConnection = mysql.createConnection({
-//   host: process.env.DB_HOST,
-//   user: process.env.DB_USER,
-//   password: process.env.DB_PASS,
-//   database: process.env.DB_NAME
-// });
-//
-// dbConnection.connect(err => {
-//   if (err) throw err;
-//   console.log('Connected to the database!');
-// });
 
 const { exec } = require('child_process');
 

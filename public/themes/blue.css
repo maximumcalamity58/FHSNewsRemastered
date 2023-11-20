@@ -41,7 +41,8 @@
 	--error-bg: rgb(155,155,255);
 
   --active-color: #3030e0;
-  --active-hover-color: rgb(30,30,215);
+  --active-hover-color: rgb(0,0,215);
+  --dark-color: darkblue;
 
   --outline-color: rgb(180,180,180);
 
