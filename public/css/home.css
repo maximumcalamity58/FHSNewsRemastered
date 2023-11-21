@@ -200,6 +200,10 @@ body.modal-open {
   min-width: 350px;
 }
 
+#chessboard {
+	width: 300px;
+}
+
 h2 {
 	margin: 10px -15px;
 }
