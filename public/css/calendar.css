@@ -122,17 +122,24 @@ p, button {
     cursor: pointer;
 }
 
-.dropdown-header {
+.dropdown-container {
     display: flex;
-	flex-display: block;
-	justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* The container is relative */
+}
+
+.dropdown-header {
+    position: relative; /* This is necessary for absolute positioning of the child */
+    display: flex;
+    justify-content: center;
     align-items: center;
     padding: 7px 10px;
-    background-color: var(--header-background-color); /* You can adjust this */
+    background-color: var(--header-background-color);
     color: var(--header-text-color);
-	font-size: 35px;
-	user-select: none;
-	font-family: robotobold;
+    font-size: 35px;
+    user-select: none;
+    font-family: robotobold;
 }
 
 .dropdown-arrow {
@@ -140,17 +147,18 @@ p, button {
 }
 
 .dropdown-options {
-    position: fixed; /* Changed from absolute to fixed */
-    top: calc(70px - 0.5vh); /* Center vertically */
-    left: 30vw; /* Center horizontally */
-	max-height: calc(300px + 15vh);
-	overflow-y: auto;
-	width: 40vw;
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 100%; /* Place it right below the dropdown header */
+    left: 50%; /* Start from the middle of the dropdown header */
+    transform: translateX(-50%); /* Move it back to the left by half of its own width */
+    max-height: calc(300px + 15vh);
+    overflow-y: auto;
+    width: calc(30vw + 150px); /* Adjust width as necessary */
     border: 2px solid var(--dark-color);
-	border-radius: 5px;
+    border-radius: 5px;
     background-color: var(--navigation-background-color);
     z-index: 10;
-	transition: 0.3s;
+    transition: 0.3s;
 }
 
 .dropdown-option {
@@ -172,14 +180,12 @@ p, button {
     /* existing styles */
     visibility: hidden; /* hide it initially */
     opacity: 0;
-    transform: translateY(-10px); /* slightly move it up for a slide-down effect */
     transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.6s ease-in-out, transform 0.3s ease-in-out; /* smooth transition effect */
 }
 
 .dropdown-options.open {
     visibility: visible; /* show the dropdown */
     opacity: 1;
-    transform: translateY(0); /* reset the position */
 }
 
 .dropdown-arrow {
