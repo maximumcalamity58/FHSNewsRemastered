@@ -207,8 +207,8 @@ function checkAnswer(theme, partIndex = 0) {
     } else {
         // Shake the modal and clear the input
         const modalContent = document.querySelector('.modal-content');
-        modalContent.classList.add('shake');
-        setTimeout(() => modalContent.classList.remove('shake'), 500); // Remove class after animation
+        modalContent.classList.add('shakeThemes');
+        setTimeout(() => modalContent.classList.remove('shakeThemes'), 500); // Remove class after animation
 
         if (feedbackElement) feedbackElement.textContent = 'Incorrect answer. Try again.';
     }
@@ -268,8 +268,8 @@ function checkVisitsAndUnlockTheme(theme) {
     } else {
         // Shake the modal and clear the input
         const modalContent = document.querySelector('.modal-content');
-        modalContent.classList.add('shake');
-        setTimeout(() => modalContent.classList.remove('shake'), 500); // Remove class after animation
+        modalContent.classList.add('shakeThemes');
+        setTimeout(() => modalContent.classList.remove('shakeThemes'), 500); // Remove class after animation
 
         // Clear the input box and show feedback
         if (feedbackElement) feedbackElement.textContent = 'Not enough total visits.';
@@ -287,8 +287,8 @@ function checkSnowThemeUnlock() {
         runConfetti(); // Run the confetti effect
     } else {
         const modalContent = document.querySelector('.modal-content'); // Assuming this is the modal you want to shake
-        modalContent.classList.add('shake'); // Add shake class to the modal content
-        setTimeout(() => modalContent.classList.remove('shake'), 500); // Remove shake class after 500ms
+        modalContent.classList.add('shakeThemes'); // Add shake class to the modal content
+        setTimeout(() => modalContent.classList.remove('shakeThemes'), 500); // Remove shake class after 500ms
 
         if (feedbackElement) feedbackElement.textContent = 'The Snow theme can only be unlocked in December.';
     }
@@ -352,13 +352,13 @@ function checkConsecutiveVisitsAndUnlockTheme(theme) {
     } else {
         // Shake the modal and clear the input
         const modalContent = document.querySelector('.modal-content');
-        modalContent.classList.add('shake');
+        modalContent.classList.add('shakeThemes');
         // Provide feedback
         if (feedbackElement) feedbackElement.textContent = 'Not enough days visited consecutively.';
 
         // Remove the shake class after the animation completes
         setTimeout(() => {
-            modalContent.classList.remove('shake');
+            modalContent.classList.remove('shakeThemes');
         }, 500);
     }
 }
@@ -406,8 +406,8 @@ function checkSpaceThemeUnlock() {
         runConfetti(); // Run the confetti effect
     } else {
         const modalContent = document.querySelector('.modal-content'); // Assuming this is the modal you want to shake
-        modalContent.classList.add('shake'); // Add shake class to the modal content
-        setTimeout(() => modalContent.classList.remove('shake'), 500); // Remove shake class after 500ms
+        modalContent.classList.add('shakeThemes'); // Add shake class to the modal content
+        setTimeout(() => modalContent.classList.remove('shakeThemes'), 500); // Remove shake class after 500ms
 
         if (feedbackElement) feedbackElement.textContent = 'You must checkmate your opponent to unlock this theme.';
 

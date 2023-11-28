@@ -561,6 +561,18 @@ p {
   100% { transform: translateX(0); }
 }
 
+/* Keeping the original translateY transformation */
+@keyframes shakeThemes {
+    0%, 100% { transform: translateY(calc(-15% - 40%)); }
+    25% { transform: translate(-5px, calc(-15% - 40%)); }
+    50% { transform: translate(5px, calc(-15% - 40%)); }
+    75% { transform: translate(-5px, calc(-15% - 40%)); }
+}
+
 .shake {
   animation: shake 0.5s ease-in-out;
+}
+
+.shakeThemes {
+  animation: shakeThemes 0.5s ease-in-out;
 }
