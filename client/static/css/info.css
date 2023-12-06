@@ -1,0 +1,73 @@
+body {
+    font-family: var(--norm-font);
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 12vh;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.info-title {
+    font-size: 42px;
+    margin-top: 7px;
+    font-family: robotobold;
+}
+
+.content {
+    min-width: 400px;
+    width: 60%;
+}
+
+.panel-content p {
+    font-size: 20px; /* Adjust as needed for larger credit content font size */
+}
+
+.panel-content strong {
+    font-size: 24px; /* Adjust as needed for larger credit title font size */
+    display: block; /* Makes the title appear on a new line */
+}
+
+.panel {
+    background-color: var(--container-background-color);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.panel-title {
+    font-size: 24px;
+    color: #fff;
+    background-color: var(--soft-color);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.panel-content {
+    font-size: 18px;
+}
+
+.contact-email {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.panel-content.version {
+  display: flex;        /* Use flexbox to layout children */
+  justify-content: space-around; /* Distribute space evenly around the items */
+  text-align: center;   /* Center text inside each flex item */
+}
+
+.version-text {
+  flex: 1;              /* Each flex item can grow equally */
+}
