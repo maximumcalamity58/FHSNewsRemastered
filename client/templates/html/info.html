@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}FHS News{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/info.css' %}">
+{% endblock %}
+
+{% block header_class %}info-title{% endblock %}
+{% block header_content %}Info{% endblock %}
+
+{% block content %}
+    <div class="wrapper">
+        <div class="content">
+            <div class="panel">
+                <div class="panel-title">Clock</div>
+                <div class="panel-content">
+                    This page contains a timer which displays how much time is remaining in any given period, but defaults to the current period in the school's schedule.
+                    Clicking on an arrow will scroll through the schedule for that day. If you go to a future period, the timer displays how much time remains until that period starts.
+                    Under the timer is an information board where important information will be listed.
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel-title">Clubs</div>
+                <div class="panel-content">
+                    This page displays semi-current data on clubs ordered alphabetically.
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel-title">Calendar</div>
+                <div class="panel-content">
+                    This page contains a color-coded calendar that shows each schedule for every day of the year.
+                    Clicking on a day will display its schedule.
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel-title">Credits</div>
+                <div class="panel-content">
+                    <p><strong>Creators</strong></p>
+                    <p>Maxime Hendryx-Parker</p>
+                    <p><strong>UI Designers</strong></p>
+                    <p>Maxime Hendryx-Parker</p>
+                    <p>Josiah Box</p>
+                    <p><strong>Developers</strong></p>
+                    <p>Maxime Hendryx-Parker</p>
+                    <p><strong>Special Thanks To</strong></p>
+                    <p>Mr. Brigham French</p>
+                    <p>Anderson Cooper</p>
+                    <p>Patrick Nusbaum</p>
+                    <p>Dane Trainor</p>
+                    <p>Gabriel Iskandar</p>
+                    <p>Skylar Smith</p>
+                    <p>Matthew Ghera</p>
+                    <p>Ben Lilley</p>
+                    <p>Logan Cover</p>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel-title">Contact Us</div>
+                <div class="panel-content">
+                    <p class="contact-email">fhsnewssite@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-content version">
+                    <span class="version-text">Version 2.2.1</span>
+                    <span class="version-text">Build 86</span>
+                    <span class="version-text">© 2023</span>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    <script src="{% static 'js/DOM.js' %}" charset="utf-8"></script>
+{% endblock %}

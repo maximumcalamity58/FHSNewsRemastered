@@ -1,0 +1,107 @@
+{
+    "1": [
+        {
+            "title": "Yearbook Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        },
+        {
+            "title": "Musical",
+            "time": "7:30pm",
+            "location": "@Riverside - RJH AUDITERIA"
+        }
+    ],
+    "2": [
+        {
+            "title": "Musical",
+            "time": "6:30pm",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "Musical",
+            "time": "7:30pm",
+            "location": "@Riverside - RJH AUDITERIA"
+        }
+    ],
+    "6": [
+        {
+            "title": "Nature Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        }
+    ],
+    "8": [
+        {
+            "title": "Yearbook Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        }
+    ],
+    "11": [
+        {
+            "title": "YMCA Holiday Camp/School's Out Camp",
+            "time": "6:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "12": [
+        {
+            "title": "PTO Meeting",
+            "time": "6:30pm",
+            "location": "@Media Center"
+        }
+    ],
+    "13": [
+        {
+            "title": "Nature Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        }
+    ],
+    "15": [
+        {
+            "title": "Yearbook Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        }
+    ],
+    "20": [
+        {
+            "title": "Nature Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        }
+    ],
+    "22": [
+        {
+            "title": "Yearbook Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        }
+    ],
+    "27": [
+        {
+            "title": "Nature Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        },
+        {
+            "title": "Best Buddies",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Riverside - RSI Cafeteria"
+        }
+    ],
+    "29": [
+        {
+            "title": "YMCA Holiday Camp/School's Out Camp",
+            "time": "6:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "17": [
+        {
+            "title": "St. Patrick's Day",
+            "time": "All Day"
+        }
+    ]
+}

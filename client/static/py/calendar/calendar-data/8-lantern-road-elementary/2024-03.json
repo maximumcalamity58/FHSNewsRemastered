@@ -1,0 +1,50 @@
+{
+    "4": [
+        {
+            "title": "Math Bowl",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Room 28"
+        }
+    ],
+    "6": [
+        {
+            "title": "Student Council",
+            "time": "2:10pm - 3:00pm",
+            "location": "@Room 34"
+        }
+    ],
+    "13": [
+        {
+            "title": "Math Bowl",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Room 28"
+        }
+    ],
+    "18": [
+        {
+            "title": "Math Bowl",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Room 28"
+        }
+    ],
+    "22": [
+        {
+            "title": "Spring Pictures",
+            "time": "8:00am - 12:00am",
+            "location": "@Room 22"
+        }
+    ],
+    "25": [
+        {
+            "title": "Math Bowl",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Room 28"
+        }
+    ],
+    "17": [
+        {
+            "title": "St. Patrick's Day",
+            "time": "All Day"
+        }
+    ]
+}

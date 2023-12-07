@@ -1,0 +1,141 @@
+{
+    "5": [
+        {
+            "title": "Girl Scout Meetings Troop 2383 - HRE",
+            "time": "6:00pm - 7:15pm",
+            "location": "@Hoosier Road Elementary - HRE Cafeteria"
+        }
+    ],
+    "11": [
+        {
+            "title": "Flex Day",
+            "time": null,
+            "location": "@Entire Building - Hoosier Road Elementary"
+        }
+    ],
+    "12": [
+        {
+            "title": "Cub Scout Meetings Pack 110 HRE",
+            "time": "6:30pm - 7:30pm",
+            "location": "@Hoosier Road Elementary - HRE Cafeteria"
+        }
+    ],
+    "14": [
+        {
+            "title": "PTO Spring Dance",
+            "time": "5:30pm - 7:00pm",
+            "location": "@Entire Building - Hoosier Road Elementary"
+        }
+    ],
+    "16": [
+        {
+            "title": "Cub Scout Meetings Pack 110 HRE",
+            "time": "7:30am - 12:30pm",
+            "location": "@Hoosier Road Elementary - HRE Cafeteria"
+        }
+    ],
+    "18": [
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary - HRE Media Center"
+        },
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": null
+        }
+    ],
+    "19": [
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary - HRE Media Center"
+        },
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": null
+        },
+        {
+            "title": "Girl Scout Meetings Troop 2383 - HRE",
+            "time": "6:00pm - 7:15pm",
+            "location": "@Hoosier Road Elementary - HRE Cafeteria"
+        }
+    ],
+    "20": [
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary - HRE Media Center"
+        },
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": null
+        }
+    ],
+    "21": [
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary - HRE Media Center"
+        },
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": null
+        },
+        {
+            "title": "Showcase Night",
+            "time": "5:30pm - 7:00pm",
+            "location": "@Entire Building - Hoosier Road Elementary"
+        }
+    ],
+    "22": [
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary - HRE Media Center"
+        },
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": null
+        }
+    ],
+    "23": [
+        {
+            "title": "4th Grade Play",
+            "time": "8:00am - 10:00pm",
+            "location": "@Entire Building - Hoosier Road Elementary"
+        }
+    ],
+    "24": [
+        {
+            "title": "4th Grade Play",
+            "time": "8:00am - 10:00pm",
+            "location": "@Entire Building - Hoosier Road Elementary"
+        }
+    ],
+    "27": [
+        {
+            "title": "PTO Meeting",
+            "time": "6:00pm - 7:00pm",
+            "location": "@Hoosier Road Elementary - HRE Cafeteria"
+        }
+    ],
+    "29": [
+        {
+            "title": "Flex Day",
+            "time": null,
+            "location": "@Entire Building - Hoosier Road Elementary"
+        }
+    ],
+    "17": [
+        {
+            "title": "St. Patrick's Day",
+            "time": "All Day"
+        }
+    ]
+}
