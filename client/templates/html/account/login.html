@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% load socialaccount %}
+
+{% block title %}FHS News{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+{% endblock %}
+
+{% block header_class %}login-title{% endblock %}
+{% block header_content %}Login{% endblock %}
+
+{% block content %}
+    <div class="content">
+        <div class="panel">
+            <p>Please use your school provided @hse.k12.in.us Microsoft account to sign in.</p>
+            <form method="post" action="{% provider_login_url 'microsoft' process='login' %}">
+                {% csrf_token %}
+                <button class="login-button" type="submit">Sign in with Microsoft</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}

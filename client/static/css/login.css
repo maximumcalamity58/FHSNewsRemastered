@@ -1,6 +1,28 @@
-.title {
+.content {
+    margin: 150px 0;
+    width: 100%;
+}
+
+.panel {
+    background-color: var(--container-background-color);
+    margin: 0 auto 0;
+    width: calc(150px + 40%);
+    min-height: 50%;
+    text-align: center;
+    padding: 5px 5px 20px;
+    border-radius: 5px;
+}
+
+.login-title {
     font-size: 42px;
     font-family: robotobold;
     color: white;
     margin-top: 7px;
+}
+
+.login-button {
+    border-radius: 3px;
+    background-color: var(--button-background-color);
+    transition: 0.3s;
+    border: 2px solid var(--active-color);
 }
