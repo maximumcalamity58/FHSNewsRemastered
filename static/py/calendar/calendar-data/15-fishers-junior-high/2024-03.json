@@ -1,0 +1,106 @@
+{
+    "1": [
+        {
+            "title": "Girls Basketball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        },
+        {
+            "title": "Wrestling Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        }
+    ],
+    "2": [
+        {
+            "title": "Wrestling Match",
+            "time": "9:00am - 5:30pm",
+            "location": null
+        }
+    ],
+    "4": [
+        {
+            "title": "Charger Productions",
+            "time": "4:00pm - 5:15pm",
+            "location": "@Fishers Junior High - FJH MEDIA CENTER"
+        },
+        {
+            "title": "Girls Basketball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        },
+        {
+            "title": "Wrestling Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        }
+    ],
+    "5": [
+        {
+            "title": "Girls Basketball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        },
+        {
+            "title": "Wrestling Match",
+            "time": "5:30pm - 8:30pm",
+            "location": null
+        }
+    ],
+    "6": [
+        {
+            "title": "Girls Basketball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        },
+        {
+            "title": "Wrestling Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        }
+    ],
+    "7": [
+        {
+            "title": "Girls Basketball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        },
+        {
+            "title": "Wrestling Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        }
+    ],
+    "8": [
+        {
+            "title": "Girls Basketball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        },
+        {
+            "title": "Wrestling Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers Junior High - FJH LGI"
+        }
+    ],
+    "18": [
+        {
+            "title": "Charger Productions",
+            "time": "4:00pm - 5:15pm",
+            "location": "@Fishers Junior High - FJH MEDIA CENTER"
+        }
+    ],
+    "25": [
+        {
+            "title": "Charger Productions",
+            "time": "4:00pm - 5:15pm",
+            "location": "@Fishers Junior High - FJH MEDIA CENTER"
+        }
+    ],
+    "17": [
+        {
+            "title": "St. Patrick's Day",
+            "time": "All Day"
+        }
+    ]
+}

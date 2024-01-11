@@ -1,0 +1,297 @@
+{
+    "1": [
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "2": [
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Choir Rehearsal",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Geist Elementary - GES Music Room"
+        }
+    ],
+    "5": [
+        {
+            "title": "Music Demo Week",
+            "time": "8:00am - 2:00pm",
+            "location": "@Geist Elementary - GES Music Room"
+        },
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "6": [
+        {
+            "title": "Music Demo Week",
+            "time": "8:00am - 2:00pm",
+            "location": "@Geist Elementary - GES Music Room"
+        },
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "7": [
+        {
+            "title": "Music Demo Week",
+            "time": "8:00am - 2:00pm",
+            "location": "@Geist Elementary - GES Music Room"
+        },
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "8": [
+        {
+            "title": "Music Demo Week",
+            "time": "8:00am - 2:00pm",
+            "location": "@Geist Elementary - GES Music Room"
+        },
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "9": [
+        {
+            "title": "Music Demo Week",
+            "time": "8:00am - 2:00pm",
+            "location": "@Geist Elementary - GES Music Room"
+        },
+        {
+            "title": "Science Fair",
+            "time": "8:00am - 12:00pm",
+            "location": "@Geist Elementary - GES Gym"
+        },
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Choir Rehearsal",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Geist Elementary - GES Music Room"
+        }
+    ],
+    "12": [
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "13": [
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "14": [
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Culture Club",
+            "time": "2:10pm - 3:00pm",
+            "location": "Geist Elementary - GES Music Room, Room 26"
+        },
+        {
+            "title": "Valentine's Day",
+            "time": "All Day"
+        }
+    ],
+    "15": [
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Presidents' Day",
+            "time": "All Day"
+        }
+    ],
+    "16": [
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Field Trip",
+            "time": "9:30am - 1:30pm",
+            "location": "@Off-Site"
+        },
+        {
+            "title": "Choir Rehearsal",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Geist Elementary - GES Music Room"
+        }
+    ],
+    "19": [
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "20": [
+        {
+            "title": "School Wide Read Aloud",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - COGAT",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "21": [
+        {
+            "title": "Field Trip",
+            "time": null,
+            "location": "@Off-Site"
+        },
+        {
+            "title": "School Wide Read Aloud",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - COGAT",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Robotics Cllub",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Media Center"
+        }
+    ],
+    "22": [
+        {
+            "title": "School Wide Read Aloud",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - COGAT",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "23": [
+        {
+            "title": "School Wide Read Aloud",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - COGAT",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Field Trip",
+            "time": "9:30am - 1:30pm",
+            "location": "@Off-Site"
+        },
+        {
+            "title": "Choir Rehearsal",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Geist Elementary - GES Music Room"
+        }
+    ],
+    "26": [
+        {
+            "title": "Testing - COGAT",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "27": [
+        {
+            "title": "Testing - COGAT",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "28": [
+        {
+            "title": "Testing - COGAT",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Culture Club",
+            "time": "2:10pm - 3:00pm",
+            "location": "Geist Elementary - GES Music Room, Room 26"
+        }
+    ],
+    "29": [
+        {
+            "title": "Testing - COGAT",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ]
+}

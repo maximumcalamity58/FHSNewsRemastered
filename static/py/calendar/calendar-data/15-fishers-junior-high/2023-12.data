@@ -1,0 +1,110 @@
+{
+    "4": [
+        {
+            "title": "Charger Productions",
+            "time": "4:00pm - 5:15pm",
+            "location": "@Fishers Junior High - FJH MEDIA CENTER"
+        },
+        {
+            "title": "Boys Basketball Game",
+            "time": "5:30pm - 8:30pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        }
+    ],
+    "5": [
+        {
+            "title": "Boys Basketball Game",
+            "time": "5:30pm - 8:30pm",
+            "location": null
+        }
+    ],
+    "6": [
+        {
+            "title": "Speech Team",
+            "time": "4:00pm - 5:15pm",
+            "location": "@Fishers Junior High - FJH MEDIA CENTER"
+        }
+    ],
+    "9": [
+        {
+            "title": "Boys Basketball Game",
+            "time": "9:00am - 2:00pm",
+            "location": null
+        }
+    ],
+    "11": [
+        {
+            "title": "Charger Productions",
+            "time": "4:00pm - 5:15pm",
+            "location": "@Fishers Junior High - FJH MEDIA CENTER"
+        },
+        {
+            "title": "Choir Concert",
+            "time": "7:00pm - 8:30pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        }
+    ],
+    "12": [
+        {
+            "title": "Boys Basketball Game",
+            "time": "5:30pm - 8:30pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        }
+    ],
+    "13": [
+        {
+            "title": "Speech Team",
+            "time": "4:00pm - 5:15pm",
+            "location": "@Fishers Junior High - FJH MEDIA CENTER"
+        },
+        {
+            "title": "Orchestra Concert",
+            "time": "7:00pm - 8:30pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        }
+    ],
+    "14": [
+        {
+            "title": "Band Concert",
+            "time": "7:00pm - 8:30pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        }
+    ],
+    "18": [
+        {
+            "title": "Charger Productions",
+            "time": "4:00pm - 5:15pm",
+            "location": "@Fishers Junior High - FJH MEDIA CENTER"
+        },
+        {
+            "title": "Boys Basketball Game",
+            "time": "5:30pm - 8:30pm",
+            "location": null
+        }
+    ],
+    "20": [
+        {
+            "title": "Speech Team",
+            "time": "4:00pm - 5:15pm",
+            "location": "@Fishers Junior High - FJH MEDIA CENTER"
+        }
+    ],
+    "24": [
+        {
+            "title": "Christmas Eve",
+            "time": "All Day"
+        }
+    ],
+    "25": [
+        {
+            "title": "Christmas Day",
+            "time": "All Day"
+        }
+    ],
+    "31": [
+        {
+            "title": "New Year's Eve",
+            "time": "All Day"
+        }
+    ]
+}

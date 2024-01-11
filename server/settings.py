@@ -37,7 +37,7 @@ SECRET_KEY = get_secret_key(KEY_FILE)
 CLIENT_ID = get_client_id(CLIENT_ID_FILE)
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -160,6 +160,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/X.X/howto/static-files/
 
 STATIC_URL = 'client/static/'
+
+STATIC_ROOT = BASE_DIR / 'static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/X.X/ref/settings/#default-auto-field

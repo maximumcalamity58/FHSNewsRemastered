@@ -1,0 +1,50 @@
+:root {
+  --norm-font: "robotoregular";
+  --light-font: "robotolight";
+  --bold-font: "robotobold";
+
+  --background-image: url('../img/snow.png');
+  --secondary-background-color: rgb(210,210,210);
+  --container-background-color: rgba(255, 255, 255, 0.5);
+  --container-text-color: black;
+  --countdown-text-color: #a8d7e7;
+  --gallery-dot-color: #D3D3D3;
+
+  --button-background-color: white;
+  --button-text-color: black;
+  --button-text-color-alt: white;
+  --button-hover-background: rgba(196, 196, 196, 0.5);
+  --button-hover-background-alt: rgba(173, 216, 230, 0.8);
+  --button-hover-text: black;
+  --button-active-color: rgba(255, 255, 255, 0.5);
+
+  --soft-color: #abd6ef;
+
+  --calendar-red: lightcoral;
+  --calendar-green: lightgreen;
+  --calendar-blue: #9dd7e6;
+  --calendar-yellow: #ffffc0;
+  --calendar-silver: #e3e3e3;
+  --calendar-purple: #e3b0fb;
+  --calendar-gray: lightgrey;
+  --calendar-white: white;
+
+
+  --header-background-color: #ADD8E6;
+  --header-text-color: white;
+  --header-icon-color: white;
+  --navigation-background-color: white;
+  --navigation-icon-color: rgb(100,100,100);
+  --navigation-active-icon-color: #ADD8E6;
+
+	--error-bg: rgb(155,200,255);
+
+  --active-color: #ADD8E6;
+  --active-hover-color: rgb(150,170,230);
+  --dark-color: darkblue;
+
+  --outline-color: rgb(180,180,180);
+
+  --anchor-color: #ADD8E6;
+  --anchor-hover: black;
+}

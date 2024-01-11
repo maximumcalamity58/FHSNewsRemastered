@@ -1,0 +1,186 @@
+{
+    "1": [
+        {
+            "title": "Girls Basketball Game",
+            "time": "5:30pm - 8:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "2": [
+        {
+            "title": "Girls Basketball Practice",
+            "time": "7:30am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI Cafeteria"
+        },
+        {
+            "title": "Falcon Friday",
+            "time": "9:15am - 4:00pm",
+            "location": "@Entire Building - Fall Creek Intermediate"
+        }
+    ],
+    "5": [
+        {
+            "title": "Choir",
+            "time": "8:15am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI Music Room 211"
+        },
+        {
+            "title": "PTO meeting",
+            "time": "2:00pm",
+            "location": "@Fall Creek Intermediate - 200- Bookroom"
+        },
+        {
+            "title": "Girl Scout Meetings Troop 4921- FCI",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Fall Creek Intermediate - 200- Bookroom"
+        },
+        {
+            "title": "Orchestra Concert",
+            "time": "6:30pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "6": [
+        {
+            "title": "Girls Basketball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "7": [
+        {
+            "title": "Girls Basketball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "8": [
+        {
+            "title": "Girls Basketball Game Away at Sand Creek Intermediate - Falcon Frenzy",
+            "time": "4:30pm",
+            "location": "@Sand Creek Intermediate"
+        }
+    ],
+    "9": [
+        {
+            "title": "Girls Basketball Practice",
+            "time": "7:30am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI Cafeteria"
+        }
+    ],
+    "12": [
+        {
+            "title": "Choir",
+            "time": "8:15am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI Music Room 211"
+        },
+        {
+            "title": "Girls Basketball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "13": [
+        {
+            "title": "Girls Basketball Game",
+            "time": "5:30pm - 8:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "14": [
+        {
+            "title": "Student Council",
+            "time": "8:15am",
+            "location": "@Room 613"
+        },
+        {
+            "title": "Girl Scout Meetings Troop 4321 - FCI",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI Media Center"
+        },
+        {
+            "title": "Girls Basketball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Valentine's Day",
+            "time": "All Day"
+        }
+    ],
+    "15": [
+        {
+            "title": "6th grade Band/Orchestra/Choir",
+            "time": "9:40am - 10:15am",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        },
+        {
+            "title": "Band Concert",
+            "time": "6:30pm - 7:30pm",
+            "location": "Fall Creek Intermediate - FCI Cafeteria, Fall Creek Intermediate - FCI GYM, Fall Creek Intermediate - FCI Parking Lot - Front"
+        },
+        {
+            "title": "Presidents' Day",
+            "time": "All Day"
+        }
+    ],
+    "20": [
+        {
+            "title": "Girls Basketball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "21": [
+        {
+            "title": "Choir",
+            "time": "8:15am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI Music Room 211"
+        },
+        {
+            "title": "Girls Basketball Practice",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fall Creek Intermediate - FCI GYM"
+        }
+    ],
+    "22": [
+        {
+            "title": "Girls Basketball Game Away at Mt. Vernon",
+            "time": "5:30pm - 7:30pm",
+            "location": "@Mt. Vernon"
+        }
+    ],
+    "23": [
+        {
+            "title": "Girls Basketball Practice",
+            "time": "7:30am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI Cafeteria"
+        }
+    ],
+    "24": [
+        {
+            "title": "Girls Basketball Tournament Away at HIJH",
+            "time": null,
+            "location": "@HIJH"
+        }
+    ],
+    "26": [
+        {
+            "title": "Choir",
+            "time": "8:15am - 9:00am",
+            "location": "@Fall Creek Intermediate - FCI Music Room 211"
+        }
+    ],
+    "28": [
+        {
+            "title": "Student Council",
+            "time": "8:15am",
+            "location": "@Room 613"
+        },
+        {
+            "title": "Girl Scout Meetings Troop 4321 - FCI",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Intermediate - FCI Media Center"
+        }
+    ]
+}

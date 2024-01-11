@@ -1,0 +1,208 @@
+{
+    "2": [
+        {
+            "title": "Church Services",
+            "time": "6:00am - 2:00pm",
+            "location": "@"
+        }
+    ],
+    "6": [
+        {
+            "title": "BBOG",
+            "time": "10:00am - 12:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "9": [
+        {
+            "title": "Church Services",
+            "time": "6:00am - 2:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Church Services",
+            "time": "9:00am - 11:30am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall"
+        },
+        {
+            "title": "Church Services",
+            "time": "9:30am - 11:30am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        }
+    ],
+    "11": [
+        {
+            "title": "Chr",
+            "time": "9:00am - 12:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "12": [
+        {
+            "title": "Chr",
+            "time": "9:00am - 12:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "13": [
+        {
+            "title": "Chr",
+            "time": "9:00am - 12:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "15": [
+        {
+            "title": "Church Services",
+            "time": "8:00am - 10:00am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall"
+        }
+    ],
+    "16": [
+        {
+            "title": "Church Services",
+            "time": "6:00am - 2:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Church Services",
+            "time": "9:00am - 11:30am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall"
+        },
+        {
+            "title": "Church Services",
+            "time": "9:30am - 11:30am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        }
+    ],
+    "18": [
+        {
+            "title": "BBOG",
+            "time": "10:00am - 12:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "20": [
+        {
+            "title": "BBOG",
+            "time": "10:00am - 12:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "23": [
+        {
+            "title": "Church Services",
+            "time": "6:00am - 2:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Church Services",
+            "time": "9:00am - 11:30am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall"
+        },
+        {
+            "title": "Church Services",
+            "time": "9:30am - 11:30am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        }
+    ],
+    "24": [
+        {
+            "title": "HSE Tennis",
+            "time": "4:00pm - 6:00pm",
+            "location": "@HIJH - HJH Tennis Courts 1-6"
+        },
+        {
+            "title": "Volleyball Open Gym",
+            "time": "5:00pm - 6:30pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "25": [
+        {
+            "title": "BBOG",
+            "time": "10:00am - 12:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        },
+        {
+            "title": "HSE Tennis",
+            "time": "4:00pm - 6:00pm",
+            "location": "@HIJH - HJH Tennis Courts 1-6"
+        },
+        {
+            "title": "Volleyball Open Gym",
+            "time": "5:00pm - 6:30pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "26": [
+        {
+            "title": "HSE Tennis",
+            "time": "4:00pm - 6:00pm",
+            "location": "@HIJH - HJH Tennis Courts 1-6"
+        },
+        {
+            "title": "Volleyball Open Gym",
+            "time": "5:00pm - 6:30pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "27": [
+        {
+            "title": "BBOG",
+            "time": "10:00am - 12:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        },
+        {
+            "title": "HSE Tennis",
+            "time": "4:00pm - 6:00pm",
+            "location": "@HIJH - HJH Tennis Courts 1-6"
+        },
+        {
+            "title": "PMtg",
+            "time": "5:30pm - 7:15pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "28": [
+        {
+            "title": "HSE Tennis",
+            "time": "4:00pm - 6:00pm",
+            "location": "@HIJH - HJH Tennis Courts 1-6"
+        }
+    ],
+    "30": [
+        {
+            "title": "Church Services",
+            "time": "6:00am - 2:00pm",
+            "location": "@"
+        },
+        {
+            "title": "Church Services",
+            "time": "9:00am - 11:30am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall"
+        },
+        {
+            "title": "Church Services",
+            "time": "9:30am - 11:30am",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH LGI"
+        }
+    ],
+    "31": [
+        {
+            "title": "Panther Preview Prep",
+            "time": "6:00am - 11:59pm",
+            "location": "@Entire Building - Hamilton Southeastern Junior High/Intermediate"
+        },
+        {
+            "title": "VB",
+            "time": "4:00pm - 8:30pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        },
+        {
+            "title": "78FB",
+            "time": "5:00pm - 7:00pm",
+            "location": "@HJH Football Game Field"
+        }
+    ]
+}

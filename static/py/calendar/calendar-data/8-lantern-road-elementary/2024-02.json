@@ -1,0 +1,68 @@
+{
+    "5": [
+        {
+            "title": "Math Bowl",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Room 28"
+        }
+    ],
+    "7": [
+        {
+            "title": "Student Council",
+            "time": "2:10pm - 3:00pm",
+            "location": "@Room 34"
+        }
+    ],
+    "12": [
+        {
+            "title": "Math Bowl",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Room 28"
+        }
+    ],
+    "20": [
+        {
+            "title": "4th Gr. Field Trip",
+            "time": "9:15am - 1:30pm",
+            "location": "@Conner Prairie"
+        }
+    ],
+    "21": [
+        {
+            "title": "Math Bowl",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Room 28"
+        }
+    ],
+    "26": [
+        {
+            "title": "4th Gr. Field Trip",
+            "time": "9:15am - 1:30pm",
+            "location": "@Conner Prairie"
+        },
+        {
+            "title": "Math Bowl",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Room 28"
+        }
+    ],
+    "27": [
+        {
+            "title": "4th Gr. Field Trip",
+            "time": "9:15am - 1:30pm",
+            "location": "@Conner Prairie"
+        }
+    ],
+    "14": [
+        {
+            "title": "Valentine's Day",
+            "time": "All Day"
+        }
+    ],
+    "15": [
+        {
+            "title": "Presidents' Day",
+            "time": "All Day"
+        }
+    ]
+}

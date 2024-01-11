@@ -1,0 +1,162 @@
+{
+    "1": [
+        {
+            "title": "Math Bowl Tryout",
+            "time": "8:00am - 9:00am",
+            "location": "@Room 700"
+        }
+    ],
+    "2": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Game",
+            "time": "9:00am - 6:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "4": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "5": [
+        {
+            "title": "Girl Scout Troop 4949- SCI",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Sand Creek Intermediate - SCI CAFETERIA"
+        },
+        {
+            "title": "Basketball Games Boys",
+            "time": "5:30pm - 10:30pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "6": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "7": [
+        {
+            "title": "Basketball Games Boys",
+            "time": "5:30pm - 10:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "9": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Game",
+            "time": "9:00am - 6:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "11": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "12": [
+        {
+            "title": "Choir Concert",
+            "time": "7:00pm - 9:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "13": [
+        {
+            "title": "Basketball Games Boys",
+            "time": "5:30pm - 7:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "14": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "16": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Game",
+            "time": "9:00am - 6:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "18": [
+        {
+            "title": "Basketball Games Boys",
+            "time": "5:30pm - 10:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "19": [
+        {
+            "title": "Girl Scout Troop 4949- SCI",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Sand Creek Intermediate - SCI CAFETERIA"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "20": [
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practice",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        },
+        {
+            "title": "Band Concert",
+            "time": "7:00pm - 9:00pm",
+            "location": null
+        }
+    ],
+    "21": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "24": [
+        {
+            "title": "Christmas Eve",
+            "time": "All Day"
+        }
+    ],
+    "25": [
+        {
+            "title": "Christmas Day",
+            "time": "All Day"
+        }
+    ],
+    "31": [
+        {
+            "title": "New Year's Eve",
+            "time": "All Day"
+        }
+    ]
+}

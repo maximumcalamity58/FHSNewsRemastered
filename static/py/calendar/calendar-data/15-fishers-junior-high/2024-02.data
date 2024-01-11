@@ -1,0 +1,131 @@
+{
+    "1": [
+        {
+            "title": "Girls Basketball Game",
+            "time": "5:30pm - 8:00pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        }
+    ],
+    "5": [
+        {
+            "title": "Charger Productions",
+            "time": "4:00pm - 5:15pm",
+            "location": "@Fishers Junior High - FJH MEDIA CENTER"
+        },
+        {
+            "title": "Girls Basketball Game",
+            "time": "5:30pm - 8:00pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        }
+    ],
+    "8": [
+        {
+            "title": "Girls Basketball Game",
+            "time": "5:30pm - 8:00pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        },
+        {
+            "title": "Wrestling Match",
+            "time": "5:30pm - 8:30pm",
+            "location": null
+        }
+    ],
+    "10": [
+        {
+            "title": "Wrestling Match",
+            "time": "9:00am - 4:00pm",
+            "location": null
+        }
+    ],
+    "12": [
+        {
+            "title": "Charger Productions",
+            "time": "4:00pm - 5:15pm",
+            "location": "@Fishers Junior High - FJH MEDIA CENTER"
+        }
+    ],
+    "13": [
+        {
+            "title": "Wrestling Match",
+            "time": "5:30am - 8:30pm",
+            "location": null
+        },
+        {
+            "title": "Girls Basketball Game",
+            "time": "5:30pm - 8:00pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        }
+    ],
+    "15": [
+        {
+            "title": "Wrestling Match",
+            "time": "5:30am - 8:30pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        },
+        {
+            "title": "Girls Basketball Game",
+            "time": "5:30pm - 8:00pm",
+            "location": null
+        },
+        {
+            "title": "Presidents' Day",
+            "time": "All Day"
+        }
+    ],
+    "20": [
+        {
+            "title": "Girls Basketball Game",
+            "time": "5:30pm - 8:00pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        }
+    ],
+    "21": [
+        {
+            "title": "Wrestling Match",
+            "time": "5:30am - 8:30pm",
+            "location": null
+        }
+    ],
+    "22": [
+        {
+            "title": "Wrestling Match",
+            "time": "5:30am - 8:30pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        },
+        {
+            "title": "Girls Basketball Game",
+            "time": "5:30pm - 8:00pm",
+            "location": null
+        }
+    ],
+    "24": [
+        {
+            "title": "Wrestling Match",
+            "time": "9:00am - 4:30pm",
+            "location": null
+        }
+    ],
+    "26": [
+        {
+            "title": "Charger Productions",
+            "time": "4:00pm - 5:15pm",
+            "location": "@Fishers Junior High - FJH MEDIA CENTER"
+        },
+        {
+            "title": "Girls Basketball Game",
+            "time": "5:30pm - 8:00pm",
+            "location": "Fishers Junior High - FJH GYM - AUX, Fishers Junior High - FJH GYM - MAIN"
+        },
+        {
+            "title": "Wrestling Match",
+            "time": "5:30pm - 8:30pm",
+            "location": null
+        }
+    ],
+    "14": [
+        {
+            "title": "Valentine's Day",
+            "time": "All Day"
+        }
+    ]
+}

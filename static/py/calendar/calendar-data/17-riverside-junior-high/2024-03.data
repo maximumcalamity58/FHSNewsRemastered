@@ -1,0 +1,22 @@
+{
+    "18": [
+        {
+            "title": "Camp Tecumseh Session 1",
+            "time": "7:00am - 10:00am",
+            "location": "@Riverside - RJH AUDITERIA"
+        }
+    ],
+    "20": [
+        {
+            "title": "Camp Tecumseh Session 2",
+            "time": "7:00am - 10:00am",
+            "location": "@Riverside - RJH AUDITERIA"
+        }
+    ],
+    "17": [
+        {
+            "title": "St. Patrick's Day",
+            "time": "All Day"
+        }
+    ]
+}

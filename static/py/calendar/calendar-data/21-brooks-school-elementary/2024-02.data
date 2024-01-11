@@ -1,0 +1,95 @@
+{
+    "5": [
+        {
+            "title": "Math Bowl (4th Grade)",
+            "time": "2:10pm - 3:20pm",
+            "location": "@Room 34"
+        }
+    ],
+    "7": [
+        {
+            "title": "Math Bowl (4th Grade)",
+            "time": "2:10pm - 3:20pm",
+            "location": "@Room 34"
+        },
+        {
+            "title": "Student Council",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Room 27"
+        }
+    ],
+    "12": [
+        {
+            "title": "Math Bowl (4th Grade)",
+            "time": "2:10pm - 3:20pm",
+            "location": "@Room 34"
+        }
+    ],
+    "13": [
+        {
+            "title": "Math & Science Night",
+            "time": "5:30pm - 7:30pm",
+            "location": "@Entire Building - Brooks School Elementary"
+        }
+    ],
+    "14": [
+        {
+            "title": "Math Bowl (4th Grade)",
+            "time": "2:10pm - 3:20pm",
+            "location": "@Room 34"
+        },
+        {
+            "title": "Student Council",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Room 27"
+        },
+        {
+            "title": "Valentine's Day",
+            "time": "All Day"
+        }
+    ],
+    "21": [
+        {
+            "title": "Math Bowl (4th Grade)",
+            "time": "2:10pm - 3:20pm",
+            "location": "@Room 34"
+        },
+        {
+            "title": "Student Council",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Room 27"
+        }
+    ],
+    "22": [
+        {
+            "title": "Girls Scouts of Central Indiana",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Brooks School Elementary - BSE Cafeteria"
+        }
+    ],
+    "26": [
+        {
+            "title": "Math Bowl (4th Grade)",
+            "time": "2:10pm - 3:20pm",
+            "location": "@Room 34"
+        }
+    ],
+    "28": [
+        {
+            "title": "Math Bowl (4th Grade)",
+            "time": "2:10pm - 3:20pm",
+            "location": "@Room 34"
+        },
+        {
+            "title": "Student Council",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Room 27"
+        }
+    ],
+    "15": [
+        {
+            "title": "Presidents' Day",
+            "time": "All Day"
+        }
+    ]
+}

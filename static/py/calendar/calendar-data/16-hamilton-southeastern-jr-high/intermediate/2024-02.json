@@ -1,0 +1,613 @@
+{
+    "1": [
+        {
+            "title": "Creating Positive Relationships",
+            "time": "9:15am - 11:55am",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "6GBG",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "7BB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "7GB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        },
+        {
+            "title": "8GB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "WR",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "8BB",
+            "time": "6:45pm - 9:00pm",
+            "location": null
+        }
+    ],
+    "2": [
+        {
+            "title": "Creating Positive Relationships",
+            "time": "9:15am - 11:55pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "BB",
+            "time": "4:15pm - 5:45pm",
+            "location": "Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY, Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        },
+        {
+            "title": "BB",
+            "time": "6:00pm - 7:30pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        },
+        {
+            "title": "WR",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        }
+    ],
+    "3": [
+        {
+            "title": "7BB",
+            "time": "9:00am - 11:00am",
+            "location": null
+        },
+        {
+            "title": "ISSMA V/P Solo & Ensemble",
+            "time": "9:00am - 4:00pm",
+            "location": "@Noblesville High School"
+        },
+        {
+            "title": "8BB",
+            "time": "11:00am - 1:00pm",
+            "location": null
+        }
+    ],
+    "5": [
+        {
+            "title": "PTO Meeting",
+            "time": "11:00am - 12:00am",
+            "location": "@HIJH - 009 Large Conference Room"
+        },
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "BB",
+            "time": "4:15pm - 6:15pm",
+            "location": "Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY, Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        },
+        {
+            "title": "WR",
+            "time": "6:30pm - 8:30pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        }
+    ],
+    "6": [
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "Chr",
+            "time": "4:00pm - 6:00pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "BB",
+            "time": "4:15pm - 6:15pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "7GB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "8GB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "WR",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        }
+    ],
+    "7": [
+        {
+            "title": "HIJH Academic Team",
+            "time": "7:50am - 9:00am",
+            "location": "@HIJH - 223"
+        },
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "Music Department Fundraiser Kickoff Party",
+            "time": "4:00pm - 7:00pm",
+            "location": "@HIJH - HJH Auditeria Panther Hall"
+        },
+        {
+            "title": "BB",
+            "time": "4:15pm - 6:15pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        },
+        {
+            "title": "WR",
+            "time": "4:15pm - 6:15pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "BB",
+            "time": "6:30pm - 8:30pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        }
+    ],
+    "8": [
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "6GBG",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "7GB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        },
+        {
+            "title": "8GB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "WR",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        }
+    ],
+    "9": [
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "BB",
+            "time": "4:15pm - 5:45pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        },
+        {
+            "title": "WR",
+            "time": "4:15pm - 5:45pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "BB",
+            "time": "6:00pm - 7:30pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        }
+    ],
+    "10": [
+        {
+            "title": "BB",
+            "time": "9:00am - 10:30am",
+            "location": "Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY, Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        }
+    ],
+    "12": [
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "WR",
+            "time": "4:15pm - 6:15pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "Band/ Choir/ Orchestra 6th Grade Concert",
+            "time": "7:00pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        }
+    ],
+    "13": [
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "6GBG",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "7GB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "8GB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        },
+        {
+            "title": "WR",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        }
+    ],
+    "14": [
+        {
+            "title": "HIJH Academic Team",
+            "time": "7:50am - 9:00am",
+            "location": "@HIJH - 223"
+        },
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "BB",
+            "time": "4:15pm - 6:15pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        },
+        {
+            "title": "WR",
+            "time": "4:15pm - 6:15pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "BB",
+            "time": "6:30pm - 8:30pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "Valentine's Day",
+            "time": "All Day"
+        }
+    ],
+    "15": [
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "Chr",
+            "time": "4:00pm - 6:00pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "BB",
+            "time": "4:15pm - 6:15pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "8GB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "WR",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        },
+        {
+            "title": "7GB",
+            "time": "5:45pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "Presidents' Day",
+            "time": "All Day"
+        }
+    ],
+    "16": [
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "BB",
+            "time": "4:15pm - 6:15pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        },
+        {
+            "title": "WR",
+            "time": "4:15pm - 6:15pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        }
+    ],
+    "19": [
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "BB",
+            "time": "3:00pm - 7:00pm",
+            "location": "Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY, Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        },
+        {
+            "title": "WR",
+            "time": "5:00pm - 7:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        }
+    ],
+    "20": [
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "Chr",
+            "time": "4:00pm - 6:00pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "BB",
+            "time": "4:15pm - 5:45pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        },
+        {
+            "title": "WR",
+            "time": "4:15pm - 6:15pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "BB",
+            "time": "6:00pm - 7:30pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        }
+    ],
+    "21": [
+        {
+            "title": "HIJH Academic Team",
+            "time": "7:50am - 9:00am",
+            "location": "@HIJH - 223"
+        },
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "6GBG",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "7GB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "8GB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "WR",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        }
+    ],
+    "22": [
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "7GB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "8GB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        },
+        {
+            "title": "WR",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        }
+    ],
+    "23": [
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "BB",
+            "time": "4:15pm - 5:45pm",
+            "location": "Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY, Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        },
+        {
+            "title": "WR",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        }
+    ],
+    "24": [
+        {
+            "title": "6GBG",
+            "time": "9:00am - 2:00pm",
+            "location": "Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY, Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        }
+    ],
+    "26": [
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "7GB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        },
+        {
+            "title": "8GB",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        }
+    ],
+    "27": [
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "Chr",
+            "time": "4:00pm - 6:00pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "BB",
+            "time": "4:15pm - 6:15pm",
+            "location": "Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY, Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        },
+        {
+            "title": "WR",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        }
+    ],
+    "28": [
+        {
+            "title": "HIJH Academic Team",
+            "time": "7:50am - 9:00am",
+            "location": "@HIJH - 223"
+        },
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "YMI",
+            "time": "2:35pm - 3:55pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "7GB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "8GB",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "WR",
+            "time": "5:30pm - 7:30pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        }
+    ],
+    "29": [
+        {
+            "title": "6th Grade Band & Orchestra",
+            "time": "11:55am - 1:10pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "Chr",
+            "time": "4:00pm - 6:00pm",
+            "location": "@HIJH - HJH LGI"
+        },
+        {
+            "title": "BB",
+            "time": "4:15pm - 5:45pm",
+            "location": "Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY, Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        },
+        {
+            "title": "BB",
+            "time": "4:15pm - 6:15pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - MAIN"
+        },
+        {
+            "title": "WR",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH GYM - AUXILIARY"
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "1": [
+        {
+            "title": "First Friday",
+            "time": "7:00am - 2:00pm",
+            "location": "@Entire Building - Sand Creek Elementary"
+        }
+    ],
+    "2": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Game",
+            "time": "9:00am - 6:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "4": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "5": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "6": [
+        {
+            "title": "Music Program",
+            "time": "6:00pm - 7:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "7": [
+        {
+            "title": "PTO UPaint Night",
+            "time": "5:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Cafeteria"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "9": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Game",
+            "time": "9:00am - 6:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "11": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "12": [
+        {
+            "title": "Field Trip",
+            "time": "9:30am - 1:00pm",
+            "location": "Room 18, Room 21"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "13": [
+        {
+            "title": "Field Trip",
+            "time": "9:30am - 1:00pm",
+            "location": "@Room 20"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "14": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "16": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Game",
+            "time": "9:00am - 6:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "18": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "19": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "20": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "24": [
+        {
+            "title": "Christmas Eve",
+            "time": "All Day"
+        }
+    ],
+    "25": [
+        {
+            "title": "Christmas Day",
+            "time": "All Day"
+        }
+    ],
+    "31": [
+        {
+            "title": "New Year's Eve",
+            "time": "All Day"
+        }
+    ]
+}
