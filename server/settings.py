@@ -19,15 +19,25 @@ def get_secret_key(file_name):
     except FileNotFoundError:
         raise ImproperlyConfigured("Secret key file not found.")
 
+def get_client_id(file_name):
+    try:
+        with open(file_name) as f:
+            return f.read().strip()
+    except FileNotFoundError:
+        raise ImproperlyConfigured("Secret key file not found.")
 
 # Path to the key file
 KEY_FILE = os.path.join(os.path.dirname(__file__), '../key')
 
+CLIENT_ID_FILE = os.path.join(os.path.dirname(__file__), '../client_id')
+
 # Get the secret key
 SECRET_KEY = get_secret_key(KEY_FILE)
 
+CLIENT_ID = get_client_id(CLIENT_ID_FILE)
+
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -38,10 +48,19 @@ INSTALLED_APPS = [
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
+    'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.microsoft',
+
     'client',  # Your Django app
 ]
+
+SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -51,6 +70,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    # Add the account middleware:
+    "allauth.account.middleware.AccountMiddleware",
 ]
 
 ROOT_URLCONF = 'server.urls'
@@ -101,6 +123,26 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+AUTHENTICATION_BACKENDS = [
+    # Needed to login by username in Django admin, regardless of `allauth`
+    'django.contrib.auth.backends.ModelBackend',
+
+    # `allauth` specific authentication methods, such as login by email
+    'allauth.account.auth_backends.AuthenticationBackend',
+]
+
+
+SOCIALACCOUNT_PROVIDERS = {
+    'microsoft': {
+        'APP': {
+            'client_id': CLIENT_ID,
+            'secret': SECRET_KEY,
+        },
+    },
+}
+
+LOGIN_REDIRECT_URL = '/calendar/edit/'
+
 # Internationalization
 # https://docs.djangoproject.com/en/X.X/topics/i18n/
 
@@ -118,6 +160,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/X.X/howto/static-files/
 
 STATIC_URL = 'client/static/'
+
+STATIC_ROOT = BASE_DIR / 'static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/X.X/ref/settings/#default-auto-field

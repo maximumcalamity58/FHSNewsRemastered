@@ -1,0 +1,37 @@
+{
+    "10": [
+        {
+            "title": "Choir Practice",
+            "time": "2:15pm - 3:00pm",
+            "location": null
+        }
+    ],
+    "15": [
+        {
+            "title": "4th Grade Conner Prairie Field Trip",
+            "time": "9:30am - 1:30pm",
+            "location": "@Fishers Elementary - FES Parking Lot - Front"
+        }
+    ],
+    "16": [
+        {
+            "title": "4th Grade Conner Prairie Field Trip",
+            "time": "9:30am - 1:30pm",
+            "location": "@Fishers Elementary - FES Parking Lot - Front"
+        }
+    ],
+    "17": [
+        {
+            "title": "Choir Practice",
+            "time": "2:15pm - 3:00pm",
+            "location": null
+        }
+    ],
+    "24": [
+        {
+            "title": "Choir Practice",
+            "time": "2:15pm - 3:00pm",
+            "location": null
+        }
+    ]
+}

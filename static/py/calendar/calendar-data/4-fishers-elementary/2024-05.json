@@ -1,0 +1,57 @@
+{
+    "1": [
+        {
+            "title": "Choir Practice",
+            "time": "2:15pm - 3:00pm",
+            "location": null
+        }
+    ],
+    "8": [
+        {
+            "title": "Choir Concert",
+            "time": "6:00pm - 8:00pm",
+            "location": null
+        }
+    ],
+    "9": [
+        {
+            "title": "Choir Concert",
+            "time": "6:00pm - 7:00pm",
+            "location": "@Music Room"
+        }
+    ],
+    "14": [
+        {
+            "title": "PTO Meeting",
+            "time": "6:00pm - 7:00pm",
+            "location": "@Fishers Elementary - FES Media Center"
+        }
+    ],
+    "20": [
+        {
+            "title": "Choir Concert",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Fishers Elementary - FES Gym"
+        }
+    ],
+    "21": [
+        {
+            "title": "Choir Concert",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Fishers Elementary - FES Gym"
+        }
+    ],
+    "22": [
+        {
+            "title": "Choir Concert",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Fishers Elementary - FES Gym"
+        }
+    ],
+    "31": [
+        {
+            "title": "Memorial Day",
+            "time": "All Day"
+        }
+    ]
+}

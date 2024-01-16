@@ -1,0 +1,169 @@
+{
+    "3": [
+        {
+            "title": "First Friday",
+            "time": "7:00am - 2:00pm",
+            "location": "@Entire Building - Sand Creek Elementary"
+        }
+    ],
+    "6": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "7": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "8": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "9": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        },
+        {
+            "title": "Field Trip",
+            "time": "9:30pm - 1:00pm",
+            "location": "Room 08, Room 09"
+        }
+    ],
+    "10": [
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 2:00pm",
+            "location": "@Sand Creek Elementary - Media Center"
+        },
+        {
+            "title": "Field Trip",
+            "time": "9:30pm - 1:00pm",
+            "location": "Room 10, Room 12"
+        }
+    ],
+    "11": [
+        {
+            "title": "Book Fair",
+            "time": "8:00am - 11:00am",
+            "location": "@Sand Creek Elementary - Media Center"
+        },
+        {
+            "title": "Crft",
+            "time": "8:00am - 2:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        },
+        {
+            "title": "Pancake Breakfast",
+            "time": "8:00am - 10:00am",
+            "location": "@Sand Creek Elementary - SCE Cafeteria"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "9:00am - 6:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        },
+        {
+            "title": "Veterans Day",
+            "time": "All Day"
+        }
+    ],
+    "13": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "14": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        },
+        {
+            "title": "Oaks of Kraus Square HOA",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Sand Creek Elementary - SCE Cafeteria"
+        }
+    ],
+    "15": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "16": [
+        {
+            "title": "PTO Meeting",
+            "time": "7:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Cafeteria"
+        },
+        {
+            "title": "PTO Meeting",
+            "time": "7:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        },
+        {
+            "title": "Field Trip",
+            "time": "9:30pm - 1:00pm",
+            "location": "@Room 11"
+        }
+    ],
+    "18": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Game",
+            "time": "9:00am - 6:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "27": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "8:00pm - 9:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "28": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "29": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "30": [
+        {
+            "title": "Mudsock Youth Athletics Rec Girls Basketball Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Elementary - SCE Gym"
+        }
+    ],
+    "25": [
+        {
+            "title": "Thanksgiving Day",
+            "time": "All Day"
+        }
+    ]
+}

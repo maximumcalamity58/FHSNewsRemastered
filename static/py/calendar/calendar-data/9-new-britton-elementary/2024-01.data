@@ -1,0 +1,114 @@
+{
+    "10": [
+        {
+            "title": "Student Council",
+            "time": "2:15pm - 3:30pm",
+            "location": "@New Britton Elementary - 31"
+        },
+        {
+            "title": "Cub Scout Den Meetings Pack 109 FES",
+            "time": "6:00pm - 8:15pm",
+            "location": "@New Britton Elementary - NBE Cafeteria"
+        },
+        {
+            "title": "Cub Scout Den Meetings Pack 109 FES",
+            "time": "7:00pm - 8:00pm",
+            "location": "@New Britton Elementary - NBE GYM"
+        }
+    ],
+    "11": [
+        {
+            "title": "PTO Meeting",
+            "time": "6:45pm - 8:15pm",
+            "location": "@New Britton Elementary - NBE Media Center"
+        }
+    ],
+    "15": [
+        {
+            "title": "Choir-Circle the State",
+            "time": "2:15pm - 3:30pm",
+            "location": "@New Britton Elementary - NBE Music Room"
+        }
+    ],
+    "16": [
+        {
+            "title": "Blue and Gold Banquet Pack 106 NBE",
+            "time": "6:15pm - 8:30pm",
+            "location": "New Britton Elementary - NBE GYM, New Britton Elementary - NBE Cafeteria"
+        }
+    ],
+    "17": [
+        {
+            "title": "Cub Scout Den Meetings Pack 109 FES",
+            "time": "6:00pm - 8:15pm",
+            "location": "@New Britton Elementary - NBE Cafeteria"
+        },
+        {
+            "title": "Cub Scout Den Meetings Pack 109 FES",
+            "time": "7:00pm - 8:00pm",
+            "location": "@New Britton Elementary - NBE GYM"
+        }
+    ],
+    "22": [
+        {
+            "title": "Choir-Circle the State",
+            "time": "2:15pm - 3:30pm",
+            "location": "@New Britton Elementary - NBE Music Room"
+        }
+    ],
+    "24": [
+        {
+            "title": "Cub Scout Den Meetings Pack 109 FES",
+            "time": "6:00pm - 8:15pm",
+            "location": "@New Britton Elementary - NBE Cafeteria"
+        },
+        {
+            "title": "Cub Scout Den Meetings Pack 109 FES",
+            "time": "7:00pm - 8:00pm",
+            "location": "@New Britton Elementary - NBE GYM"
+        }
+    ],
+    "26": [
+        {
+            "title": "Movie Night",
+            "time": "5:00pm - 9:00pm",
+            "location": "@"
+        }
+    ],
+    "29": [
+        {
+            "title": "Art Club",
+            "time": "2:15pm - 3:30pm",
+            "location": "@New Britton Elementary - NBE Art Room"
+        },
+        {
+            "title": "Choir-Circle the State",
+            "time": "2:15pm - 3:30pm",
+            "location": "@New Britton Elementary - NBE Music Room"
+        }
+    ],
+    "31": [
+        {
+            "title": "Art Club",
+            "time": "2:15pm - 3:30pm",
+            "location": "@New Britton Elementary - NBE Art Room"
+        },
+        {
+            "title": "Math Bowl",
+            "time": "2:15pm - 3:30pm",
+            "location": "@New Britton Elementary - 30"
+        }
+    ],
+    "01": [
+        {
+            "title": "New Year's Day",
+            "time": "All Day"
+        }
+    ],
+    "18": [
+        {
+            "title": "Martin Luther King Jr. Day",
+            "time": "All Day"
+        }
+    ]
+}

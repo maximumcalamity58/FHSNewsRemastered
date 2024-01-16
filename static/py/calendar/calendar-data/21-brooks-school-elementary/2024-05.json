@@ -1,0 +1,53 @@
+{
+    "1": [
+        {
+            "title": "1st-Grade Field Trip",
+            "time": "9:30am - 1:30pm",
+            "location": "@Ritchey Woods"
+        },
+        {
+            "title": "Student Council",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Room 27"
+        }
+    ],
+    "8": [
+        {
+            "title": "Student Council",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Room 27"
+        }
+    ],
+    "15": [
+        {
+            "title": "Student Council",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Room 27"
+        },
+        {
+            "title": "Boy Scout Pack 130 Meetings BSE",
+            "time": "6:00pm - 8:00pm",
+            "location": "Brooks School Elementary - BSE Cafeteria, Brooks School Elementary - BSE Gym"
+        }
+    ],
+    "22": [
+        {
+            "title": "Student Council",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Room 27"
+        }
+    ],
+    "28": [
+        {
+            "title": "PTO Sponsored - Party in the Park",
+            "time": "5:00pm - 7:00pm",
+            "location": "@Brooks School Park"
+        }
+    ],
+    "31": [
+        {
+            "title": "Memorial Day",
+            "time": "All Day"
+        }
+    ]
+}

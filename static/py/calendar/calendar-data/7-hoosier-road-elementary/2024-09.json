@@ -1,0 +1,29 @@
+{
+    "20": [
+        {
+            "title": "Parking Lot Use for Church Event",
+            "time": "6:00pm - 10:00pm",
+            "location": "Hoosier Road Elementary - HRE Parking Lot - Front, Hoosier Road Elementary - HRE Parking Lot - Back"
+        }
+    ],
+    "21": [
+        {
+            "title": "Parking Lot Use for Church Event",
+            "time": "6:00am - 10:00pm",
+            "location": "Hoosier Road Elementary - HRE Parking Lot - Front, Hoosier Road Elementary - HRE Parking Lot - Back"
+        }
+    ],
+    "22": [
+        {
+            "title": "Parking Lot Use for Church Event",
+            "time": "6:00am - 10:00pm",
+            "location": "Hoosier Road Elementary - HRE Parking Lot - Front, Hoosier Road Elementary - HRE Parking Lot - Back"
+        }
+    ],
+    "06": [
+        {
+            "title": "Labor Day",
+            "time": "All Day"
+        }
+    ]
+}

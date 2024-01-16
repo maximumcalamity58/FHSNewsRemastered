@@ -1,0 +1,20 @@
+.error-message {
+    color: #f00; /* Red text */
+    font-weight: bold;
+    border: 1px solid #f00; /* Red border */
+    padding: 10px;
+    margin: 10px 0; /* 10px top and bottom, 0px left and right */
+    background-color: #fff4f4; /* Light red background */
+}
+
+/* Error message with additional info */
+.error-details {
+    font-weight: normal;
+    color: #555; /* Dark grey text */
+}
+
+/* Container for error messages */
+.error-container {
+    max-width: 800px;
+    margin: 0 auto; /* Center the container */
+}

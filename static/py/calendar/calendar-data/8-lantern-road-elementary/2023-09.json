@@ -1,0 +1,92 @@
+{
+    "5": [
+        {
+            "title": "2nd Gr. Field Trip",
+            "time": "9:30am - 1:30pm",
+            "location": "@Fishers AgriPark"
+        }
+    ],
+    "6": [
+        {
+            "title": "Student Council",
+            "time": "2:10pm - 3:00pm",
+            "location": "@Room 34"
+        },
+        {
+            "title": "Spell Bowl",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Room 28"
+        }
+    ],
+    "13": [
+        {
+            "title": "Spell Bowl",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Room 28"
+        }
+    ],
+    "20": [
+        {
+            "title": "4th Grade Activity",
+            "time": "1:20pm - 2:00pm",
+            "location": "Room 24, Room 28, Room 29, Room 34"
+        },
+        {
+            "title": "Spell Bowl",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Room 28"
+        }
+    ],
+    "21": [
+        {
+            "title": "1st Grade Vision Testing",
+            "time": "8:00am - 2:00pm",
+            "location": "@Lantern Road Elementary - LRE Music Room"
+        }
+    ],
+    "22": [
+        {
+            "title": "1st Gr. Field Trip",
+            "time": "10:00am - 1:20pm",
+            "location": "@Ritchey Woods"
+        }
+    ],
+    "25": [
+        {
+            "title": "4th Gr. Field Trip",
+            "time": "9:15am - 1:30pm",
+            "location": "@Conner Prairie"
+        }
+    ],
+    "26": [
+        {
+            "title": "4th Gr. Field Trip",
+            "time": "9:15am - 1:30pm",
+            "location": "@Conner Prairie"
+        },
+        {
+            "title": "1st Gr. Field Trip",
+            "time": "10:00am - 1:20pm",
+            "location": "@Ritchey Woods"
+        }
+    ],
+    "27": [
+        {
+            "title": "4th Gr. Field Trip",
+            "time": "9:15am - 1:30pm",
+            "location": "@Conner Prairie"
+        },
+        {
+            "title": "Spell Bowl",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Room 28"
+        }
+    ],
+    "28": [
+        {
+            "title": "4th Gr. Field Trip",
+            "time": "9:15am - 1:30pm",
+            "location": "@Conner Prairie"
+        }
+    ]
+}

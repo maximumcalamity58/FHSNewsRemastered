@@ -19,6 +19,9 @@ def calendar(request):
 def editable_calendar(request):
     return render(request, 'editable_calendar.html')
 
+def login(request):
+    return render(request, 'login.html')
+
 async def add_event(request):
     if request.method == 'POST':
         try:

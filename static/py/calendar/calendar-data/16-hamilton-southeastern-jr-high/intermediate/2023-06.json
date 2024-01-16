@@ -1,0 +1,91 @@
+{
+    "1": [
+        {
+            "title": "BBOG",
+            "time": "10:00am - 12:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "3": [
+        {
+            "title": "Mudsock Youth Athletics Softball Practices",
+            "time": "9:00am - 6:00pm",
+            "location": "@HIJH - HJH SB1"
+        }
+    ],
+    "4": [
+        {
+            "title": "Church Services",
+            "time": "6:00am - 2:00pm",
+            "location": "@"
+        }
+    ],
+    "5": [
+        {
+            "title": "Reserved",
+            "time": "4:00pm - 9:00pm",
+            "location": "@Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall"
+        }
+    ],
+    "11": [
+        {
+            "title": "Church Services",
+            "time": "6:00am - 2:00pm",
+            "location": "@"
+        }
+    ],
+    "15": [
+        {
+            "title": "BBOG",
+            "time": "10:00am - 12:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "18": [
+        {
+            "title": "Church Services",
+            "time": "6:00am - 2:00pm",
+            "location": "@"
+        }
+    ],
+    "20": [
+        {
+            "title": "BBOG",
+            "time": "10:00am - 12:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "22": [
+        {
+            "title": "BBOG",
+            "time": "10:00am - 12:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "25": [
+        {
+            "title": "Church Services",
+            "time": "6:00am - 2:00pm",
+            "location": "@"
+        },
+        {
+            "title": "FBE",
+            "time": "5:00pm - 7:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "28": [
+        {
+            "title": "BBOG",
+            "time": "10:00am - 12:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ],
+    "29": [
+        {
+            "title": "BBOG",
+            "time": "10:00am - 12:00pm",
+            "location": "@HIJH - HJH GYM - MAIN"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "4": [
+        {
+            "title": "Tennis Club - FES",
+            "time": "2:10pm - 3:10pm",
+            "location": "@Fishers Elementary - FES Gym"
+        }
+    ],
+    "6": [
+        {
+            "title": "Cub Scout Den Meetings Pack 109 FES",
+            "time": "6:15pm - 8:15pm",
+            "location": "Fishers Elementary - FES Cafeteria, Fishers Elementary - FES Gym"
+        }
+    ],
+    "7": [
+        {
+            "title": "Choir Concert",
+            "time": "6:00pm - 7:00pm",
+            "location": "@Music Room"
+        }
+    ],
+    "8": [
+        {
+            "title": "Mobile Dentist",
+            "time": "8:00am - 1:30pm",
+            "location": "@Fishers Elementary - FES Cafeteria"
+        },
+        {
+            "title": "FES Movie Night",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Entire Building - Fishers Elementary"
+        }
+    ],
+    "11": [
+        {
+            "title": "Tennis Club - FES",
+            "time": "2:10pm - 3:10pm",
+            "location": "@Fishers Elementary - FES Gym"
+        }
+    ],
+    "13": [
+        {
+            "title": "Tennis Club - FES",
+            "time": "2:10pm - 3:10pm",
+            "location": "@Fishers Elementary - FES Gym"
+        },
+        {
+            "title": "Cub Scout Den Meetings Pack 109 FES",
+            "time": "6:15pm - 8:15pm",
+            "location": "Fishers Elementary - FES Cafeteria, Fishers Elementary - FES Gym"
+        }
+    ],
+    "15": [
+        {
+            "title": "4th Grade Field Trip",
+            "time": "9:15am - 1:30pm",
+            "location": "@Fishers Elementary - FES Parking Lot - Front"
+        }
+    ],
+    "24": [
+        {
+            "title": "Christmas Eve",
+            "time": "All Day"
+        }
+    ],
+    "25": [
+        {
+            "title": "Christmas Day",
+            "time": "All Day"
+        }
+    ],
+    "31": [
+        {
+            "title": "New Year's Eve",
+            "time": "All Day"
+        }
+    ]
+}
