@@ -7,9 +7,13 @@ import os
 from pathlib import Path
 
 from django.core.exceptions import ImproperlyConfigured
+import environ
+
+env = environ.Env(DEBUG=(bool, False))
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 
 # Function to read secret key from a file
 def get_secret_key(file_name):
@@ -37,7 +41,8 @@ SECRET_KEY = get_secret_key(KEY_FILE)
 CLIENT_ID = get_client_id(CLIENT_ID_FILE)
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+# DEBUG = env('DEBUG', False)
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -51,7 +56,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    'debug_toolbar',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -67,6 +72,7 @@ MIDDLEWARE = [
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -159,7 +165,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/X.X/howto/static-files/
 
-STATIC_URL = 'client/static/'
+STATIC_URL = '/client/static/'
 
 STATIC_ROOT = BASE_DIR / 'static'
 
@@ -167,3 +173,8 @@ STATIC_ROOT = BASE_DIR / 'static'
 # https://docs.djangoproject.com/en/X.X/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+INTERNAL_IPS = [
+    "127.0.0.1",
+]
+
