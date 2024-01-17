@@ -42,7 +42,7 @@ CLIENT_ID = get_client_id(CLIENT_ID_FILE)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = env('DEBUG', False)
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
