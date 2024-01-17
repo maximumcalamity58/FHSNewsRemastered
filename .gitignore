@@ -1,5 +1,7 @@
 /.cache/
 /dist/
+/static/
 db.env
 .env
+/venv/
 key
