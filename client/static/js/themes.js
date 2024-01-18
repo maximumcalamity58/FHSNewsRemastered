@@ -130,7 +130,9 @@ function attachEventListenersToThemeButtons(themeButtons) {
 
 function switchTheme(themeName) {
     const themeLink = document.getElementById('theme-style');
-    const newThemePath = `../themes/${themeName}.css`;
+    const newThemePath = `${window.staticURL}themes/${themeName}.css`;
+
+    // theme name
     if (themeLink.getAttribute('href') !== newThemePath) {
         themeLink.setAttribute('href', newThemePath);
     }
@@ -593,7 +595,7 @@ $(document).ready(function() {
     var config = {
         draggable: true,
         position: 'start',
-        pieceTheme: '../img/chesspieces/wikipedia/{piece}.png',
+        pieceTheme: `${window.staticURL}img/chesspieces/wikipedia/{piece}.png`,
         onDragStart: onDragStart,
         onDrop: onDrop,
         onSnapEnd: onSnapEnd,
