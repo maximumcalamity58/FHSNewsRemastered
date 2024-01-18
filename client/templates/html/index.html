@@ -19,18 +19,18 @@
 				<a class="theme-button" data-theme="blue" style="background-color: #3030e0;"></a>
 				<a class="theme-button" data-theme="purple" style="background-color: purple;"></a>
 				<a class="theme-button" data-theme="dark" style="background-color: #444;"></a>
-				<a class="theme-button" data-theme="snow" style="background-image: url('client/static/img/snowflake.svg'); background-repeat: no-repeat; background-position: center; background-color: #9dd7e6"></a>
-				<a class="theme-button" data-theme="forest" style="background-image: url('client/static/img/tree.svg'); background-repeat: no-repeat; background-position: center; background-color: #90ee90"></a>
-				<a class="theme-button" data-theme="ocean" style="background-image: url('client/static/img/wave.svg'); background-repeat: no-repeat; background-position: center; background-color: #87cefa"></a>
+				<a class="theme-button" data-theme="snow" style="background-image: url({% static 'img/snowflake.svg' %}); background-repeat: no-repeat; background-position: center; background-color: #9dd7e6"></a>
+				<a class="theme-button" data-theme="forest" style="background-image: url({% static '/img/tree.svg' %}); background-repeat: no-repeat; background-position: center; background-color: #90ee90"></a>
+				<a class="theme-button" data-theme="ocean" style="background-image: url({% static 'img/wave.svg' %}); background-repeat: no-repeat; background-position: center; background-color: #87cefa"></a>
 				<a id="more-themes-toggle" data-open="false">&#9660;</a>
 
 			</div>
 
 			<!-- Hidden container for additional theme buttons -->
 			<div id="additional-themes" class="additional-themes-container" style="display: block;">
-				<a class="theme-button" data-theme="space" style="background-image: url('/client/static/img/star.svg'); background-repeat: no-repeat; background-position: center; background-color: #9b2460"></a>
-				<a class="theme-button" data-theme="volcano" style="background-image: url('/client/static/img/lava.svg'); background-repeat: no-repeat; background-position: center; background-color: #d78958"></a>
-				<a class="theme-button" data-theme="library" style="background-image: url('/client/static/img/book.svg'); background-repeat: no-repeat; background-position: center; background-color: #c1c583"></a>
+				<a class="theme-button" data-theme="space" style="background-image: url({% static 'img/star.svg' %}); background-repeat: no-repeat; background-position: center; background-color: #9b2460"></a>
+				<a class="theme-button" data-theme="volcano" style="background-image: url({% static 'img/lava.svg' %}); background-repeat: no-repeat; background-position: center; background-color: #d78958"></a>
+				<a class="theme-button" data-theme="library" style="background-image: url({% static 'img/book.svg' %}); background-repeat: no-repeat; background-position: center; background-color: #c1c583"></a>
 			</div>
 
 
