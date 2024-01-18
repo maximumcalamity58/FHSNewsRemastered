@@ -12,7 +12,7 @@
     <script>
     (function() {
         var savedTheme = localStorage.getItem('selectedTheme') || 'default';
-        document.write('<link rel="stylesheet" href= "' + {% get_static_prefix %} + savedTheme + '.css" id="theme-style">');
+        document.write('<link rel="stylesheet" href= "{% get_static_prefix %}' + savedTheme + '.css" id="theme-style">');
     })();
     </script>
 
