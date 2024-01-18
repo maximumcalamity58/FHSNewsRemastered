@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 import os
 import json
-import server.settings as settings
+import server.settings.base as settings
 from datetime import datetime
 
 def home(request):
