@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Fetch the clubs.data and process it
-    fetch('/client/static/data/clubs.json')
+    fetch('../data/clubs.json')
         .then(response => response.json())
         .then(clubs => {
             // Sort clubs alphabetically by name

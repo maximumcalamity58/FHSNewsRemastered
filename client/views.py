@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 import os
 import json
+import server.settings as settings
 from datetime import datetime
 
 def home(request):
@@ -35,7 +36,7 @@ async def add_event(request):
             month = str(eventDate.month).zfill(2)  # Months are 1-indexed in Python
 
             filename = f"{year}-{month}.json"
-            filePath = os.path.join('client/static/data/userdata', filename)
+            filePath = os.path.join(settings.STATIC_ROOT, 'data/userdata', filename)
 
             # Check if the file exists and read or initialize it
             try:
