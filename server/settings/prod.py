@@ -1,6 +1,6 @@
 import os
 
-import base
+from .base import *
 
 DEBUG = False
 

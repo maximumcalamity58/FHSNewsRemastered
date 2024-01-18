@@ -12,7 +12,7 @@ import environ
 env = environ.Env(DEBUG=(bool, False))
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 environ.Env.read_env(os.path.join(BASE_DIR, '../../.env'))
 
 # Function to read secret key from a file
@@ -31,9 +31,9 @@ def get_client_id(file_name):
         raise ImproperlyConfigured("Secret key file not found.")
 
 # Path to the key file
-KEY_FILE = os.path.join(os.path.dirname(__file__), '../../../key')
+KEY_FILE = os.path.join(os.path.dirname(__file__), 'key')
 
-CLIENT_ID_FILE = os.path.join(os.path.dirname(__file__), '../../../client_id')
+CLIENT_ID_FILE = os.path.join(os.path.dirname(__file__), 'client_id')
 
 # Get the secret key
 SECRET_KEY = get_secret_key(KEY_FILE)

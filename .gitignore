@@ -4,4 +4,4 @@
 db.env
 .env
 /venv/
-key
+server/settings/key
