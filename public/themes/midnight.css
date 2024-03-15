@@ -1,0 +1,48 @@
+:root {
+  --norm-font: "robotoregular";
+  --light-font: "robotolight";
+  --bold-font: "robotobold";
+
+  --background-color: #000;
+  --secondary-background-color: rgb(45,45,45);
+  --container-background-color: #222;
+  --container-text-color: #aaa;
+  --countdown-text-color: #bbb;
+  --gallery-dot-color: #555;
+
+  --button-background-color: black;
+  --button-text-color: #bbb;
+  --button-text-color-alt: #bbb;
+  --button-hover-background: rgb(30, 30, 30);
+  --button-hover-text: black;
+  --button-active-color: #222;
+
+  --header-background-color: #171717;
+  --header-text-color: #ccc;
+  --header-icon-color: #333;
+  --navigation-background-color: #000;
+  --navigation-icon-color: #222;
+  --navigation-active-icon-color: #444;
+
+	--error-bg: rgb(50,0,0);
+
+  --soft-color: #444;
+
+  --calendar-red: #983232;
+  --calendar-green: #337e33;
+  --calendar-blue: #427580;
+  --calendar-yellow: #9b9b5e;
+  --calendar-silver: #707070;
+  --calendar-purple: #6a4691;
+  --calendar-gray: #4d4d4d;
+  --calendar-white: #aaa;
+
+  --active-color: black;
+  --active-hover-color: rgb(30, 30, 30);
+  --dark-color: #000;
+
+  --outline-color: rgb(180,180,180);
+
+  --anchor-color: #464646ower;
+  --anchor-hover: rgb(200,200,200);
+}

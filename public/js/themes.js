@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initializeThemes(themeButtons);
     incrementDailyVisits(); // Increment the visit count if it's a new day
     updateVisitCounterDisplay(); // Update the display on page load
-    checkConsecutiveVisits(); // Check and update consecutive visits for the dark theme
+    checkConsecutiveVisits(); // Check and update consecutive visits for the midnight theme
     updateConsecutiveVisitCounterDisplay(); // Update the display on page load
     initialize2048();
 
@@ -20,12 +20,12 @@ document.addEventListener('DOMContentLoaded', () => {
         checkVisitsAndUnlockTheme('purple');
     });
 
-    // Event listener for the "Check Answer" button for the dark theme
-    document.getElementById('check-answer-dark').addEventListener('click', () => {
-        checkConsecutiveVisitsAndUnlockTheme('dark');
+    // Event listener for the "Check Answer" button for the midnight theme
+    document.getElementById('check-answer-midnight').addEventListener('click', () => {
+        checkConsecutiveVisitsAndUnlockTheme('midnight');
     });
 
-    // Event listener for the "Check Answer" button for the dark theme
+    // Event listener for the "Check Answer" button for the midnight theme
     document.getElementById('check-answer-snow').addEventListener('click', () => {
         checkSnowThemeUnlock('snow');
     });
@@ -41,8 +41,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'purple') {
                 checkVisitsAndUnlockTheme('purple');
             }
-            if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'dark') {
-                checkConsecutiveVisitsAndUnlockTheme('dark');
+            if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'midnight') {
+                checkConsecutiveVisitsAndUnlockTheme('midnight');
             }
             if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'snow') {
                 checkSnowThemeUnlock();
@@ -82,6 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function initializeThemes(themeButtons) {
     const savedTheme = localStorage.getItem('selectedTheme') || 'default';
     localStorage.setItem('themeUnlocked-default', true); // Ensure default theme is always unlocked
+    localStorage.setItem('themeUnlocked-dark', true); // Ensure default theme is always unlocked
 
     themeButtons.forEach(button => {
         const theme = button.getAttribute('data-theme');
@@ -111,6 +112,9 @@ function setupPuzzleAnswerCheckers() {
 const themeAnswers = {
     blue: {
         parts: ['brightness'] // Only one part for the blue theme
+    },
+    dark: {
+        parts: ['']
     },
     forest: {
         parts: ['tree'] // Only one part for the forest theme
@@ -337,7 +341,7 @@ function getYesterdayDateString() {
 
 function checkConsecutiveVisits() {
     const visitKey = 'consecutiveVisits';
-    const lastVisitDateKey = 'lastVisitDateDark';
+    const lastVisitDateKey = 'lastVisitDateMidnight';
     const currentDate = new Date().toDateString();
 
     // Retrieve the last visit date and consecutive visits count from localStorage
@@ -365,7 +369,7 @@ function checkConsecutiveVisits() {
 function updateConsecutiveVisitCounterDisplay() {
     const visitKey = 'consecutiveVisits';
     const consecutiveVisits = parseInt(localStorage.getItem(visitKey), 10) || 1;
-    const visitCounterElement = document.getElementById('consecutive-visit-counter-dark');
+    const visitCounterElement = document.getElementById('consecutive-visit-counter-midnight');
 
     // Update the visit counter display
     if (visitCounterElement) {
@@ -407,7 +411,7 @@ function unlockTheme(theme) {
 }
 
 function resetUnlockedThemes() {
-    const themeButtons = document.querySelectorAll('.theme-button:not([data-theme="default"])');
+    const themeButtons = document.querySelectorAll('.theme-button:not([data-theme="default"]):not([data-theme="dark"])');
     themeButtons.forEach(button => {
         const theme = button.getAttribute('data-theme');
         localStorage.removeItem(`themeUnlocked-${theme}`);
