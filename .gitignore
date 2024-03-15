@@ -5,3 +5,4 @@ db.env
 .env
 /venv/
 server/settings/key
+

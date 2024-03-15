@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
     updateVisitCounterDisplay(); // Update the display on page load
     checkConsecutiveVisits(); // Check and update consecutive visits for the dark theme
     updateConsecutiveVisitCounterDisplay(); // Update the display on page load
+    initialize2048();
+    // initializeMinesweeper();
 
     // Event Listeners
     attachEventListenersToThemeButtons(themeButtons);
@@ -55,6 +57,24 @@ document.addEventListener('DOMContentLoaded', () => {
                     checkAnswer('ocean', 1)
                 }
             }
+            if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'library') {
+                checkAnswer('library');
+            }
+            if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'hartley') {
+                checkAnswer('hartley');
+            }
+            if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'vaporwave') {
+                checkAnswer('vaporwave');
+            }
+            if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'mountain') {
+                if (document.getElementById('part-1-mountain').style.display !== 'none') {
+                    checkAnswer('mountain')
+                } else if (document.getElementById('part-2-mountain').style.display !== 'none') {
+                    checkAnswer('mountain', 1)
+                } else if (document.getElementById('part-3-mountain').style.display !== 'none') {
+                    checkAnswer('mountain', 2)
+                }
+            }
         }
     });
 });
@@ -97,8 +117,19 @@ const themeAnswers = {
     },
     ocean: {
         parts: ['waved', 'tuvalu'] // Two parts for the ocean theme
+    },
+    vaporwave: {
+        parts: ['a bird in the hand is messy']
+    },
+    library: {
+        parts: ['8']
+    },
+    mountain: {
+        parts: ['china', 'sweden', 'spain']
+    },
+    hartley: {
+        parts: ['bitcoin']
     }
-    // Add more themes and parts as needed
 };
 
 function getCorrectAnswerForThemePart(theme, partIndex) {
@@ -106,10 +137,10 @@ function getCorrectAnswerForThemePart(theme, partIndex) {
     // The partIndex is expected to start from 0 for the first part
     const themeInfo = themeAnswers[theme];
     if (themeInfo && themeInfo.parts[partIndex] !== undefined) {
-    return themeInfo.parts[partIndex];
+        return themeInfo.parts[partIndex];
     } else {
-    console.error('No answer found for the specified theme and part index.');
-    return null; // No answer found for this theme and part
+        console.error('No answer found for the specified theme and part index.' + theme + partIndex);
+        return null; // No answer found for this theme and part
     }
 }
 function attachEventListenersToThemeButtons(themeButtons) {
@@ -610,3 +641,331 @@ $(document).ready(function() {
     });
 });
 
+function initialize2048() {
+    const container = document.getElementById('game2048-container-magma');
+    let board = generateEmptyBoard();
+    let tileCounter = 1; // Unique ID for each tile
+    let tileSize = 90;
+    let tileGap = 10;
+
+    function generateEmptyBoard() {
+        let newBoard = [];
+        for (let i = 0; i < 4; i++) {
+            newBoard.push([0, 0, 0, 0]);
+        }
+        return newBoard;
+    }
+
+    function addRandomTile() {
+        let availableSpaces = [];
+        board.forEach((row, rowIndex) => {
+            row.forEach((cell, cellIndex) => {
+                if (cell === 0) availableSpaces.push({ rowIndex, cellIndex });
+            });
+        });
+
+        if (availableSpaces.length > 0) {
+            let randomSpace = availableSpaces[Math.floor(Math.random() * availableSpaces.length)];
+            let newTile = {
+                id: tileCounter++,
+                value: Math.random() < 0.9 ? 2 : 4,
+                x: randomSpace.cellIndex,
+                y: randomSpace.rowIndex,
+                mergedFrom: null
+            };
+            board[randomSpace.rowIndex][randomSpace.cellIndex] = newTile.value;
+            document.querySelector(`#cell-${randomSpace.rowIndex}-${randomSpace.cellIndex}`).appendChild(createTileElement(newTile));
+        }
+    }
+
+    function createTileElement(tile) {
+        let tileElement = document.createElement('div');
+        tileElement.classList.add('game-tile');
+        tileElement.setAttribute('id', `tile-${tile.id}`);
+        tileElement.textContent = tile.value;
+        tileElement.style.top = `${tile.y * 100}px`;
+        tileElement.style.left = `${tile.x * 100}px`;
+        return tileElement;
+    }
+
+    function setupEventListeners() {
+        document.addEventListener('keydown', handleKeyPress);
+    }
+
+    function handleKeyPress(e) {
+        let boardChanged = false;
+        let originalBoard = JSON.parse(JSON.stringify(board)); // Deep copy of the board for comparison
+
+        if (['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(e.key)) {
+            if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+                board = transposeBoard(board); // Transpose for vertical movements
+            }
+
+            board.forEach((row, index) => {
+                let originalRow = [...row]; // Copy the original row/column for comparison
+
+                if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                    board[index] = moveTilesLeft(row);
+                } else if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                    board[index] = moveTilesRight(row);
+                }
+
+                if (!originalRow.every((val, idx) => val === board[index][idx])) {
+                    boardChanged = true; // The row/column changed
+                }
+            });
+
+            if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+                board = transposeBoard(board); // Transpose back after vertical movements
+            }
+
+            if (boardChanged) {
+                addRandomTile(board);
+                drawBoard();
+                if (checkWinCondition()) {
+                    unlockTheme('magma')
+                }
+            }
+        }
+    }
+
+    function moveTilesLeft(row) {
+        let newRow = row.filter(val => val !== 0); // Remove zeros
+        for (let i = 0; i < newRow.length - 1; i++) { // Combine tiles
+            if (newRow[i] === newRow[i + 1]) {
+                newRow[i] *= 2;
+                newRow.splice(i + 1, 1); // Remove combined tile
+                newRow.push(0); // Add zero at the end
+            }
+        }
+        while (newRow.length < 4) { // Ensure row length is 4
+            newRow.push(0);
+        }
+        return newRow;
+    }
+
+    function moveTilesRight(row) {
+        row.reverse(); // Reverse to use the moveTilesLeft logic
+        let newRow = moveTilesLeft(row);
+        newRow.reverse(); // Reverse back to original order
+        return newRow;
+    }
+
+    function addRandomTile(board) {
+        let emptyTiles = [];
+        board.forEach((row, rowIndex) => {
+            row.forEach((cell, cellIndex) => {
+                if (cell === 0) emptyTiles.push([rowIndex, cellIndex]);
+            });
+        });
+        if (emptyTiles.length > 0) {
+            let [row, col] = emptyTiles[Math.floor(Math.random() * emptyTiles.length)];
+            board[row][col] = Math.random() > 0.9 ? 4 : 2;
+        }
+    }
+
+    function drawBoard() {
+        container.innerHTML = ''; // Clear previous tiles to prepare for updated drawing
+        board.forEach((row, rowIndex) => {
+            row.forEach((cellValue, colIndex) => {
+                if (cellValue !== 0) {
+                    const tile = document.createElement('div');
+                    tile.className = 'game-tile';
+                    tile.textContent = cellValue;
+                    tile.style.transform = `translate(${colIndex * (tileSize + tileGap)}px, ${rowIndex * (tileSize + tileGap)}px)`;
+                    tile.style.transition = 'transform 0.2s ease-out';
+                    container.appendChild(tile);
+                }
+            });
+        });
+    }
+
+    // Example CSS for the tile to include transitions
+    // .game-tile {
+    //     width: 90px;
+    //     height: 90px;
+    //     position: absolute; // Position tiles absolutely within the container
+    //     transition: transform 0.2s ease-out; // Smooth transition for movement
+    // }
+
+
+    function getTileColor(value) {
+        const colorMap = {
+            2: '#eee4da', 4: '#ede0c8', 8: '#f2b179', 16: '#f59563',
+            32: '#f67c5f', 64: '#f65e3b', 128: '#edcf72', 256: '#edcc61',
+            512: '#edc850'
+        };
+        return colorMap[value] || '#cdc1b4';
+    }
+
+    function checkWinCondition() {
+        return board.some(row => row.some(cell => cell === 1024));
+    }
+
+    function transposeBoard(board) {
+        return board[0].map((_, colIndex) => board.map(row => row[colIndex]));
+    }
+
+
+    document.addEventListener('keydown', handleKeyPress);
+
+
+    // Initialization
+    addRandomTile(board);
+    addRandomTile(board);
+    drawBoard();
+}
+
+// function initializeMinesweeper() {
+//     const container = document.getElementById('minesweeper-container');
+//     let board = [];
+//     let firstClick = true;
+//     const boardSize = 8;
+//     const mineCount = 10;
+//     const tileSize = 40; // Size of each tile in pixels
+//     const tileGap = 2; // Gap between tiles in pixels
+//
+//     function generateBoard() {
+//         board = Array(boardSize).fill().map(() => Array(boardSize).fill(0));
+//         // Mines will be added after the first click to ensure first click is not on a mine
+//     }
+//
+//     function addMines(exceptRow, exceptCol) {
+//         let minesAdded = 0;
+//         while (minesAdded < mineCount) {
+//             let row = Math.floor(Math.random() * boardSize);
+//             let col = Math.floor(Math.random() * boardSize);
+//             if (board[row][col] === 0 && row !== exceptRow && col !== exceptCol) {
+//                 board[row][col] = 'M'; // M for mine
+//                 minesAdded++;
+//             }
+//         }
+//         calculateNumbers();
+//     }
+//
+//     function calculateNumbers() {
+//         for (let row = 0; row < boardSize; row++) {
+//             for (let col = 0; col < boardSize; col++) {
+//                 if (board[row][col] === 'M') continue;
+//                 let mines = 0;
+//                 for (let dr = -1; dr <= 1; dr++) {
+//                     for (let dc = -1; dc <= 1; dc++) {
+//                         if (dr === 0 && dc === 0) continue;
+//                         let r = row + dr, c = col + dc;
+//                         if (r >= 0 && r < boardSize && c >= 0 && c < boardSize && board[r][c] === 'M') {
+//                             mines++;
+//                         }
+//                     }
+//                 }
+//                 board[row][col] = mines;
+//             }
+//         }
+//     }
+//
+//     function setupEventListeners() {
+//         container.addEventListener('click', handleCellClick);
+//     }
+//
+//     function handleCellClick(e) {
+//         if (!e.target.classList.contains('game-cell')) return;
+//         let row = parseInt(e.target.dataset.row);
+//         let col = parseInt(e.target.dataset.col);
+//
+//         if (firstClick) {
+//             addMines(row, col);
+//             firstClick = false;
+//         }
+//
+//         if (board[row][col] === 'M') {
+//             // Game over logic
+//             alert('Game Over');
+//             return;
+//         }
+//
+//         revealCell(row, col);
+//         checkWinCondition() && unlockTheme('grotto');
+//     }
+//
+//     function revealCell(row, col) {
+//         const cell = document.querySelector(`#cell-${row}-${col}`);
+//         if (board[row][col] === 'M') {
+//             cell.textContent = '💣';
+//             cell.classList.add('mine');
+//         } else {
+//             cell.textContent = board[row][col] > 0 ? board[row][col] : '';
+//             cell.classList.add('revealed');
+//             if (board[row][col] === 0) {
+//                 for (let dr = -1; dr <= 1; dr++) {
+//                     for (let dc = -1; dc <= 1; dc++) {
+//                         let r = row + dr, c = col + dc;
+//                         if (r >= 0 && r < boardSize && c >= 0 && c < boardSize && !cell.classList.contains('revealed')) {
+//                             revealCell(r, c);
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+//
+//     function checkWinCondition() {
+//         for (let row = 0; row < boardSize; row++) {
+//             for (let col = 0; col < boardSize; col++) {
+//                 let cell = document.querySelector(`#cell-${row}-${col}`);
+//                 if (board[row][col] !== 'M' && !cell.classList.contains('revealed')) {
+//                     return false; // Not all non-mine cells are revealed
+//                 }
+//             }
+//         }
+//         unlockTheme('grotto'); // Unlock the theme as all non-mine cells are revealed
+//         return true;
+//     }
+//
+//     function drawBoard() {
+//         container.innerHTML = ''; // Clear the container before drawing the board
+//         for (let row = 0; row < boardSize; row++) {
+//             for (let col = 0; col < boardSize; col++) {
+//                 const cell = document.createElement('div');
+//                 cell.id = `cell-${row}-${col}`;
+//                 cell.dataset.row = row;
+//                 cell.dataset.col = col;
+//                 cell.classList.add('game-cell');
+//                 cell.style.width = `${tileSize}px`;
+//                 cell.style.height = `${tileSize}px`;
+//                 cell.style.border = '1px solid #ddd';
+//                 cell.style.display = 'inline-block';
+//                 cell.style.marginRight = '-1px';
+//                 cell.style.marginBottom = '-1px';
+//                 cell.style.float = 'left';
+//                 container.appendChild(cell);
+//             }
+//         }
+//     }
+//
+//     function toggleFlag(cellElement) {
+//         const row = parseInt(cellElement.dataset.row);
+//         const col = parseInt(cellElement.dataset.col);
+//         // Assuming you have a way to track flagged state in your board data structure
+//         // Toggle flag state here and update UI accordingly
+//         if (cellElement.classList.contains('flagged')) {
+//             cellElement.classList.remove('flagged');
+//             cellElement.style.backgroundImage = ''; // Remove flag image
+//         } else {
+//             cellElement.classList.add('flagged');
+//             cellElement.style.backgroundImage = `${window.staticURL}img/flag.png`;
+//         }
+//     }
+//
+//     container.addEventListener('contextmenu', function(e) {
+//         e.preventDefault(); // Prevents the default right-click menu
+//         if (e.target.classList.contains('game-cell')) {
+//             toggleFlag(e.target);
+//         }
+//         return false; // To prevent the event from further propagation
+//     }, false);
+//
+//     // Initialization
+//     generateBoard();
+//     setupEventListeners();
+//     drawBoard();
+// }
+//

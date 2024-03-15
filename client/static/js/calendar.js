@@ -79,7 +79,7 @@ class Calendar {
         this.showLoadingBar()
 
         const yearMonth = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`; // Format: 'YYYY-MM'
-        const filePath = `../py/calendar/calendar-data/${this.schoolFolder}/${yearMonth}.json`;
+        const filePath = `${window.staticURL}py/calendar/calendar-data/${this.schoolFolder}/${yearMonth}.json`;
 
         console.log("Fetching from filePath:", filePath);  // Debugging line
 
@@ -162,7 +162,7 @@ class Calendar {
         this.showLoadingBar()
 
         const yearMonth = `${this.currentYear}-${String(this.currentMonth + 1).padStart(2, '0')}`;
-        const filePath = `../py/calendar/calendar-data/${this.schoolFolder}/${yearMonth}.json`;
+        const filePath = `${window.staticURL}py/calendar/calendar-data/${this.schoolFolder}/${yearMonth}.json`;
 
         try {
             const response = await fetch(filePath);
@@ -196,7 +196,7 @@ class Calendar {
 
     async populateSchoolDropdown() {
         try {
-            const response = await fetch('../py/calendar/school-ids.json');
+            const response = await fetch('${window.staticURL}py/calendar/school-ids.json');
             if (!response.ok) {
                 throw new Error('Network response was not ok ' + response.statusText);
             }

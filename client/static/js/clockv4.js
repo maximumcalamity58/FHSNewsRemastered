@@ -1,330 +1,416 @@
 /**
- * @fileoverview This file updates the current time as a simple countdown.
- * @version August 25, 2023
- * @authors Maxime Hendryx-Parker
+ * @fileoverview Countdown timer for school schedule.
+ * @version January 21, 2024
  **/
 
-var countdown;
-var now = new Date();
-var endTime;
-let hasAdvanced = false;  // Add this flag at the top of the file to track whether we have already advanced the period
-let manualNavigation = false; // Flag to indicate manual navigation
-
-var timePeriodMapping = [
-    { startTime: "08:00", endTime: "08:30", periodName: "Passing Period" },
-    { startTime: "08:30", endTime: "09:53", periodName: "Period 1" },
-    { startTime: "09:53", endTime: "10:01", periodName: "Passing Period" },
-    { startTime: "10:01", endTime: "11:24", periodName: "Period 2" },
-    { startTime: "11:24", endTime: "13:24", periodName: "Period 3 & Lunch" },
-    { startTime: "13:24", endTime: "13:32", periodName: "Passing Period" },
-    { startTime: "13:32", endTime: "15:00", periodName: "Period 4" },
+let timePeriodMapping = [
+    { startTime: "08:15", endTime: "08:30", periodName: "Passing Period", color: "#666666", index: "0" },
+    { startTime: "08:30", endTime: "09:53", periodName: "Period 1", color: "#f85454", index: "1" },
+    { startTime: "09:53", endTime: "10:01", periodName: "Passing Period", color: "#666666", index: "2" },
+    { startTime: "10:01", endTime: "11:24", periodName: "Period 2", color: "#fff26b", index: "3" },
+    { startTime: "11:24", endTime: "13:24", periodName: "Period 3", color: "#b1ff7f", index: "4" },
+    { startTime: "13:24", endTime: "13:32", periodName: "Passing Period", color: "#666666", index: "5" },
+    { startTime: "13:32", endTime: "15:00", periodName: "Period 4", color: "#598eff", index: "6" }
 ];
 
-var lunchTimings = {
-    "A": { startTime: "11:24", endTime: "11:54", periodName: "A Lunch" },
-    "B": { startTime: "11:54", endTime: "12:24", periodName: "B Lunch" },
-    "C": { startTime: "12:24", endTime: "12:54", periodName: "C Lunch" },
-    "D": { startTime: "12:54", endTime: "13:24", periodName: "D Lunch" },
+let lunchPeriodMapping = [
+    { startTime: "11:24", endTime: "11:54", periodName: "A Lunch", color: "#FFB6C1" },
+    { startTime: "11:54", endTime: "12:24", periodName: "B Lunch", color: "#FFB6C1" },
+    { startTime: "12:24", endTime: "12:54", periodName: "C Lunch", color: "#FFB6C1" },
+    { startTime: "12:54", endTime: "13:24", periodName: "D Lunch", color: "#FFB6C1" },
+]
+
+
+let now = new Date();
+let selectedPeriod = null;
+let timeRemaining;
+
+// Example schedules for different day types
+const schedules = {
+    "Red day": [
+        { startTime: "08:15", endTime: "08:30", periodName: "Passing Period", color: "#FFD700", index: "0" },
+        { startTime: "08:30", endTime: "09:53", periodName: "Period 1", color: "#FFA07A", index: "1" },
+        { startTime: "09:53", endTime: "10:01", periodName: "Passing Period", color: "#ADD8E6", index: "2" },
+        { startTime: "10:01", endTime: "11:24", periodName: "Period 2", color: "#90EE90", index: "3" },
+        { startTime: "11:24", endTime: "13:24", periodName: "Period 3", color: "#87CEEB", index: "4" },
+        { startTime: "13:24", endTime: "13:32", periodName: "Passing Period", color: "#ADD8E6", index: "5" },
+        { startTime: "13:32", endTime: "15:00", periodName: "Period 4", color: "#98FB98", index: "6" }
+    ],
+    "Silver day": [
+        { startTime: "08:00", endTime: "08:30", periodName: "Passing Period", color: "#FFD700", index: "0" },
+        { startTime: "08:30", endTime: "09:53", periodName: "Period 5", color: "#FFA07A", index: "1" },
+        { startTime: "09:53", endTime: "10:01", periodName: "Passing Period", color: "#ADD8E6", index: "2" },
+        { startTime: "10:01", endTime: "11:24", periodName: "Period 6", color: "#90EE90", index: "3" },
+        { startTime: "11:24", endTime: "13:24", periodName: "Period 7", color: "#87CEEB", index: "4" },
+        { startTime: "13:24", endTime: "13:32", periodName: "Passing Period", color: "#ADD8E6", index: "5" },
+        { startTime: "13:32", endTime: "15:00", periodName: "Tiered Intervention", color: "#98FB98", index: "6" }
+    ],
+    "Seven period day": [
+        { startTime: "08:00", endTime: "08:30", periodName: "Passing Period", color: "#FFD700", index: "0" },
+        { startTime: "08:30", endTime: "09:53", periodName: "Period 1", color: "#FFA07A", index: "1" },
+        { startTime: "09:53", endTime: "10:01", periodName: "Passing Period", color: "#ADD8E6", index: "2" },
+        { startTime: "10:01", endTime: "11:24", periodName: "Period 2", color: "#90EE90", index: "3" },
+        { startTime: "11:24", endTime: "13:24", periodName: "Period 3", color: "#87CEEB", index: "4" },
+        { startTime: "13:24", endTime: "13:32", periodName: "Passing Period", color: "#ADD8E6", index: "5" },
+        { startTime: "13:32", endTime: "15:00", periodName: "Period 4", color: "#98FB98", index: "6" }
+    ],
+    "default-schedule": [
+        { startTime: "08:00", endTime: "08:30", periodName: "Passing Period", color: "#FFD700", index: "0" },
+        { startTime: "08:30", endTime: "09:53", periodName: "Period 1", color: "#FFA07A", index: "1" },
+        { startTime: "09:53", endTime: "10:01", periodName: "Passing Period", color: "#ADD8E6", index: "2" },
+        { startTime: "10:01", endTime: "11:24", periodName: "Period 2", color: "#90EE90", index: "3" },
+        { startTime: "11:24", endTime: "13:24", periodName: "Period 3", color: "#87CEEB", index: "4" },
+        { startTime: "13:24", endTime: "13:32", periodName: "Passing Period", color: "#ADD8E6", index: "5" },
+        { startTime: "13:32", endTime: "15:00", periodName: "Period 4", color: "#98FB98", index: "6" }
+    ]
 };
 
-
-// At the top of the file
-let currentPeriodIndex = getCurrentPeriodIndex();
-
-function getCurrentPeriodIndex() {
-    for (let i = 0; i < timePeriodMapping.length; i++) {
-        let [endHours, endMinutes] = timePeriodMapping[i].endTime.split(":").map(Number);
-        let potentialEndTime = new Date(now);
-        potentialEndTime.setHours(endHours, endMinutes, 0, 0);
-
-        if (now < potentialEndTime) {
-            return i;
-        }
-    }
-    return -1; // Return 0 if outside of all periods
-}
-
-function to12HourFormat(timeStr) {
-    let [hours, minutes] = timeStr.split(":").map(Number);
-    let ampm;
-    if (hours / 12 > 1) {
-        ampm = "PM"
+function setScheduleForDayType(dayType) {
+    if (schedules[dayType]) {
+        timePeriodMapping = schedules[dayType];
     } else {
-        ampm = "AM"
-    }
-    hours = hours % 12 || 12; // Convert 0 hours to 12 for 12 AM
-    minutes = minutes < 10 ? '0' + minutes : minutes;
-    return `${hours}:${minutes} ${ampm}`;
-}
-
-window.advanceToNextPeriod = function() {
-    manualNavigation = true;
-    console.log("a")
-    if (currentPeriodIndex < timePeriodMapping.length - 1) {
-        currentPeriodIndex++;
-        updatePeriod();
-    } else if (currentPeriodIndex === timePeriodMapping.length - 1) {
-        currentPeriodIndex = -1;
-        updatePeriod();
+        console.error(`No schedule found for day type: ${dayType}`);
+        timePeriodMapping = schedules["default-schedule"]; // Fallback to default schedule
     }
 }
 
-window.advanceToPreviousPeriod = function() {
-    manualNavigation = true;
-    console.log("b")
-    if (currentPeriodIndex > -1) {
-        currentPeriodIndex--;
-        updatePeriod();
-    } else if (currentPeriodIndex === -1) {
-        currentPeriodIndex = timePeriodMapping.length-1;
-        updatePeriod()
-    }
+function createProgressBar() {
+    const progressBar = document.getElementById("progress_bar");
+    progressBar.innerHTML = "";
+
+    // Calculate total minutes in the school day
+    const schoolDayStart = convertToDateTime(timePeriodMapping[0].startTime);
+    const schoolDayEnd = convertToDateTime(timePeriodMapping[timePeriodMapping.length - 1].endTime);
+    const totalSchoolDayMinutes = (schoolDayEnd - schoolDayStart) / 60000;
+
+    // Create period segments for the progress bar
+    timePeriodMapping.forEach(period => {
+        const periodDiv = document.createElement("div");
+        periodDiv.className = "period-segment";
+        periodDiv.style.backgroundColor = period.color;
+        periodDiv.style.flexGrow = (getDurationInMinutes(period.startTime, period.endTime) / totalSchoolDayMinutes).toString();
+        periodDiv.onclick = () => selectPeriod(period);
+        progressBar.appendChild(periodDiv);
+    });
+
+    updateProgressBar();
 }
 
 
-/**
- * Initialize the countdown variables and start the tick function.
- */
-function initializeCountdown() {
-    countdown = document.getElementById("countdown__timer");
+function selectPeriod(period) {
+    selectedPeriod = period;
+
+    console.log(selectedPeriod)
+
+    document.getElementById("period__header").textContent = period.periodName;
+    document.getElementById("period__time").textContent = `${formatTime24To12(period.startTime)} - ${formatTime24To12(period.endTime)}`;
+
+    let periodStart = convertToDateTime(period.startTime);
+    let periodEnd = convertToDateTime(period.endTime);
+    selectedPeriod.isPast = now > periodStart;
+    selectedPeriod.isCurrent = now > periodStart && now < periodEnd;
+
+    updateCountdownTimer();
+}
+
+async function updateCountdownTimer() {
     now = new Date();
 
-    if (!isSchoolHours() || getCurrentPeriodIndex() === -1) {
-        manualNavigation = true
-    }
+    if (!await getCurrentSchoolDay(now)) {
+        // If today is not a school day, calculate the time remaining to the next school day
+        const nextSchoolDayInfo = await getNextSchoolDay(now);
+        if (nextSchoolDayInfo && nextSchoolDayInfo.date) {
+            const nextDayStartTime = convertToDateTime(schedules[nextSchoolDayInfo.type][0].startTime, nextSchoolDayInfo.date);
+            timeRemaining = (nextDayStartTime - now) / 1000;
+        } else {
+            // If no next school day is found, display "No School Today"
+            countdown.textContent = "No School Today";
+            return;
+        }
+    } else if (selectedPeriod) {
+        if (selectedPeriod.isPast && !selectedPeriod.isCurrent) {
+            const nextSchoolDayInfo = await getNextSchoolDay(now);
+            if (nextSchoolDayInfo && nextSchoolDayInfo.date) {
+                setScheduleForDayType(nextSchoolDayInfo.type);
+                const nextDaySchedule = schedules[nextSchoolDayInfo.type];
 
-    // Attach event listeners for the arrow buttons here
-    document.getElementById("prevPeriodBtn").addEventListener("click", advanceToPreviousPeriod);
-    document.getElementById("nextPeriodBtn").addEventListener("click", advanceToNextPeriod);
+                // Check if selectedIndex is within range and find nextPeriod
+                if (selectedPeriod.index !== -1 && selectedPeriod.index < nextDaySchedule.length) {
+                    const nextPeriod = nextDaySchedule[selectedPeriod.index];
 
-    updatePeriod();
-    tick();
-}
-
-
-function isSchoolHours() {
-    let firstStartTime = new Date().setHours(...timePeriodMapping[0].startTime.split(":"));
-    let lastEndTime = new Date().setHours(...timePeriodMapping.slice(-1)[0].endTime.split(":"));
-    return (new Date() >= firstStartTime && new Date() <= lastEndTime);
-}
-
-let selectedLunchType = null; // This will store the type of lunch selected, if any
-
-function updatePeriod() {
-    let currentPeriodMapping = timePeriodMapping[currentPeriodIndex];
-
-    let realCurrentPeriodIndex = getCurrentPeriodIndex();
-
-    if (currentPeriodMapping) {
-        // If current period is "Period 3 & Lunch"
-        if (currentPeriodMapping.periodName === "Period 3 & Lunch" && selectedLunchType) {
-            currentPeriodMapping = lunchTimings[selectedLunchType];
-
-            let [lunchStartHours, lunchStartMinutes] = currentPeriodMapping.startTime.split(":").map(Number);
-            let lunchStartTime = new Date(now);
-            lunchStartTime.setHours(lunchStartHours, lunchStartMinutes, 0, 0);
-
-            if (now < lunchStartTime) {
-                // If the selected lunch has not started, set endTime to its startTime
-                endTime = lunchStartTime;
+                    if (nextPeriod) {
+                        let nextPeriodStartTime = convertToDateTime(nextPeriod.startTime, nextSchoolDayInfo.date);
+                        selectPeriod(nextPeriod);
+                        timeRemaining = (nextPeriodStartTime - now) / 1000;
+                    } else {
+                        timeRemaining = 0; // If the period is not found in the next day's schedule
+                    }
+                } else {
+                    timeRemaining = 0; // If the index is invalid
+                }
             } else {
-                // If the selected lunch has started, set endTime to its actual endTime
-                let [lunchEndHours, lunchEndMinutes] = currentPeriodMapping.endTime.split(":").map(Number);
-                endTime = new Date(now);
-                endTime.setHours(lunchEndHours, lunchEndMinutes, 0, 0);
+                timeRemaining = 0; // If no next school day is found
+            }
+        } else if (selectedPeriod.isCurrent) {
+            let periodEndTime = convertToDateTime(selectedPeriod.endTime);
+            timeRemaining = (periodEndTime - now) / 1000;
+        } else {
+            let periodStartTime = convertToDateTime(selectedPeriod.startTime);
+            timeRemaining = (periodStartTime - now) / 1000;
+        }
+    } else {
+        let lastPeriodEndTime = convertToDateTime(timePeriodMapping[timePeriodMapping.length - 1].endTime);
+        let firstPeriodStartTime = convertToDateTime(timePeriodMapping[0].startTime);
+
+        if (now < firstPeriodStartTime) {
+            timeRemaining = (firstPeriodStartTime - now) / 1000;
+        } else if (now > lastPeriodEndTime) {
+            const nextSchoolDayInfo = await getNextSchoolDay(now);
+
+            if (nextSchoolDayInfo && nextSchoolDayInfo.date) {
+                setScheduleForDayType(nextSchoolDayInfo.type);
+                let nextDayFirstPeriodStartTime = convertToDateTime(schedules[nextSchoolDayInfo.type][0].startTime, nextSchoolDayInfo.date);
+                timeRemaining = (nextDayFirstPeriodStartTime - now) / 1000;
+            } else {
+                // Check if it's within the default school hours
+                const defaultSchoolDayStart = convertToDateTime(timePeriodMapping[0].startTime);
+                const defaultSchoolDayEnd = convertToDateTime(timePeriodMapping[timePeriodMapping.length - 1].endTime);
+                if (now >= defaultSchoolDayStart && now <= defaultSchoolDayEnd) {
+                    // It's within default school hours, but not a school day
+                    countdown.textContent = "No School Today";
+                    return;
+                }
+                timeRemaining = 0;
             }
         } else {
-            let [endHours, endMinutes] = currentPeriodMapping.endTime.split(":").map(Number);
-            let [startHours, startMinutes] = currentPeriodMapping.startTime.split(":").map(Number);
-
-            if (realCurrentPeriodIndex !== currentPeriodIndex) {
-                // If the period being looked at is not the current period, set endTime to startTime
-                endTime = new Date(now);
-                endTime.setHours(startHours, startMinutes, 0, 0);
-            } else {
-                // Otherwise, set endTime to the actual end time of the period
-                endTime = new Date(now);
-                endTime.setHours(endHours, endMinutes, 0, 0);
-            }
+            timeRemaining = 0;
         }
-
-        document.getElementById("period__header").textContent = currentPeriodMapping.periodName;
-        document.getElementById("period__time").textContent = `${to12HourFormat(currentPeriodMapping.startTime)} - ${to12HourFormat(currentPeriodMapping.endTime)}`;
-
-        let [startHours, startMinutes] = currentPeriodMapping.startTime.split(":").map(Number);
-        let periodStartTime = new Date(now);
-        periodStartTime.setHours(startHours, startMinutes, 0, 0);
-
-        let lunchButtons = document.getElementById("lunch");
-        if (currentPeriodMapping.periodName === "Period 3 & Lunch" || currentPeriodMapping === lunchTimings[selectedLunchType]) {
-            lunchButtons.classList.remove("hidden");
-        } else {
-            lunchButtons.classList.add("hidden");
-        }
-
-        console.log(currentPeriodMapping.periodName);
-
-        updateProgressBar(periodStartTime, endTime);
-    } else {
-        endTime = new Date(now);
-        document.getElementById("period__header").textContent = "Not School Hours";
-        document.getElementById("period__time").textContent = to12HourFormat(timePeriodMapping[timePeriodMapping.length-1].endTime) + " - " + to12HourFormat(timePeriodMapping[0].startTime);
     }
 
-    if (manualNavigation) {
-        if (now > endTime) {
-            endTime.setDate(endTime.getDate() + 1);
-        }
-        manualNavigation = false; // Reset the flag
-    }
-
-    console.log("sup")
-
-    // Update gallery dots
-    let gallery = document.getElementById("period__gallery");
-    gallery.innerHTML = ""; // Clear existing dots
-
-    for (let i = 0; i < timePeriodMapping.length; i++) {
-        let dot = document.createElement("div");
-        dot.className = "gallery-dot";
-
-        // Mark the active dot based on the current period
-        if (i === currentPeriodIndex) {
-            dot.classList.add("active");
-        }
-
-        gallery.appendChild(dot);
-    }
+    displayTime(timeRemaining);
 }
 
-function updateProgressBar(periodStartTime, periodEndTime) {
-    const totalDuration = periodEndTime - periodStartTime;
-    const elapsedDuration = now - periodStartTime;
-
-    // Calculate the percentage of time elapsed
-    const progressPercentage = (elapsedDuration / totalDuration) * 100;
-
-    // Set the width of the progress bar
-    document.getElementById("countdown__progress").style.width = `${progressPercentage}%`;
-}
-
-function updateProgressBarOutside() {
-    let periodStartTime = timePeriodMapping[timePeriodMapping.length-1].endTime;
-    let periodEndTime = timePeriodMapping[0].startTime;
-
-    const totalDuration = periodEndTime - periodStartTime;
-    const elapsedDuration = now - periodStartTime;
-
-    // Calculate the percentage of time elapsed
-    const progressPercentage = (elapsedDuration / totalDuration) * 100;
-
-    // Set the width of the progress bar
-    document.getElementById("countdown__progress").style.width = `${progressPercentage}%`;
-}
-
-window.chooseLunch = function(lunchType, buttonElement) {
-    // Get all lunch buttons
-    let allLunchButtons = document.querySelectorAll("#lunch__choose .container");
-
-    // If the button clicked is already selected
-    if (buttonElement.classList.contains("selected")) {
-        // Deselect the button
-        buttonElement.classList.remove("selected");
-        // Reset the selected lunch type
-        selectedLunchType = null;
-    } else {
-        // If another button was previously selected, deselect it
-        allLunchButtons.forEach(btn => btn.classList.remove("selected"));
-
-        // Mark the clicked button as selected
-        buttonElement.classList.add("selected");
-        // Set the selected lunch type
-        selectedLunchType = lunchType;
-    }
-
-    // Update the period to reflect the changes
-    manualNavigation = true;
-    updatePeriod();
+function formatTime24To12(time24) {
+    const [hours24, minutes] = time24.split(':');
+    const hours = parseInt(hours24, 10);
+    const suffix = hours >= 12 ? 'PM' : 'AM';
+    const hours12 = ((hours + 11) % 12 + 1);
+    return `${hours12}:${minutes} ${suffix}`;
 }
 
 
-
-/**
- * updates the current time and countdown timer
- */
-function updateClock() {
+function updateProgressBar() {
     now = new Date();
-    let timeRemaining;
+    let currentTimeIndicator = document.getElementById("current_time_indicator");
 
-    // If it's not school hours
-    if (currentPeriodIndex === -1) {
-        let [firstStartHours, firstStartMinutes] = timePeriodMapping[0].startTime.split(":").map(Number);
-        let firstStartTime = new Date(now);
-        firstStartTime.setHours(firstStartHours, firstStartMinutes, 0, 0);
+    // Only show and update the indicator during school hours
+    const schoolDayStart = convertToDateTime(timePeriodMapping[0].startTime);
+    const schoolDayEnd = convertToDateTime(timePeriodMapping[timePeriodMapping.length - 1].endTime);
+    if (now >= schoolDayStart && now <= schoolDayEnd) {
+        currentTimeIndicator.style.display = 'block';
 
-        // If the time has passed for today, set for next day
-        if (now > firstStartTime) {
-            firstStartTime.setDate(firstStartTime.getDate() + 1);
+        let totalSchoolDayMinutes = (schoolDayEnd - schoolDayStart) / 60000;
+        let minutesSinceStart = (now - schoolDayStart) / 60000;
+        currentTimeIndicator.style.left = (minutesSinceStart / totalSchoolDayMinutes * 100) + '%';
+    } else {
+        currentTimeIndicator.style.display = 'none';
+    }
+}
+
+function displayTime(seconds) {
+    let countdown = document.getElementById("countdown__timer");
+    if (seconds > 0) {
+        let days = Math.floor(seconds / 86400)
+        let hours = Math.floor((seconds % 86400) / 3600);
+        let minutes = Math.floor((seconds % 3600) / 60);
+        let secondsLeft = Math.floor(seconds % 60);
+
+        let timeText = '';
+
+        if (days > 0) {
+            timeText += `${days}:${hours < 10 ? '0' : ''}`;
         }
 
-        timeRemaining = ((firstStartTime - now) + 500) / 1000; // in seconds
-    }
-    // Otherwise, it's a regular school period or passing period
-    else {
-        timeRemaining = ((endTime - now) + 500) / 1000; // in seconds
-    }
+        if (hours > 0) {
+            timeText += `${hours}:`;
+        }
 
-    // Reset hasAdvanced flag if the time is not yet expired
-    if (timeRemaining > 0) {
-        hasAdvanced = false;
-    }
+        timeText += `${minutes < 10 ? '0' : ''}${minutes}:${secondsLeft < 10 ? '0' : ''}${secondsLeft}`;
 
-    if (timeRemaining <= 0 && !hasAdvanced && !manualNavigation) {
-        // ... (existing logic to advance the period)
-        currentPeriodIndex = getCurrentPeriodIndex();
-        updatePeriod();
-        hasAdvanced = true;
-    }
-
-    // If the time has already expired and it's a manual navigation
-    if (timeRemaining <= 0 && manualNavigation) {
-        endTime.setDate(endTime.getDate() + 1);
-        timeRemaining = ((endTime - now) + 500) / 1000;
-        manualNavigation = false; // Reset the flag
-    }
-
-    if (timeRemaining < 0) {
-        timeRemaining = ((endTime - now) + 500) / 1000
-    }
-
-    // Calculate hours, minutes, seconds
-    let hours = Math.floor(timeRemaining / 3600);
-    timeRemaining %= 3600;
-    let minutes = Math.floor(timeRemaining / 60);
-    let seconds = Math.floor(timeRemaining % 60);
-
-    // Display time
-    if (hours > 0) {
-        countdown.textContent = `${hours}:${minutes < 10 ? '0' : ''}${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+        countdown.textContent = timeText;
     } else {
-        countdown.textContent = `${minutes < 10 ? '0' : ''}${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
-    }
-
-    // Update the progress bar
-    let currentPeriodMapping = timePeriodMapping[currentPeriodIndex];
-    if (currentPeriodMapping) {
-        let [startHours, startMinutes] = currentPeriodMapping.startTime.split(":").map(Number);
-        let periodStartTime = new Date(now);
-        periodStartTime.setHours(startHours, startMinutes, 0, 0);
-        updateProgressBar(periodStartTime, endTime);
+        countdown.textContent = "00:00";
     }
 }
 
+let data;
 
-// main loop
-function tick() {
-    updateClock();
-    requestAnimationFrame(tick);
+// New functions for fetching calendar data and finding the next school day
+async function fetchCalendarData(date) {
+    const year = date.getFullYear();
+    const month = (date.getMonth()).toString().padStart(2, '0');
+    const url = `${window.staticURL}py/calendar/calendar-data/19-fishers-high-school/${year}-${month}.json`;
+
+    return fetch(url)
+        .then(response => response.json())
+        .catch(error => console.error('Error fetching calendar data:', error));
 }
 
-window.addEventListener("DOMContentLoaded", initializeCountdown);
+async function getNextSchoolDay(currentDate) {
+    let date = new Date(currentDate);
+    date.setDate(date.getDate() + 1); // Start checking from the next day
+    date.setMonth(date.getMonth() + 1);
+    let calendarData = await fetchCalendarData(date);
+    date.setMonth(date.getMonth() - 1)
+    date.setDate(date.getDate());
+    if (!calendarData) {
+        console.error('No calendar data available');
+        return { date: null, type: 'default-schedule' };
+    }
+
+    const maxDaysToCheck = 180; // Limit to checking 30 days ahead
+    let month = date.getMonth() + 1; // Adjust to 1-based index
+    let year = date.getFullYear();
+
+    for (let i = 0; i < maxDaysToCheck; i++) {
+        const day = date.getDate();
+
+        if (calendarData[day]) {
+            for (let event of calendarData[day]) {
+                if (isSchoolDay(event.title)) {
+                    return { date, type: event.title };
+                }
+            }
+        }
+
+        // Move to the next day
+        date.setDate(date.getDate() + 1);
+
+        // Check if the month or year has changed
+        if (date.getMonth() + 1 !== month || date.getFullYear() !== year) {
+            month = date.getMonth() + 1;
+            year = date.getFullYear();
+
+            // Fetch new calendar data for the new month
+            calendarData = await fetchCalendarData(date);
+            console.log(calendarData);
+            if (!calendarData) {
+                console.error('Calendar data not available for the new month');
+                return { date: null, type: 'default-schedule' };
+            }
+        }
+    }
+
+    return { date: null, type: 'default-schedule' };
+}
+
+async function getCurrentSchoolDay(currentDate) {
+    let date = new Date(currentDate);
+    date.setMonth(date.getMonth() + 1);
+    let calendarData = await fetchCalendarData(date);
+    date.setMonth(date.getMonth() - 1)
+    date.setDate(date.getDate());
+    if (!calendarData) {
+        console.error('No calendar data available');
+        return false;
+    }
+
+    const maxDaysToCheck = 1; // Limit to checking 30 days ahead
+    let month = date.getMonth() + 1; // Adjust to 1-based index
+    let year = date.getFullYear();
+
+    for (let i = 0; i < maxDaysToCheck; i++) {
+        const day = date.getDate();
+
+        if (calendarData[day]) {
+            for (let event of calendarData[day]) {
+                if (isSchoolDay(event.title)) {
+                    return true;
+                }
+            }
+        }
+
+        // Move to the next day
+        date.setDate(date.getDate() + 1);
+
+        // Check if the month or year has changed
+        if (date.getMonth() + 1 !== month || date.getFullYear() !== year) {
+            month = date.getMonth() + 1;
+            year = date.getFullYear();
+
+            // Fetch new calendar data for the new month
+            calendarData = await fetchCalendarData(date);
+            if (!calendarData) {
+                console.error('Calendar data not available for the new month');
+                return false;
+            }
+        }
+    }
+
+    return false;
+}
+
+
+function isSchoolDay(title) {
+    return title.toLowerCase().includes('red day') ||
+           title.toLowerCase().includes('silver day') ||
+           title.toLowerCase().includes('seven period day');
+}
+
+
+
+function getTotalMinutes(startTime, endTime) {
+    let [startHours, startMinutes] = startTime.split(':').map(Number);
+    let [endHours, endMinutes] = endTime.split(':').map(Number);
+    return (endHours - startHours) * 60 + (endMinutes - startMinutes);
+}
+
+function getDurationInMinutes(startTime, endTime) {
+    let start = convertToDateTime(startTime);
+    let end = convertToDateTime(endTime);
+    return (end - start) / 60000;
+}
+
+function convertToDateTime(timeStr, specificDate = null) {
+    let [hours, minutes] = timeStr.split(':').map(Number);
+    let date = specificDate ? new Date(specificDate) : new Date();
+    date.setHours(hours, minutes, 0, 0);
+    return date;
+}
+
+function getCurrentPeriod() {
+    for (let period of timePeriodMapping) {
+        let periodStart = convertToDateTime(period.startTime);
+        let periodEnd = convertToDateTime(period.endTime);
+        if (now > periodStart && now < periodEnd) {
+            return period;
+        }
+    }
+    return null;
+}
+
+function getNextPeriod() {
+    for (let period of timePeriodMapping) {
+        let periodStart = convertToDateTime(period.startTime);
+        if (now < periodStart) {
+            return period;
+        }
+    }
+    return null;
+}
+
+function initialize() {
+    // Automatically select the appropriate period on page load
+    selectedPeriod = getCurrentPeriod();
+    if (selectedPeriod) {
+        selectPeriod(selectedPeriod);
+    }
+
+    createProgressBar();
+    updateCountdownTimer();
+    updateProgressBar();
+    setInterval(updateProgressBar, 5000);
+    setInterval(updateCountdownTimer, 250);
+}
+
+window.addEventListener("DOMContentLoaded", initialize);

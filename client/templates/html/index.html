@@ -29,8 +29,11 @@
 			<!-- Hidden container for additional theme buttons -->
 			<div id="additional-themes" class="additional-themes-container" style="display: block;">
 				<a class="theme-button" data-theme="space" style="background-image: url({% static 'img/star.svg' %}); background-repeat: no-repeat; background-position: center; background-color: #9b2460"></a>
-				<a class="theme-button" data-theme="volcano" style="background-image: url({% static 'img/lava.svg' %}); background-repeat: no-repeat; background-position: center; background-color: #d78958"></a>
+				<a class="theme-button" data-theme="vaporwave" style="background-image: url({% static 'img/vaporsun.svg' %}); background-repeat: no-repeat; background-position: center; background-color: #54043e"></a>
+				<a class="theme-button" data-theme="magma" style="background-image: url({% static 'img/lava.svg' %}); background-repeat: no-repeat; background-position: center; background-color: #d78958"></a>
 				<a class="theme-button" data-theme="library" style="background-image: url({% static 'img/book.svg' %}); background-repeat: no-repeat; background-position: center; background-color: #c1c583"></a>
+				<a class="theme-button" data-theme="mountain" style="background-image: url({% static 'img/mountains.svg' %}); background-repeat: no-repeat; background-position: center; background-color: #898989"></a>
+				<a class="theme-button" data-theme="hartley" style="background-image: url({% static 'img/bitcoin.svg' %}); background-repeat: no-repeat; background-position: center; background-color: #f7931a;"></a>
 			</div>
 
 
@@ -98,19 +101,67 @@
 				<div id="chessboard"></div> <!-- This is where the chessboard will appear -->
 				<button id="startBtn">Start New Game</button>
 			</div>
-			<div id="puzzle-volcano" class="puzzle" data-theme="volcano">
-			  <h2>Unlock Lava Theme</h2>
-			  <p>Coming Soon!</p>
-			  <input type="text" id="answer-volcano" class="puzzle-answer" placeholder="Answer Here">
-			  <button data-theme="volcano" class="puzzle-answer-button">Unlock Theme</button>
-			  <div id="feedback-message-volcano" class="feedback-message"></div>
+            <div id="puzzle-vaporwave" class="puzzle" data-theme="vaporwave">
+                <h2>Unlock Vaporwave Theme</h2>
+                <p class="small-text">The following is a simple substitution cryptogram in which a number has been substituted for a letter.</p>
+                <p class="small-text">The same number stands for the same letter each time</p>
+                <br>
+                <p class="small-text">26&nbsp;&nbsp;&nbsp;25 18 9 23&nbsp;&nbsp;&nbsp;18 13&nbsp;&nbsp;&nbsp;7 19 22&nbsp;&nbsp;&nbsp;19 26 13 23</p>
+                <p class="small-text">18 8&nbsp;&nbsp;&nbsp;14 22 8 8 2</p>
+                <input type="text" id="answer-vaporwave" class="puzzle-answer" placeholder="Answer Here">
+                <button data-theme="vaporwave" class="puzzle-answer-button">Unlock Theme</button>
+                <div id="feedback-message-vaporwave" class="feedback-message"></div>
 			</div>
+			<div id="puzzle-magma" class="puzzle" data-theme="magma">
+                <h2>Unlock Magma Theme</h2>
+                <p>Get a 1024 block to unlock this theme.</p>
+                <div id="game2048-container-magma" class="twentyforty-container"></div>
+            </div>
 			<div id="puzzle-library" class="puzzle" data-theme="library">
 			  <h2>Unlock Library Theme</h2>
-			  <p>Coming Soon!</p>
+			  <p class="small-text">In a beanbag toss game, each beanbag that lands</p>
+              <p class="small-text">in one of the circles A, B, or C is awarded the</p>
+              <p class="small-text">value of that circle. Nita is given a chance to</p>
+              <p class="small-text">toss two beanbags.</p>
+              <p class="small-text">Scoring A and B gives 19 points</p>
+              <p class="small-text">Scoring A and C gives 14 points</p>
+              <p class="small-text">Scoring B and C gives 13 points</p>
+              <p class="small-text">Nina's two beanbags landed in circle C. What did she score?</p>
 			  <input type="text" id="answer-library" class="puzzle-answer" placeholder="Answer Here">
-			  <button data-theme="volcano" class="puzzle-answer-button">Unlock Theme</button>
+			  <button data-theme="library" class="puzzle-answer-button">Unlock Theme</button>
 			  <div id="feedback-message-library" class="feedback-message"></div>
+			</div>
+            <div id="puzzle-mountain" class="puzzle" data-theme="mountain">
+			  <h2>Unlock Mountain Theme</h2>
+              <h3>The name of a country is hidden in each of the sentences below. Find the countries</h3>
+			  <!-- Part One -->
+			  <div id="part-1-mountain">
+				<p>Part 1: The doorbell sign said, "Don't touch. In a real emergency, pull the cord."</p>
+				<input type="text" id="answer-mountain-part-1" class="puzzle-answer" placeholder="Answer Here"/>
+				<button data-theme="mountain" data-part="1" class="puzzle-answer-button">Go To Part 2</button>
+				<div id="feedback-message-mountain-part-1" class="feedback-message"></div>
+			  </div>
+			  <!-- Part Two -->
+			  <div id="part-2-mountain" style="display: none;">
+				<p>Part 2: They got married secretly, but no one is wed entirely alone, so there were witnesses.</p>
+				<input type="text" id="answer-mountain-part-2" class="puzzle-answer" placeholder="Answer Here"/>
+				<button data-theme="mountain" data-part="2" class="puzzle-answer-button">Go To Part 3</button>
+				<div id="feedback-message-mountain-part-2" class="feedback-message"></div>
+			  </div>
+              <!-- Part Two -->
+			  <div id="part-3-mountain" style="display: none;">
+				<p>Part 3: We needed to visit a a health resort, so we went to a spa in another country.</p>
+				<input type="text" id="answer-mountain-part-3" class="puzzle-answer" placeholder="Answer Here"/>
+				<button data-theme="mountain" data-part="3" class="puzzle-answer-button">Unlock Theme</button>
+				<div id="feedback-message-mountain-part-3" class="feedback-message"></div>
+			  </div>
+			</div>
+            <div id="puzzle-hartley" class="puzzle" data-theme="hartley">
+                <h2>Unlock Hartley Theme</h2>
+                <p>Go see Mr. Hartley in B216 to get the answer to this theme.</p>
+                <input type="text" id="answer-hartley" class="puzzle-answer" placeholder="Answer Here">
+                <button data-theme="hartley" class="puzzle-answer-button">Unlock Theme</button>
+                <div id="feedback-message-hartley" class="feedback-message"></div>
 			</div>
 		  </div>
 		</div>
@@ -118,34 +169,15 @@
 
 		<!-- Clock -->
 		<section class="block">
-			<section class="row" id="period">
-				<button class="container arrow hover" id="prevPeriodBtn">&#8249;</button>
-				<div id="period__box" class="container">
-					<p id="period__header"></p>
-					<p id="period__time">Not School Hours</p>
-					<!-- The gallery is the dots -->
-					<div id="period__gallery"></div>
-				</div>
-				<button class="container arrow hover" id="nextPeriodBtn">&#8250;</button>
-			</section>
-
-			<section class="row container" id="countdown">
-				<p id="countdown__timer">--:--</p>
-
-				<div id="countdown__bar">
-					<div id="countdown__progress"></div>
-				</div>
-			</section>
-			<section class="" id="sub">
-				<div class="row" id="sub_choose">
-				</div>
-			</section>
-			<section class="row container hidden" id="lunch">
-			  <div class="row container" id="lunch__choose">
-                <!-- this is all one line because if it isn't then it will add white space between the buttons -->
-				<button class="container hover lunch-btn" onclick="chooseLunch('A',this)">A</button><button class="container hover lunch-btn" onclick="chooseLunch('B',this)">B</button><button class="container hover lunch-btn" onclick="chooseLunch('C',this)">C</button><button class="container hover lunch-btn" onclick="chooseLunch('D',this)">D</button>
-			  </div>
-		  </section>
+            <section class="row" id="period">
+                <div id="period__box" class="container">
+                    <p id="period__header">Not School Hours</p>
+                    <p id="period__time">3:00 PM - 8:00 AM</p>
+                    <p id="countdown__timer">--:--</p>
+                    <div id="current_time_indicator">&#9660;</div> <!-- Current Time Indicator -->
+                    <div id="progress_bar"></div>
+                </div>
+            </section>
 		</section>
 		<!-- Clock -->
 		<section class="block icon-buttons">
@@ -169,7 +201,6 @@
 		</section>
 		<!-- Place this button somewhere appropriate in your HTML -->
 		<button id="reset-themes-button" class="hidden">Reset Unlocked Themes</button>
-
 	</article>
 {% endblock %}
 

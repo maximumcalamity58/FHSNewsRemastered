@@ -277,12 +277,12 @@ header {
 
 @media screen and (min-width: 0px) {
 	.wrapper {
-		margin-top: 70px;
+		margin-top: 30px;
 		margin-bottom: -75px;
 	}
 
 	#main-content {
-		padding-top: 75px;
+		padding-top: 90px;
 		padding-bottom: 75px;
 	}
 
