@@ -1,8 +1,1 @@
-/.cache/
-/dist/
-/static/
-db.env
-.env
-/venv/
-server/settings/key
-
+/node_modules/
