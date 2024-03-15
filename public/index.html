@@ -12,19 +12,13 @@
 	(function() {
 	  var savedTheme = localStorage.getItem('selectedTheme') || 'default';
 	  document.write('<link rel="stylesheet" href="themes/' + savedTheme + '.css" id="theme-style">');
+	  document.write('<link rel="preload" as="image" href="img/' + savedTheme + '.png">');
 	})();
 	</script>
 
 	<!-- CSS files go here -->
 	<link rel="stylesheet" href="css/global.css">
 	<link rel="stylesheet" href="css/home.css">
-
-	<link rel="preload" as="image" href="img/snow.png">
-	<link rel="preload" as="image" href="img/forest.png">
-	<link rel="preload" as="image" href="img/ocean.png">
-	<link rel="preload" as="image" href="img/space.png">
-	<link rel="preload" as="image" href="img/volcano.png">
-	<link rel="preload" as="image" href="img/library.png">
 
 	<!-- Current theme goes here -->
 	<link rel="stylesheet" href="" id="theme-style"> <!-- default theme -->
@@ -60,107 +54,157 @@
 		</a>
 	</header>
 	<article id="main-content">
-		<section class="block" id="themes_selector">
-			<div id="main-theme-buttons">
-				<!-- Container for the main theme buttons -->
-				<a class="theme-button" data-theme="default" style="background-color: red;"></a>
-				<a class="theme-button" data-theme="blue" style="background-color: #3030e0;"></a>
-				<a class="theme-button" data-theme="purple" style="background-color: purple;"></a>
-				<a class="theme-button" data-theme="dark" style="background-color: #444;"></a>
-				<a class="theme-button" data-theme="snow" style="background-image: url('img/snowflake.svg'); background-repeat: no-repeat; background-position: center; background-color: #9dd7e6"></a>
-				<a class="theme-button" data-theme="forest" style="background-image: url('img/tree.svg'); background-repeat: no-repeat; background-position: center; background-color: #90ee90"></a>
-				<a class="theme-button" data-theme="ocean" style="background-image: url('img/wave.svg'); background-repeat: no-repeat; background-position: center; background-color: #87cefa"></a>
-				<a id="more-themes-toggle" data-open="false">&#9660;</a>
-
-			</div>
-
-			<!-- Hidden container for additional theme buttons -->
-			<div id="additional-themes" class="additional-themes-container" style="display: block;">
-				<a class="theme-button" data-theme="space" style="background-image: url('img/star.svg'); background-repeat: no-repeat; background-position: center; background-color: #9b2460"></a>
-				<a class="theme-button" data-theme="volcano" style="background-image: url('img/lava.svg'); background-repeat: no-repeat; background-position: center; background-color: #d78958"></a>
-				<a class="theme-button" data-theme="library" style="background-image: url('img/book.svg'); background-repeat: no-repeat; background-position: center; background-color: #c1c583"></a>
-			</div>
-
-
+		<section class="block" id="themes_shop_container">
+			<a id="theme_selector" style="background-repeat: no-repeat;">Theme Selector</a>
 		</section>
 
-		<div id="puzzleModal" class="modal">
-		  <div class="modal-content">
-			<span class="close"></span>
-			<div id="puzzle-blue" class="puzzle" data-theme="blue">
-			  <h2>Unlock Blue Theme</h2>
-			  <p>RGB pixel color ranges on a scale of 0-255. If greyscale "removes" the red, green, and blue the range now represents the _____ of the color.</p>
-			  <input type="text" id="answer-blue" class="puzzle-answer" placeholder="Answer Here">
-			  <button data-theme="blue" class="puzzle-answer-button">Unlock Theme</button>
-			  <div id="feedback-message-blue" class="feedback-message"></div>
-			</div>
-		    <div id="puzzle-purple" class="puzzle" data-theme="purple">
-				<h2>Unlock Purple Theme</h2>
-			    <p>Log in for 5 total days to unlock this theme</p>
-				<p id="visit-counter-purple">NaN/5</p>
-				<button id="check-answer-purple">Unlock Theme</button>
-				<div id="feedback-message-purple" class="feedback-message"></div>
-			</div>
-			<div id="puzzle-dark" class="puzzle" data-theme="dark">
-				<h2>Unlock Dark Theme</h2>
-				<p>Log in for 2 consecutive days to unlock this theme</p>
-				<p id="consecutive-visit-counter-dark">Consecutive visits: NaN/2</p>
-				<button id="check-answer-dark">Unlock Theme</button>
-				<div id="feedback-message-dark" class="feedback-message"></div>
-			</div>
-			<div id="puzzle-snow" class="puzzle" data-theme="snow">
-				<h2>Unlock Snow Theme</h2>
-				<p>Log in during the month of December to unlock this theme</p>
-				<button id="check-answer-snow">Unlock Theme</button>
-				<div id="feedback-message-snow" class="feedback-message"></div>
-			</div>
-			<div id="puzzle-forest" class="puzzle" data-theme="forest">
-				<h2>Unlock Forest Theme</h2>
-			    <p class="small-text">Stand I do, with many arms, and yet I never reach.</p>
-			    <p class="small-text">Each year I gain a ring, but I don't wed a soul.</p>
-			    <p class="small-text">In winter's cold, I slumber deep, yet never do I sleep.</p>
-			    <p class="small-text">Felled by time or tool, yet in my silence, life renews.</p>
-			    <input type="text" id="answer-forest" class="puzzle-answer" placeholder="Answer Here">
-				<button data-theme="forest" class="puzzle-answer-button">Unlock Theme</button>
-				<div id="feedback-message-forest" class="feedback-message"></div>
-			</div>
-			<div id="puzzle-ocean" class="puzzle" data-theme="ocean">
-			  <h2>Unlock Ocean Theme</h2>
-			  <!-- Part One -->
-			  <div id="part-1-ocean">
-				<p>Part 1: What did the ocean say to the island? Nothing. It just _____</p>
-				<input type="text" id="answer-ocean-part-1" class="puzzle-answer" placeholder="Answer Here"/>
-				<button data-theme="ocean" data-part="1" class="puzzle-answer-button">Go To Part 2</button>
-				<div id="feedback-message-ocean-part-1" class="feedback-message"></div>
+		<div class="hidden" id="themes_blur">
+			<section class="block hidden" id="themes_selector">
+					<h1>Theme Selector</h1>
+
+					<!-- Container for the main theme buttons -->
+					<a class="theme-button" data-theme="default" style="background-color: red;"></a>
+					<a class="theme-button" data-theme="blue" style="background-color: #3030e0;"></a>
+					<a class="theme-button" data-theme="purple" style="background-color: purple;"></a>
+					<a class="theme-button" data-theme="dark" style="background-color: #444;"></a>
+					<a class="theme-button" data-theme="snow" style="background-image: url('img/snowflake.svg'); background-repeat: no-repeat; background-position: center; background-color: #9dd7e6"></a>
+					<a class="theme-button" data-theme="forest" style="background-image: url('img/tree.svg'); background-repeat: no-repeat; background-position: center; background-color: #90ee90"></a>
+					<a class="theme-button" data-theme="ocean" style="background-image: url('img/wave.svg'); background-repeat: no-repeat; background-position: center; background-color: #87cefa"></a>
+					<a class="theme-button" data-theme="space" style="background-image: url('img/star.svg'); background-repeat: no-repeat; background-position: center; background-color: #9b2460"></a>
+					<a class="theme-button" data-theme="magma" style="background-image: url('img/lava.svg'); background-repeat: no-repeat; background-position: center; background-color: #d78958"></a>
+					<a class="theme-button" data-theme="vaporwave" style="background-image: url('img/vaporsun.svg'); background-repeat: no-repeat; background-position: center; background-color: #54043e"></a>
+					<a class="theme-button" data-theme="library" style="background-image: url('img/book.svg'); background-repeat: no-repeat; background-position: center; background-color: #c1c583"></a>
+					<a class="theme-button" data-theme="mountain" style="background-image: url('img/mountains.svg'); background-repeat: no-repeat; background-position: center; background-color: #898989"></a>
+					<a class="theme-button" data-theme="hartley" style="background-image: url('img/bitcoin.svg'); background-repeat: no-repeat; background-position: center; background-color: #f7931a;"></a>
+			</section>
+
+			<div id="puzzleModal" class="modal">
+			  <div class="modal-content">
+				<span class="close"></span>
+				<div id="puzzle-blue" class="puzzle" data-theme="blue">
+				  <h2>Unlock Blue Theme</h2>
+				  <p>RGB pixel color ranges on a scale of 0-255. If greyscale "removes" the red, green, and blue the range now represents the _____ of the color.</p>
+				  <input type="text" id="answer-blue" class="puzzle-answer" placeholder="Answer Here">
+				  <button data-theme="blue" class="puzzle-answer-button">Unlock Theme</button>
+				  <div id="feedback-message-blue" class="feedback-message"></div>
+				</div>
+				<div id="puzzle-purple" class="puzzle" data-theme="purple">
+					<h2>Unlock Purple Theme</h2>
+					<p>Log in for 5 total days to unlock this theme</p>
+					<p id="visit-counter-purple">NaN/5</p>
+					<button id="check-answer-purple">Unlock Theme</button>
+					<div id="feedback-message-purple" class="feedback-message"></div>
+				</div>
+				<div id="puzzle-dark" class="puzzle" data-theme="dark">
+					<h2>Unlock Dark Theme</h2>
+					<p>Log in for 2 consecutive days to unlock this theme</p>
+					<p id="consecutive-visit-counter-dark">Consecutive visits: NaN/2</p>
+					<button id="check-answer-dark">Unlock Theme</button>
+					<div id="feedback-message-dark" class="feedback-message"></div>
+				</div>
+				<div id="puzzle-snow" class="puzzle" data-theme="snow">
+					<h2>Unlock Snow Theme</h2>
+					<p>Log in during the month of December to unlock this theme</p>
+					<button id="check-answer-snow">Unlock Theme</button>
+					<div id="feedback-message-snow" class="feedback-message"></div>
+				</div>
+				<div id="puzzle-forest" class="puzzle" data-theme="forest">
+					<h2>Unlock Forest Theme</h2>
+					<p class="small-text">Stand I do, with many arms, and yet I never reach.</p>
+					<p class="small-text">Each year I gain a ring, but I don't wed a soul.</p>
+					<p class="small-text">In winter's cold, I slumber deep, yet never do I sleep.</p>
+					<p class="small-text">Felled by time or tool, yet in my silence, life renews.</p>
+					<input type="text" id="answer-forest" class="puzzle-answer" placeholder="Answer Here">
+					<button data-theme="forest" class="puzzle-answer-button">Unlock Theme</button>
+					<div id="feedback-message-forest" class="feedback-message"></div>
+				</div>
+				<div id="puzzle-ocean" class="puzzle" data-theme="ocean">
+				  <h2>Unlock Ocean Theme</h2>
+				  <!-- Part One -->
+				  <div id="part-1-ocean">
+					<p>Part 1: What did the ocean say to the island? Nothing. It just _____</p>
+					<input type="text" id="answer-ocean-part-1" class="puzzle-answer" placeholder="Answer Here"/>
+					<button data-theme="ocean" data-part="1" class="puzzle-answer-button">Go To Part 2</button>
+					<div id="feedback-message-ocean-part-1" class="feedback-message"></div>
+				  </div>
+				  <!-- Part Two -->
+				  <div id="part-2-ocean" style="display: none;">
+					<p>Part 2: What is the least visited tourist destination in the world?</p>
+					<input type="text" id="answer-ocean-part-2" class="puzzle-answer" placeholder="Answer Here"/>
+					<button data-theme="ocean" data-part="2" class="puzzle-answer-button">Unlock Theme</button>
+					<div id="feedback-message-ocean-part-2" class="feedback-message"></div>
+				  </div>
+				</div>
+				<div id="puzzle-space" class="puzzle" data-theme="space">
+					<h2>Unlock Space Theme</h2>
+					<div id="chessboard"></div> <!-- This is where the chessboard will appear -->
+					<button id="startBtn">Start New Game</button>
+	`			</div>
+				<div id="puzzle-vaporwave" class="puzzle" data-theme="vaporwave">
+					<h2>Unlock Vaporwave Theme</h2>
+					<p class="small-text">The following is a simple substitution cryptogram in which a number has been substituted for a letter.</p>
+					<p class="small-text">The same number stands for the same letter each time</p>
+					<br>
+					<p class="small-text">26&nbsp;&nbsp;&nbsp;25 18 9 23&nbsp;&nbsp;&nbsp;18 13&nbsp;&nbsp;&nbsp;7 19 22&nbsp;&nbsp;&nbsp;19 26 13 23</p>
+					<p class="small-text">18 8&nbsp;&nbsp;&nbsp;14 22 8 8 2</p>
+					<input type="text" id="answer-vaporwave" class="puzzle-answer" placeholder="Answer Here">
+					<button data-theme="vaporwave" class="puzzle-answer-button">Unlock Theme</button>
+					<div id="feedback-message-vaporwave" class="feedback-message"></div>
+				</div>
+				<div id="puzzle-magma" class="puzzle" data-theme="magma">
+					<h2>Unlock Magma Theme</h2>
+					<p>Get a 1024 block to unlock this theme.</p>
+					<p>Use your arrow keys to play the game.</p>
+					<div id="game2048-container-magma" class="game-container"></div>
+				</div>
+				<div id="puzzle-library" class="puzzle" data-theme="library">
+				  <h2>Unlock Library Theme</h2>
+				  <p class="small-text">In a beanbag toss game, each beanbag that lands</p>
+				  <p class="small-text">in one of the circles A, B, or C is awarded the</p>
+				  <p class="small-text">value of that circle. Nita is given a chance to</p>
+				  <p class="small-text">toss two beanbags.</p>
+				  <p class="small-text">Scoring A and B gives 19 points</p>
+				  <p class="small-text">Scoring A and C gives 14 points</p>
+				  <p class="small-text">Scoring B and C gives 13 points</p>
+				  <p class="small-text">Nina's two beanbags landed in circle C. What did she score? (Number only)</p>
+				  <input type="text" id="answer-library" class="puzzle-answer" placeholder="Answer Here">
+				  <button data-theme="library" class="puzzle-answer-button">Unlock Theme</button>
+				  <div id="feedback-message-library" class="feedback-message"></div>
+				</div>
+				<div id="puzzle-mountain" class="puzzle" data-theme="mountain">
+				  <h2>Unlock Mountain Theme</h2>
+				  <h3>The name of a country is hidden in each of the sentences below. Find the country</h3>
+				  <!-- Part One -->
+				  <div id="part-1-mountain">
+					<p>Part 1: The doorbell sign said, "Don't touch. In a real emergency, pull the cord."</p>
+					<input type="text" id="answer-mountain-part-1" class="puzzle-answer" placeholder="Answer Here"/>
+					<button data-theme="mountain" data-part="1" class="puzzle-answer-button">Go To Part 2</button>
+					<div id="feedback-message-mountain-part-1" class="feedback-message"></div>
+				  </div>
+				  <!-- Part Two -->
+				  <div id="part-2-mountain" style="display: none;">
+					<p>Part 2: They got married secretly, but no one is wed entirely alone, so there were witnesses.</p>
+					<input type="text" id="answer-mountain-part-2" class="puzzle-answer" placeholder="Answer Here"/>
+					<button data-theme="mountain" data-part="2" class="puzzle-answer-button">Go To Part 3</button>
+					<div id="feedback-message-mountain-part-2" class="feedback-message"></div>
+				  </div>
+				  <!-- Part Two -->
+				  <div id="part-3-mountain" style="display: none;">
+					<p>Part 3: We needed to visit a a health resort, so we went to a spa in another country.</p>
+					<input type="text" id="answer-mountain-part-3" class="puzzle-answer" placeholder="Answer Here"/>
+					<button data-theme="mountain" data-part="3" class="puzzle-answer-button">Unlock Theme</button>
+					<div id="feedback-message-mountain-part-3" class="feedback-message"></div>
+				  </div>
+				</div>
+				<div id="puzzle-hartley" class="puzzle" data-theme="hartley">
+					<h2>Unlock Hartley Theme</h2>
+					<p>Go see Mr. Hartley in B216 to get the answer to this theme.</p>
+					<input type="text" id="answer-hartley" class="puzzle-answer" placeholder="Answer Here">
+					<button data-theme="hartley" class="puzzle-answer-button">Unlock Theme</button>
+					<div id="feedback-message-hartley" class="feedback-message"></div>
+				</div>
 			  </div>
-			  <!-- Part Two -->
-			  <div id="part-2-ocean" style="display: none;">
-				<p>Part 2: What is the least visited tourist destination in the world?</p>
-				<input type="text" id="answer-ocean-part-2" class="puzzle-answer" placeholder="Answer Here"/>
-				<button data-theme="ocean" data-part="2" class="puzzle-answer-button">Unlock Theme</button>
-				<div id="feedback-message-ocean-part-2" class="feedback-message"></div>
-			  </div>
 			</div>
-		    <div id="puzzle-space" class="puzzle" data-theme="space">
-				<h2>Unlock Space Theme</h2>
-				<div id="chessboard"></div> <!-- This is where the chessboard will appear -->
-				<button id="startBtn">Start New Game</button>
-`			</div>
-			<div id="puzzle-volcano" class="puzzle" data-theme="volcano">
-			  <h2>Unlock Lava Theme</h2>
-			  <p>Coming Soon!</p>
-			  <input type="text" id="answer-volcano" class="puzzle-answer" placeholder="Answer Here">
-			  <button data-theme="volcano" class="puzzle-answer-button">Unlock Theme</button>
-			  <div id="feedback-message-volcano" class="feedback-message"></div>
-			</div>
-			<div id="puzzle-library" class="puzzle" data-theme="library">
-			  <h2>Unlock Library Theme</h2>
-			  <p>Coming Soon!</p>
-			  <input type="text" id="answer-library" class="puzzle-answer" placeholder="Answer Here">
-			  <button data-theme="volcano" class="puzzle-answer-button">Unlock Theme</button>
-			  <div id="feedback-message-library" class="feedback-message"></div>
-			</div>
-		  </div>
 		</div>
 
 

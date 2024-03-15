@@ -1,6 +1,7 @@
 body {
 	margin-top: -55px;
 	font-family: var(--norm-font);
+	overflow: hidden;
 }
 
 .block {
@@ -267,7 +268,7 @@ p {
   opacity: 0.5;
 }
 
-#themes_selector {
+#themes_shop_container {
 	margin-top: -14px;
 	margin-bottom: 2px;
 	justify-self: center;
@@ -275,43 +276,64 @@ p {
 	user-select: none;
 }
 
-#main-theme-buttons {
-  display: flex;
-  justify-content: center; /* This will center all buttons */
-  align-items: center; /* This will align the buttons vertically */
-  margin-left: 30px;
-}
-
-#more-themes-toggle {
+#theme_selector {
+  display: inline-block;
+  position: relative;
+  width: 215px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
   text-decoration: none;
+  font-family: robotobold;
   cursor: pointer;
-  font-size: 30px;
-  color: white;
-  -webkit-text-stroke: 1px black;
-  transition: transform 0.3s ease;
+  color: var(--button-text-color-alt);
+  pointer-events: visible;
+  background-size: 26px; /* Reduces the size of the background image to create a 2px border around it */
+  background-position: 4px 50%;
+  border: 2px solid black;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-#more-themes-toggle[data-open="true"] {
-  transform: rotate(180deg); /* Arrow points down when additional themes are visible */
+#themes_blur {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 10px;
+	background-color: rgba(0, 0, 0, 0.6);
+	backdrop-filter: blur(5px);
+	z-index: 1000;  /* Make sure the modal appears on top */
 }
 
-.additional-themes-container {
-  max-height: 0;
-  overflow: hidden;
-  padding: 0 40px 0;
-  transition: max-height 0.3s ease-out;
+#themes_selector {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: var(--container-background-color);
+	border: 2px solid var(--active-color);
+	padding: 20px;
+	max-height: 80vh;
+	border-radius: 8px;
+	text-align: center;
+	font-size: 30px;
+	font-family: robotobold;
+	overflow-y: hidden;  /* Make content scrollable */
+	width: calc(250px + 25vw);
+	max-width: 450px;
+	min-height: 100px;
+	z-index: 1001;
+	box-sizing: border-box;  /* To include padding and border in the element's total width and height */
 }
-
-.additional-themes-container a {
-	margin: 0 3px 0
-}
-
 
 .theme-button {
   display: inline-block;
   position: relative;
-  width: 30px;
-  height: 30px;
+  background-position: center;
+  width: 80px;
+  height: 50px;
   cursor: pointer;
   border: 2px solid black;
   margin-left: 5px;
@@ -327,7 +349,8 @@ p {
   width: calc(100% - 4px);
   height: calc(100% - 4px);
   background-image: url('../img/checkmark.svg'); /* Replace with your checkmark icon */
-  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .theme-button.active::after {
@@ -366,6 +389,48 @@ p {
     opacity: 0;
 }
 
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 400px; /* Adjust based on your design */
+    height: 400px; /* Adjust based on your design */
+    margin: auto;
+    background-color: #bbada0;
+    padding: 10px;
+    border-radius: 10px;
+    grid-auto-rows: 1fr;
+}
+
+
+.game-tile {
+    background-color: #cdc1b4;
+    text-align: center;
+    line-height: 90px;
+    font-size: 55px;
+    font-weight: bold;
+    border-radius: 5px;
+	color: white;
+    transition: background-color 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.game-tile.merging {
+    animation: mergeTile 0.1s forwards;
+}
+
+@keyframes mergeTile {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
 .lunch-btn.selected::before {
     opacity: 1;
 }
@@ -393,7 +458,7 @@ p {
 }
 
 .lunch-btn.selected:hover {
-    background-color: rgba(255, 0, 0, 0.8); /* Darken the red background on hover */
+    background-color: rgba(var(--active-color), 0.8); /* Darken the red background on hover */
 }
 
 #lunch__choose {

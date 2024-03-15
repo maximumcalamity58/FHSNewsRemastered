@@ -3,48 +3,47 @@
   --light-font: "robotolight";
   --bold-font: "robotobold";
 
-  --background-image: url('../img/ocean.png');
+  --background-image: url('../img/library.png');
   --secondary-background-color: rgb(210,210,210);
-  --container-background-color: rgba(255, 255, 255, 0.5);
-  --container-text-color: black;
-  --countdown-text-color: #6495ed;
+  --container-background-color: rgba(0, 0, 0, 0.5);
+  --container-text-color: #fff;
+  --countdown-text-color: #d2c6a5;
   --gallery-dot-color: #D3D3D3;
 
   --button-background-color: white;
   --button-text-color: black;
   --button-text-color-alt: white;
   --button-hover-background: rgba(196, 196, 196, 0.5);
-  --button-hover-background-alt: rgba(100, 149, 237, 0.8);
+  --button-hover-background-alt: rgba(237, 169, 100, 0.8);
   --button-hover-text: black;
-  --button-active-color: rgba(255, 255, 255, 0.5);
+  --button-active-color: rgba(0, 0, 0, 0.5);
 
-  --soft-color: #95a6ec;
+  --soft-color: #c59d8a;
 
-  --calendar-red: lightcoral;
-  --calendar-green: lightgreen;
-  --calendar-blue: #9dd7e6;
-  --calendar-yellow: #ffffc0;
-  --calendar-silver: #e3e3e3;
-  --calendar-purple: #e3b0fb;
-  --calendar-gray: lightgrey;
-  --calendar-white: white;
+  --calendar-red: #c04040;
+  --calendar-green: #50be50;
+  --calendar-blue: #5da7b6;
+  --calendar-yellow: #cfcf80;
+  --calendar-silver: #a3a3a3;
+  --calendar-purple: #9360cb;
+  --calendar-gray: #737373;
+  --calendar-white: #ccc;
 
-
-  --header-background-color: #6495ed;
+  --header-background-color: #80614f;
   --header-text-color: white;
   --header-icon-color: white;
-  --navigation-background-color: white;
-  --navigation-icon-color: rgb(100,100,100);
-  --navigation-active-icon-color: #6495ed;
+  --navigation-background-color: #865944;
+  --navigation-icon-color: rgb(80, 56, 44);
+  --navigation-active-icon-color: #be995c;
 
-	--error-bg: rgb(125,150,205);
+	--error-bg: rgb(205, 161, 125);
 
-  --active-color: #6495ed;
-  --active-hover-color: rgb(120,150,200);
-  --dark-color: #0c2d81;
+  --active-color: #edad64;
+  --active-hover-color: rgb(200, 163, 120);
+  --dark-color: #814e0c;
 
   --outline-color: rgb(180,180,180);
 
-  --anchor-color: #6495ed;
+  --anchor-color: #eda964;
   --anchor-hover: black;
 }
