@@ -1,7 +1,6 @@
 body {
 	margin-top: -55px;
 	font-family: var(--norm-font);
-	overflow: hidden;
 }
 
 .block {

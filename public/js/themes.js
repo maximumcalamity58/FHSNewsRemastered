@@ -75,6 +75,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     checkAnswer('mountain', 2)
                 }
             }
+            if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'sunset') {
+                checkAnswer('sunset');
+            }
         }
     });
 });
@@ -133,6 +136,9 @@ const themeAnswers = {
     },
     hartley: {
         parts: ['bitcoin']
+    },
+    sunset: {
+        parts: ['55']
     }
     // Add more themes and parts as needed
 };
