@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="Cache-control" content="no-cache">
+
+    <title>Calendar</title>
+	<link rel="shortcut icon" type="image/ico" href="../img/favicon.ico">
+
+    <script src="../js/calendar.js" charset="utf-8"></script>
+
+    	<!-- Inline script to set the theme immediately -->
+	<script>
+	(function() {
+	  var savedTheme = localStorage.getItem('selectedTheme') || 'default';
+	  document.write('<link rel="stylesheet" href="../themes/' + savedTheme + '.css" id="theme-style">');
+	})();
+	</script>
+
+    <link rel="stylesheet" href="../css/calendar.css">
+    <link rel="stylesheet" href="../css/global.css">
+
+    <link rel="stylesheet" href="" id="theme-style"> <!-- default theme -->
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="school-header">
+                <div class="custom-dropdown">
+                    <div class="dropdown-header">
+                        <span id="schoolTitle">Fishers High School</span>
+                        <div class="dropdown-arrow">&#9660;</div>
+                    </div>
+                    <div class="dropdown-options"></div>
+                </div>
+            </div>
+            <!-- <a href="/fishers"></a> -->
+            <a href="info.html">
+                <div>
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+                      <path d="M18,3A15,15,0,1,0,33,18,15.005,15.005,0,0,0,18,3Zm0,4.5A4.5,4.5,0,1,1,13.5,12,4.494,4.494,0,0,1,18,7.5Zm0,21.3a10.8,10.8,0,0,1-9-4.83c.045-2.985,6-4.62,9-4.62s8.955,1.635,9,4.62a10.8,10.8,0,0,1-9,4.83Z" transform="translate(-3 -3)"/>
+                    </svg> -->
+                    <img src="../img/questionmark_white.png" alt="?" width="40" height="40">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.985 17.17">
+                      <path d="M5.316,14.211v3.816l6.677,3.644,6.677-3.644V14.211l-6.677,3.644ZM11.993,4.5,1.5,10.223l10.493,5.723,8.585-4.684v6.591h1.908V10.223Z" transform="translate(-1.5 -4.5)"/>
+                    </svg> -->
+                </div>
+            </a>
+        </header>
+        <article id="main-body">
+            <section id="calendar_section">
+                <div id="loading-bar-container">
+                    <div id="loading-bar-background">
+                        <div id="loading-bar"></div>
+                    </div>
+                </div>
+                <div id="calendar_container" class="container">
+                    <div class="calendar_head">
+                        <button type="button" name="button" class="calendar_head_btn" value='-1'><p></p></button>
+                        <div id="calendar_date"><p>undefined</p></div>
+                        <button type="button" name="button" class="calendar_head_btn" value='1'><p></p></button>
+                    </div>
+                    <div class="calendar_body">
+                        <!-- Calendar table will be inserted here by JS -->
+                    </div>
+                </div>
+            </section>
+        </article>
+        <div id="eventModal" class="modal hidden">
+            <div class="modal-content">
+                <p id="eventContent">Events will go here</p>
+            </div>
+        </div>
+        <nav>
+            <div id="nav-tabs">
+                <a id="nav-tabs__home" href="../index.html">
+                    <div>
+                        <img class="svg-convert" src="../img/gradcap.svg" alt="Home" width="34" height="34">
+                        <span>Home</span>
+                    </div>
+                </a>
+                <a id="nav-tabs__clubs" href="../html/clubs.html">
+                    <div>
+                        <img class="svg-convert" src="../img/clubs.svg" alt="Clubs" width="34" height="34">
+                        <span>Clubs</span>
+                    </div>
+                </a>
+                <a id="nav-tabs__cal" href="../html/calendar.html" class="selected">
+                    <div>
+                        <img class="svg-convert" src="../img/calendar.svg" alt="Calendar" width="34" height="34">
+                        <span>Calendar</span>
+                    </div>
+                </a>
+            </div>
+        </nav>
+    </div>
+</body>
+
+<script type="text/javascript">
+    window.addEventListener('load', function() {
+	  // Get all img tags with svg-to-inline class
+	  var imgTags = document.querySelectorAll('.svg-convert');
+
+	  // Loop through each tag found
+	  imgTags.forEach(function(img) {
+		var imgURL = img.src;
+
+		// Fetch the SVG
+		fetch(imgURL)
+		  .then(response => response.text())
+		  .then(data => {
+			// Parse fetched SVG and replace img tag with it
+			var parser = new DOMParser();
+			var doc = parser.parseFromString(data, 'image/svg+xml');
+			img.parentNode.replaceChild(doc.documentElement, img);
+		  })
+		  .catch(error => {
+			console.error("Error fetching the SVG: ", error);
+		  });
+	  });
+	});
+</script>
+
+<script type="text/javascript">
+    var calendarSection, scheduleSection, calendar;
+    document.onreadystatechange = () => {
+        if (document.readyState === 'complete') {
+            findElements(document.body, false, "#nav-tabs__cal").classList.toggle("selected");
+
+            calendarSection = findElements(document.body, false, "#calendar_container");
+            scheduleSection = findElements(document.body, false, "#schedule_section");
+            scheduleSection.classList = "hidden";
+            scheduleSection.onclick = (e) => {
+                scheduleSection.classList = "hidden";
+            }
+
+            //set days of the week along the calendar
+            let weekDayNames = findElements(calendarSection, true, ".weekday");
+            DAYS_OF_WEEK_ABR.forEach((item, i) => {
+                weekDayNames[i].innerHTML = item;
+            });
+            setCurrentMonthDisplay(); //show current month
+            //set arrow buttons to update calendar display
+            for (let btn of findElements(calendarSection, true, '.calendar_head_btn')) {
+                btn.onclick = function () {
+                    calendar.updateMonth(parseInt(btn.value))
+                    setCurrentMonthDisplay();
+                }
+            }
+
+            // -----------------------BEGIN THEME JS-------------------------
+            console.log("Default: the basic theme");
+        }
+    }
+
+    // Function to switch the theme and save the choice in localStorage
+	function switchTheme(themeName) {
+	  const themeLink = document.getElementById('theme-style');
+	  themeLink.href = `../themes/${themeName}.css`;
+	}
+
+    window.addEventListener('DOMContentLoaded', function () {
+    // Apply the saved theme when the page loads
+	  const savedTheme = localStorage.getItem('selectedTheme');
+	  if (savedTheme) {
+          switchTheme(savedTheme);
+
+      }
+    });
+</script>

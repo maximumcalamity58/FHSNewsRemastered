@@ -1,0 +1,467 @@
+{
+    "2": [
+        {
+            "title": "Wrestling Practice",
+            "time": "10:00am - 11:30am",
+            "location": "@Fall Creek Junior High - FCJH GYM - AUXILIARY"
+        }
+    ],
+    "3": [
+        {
+            "title": "Wrestling Practice",
+            "time": "10:00am - 11:30am",
+            "location": "@Fall Creek Junior High - FCJH GYM - AUXILIARY"
+        }
+    ],
+    "4": [
+        {
+            "title": "Wrestling Practice",
+            "time": "10:00am - 11:30am",
+            "location": "@Fall Creek Junior High - FCJH GYM - AUXILIARY"
+        }
+    ],
+    "6": [
+        {
+            "title": "7th/8th Boys Basketball Practice",
+            "time": "9:00am - 11:00am",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "Open Gym",
+            "time": "9:00am - 11:30am",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        }
+    ],
+    "8": [
+        {
+            "title": "FCJ Sports Practices",
+            "time": "4:00pm - 8:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "8th Grade Girls Basketball Game",
+            "time": "5:30pm - 9:00pm",
+            "location": "@AWAY"
+        }
+    ],
+    "9": [
+        {
+            "title": "7th Grade Boys Basketball Game",
+            "time": "5:30pm - 9:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "8th Grade Boys Basketball Game",
+            "time": "5:30pm - 9:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "FCJH Wrestling (Boys 7 & 8)",
+            "time": "6:00pm",
+            "location": "@AWAY"
+        }
+    ],
+    "10": [
+        {
+            "title": "Robotics Club",
+            "time": "8:15am - 9:00am",
+            "location": "@AWAY"
+        },
+        {
+            "title": "Math Tutoring",
+            "time": "8:30am - 9:15am",
+            "location": null
+        },
+        {
+            "title": "FCJ Sports Practices",
+            "time": "4:00pm - 8:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "Musical Read Through",
+            "time": "4:00pm - 5:30pm",
+            "location": null
+        },
+        {
+            "title": "7th Grade Girls Basketball Game",
+            "time": "6:30pm - 9:00pm",
+            "location": "@AWAY"
+        }
+    ],
+    "11": [
+        {
+            "title": "FCJ Sports Practices",
+            "time": "4:00pm - 8:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "FCJH Wrestling (Boys 7 & 8)",
+            "time": "5:30pm - 8:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        }
+    ],
+    "12": [
+        {
+            "title": "Math Tutoring",
+            "time": "8:30am - 9:15am",
+            "location": null
+        },
+        {
+            "title": "FCJ Sports Practices",
+            "time": "4:00pm - 8:30pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        }
+    ],
+    "13": [
+        {
+            "title": "7th/8th Boys Basketball Practice",
+            "time": "9:00am - 11:00am",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "8th Grade Girls Basketball Game",
+            "time": "12:45pm - 5:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        }
+    ],
+    "15": [
+        {
+            "title": "FCJ Sports Practices",
+            "time": "4:00pm - 8:30pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        }
+    ],
+    "16": [
+        {
+            "title": "FCJ Sports Practices",
+            "time": "4:00pm - 8:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "Musical Practice",
+            "time": "4:00pm - 5:30pm",
+            "location": null
+        },
+        {
+            "title": "7th Grade Girls Basketball Game",
+            "time": "5:30pm - 9:00pm",
+            "location": "@AWAY"
+        },
+        {
+            "title": "8th Grade Girls Basketball Game",
+            "time": "5:30pm - 9:00pm",
+            "location": "@AWAY"
+        }
+    ],
+    "17": [
+        {
+            "title": "Musical Practice",
+            "time": "8:00am - 9:05am",
+            "location": null
+        },
+        {
+            "title": "Robotics Club",
+            "time": "8:15am - 9:00am",
+            "location": "@AWAY"
+        },
+        {
+            "title": "Math Tutoring",
+            "time": "8:30am - 9:15am",
+            "location": null
+        },
+        {
+            "title": "Musical Practice",
+            "time": "4:00pm - 5:30pm",
+            "location": null
+        },
+        {
+            "title": "7th Grade Boys Basketball Game",
+            "time": "5:30pm - 9:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "8th Grade Boys Basketball Game",
+            "time": "5:30pm - 9:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        }
+    ],
+    "18": [
+        {
+            "title": "FCJ Sports Practices",
+            "time": "4:00pm - 8:30pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "Musical Practice",
+            "time": "4:00pm - 5:30pm",
+            "location": null
+        },
+        {
+            "title": "7th & 8th Grade Girls Basketball Game",
+            "time": "5:30pm - 8:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "Martin Luther King Jr. Day",
+            "time": "All Day"
+        }
+    ],
+    "19": [
+        {
+            "title": "Musical Practice",
+            "time": "8:00am - 9:05am",
+            "location": null
+        },
+        {
+            "title": "Math Tutoring",
+            "time": "8:30am - 9:15am",
+            "location": null
+        },
+        {
+            "title": "FCJ Sports Practices",
+            "time": "4:00pm - 8:30pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        }
+    ],
+    "20": [
+        {
+            "title": "7th/8th Boys Basketball Practice",
+            "time": "9:00am - 11:00am",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        }
+    ],
+    "22": [
+        {
+            "title": "Mathcounts Practice",
+            "time": "8:00am - 9:15am",
+            "location": null
+        },
+        {
+            "title": "Musical Practice",
+            "time": "8:00am - 9:05am",
+            "location": null
+        },
+        {
+            "title": "FCJ Sports Practices",
+            "time": "4:00pm - 8:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "FCJ Sports Practices",
+            "time": "4:00pm - 8:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "7th Grade Girls Basketball Game",
+            "time": "5:30pm - 9:00pm",
+            "location": "@AWAY"
+        },
+        {
+            "title": "8th Grade Girls Basketball Game",
+            "time": "5:30pm - 9:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        }
+    ],
+    "23": [
+        {
+            "title": "FCJ Sports Practices",
+            "time": "4:00pm - 8:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "Musical Practice",
+            "time": "4:00pm - 5:30pm",
+            "location": null
+        },
+        {
+            "title": "FCJH Wrestling (Boys 7 & 8)",
+            "time": "5:30pm - 8:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        }
+    ],
+    "24": [
+        {
+            "title": "Musical Practice",
+            "time": "8:00am - 9:05am",
+            "location": null
+        },
+        {
+            "title": "Robotics Club",
+            "time": "8:15am - 9:00am",
+            "location": "@AWAY"
+        },
+        {
+            "title": "Math Tutoring",
+            "time": "8:30am - 9:15am",
+            "location": null
+        },
+        {
+            "title": "FCJ Sports Practices",
+            "time": "4:00pm - 8:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "Musical Practice",
+            "time": "4:00pm - 5:30pm",
+            "location": null
+        },
+        {
+            "title": "7th Grade Girls Basketball Game",
+            "time": "5:30pm - 9:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "8th Grade Girls Basketball Game",
+            "time": "5:30pm - 9:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        }
+    ],
+    "25": [
+        {
+            "title": "Musical Practice",
+            "time": "4:00pm - 5:30pm",
+            "location": null
+        },
+        {
+            "title": "7th Grade Boys Basketball Game",
+            "time": "5:30pm - 9:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "8th Grade Boys Basketball Game",
+            "time": "5:30pm - 9:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        }
+    ],
+    "26": [
+        {
+            "title": "Musical Practice",
+            "time": "8:00am - 9:05am",
+            "location": null
+        },
+        {
+            "title": "Junior Black Student Union Meeting",
+            "time": "8:20am - 9:15am",
+            "location": null
+        },
+        {
+            "title": "Math Tutoring",
+            "time": "8:30am - 9:15am",
+            "location": null
+        },
+        {
+            "title": "FCJ Sports Practices",
+            "time": "4:00pm - 8:30pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        }
+    ],
+    "27": [
+        {
+            "title": "8th Grade Girls Basketball Game",
+            "time": "8:30am - 12:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "7th/8th Boys Basketball Practice",
+            "time": "9:00am - 11:00am",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "FCJH Wrestling (Boys 7 & 8)",
+            "time": "9:00am - 12:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        }
+    ],
+    "29": [
+        {
+            "title": "Mathcounts Practice",
+            "time": "8:00am - 9:15am",
+            "location": null
+        },
+        {
+            "title": "Musical Practice",
+            "time": "8:00am - 9:05am",
+            "location": null
+        },
+        {
+            "title": "FCJ Sports Practices",
+            "time": "4:00pm - 8:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "Girl Scout Meetings Troop 213 - FCJH",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Fall Creek Junior High - Conference Room"
+        },
+        {
+            "title": "7th Grade Girls Basketball Game",
+            "time": "5:30pm - 9:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        },
+        {
+            "title": "8th Grade Boys Basketball Game",
+            "time": "5:30pm - 9:00pm",
+            "location": "@AWAY"
+        }
+    ],
+    "30": [
+        {
+            "title": "Math Tutoring",
+            "time": "8:30am - 9:15am",
+            "location": null
+        },
+        {
+            "title": "Musical Practice",
+            "time": "4:00pm - 5:30pm",
+            "location": null
+        },
+        {
+            "title": "7th Grade Boys Basketball Game",
+            "time": "5:30pm - 9:00pm",
+            "location": "@AWAY"
+        },
+        {
+            "title": "8th Grade Boys Basketball Game",
+            "time": "5:30pm - 9:00pm",
+            "location": "@AWAY"
+        },
+        {
+            "title": "8th Grade Girls Basketball Game",
+            "time": "5:30pm - 9:00pm",
+            "location": "@AWAY"
+        },
+        {
+            "title": "FCJH Wrestling (Boys 7 & 8)",
+            "time": "5:30pm - 8:00pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        }
+    ],
+    "31": [
+        {
+            "title": "Musical Practice",
+            "time": "8:00am - 9:05am",
+            "location": null
+        },
+        {
+            "title": "Robotics Club",
+            "time": "8:15am - 9:00am",
+            "location": "@AWAY"
+        },
+        {
+            "title": "Math Tutoring",
+            "time": "8:30am - 9:15am",
+            "location": null
+        },
+        {
+            "title": "FCJ Sports Practices",
+            "time": "4:00pm - 8:30pm",
+            "location": "Fall Creek Junior High - FCJH GYM - AUXILIARY, Fall Creek Junior High - FCJH GYM - MAIN"
+        }
+    ],
+    "01": [
+        {
+            "title": "New Year's Day",
+            "time": "All Day"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "1": [
+        {
+            "title": "Graduation",
+            "time": "10:00am",
+            "location": "@Off site location please see notes"
+        }
+    ],
+    "5": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "HCC Banquet",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - HSE HS CCA Cafe E"
+        }
+    ],
+    "6": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "College Bootcamp",
+            "time": "9:00am - 2:00pm",
+            "location": "HHS - HSE HS CCA Cafe E, HHS - HSE HS CCA Commons, HHS - HSE HS CCA Gathering Stairs, Room K101 - Soft Seating"
+        }
+    ],
+    "7": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "College Bootcamp",
+            "time": "9:00am - 2:00pm",
+            "location": "HHS - HSE HS CCA Cafe E, HHS - HSE HS CCA Commons, HHS - HSE HS CCA Gathering Stairs, Room K101 - Soft Seating"
+        }
+    ],
+    "10": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "HCC Banquet",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS CCA Cafe E"
+        }
+    ],
+    "14": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "MEET",
+            "time": "6:00am - 8:00pm",
+            "location": "HHS - Cardio Room - D116, HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5, HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "HSE HS Girls Basketball Host Date",
+            "time": "6:00pm - 9:00pm",
+            "location": "HHS - HSE HS GYM - VARSITY, HHS - HSE HS GYM - AUXILIARY, HHS - HSE HS Gym - Auxiliary Gym 2"
+        }
+    ],
+    "15": [
+        {
+            "title": "MEET",
+            "time": "6:00am - 8:00pm",
+            "location": "HHS - Cardio Room - D116, HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5, HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "HSE HS Girls Basketball Host Date",
+            "time": "6:00pm - 9:00pm",
+            "location": "HHS - HSE HS GYM - VARSITY, HHS - HSE HS GYM - AUXILIARY, HHS - HSE HS Gym - Auxiliary Gym 2"
+        }
+    ],
+    "16": [
+        {
+            "title": "MEET",
+            "time": "6:00am - 8:00pm",
+            "location": "HHS - Cardio Room - D116, HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5, HHS - HSE HS Aux Court 6 NEW AUX"
+        }
+    ],
+    "19": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Juneteenth",
+            "time": "All Day"
+        }
+    ]
+}

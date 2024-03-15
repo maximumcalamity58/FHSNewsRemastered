@@ -1,0 +1,294 @@
+{
+    "1": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Robotics",
+            "time": "8:00am - 9:00am",
+            "location": "@Media Center"
+        }
+    ],
+    "2": [
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Games",
+            "time": "9:00am - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN, Riverside - RSI GYM"
+        }
+    ],
+    "4": [
+        {
+            "title": "Robotics",
+            "time": "8:00am - 9:00am",
+            "location": "@Media Center"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec/Travel Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "5": [
+        {
+            "title": "Girls Basketball",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "6": [
+        {
+            "title": "Nature Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        },
+        {
+            "title": "YMI Youth Mentoring Initiative",
+            "time": "8:00am - 9:00am",
+            "location": "@Riverside - RSI LGI"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec/Travel Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "7": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec/Travel Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "8": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Robotics",
+            "time": "8:00am - 9:00am",
+            "location": "@Media Center"
+        }
+    ],
+    "9": [
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Games",
+            "time": "9:00am - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN, Riverside - RSI GYM"
+        }
+    ],
+    "11": [
+        {
+            "title": "Robotics",
+            "time": "8:00am - 9:00am",
+            "location": "@Media Center"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec/Travel Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "12": [
+        {
+            "title": "Girls Basketball",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "PTO Meeting",
+            "time": "6:30pm",
+            "location": "@Media Center"
+        }
+    ],
+    "13": [
+        {
+            "title": "Nature Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        },
+        {
+            "title": "YMI Youth Mentoring Initiative",
+            "time": "8:00am - 9:00am",
+            "location": "@Riverside - RSI LGI"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec/Travel Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "School Board Meeting",
+            "time": "7:00pm",
+            "location": null
+        }
+    ],
+    "14": [
+        {
+            "title": "Mobile Dentist",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec/Travel Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "15": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Robotics",
+            "time": "8:00am - 9:00am",
+            "location": "@Media Center"
+        },
+        {
+            "title": "Hawk Party",
+            "time": "4:00pm - 5:30pm",
+            "location": "Riverside - RSI Cafeteria, Riverside - RSI GYM"
+        }
+    ],
+    "16": [
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Games",
+            "time": "9:00am - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN, Riverside - RSI GYM"
+        }
+    ],
+    "18": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Robotics",
+            "time": "8:00am - 9:00am",
+            "location": "@Media Center"
+        },
+        {
+            "title": "Band Concert",
+            "time": "7:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "19": [
+        {
+            "title": "Girls Basketball",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "20": [
+        {
+            "title": "Musical",
+            "time": "8:00am - 9:00am",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "Nature Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        },
+        {
+            "title": "YMI Youth Mentoring Initiative",
+            "time": "8:00am - 9:00am",
+            "location": "@Riverside - RSI LGI"
+        },
+        {
+            "title": "Best Buddies",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "21": [
+        {
+            "title": "Orchestra Concert",
+            "time": "7:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "26": [
+        {
+            "title": "YMCA Holiday Camp/School's Out Camp",
+            "time": "6:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "27": [
+        {
+            "title": "YMCA Holiday Camp/School's Out Camp",
+            "time": "6:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "28": [
+        {
+            "title": "YMCA Holiday Camp/School's Out Camp",
+            "time": "6:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "29": [
+        {
+            "title": "YMCA Holiday Camp/School's Out Camp",
+            "time": "6:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "24": [
+        {
+            "title": "Christmas Eve",
+            "time": "All Day"
+        }
+    ],
+    "25": [
+        {
+            "title": "Christmas Day",
+            "time": "All Day"
+        }
+    ],
+    "31": [
+        {
+            "title": "New Year's Eve",
+            "time": "All Day"
+        }
+    ]
+}

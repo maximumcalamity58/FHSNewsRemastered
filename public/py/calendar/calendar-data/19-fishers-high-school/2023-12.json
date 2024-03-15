@@ -1,0 +1,1644 @@
+{
+    "1": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Student Government Meeting",
+            "time": "7:30am - 8:15am",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Gabbard - IB TI and Employability",
+            "time": "1:30pm - 3:00pm",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Athletics",
+            "time": "3:00pm - 6:00pm",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Choir",
+            "time": "3:00pm - 9:00pm",
+            "location": "FHS- PA F115, FHS- PA F116, FHS- PA F117, FHS- PA F132, Fishers High School - FHS Large Auditorium"
+        },
+        {
+            "title": "Drama Club",
+            "time": "3:00pm - 4:00pm",
+            "location": "@Fishers High School - FHS Little Theatre - Black Box"
+        },
+        {
+            "title": "Percussion",
+            "time": "3:00pm - 6:00pm",
+            "location": "FHS- PA F138, FHS- PA F142"
+        },
+        {
+            "title": "FAST Swim Meet",
+            "time": "4:00pm - 8:30pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Basketball: B/JV",
+            "time": "6:00pm",
+            "location": "@Fishers High School"
+        },
+        {
+            "title": "Guard",
+            "time": "6:00pm - 9:00pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Volleyball Boys",
+            "time": "7:00pm - 9:00pm",
+            "location": "Fishers High School - FHS AUX COURT 4, Fishers High School - FHS AUX COURT 5, Fishers High School - FHS AUX COURT 6"
+        },
+        {
+            "title": "Basketball: B/V",
+            "time": "7:30pm",
+            "location": "@Fishers High School"
+        }
+    ],
+    "2": [
+        {
+            "title": "FAST Swim Meet",
+            "time": "6:30am - 8:00pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Guard",
+            "time": "9:00am - 12:30pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Wrestling: V",
+            "time": "9:00am",
+            "location": "@Franklin Central High School"
+        },
+        {
+            "title": "Wrestling: V",
+            "time": "9:00am",
+            "location": "@Westfield High School"
+        },
+        {
+            "title": "Basketball: G/V",
+            "time": "11:00am",
+            "location": "@Evansville North"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Games",
+            "time": "12:00pm - 6:00pm",
+            "location": "@Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Guard",
+            "time": "2:00pm - 9:00pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Basketball Boys",
+            "time": "3:00pm - 6:00pm",
+            "location": "Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Gym - Aux"
+        },
+        {
+            "title": "Basketball: G/V",
+            "time": "6:00pm",
+            "location": "@Evansville North"
+        },
+        {
+            "title": "Basketball: B/Freshman",
+            "time": "6:00pm",
+            "location": "@Fishers High School"
+        },
+        {
+            "title": "Basketball: B/JV",
+            "time": "6:00pm",
+            "location": "@Fishers High School"
+        },
+        {
+            "title": "Basketball: B/V",
+            "time": "7:30pm",
+            "location": "@Fishers High School"
+        }
+    ],
+    "3": [
+        {
+            "title": "FAST Swim Meet",
+            "time": "6:30am - 8:00pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        }
+    ],
+    "4": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Breakfast",
+            "time": "7:30am - 8:30am",
+            "location": "@Fishers High School - FHS Cafe B"
+        },
+        {
+            "title": "Tiger Leaders",
+            "time": "7:30am - 8:15am",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Tiger Leaders",
+            "time": "7:30am - 8:15am",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "AP ART History Class",
+            "time": "8:30am - 9:53am",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Guard Class",
+            "time": "8:30am - 9:53am",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Sociology Class",
+            "time": "8:30am - 9:53am",
+            "location": "@Fishers High School - FHS LGI"
+        },
+        {
+            "title": "Facilities",
+            "time": "9:00am - 10:00am",
+            "location": "@FHS- Other Teacher's Lounge"
+        },
+        {
+            "title": "Instructional Leader Meeting",
+            "time": "1:45pm - 3:00pm",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Athletics",
+            "time": "3:00pm - 6:00pm",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Choir",
+            "time": "3:00pm - 7:00pm",
+            "location": "FHS- PA F115, FHS- PA F116, FHS- PA F117, FHS- PA F119, FHS- PA F132, FHS- PA F137, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:15pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Cheer Winter",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers High School - FHS AUX COURT 3"
+        },
+        {
+            "title": "Guard",
+            "time": "4:30pm - 6:00pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "CRU",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS Cafe C/ CCA Commons"
+        },
+        {
+            "title": "Guard",
+            "time": "6:00pm - 9:00pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Mudsock Youth Athletics FHS Travel Girls Basketball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS Gym - Aux"
+        },
+        {
+            "title": "Percussion",
+            "time": "6:00pm - 9:00pm",
+            "location": "FHS- PA F138, FHS- PA F142"
+        },
+        {
+            "title": "Track & Field Practice",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS Gym Aux 2"
+        }
+    ],
+    "5": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Breakfast",
+            "time": "7:30am - 8:30am",
+            "location": "@Fishers High School - FHS Cafe B"
+        },
+        {
+            "title": "Gabbard - IB TI and Employability",
+            "time": "1:30pm - 3:00pm",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Athletics",
+            "time": "3:00pm - 6:00pm",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Cheer Fall",
+            "time": "3:00pm - 6:00pm",
+            "location": "@Fishers High School - FHS AUX COURT 3"
+        },
+        {
+            "title": "Choir",
+            "time": "3:00pm - 7:00pm",
+            "location": "FHS- PA F115, FHS- PA F116, FHS- PA F117, FHS- PA F119, FHS- PA F132, FHS- PA F137, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:15pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Model UN",
+            "time": "3:00pm - 4:00pm",
+            "location": "@Fishers High School - FHS LGI"
+        },
+        {
+            "title": "Basketball: B/Freshman",
+            "time": "6:00pm",
+            "location": "@Fishers High School"
+        },
+        {
+            "title": "Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS AUX COURT 3"
+        },
+        {
+            "title": "Guard",
+            "time": "6:00pm - 9:00pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Mudsock Youth Athletics FHS Travel Boys Basketball",
+            "time": "6:00pm - 9:00pm",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2"
+        },
+        {
+            "title": "Volleyball Boys",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Fishers High School - FHS Gym Aux 2"
+        }
+    ],
+    "6": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "NHS Meeting",
+            "time": "7:15am - 8:15am",
+            "location": "@Fishers High School - FHS Cafe C/ CCA Commons"
+        },
+        {
+            "title": "Breakfast",
+            "time": "7:30am - 8:30am",
+            "location": "@Fishers High School - FHS Cafe B"
+        },
+        {
+            "title": "DECA",
+            "time": "7:30am - 8:30am",
+            "location": "@Fishers High School - FHS Cafe A"
+        },
+        {
+            "title": "FCA",
+            "time": "7:45am - 8:15am",
+            "location": "@Fishers High School - FHS LGI"
+        },
+        {
+            "title": "AP ART History Class",
+            "time": "8:30am - 9:53am",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Guard Class",
+            "time": "8:30am - 9:53am",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Sociology Class",
+            "time": "8:30am - 9:53am",
+            "location": "@Fishers High School - FHS LGI"
+        },
+        {
+            "title": "Athletics",
+            "time": "3:00pm - 6:00pm",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Choir",
+            "time": "3:00pm - 7:00pm",
+            "location": "FHS- PA F115, FHS- PA F116, FHS- PA F117, FHS- PA F119, FHS- PA F132, FHS- PA F137, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
+        },
+        {
+            "title": "Clubs",
+            "time": "3:00pm - 5:00pm",
+            "location": "@FHS- ACA A224"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:15pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "NHS Meeting",
+            "time": "3:00pm - 4:00pm",
+            "location": "@Fishers High School - FHS LGI"
+        },
+        {
+            "title": "Drumline",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS GYM -  VARSITY"
+        },
+        {
+            "title": "Guard",
+            "time": "6:00pm - 9:00pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Mudsock Youth Athletics FHS Travel Girls Basketball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS Gym - Aux"
+        },
+        {
+            "title": "Track & Field Practice",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Wrestling: V",
+            "time": "6:30pm",
+            "location": "@Carmel High School, IN"
+        }
+    ],
+    "7": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Breakfast",
+            "time": "7:30am - 8:30am",
+            "location": "@Fishers High School - FHS Cafe B"
+        },
+        {
+            "title": "Riley",
+            "time": "7:45am - 8:30am",
+            "location": "@Fishers High School - FHS LGI"
+        },
+        {
+            "title": "Gabbard - IB TI and Employability",
+            "time": "1:30pm - 3:00pm",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Athletics",
+            "time": "3:00pm - 6:00pm",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Cheer Fall",
+            "time": "3:00pm - 6:00pm",
+            "location": "@Fishers High School - FHS AUX COURT 3"
+        },
+        {
+            "title": "Choir",
+            "time": "3:00pm - 7:00pm",
+            "location": "FHS- PA F115, FHS- PA F116, FHS- PA F117, FHS- PA F119, FHS- PA F132, FHS- PA F137, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:15pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Basketball: B/Freshman",
+            "time": "6:00pm",
+            "location": "@Hamilton Southeastern High School"
+        },
+        {
+            "title": "Basketball: B/JV",
+            "time": "6:00pm",
+            "location": "@Fishers High School"
+        },
+        {
+            "title": "Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS AUX COURT 3"
+        },
+        {
+            "title": "Guard",
+            "time": "6:00pm - 9:00pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Mudsock Youth Athletics FHS Travel Boys Basketball",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS Gym Aux 2"
+        }
+    ],
+    "8": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Breakfast",
+            "time": "7:30am - 8:30am",
+            "location": "@Fishers High School - FHS Cafe B"
+        },
+        {
+            "title": "Day of Service Committee",
+            "time": "7:30am - 8:15am",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Tiger Ambassador Club Meeting",
+            "time": "7:30am - 8:25am",
+            "location": "@Fishers High School - FHS Cafe A"
+        },
+        {
+            "title": "Key Club",
+            "time": "7:45am - 8:15am",
+            "location": "@Fishers High School - FHS LGI"
+        },
+        {
+            "title": "AP ART History Class",
+            "time": "8:30am - 9:53am",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Guard Class",
+            "time": "8:30am - 9:53am",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Sociology Class",
+            "time": "8:30am - 9:53am",
+            "location": "@Fishers High School - FHS LGI"
+        },
+        {
+            "title": "Athletics",
+            "time": "3:00pm - 6:00pm",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Choir",
+            "time": "3:00pm - 7:00pm",
+            "location": "FHS- PA F115, FHS- PA F116, FHS- PA F119, FHS- PA F137, FHS- PA F117, FHS- PA F132, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:15pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Percussion",
+            "time": "3:00pm - 6:00pm",
+            "location": "FHS- PA F138, FHS- PA F142"
+        },
+        {
+            "title": "Basketball: G/JV",
+            "time": "6:00pm",
+            "location": "@Noblesville High School"
+        },
+        {
+            "title": "Guard",
+            "time": "6:00pm - 9:00pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Choir",
+            "time": "7:00pm",
+            "location": "FHS- PA F115, FHS- PA F116, FHS- PA F119, FHS- PA F137, FHS- PA F117, FHS- PA F132, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
+        },
+        {
+            "title": "Volleyball Boys",
+            "time": "7:00pm - 9:00pm",
+            "location": "Fishers High School - FHS AUX COURT 4, Fishers High School - FHS AUX COURT 5, Fishers High School - FHS AUX COURT 6"
+        },
+        {
+            "title": "Baseball",
+            "time": "7:30pm - 8:30pm",
+            "location": "@Fishers High School - FHS Gym - Aux"
+        },
+        {
+            "title": "Basketball: G/V",
+            "time": "7:30pm",
+            "location": "@Noblesville High School"
+        }
+    ],
+    "9": [
+        {
+            "title": "FAST",
+            "time": "6:30am - 11:30am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Basketball Boys",
+            "time": "9:00am - 11:00am",
+            "location": "@Fishers High School - FHS GYM -  VARSITY"
+        },
+        {
+            "title": "Basketball Girls",
+            "time": "9:00am - 11:00am",
+            "location": "@Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Guard",
+            "time": "9:00am - 12:30pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Wrestling: V",
+            "time": "9:30am",
+            "location": "@Calumet High School"
+        },
+        {
+            "title": "Choir",
+            "time": "12:00pm - 2:00pm",
+            "location": "FHS- PA F115, FHS- PA F116, FHS- PA F117, FHS- PA F119, FHS- PA F132, FHS- PA F137, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Games",
+            "time": "12:00pm - 6:00pm",
+            "location": "@Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Choir",
+            "time": "2:00pm",
+            "location": "FHS- PA F115, FHS- PA F116, FHS- PA F117, FHS- PA F119, FHS- PA F132, FHS- PA F137, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
+        },
+        {
+            "title": "Guard",
+            "time": "2:00pm - 9:00pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Choir",
+            "time": "3:00pm - 7:00pm",
+            "location": "FHS- PA F115, FHS- PA F116, FHS- PA F119, FHS- PA F137, FHS- PA F117, FHS- PA F132, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
+        },
+        {
+            "title": "Basketball Boys",
+            "time": "5:00pm - 6:00pm",
+            "location": "@Fishers High School - FHS GYM -  VARSITY"
+        },
+        {
+            "title": "Choir",
+            "time": "7:00pm",
+            "location": "FHS- PA F115, FHS- PA F116, FHS- PA F119, FHS- PA F137, FHS- PA F117, FHS- PA F132, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
+        },
+        {
+            "title": "Basketball: B/V",
+            "time": "8:30pm",
+            "location": "@Fishers High School"
+        }
+    ],
+    "10": [
+        {
+            "title": "Football",
+            "time": "5:00pm - 7:00pm",
+            "location": "@Fishers High School - FHS Large Auditorium"
+        }
+    ],
+    "11": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Breakfast",
+            "time": "7:30am - 8:30am",
+            "location": "@Fishers High School - FHS Cafe B"
+        },
+        {
+            "title": "Tiger Leaders",
+            "time": "7:30am - 8:15am",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Tiger Leaders",
+            "time": "7:30am - 8:15am",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Facilities",
+            "time": "9:00am - 10:00am",
+            "location": "@FHS- Other Teacher's Lounge"
+        },
+        {
+            "title": "Gabbard - IB TI and Employability",
+            "time": "1:30pm - 3:00pm",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Athletics",
+            "time": "3:00pm - 6:00pm",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:15pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Newspaper (FHS)",
+            "time": "3:00pm - 10:00pm",
+            "location": "@FHS- ACA A218"
+        },
+        {
+            "title": "Theatre Fishers",
+            "time": "3:00pm - 7:00pm",
+            "location": "@Fishers High School - FHS Little Theatre - Black Box"
+        },
+        {
+            "title": "Cheer Winter",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers High School - FHS AUX COURT 3"
+        },
+        {
+            "title": "Guard",
+            "time": "4:30pm - 6:00pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Basketball: G/JV",
+            "time": "6:00pm",
+            "location": "@Fishers High School"
+        },
+        {
+            "title": "Basketball: B/Freshman",
+            "time": "6:00pm",
+            "location": "@Pendleton Heights High School"
+        },
+        {
+            "title": "CRU",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS Cafe C/ CCA Commons"
+        },
+        {
+            "title": "Guard",
+            "time": "6:00pm - 9:00pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Mudsock Youth Athletics FHS Travel Girls Basketball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS Gym - Aux"
+        },
+        {
+            "title": "Percussion",
+            "time": "6:00pm - 9:00pm",
+            "location": "FHS- PA F138, FHS- PA F142"
+        },
+        {
+            "title": "Track & Field Practice",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Wrestling: V",
+            "time": "6:30pm",
+            "location": "@Westfield High School"
+        },
+        {
+            "title": "Baseball",
+            "time": "7:00pm - 8:30pm",
+            "location": "@Fishers High School - FHS LGI"
+        },
+        {
+            "title": "Basketball: G/V",
+            "time": "7:30pm",
+            "location": "@Fishers High School"
+        }
+    ],
+    "12": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Breakfast",
+            "time": "7:30am - 8:30am",
+            "location": "@Fishers High School - FHS Cafe B"
+        },
+        {
+            "title": "AP ART History Class",
+            "time": "8:30am - 9:53am",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Guard Class",
+            "time": "8:30am - 9:53am",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Sociology Class",
+            "time": "8:30am - 9:53am",
+            "location": "@Fishers High School - FHS LGI"
+        },
+        {
+            "title": "Athletics",
+            "time": "3:00pm - 6:00pm",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Cheer Fall",
+            "time": "3:00pm - 6:00pm",
+            "location": "@Fishers High School - FHS AUX COURT 3"
+        },
+        {
+            "title": "D & D Club",
+            "time": "3:00pm - 4:30pm",
+            "location": "@Fishers High School - FHS Cafe B"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:15pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Model UN",
+            "time": "3:00pm - 4:00pm",
+            "location": "@Fishers High School - FHS LGI"
+        },
+        {
+            "title": "Orchestra",
+            "time": "3:00pm - 7:00pm",
+            "location": "FHS- PA F137, FHS- PA F142, FHS- PA F143 PA LGI, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
+        },
+        {
+            "title": "Theatre Fishers",
+            "time": "3:00pm - 7:00pm",
+            "location": "@Fishers High School - FHS Little Theatre - Black Box"
+        },
+        {
+            "title": "Choir",
+            "time": "6:00pm - 9:00pm",
+            "location": "FHS- PA F116, FHS- PA F117, FHS- PA F132"
+        },
+        {
+            "title": "Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS AUX COURT 3"
+        },
+        {
+            "title": "Guard",
+            "time": "6:00pm - 9:00pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Mudsock Youth Athletics FHS Travel Boys Basketball",
+            "time": "6:00pm - 9:00pm",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2"
+        },
+        {
+            "title": "Volleyball Boys",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Orchestra",
+            "time": "7:00pm",
+            "location": "FHS- PA F137, FHS- PA F142, FHS- PA F143 PA LGI, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
+        }
+    ],
+    "13": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Breakfast",
+            "time": "7:30am - 8:30am",
+            "location": "@Fishers High School - FHS Cafe B"
+        },
+        {
+            "title": "FCA",
+            "time": "7:45am - 8:15am",
+            "location": "@Fishers High School - FHS LGI"
+        },
+        {
+            "title": "Gabbard - IB TI and Employability",
+            "time": "1:30pm - 3:00pm",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Athletics",
+            "time": "3:00pm - 6:00pm",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Band",
+            "time": "3:00pm",
+            "location": "FHS- PA F137, FHS- PA F138, FHS- PA F142, FHS- PA F143 PA LGI, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:15pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Future Black Leaders",
+            "time": "3:00pm - 4:15pm",
+            "location": "@Fishers High School - FHS Cafe A"
+        },
+        {
+            "title": "TI Committee",
+            "time": "3:00pm - 4:00pm",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Drumline",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS GYM -  VARSITY"
+        },
+        {
+            "title": "Mudsock Youth Athletics FHS Travel Girls Basketball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS Gym - Aux"
+        },
+        {
+            "title": "Track & Field Practice",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "DECA",
+            "time": "6:30pm - 8:00pm",
+            "location": "@Fishers High School - FHS Cafe A"
+        },
+        {
+            "title": "Band",
+            "time": "7:00pm",
+            "location": "FHS- PA F137, FHS- PA F138, FHS- PA F142, FHS- PA F143 PA LGI, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
+        },
+        {
+            "title": "School Board Meeting",
+            "time": "7:00pm",
+            "location": null
+        }
+    ],
+    "14": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Breakfast",
+            "time": "7:30am - 8:30am",
+            "location": "@Fishers High School - FHS Cafe B"
+        },
+        {
+            "title": "Professional Development",
+            "time": "7:30am - 8:15am",
+            "location": "@Fishers High School - FHS Cafe A"
+        },
+        {
+            "title": "AP ART History Class",
+            "time": "8:30am - 9:53am",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Guard Class",
+            "time": "8:30am - 9:53am",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Sociology Class",
+            "time": "8:30am - 9:53am",
+            "location": "@Fishers High School - FHS LGI"
+        },
+        {
+            "title": "SAT Meeting",
+            "time": "9:00am - 10:00am",
+            "location": "@FHS- ACA D104"
+        },
+        {
+            "title": "Athletics",
+            "time": "3:00pm - 6:00pm",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Band",
+            "time": "3:00pm - 7:00pm",
+            "location": "FHS- PA F137, FHS- PA F142, FHS- PA F143 PA LGI, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
+        },
+        {
+            "title": "Cheer Fall",
+            "time": "3:00pm - 6:00pm",
+            "location": "@Fishers High School - FHS AUX COURT 3"
+        },
+        {
+            "title": "Clubs",
+            "time": "3:00pm - 5:00pm",
+            "location": "@FHS- ACA A224"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:15pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Publications",
+            "time": "3:00pm - 10:00pm",
+            "location": "@FHS- ACA A218"
+        },
+        {
+            "title": "Best Buddies",
+            "time": "5:00pm - 6:30pm",
+            "location": "@Fishers High School - FHS Cafe A"
+        },
+        {
+            "title": "Choir",
+            "time": "6:00pm - 9:00pm",
+            "location": "FHS- PA F116, FHS- PA F117, FHS- PA F132"
+        },
+        {
+            "title": "Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS AUX COURT 3"
+        },
+        {
+            "title": "Guard",
+            "time": "6:00pm - 9:00pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Mudsock Youth Athletics FHS Travel Boys Basketball",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Band",
+            "time": "7:00pm",
+            "location": "FHS- PA F137, FHS- PA F142, FHS- PA F143 PA LGI, Fishers High School - FHS Large Auditorium, Fishers High School - FHS Large Auditorium Lobby"
+        }
+    ],
+    "15": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Athletics",
+            "time": "7:15am - 8:30am",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Baseball",
+            "time": "7:30am - 8:30am",
+            "location": "@Fishers High School - FHS LGI"
+        },
+        {
+            "title": "Breakfast",
+            "time": "7:30am - 8:30am",
+            "location": "@Fishers High School - FHS Cafe B"
+        },
+        {
+            "title": "Gabbard - IB TI and Employability",
+            "time": "1:30pm - 3:00pm",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Athletics",
+            "time": "3:00pm - 6:00pm",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:15pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Percussion",
+            "time": "3:00pm - 6:00pm",
+            "location": "FHS- PA F138, FHS- PA F142"
+        },
+        {
+            "title": "Theatre Fishers",
+            "time": "3:30pm - 7:00pm",
+            "location": "@Fishers High School - FHS Little Theatre - Black Box"
+        },
+        {
+            "title": "Basketball: B/JV",
+            "time": "6:00pm",
+            "location": "@Hamilton SE"
+        },
+        {
+            "title": "Guard",
+            "time": "6:00pm - 9:00pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Volleyball Boys",
+            "time": "7:00pm - 9:00pm",
+            "location": "Fishers High School - FHS AUX COURT 4, Fishers High School - FHS AUX COURT 5, Fishers High School - FHS AUX COURT 6"
+        },
+        {
+            "title": "Basketball: B/V",
+            "time": "7:30pm",
+            "location": "@Hamilton SE"
+        }
+    ],
+    "16": [
+        {
+            "title": "FAST",
+            "time": "6:30am - 11:30am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Basketball Boys",
+            "time": "9:00am - 11:30am",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Guard",
+            "time": "9:00am - 12:30pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Wrestling: V",
+            "time": "9:00am",
+            "location": "@Carmel High School, IN"
+        },
+        {
+            "title": "Wrestling: V",
+            "time": "9:30am",
+            "location": "@Jeffersonville High School"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Games",
+            "time": "12:00pm - 6:00pm",
+            "location": "@Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Guard",
+            "time": "2:00pm - 9:00pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Basketball: G/JV",
+            "time": "6:00pm",
+            "location": "@Fishers High School"
+        },
+        {
+            "title": "Basketball: G/V",
+            "time": "7:30pm",
+            "location": "@Fishers High School"
+        }
+    ],
+    "18": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Breakfast",
+            "time": "7:30am - 8:30am",
+            "location": "@Fishers High School - FHS Cafe B"
+        },
+        {
+            "title": "Tiger Leaders",
+            "time": "7:30am - 8:15am",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Tiger Leaders",
+            "time": "7:30am - 8:15am",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "AP ART History Class",
+            "time": "8:30am - 9:53am",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Guard Class",
+            "time": "8:30am - 9:53am",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Sociology Class",
+            "time": "8:30am - 9:53am",
+            "location": "@Fishers High School - FHS LGI"
+        },
+        {
+            "title": "Facilities",
+            "time": "9:00am - 10:00am",
+            "location": "@FHS- Other Teacher's Lounge"
+        },
+        {
+            "title": "Athletics",
+            "time": "3:00pm - 6:00pm",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Clubs",
+            "time": "3:00pm - 5:00pm",
+            "location": "@Fishers High School - FHS Cafe A"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:15pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Best Buddies",
+            "time": "3:15pm - 4:15pm",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Cheer Winter",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Fishers High School - FHS AUX COURT 3"
+        },
+        {
+            "title": "Mudsock Youth Athletics FHS Travel Girls Basketball Practices",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS Gym - Aux"
+        },
+        {
+            "title": "Track & Field Practice",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS Gym Aux 2"
+        }
+    ],
+    "19": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Breakfast",
+            "time": "7:30am - 8:30am",
+            "location": "@Fishers High School - FHS Cafe B"
+        },
+        {
+            "title": "Gabbard - IB TI and Employability",
+            "time": "1:30pm - 3:00pm",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Athletics",
+            "time": "3:00pm - 6:00pm",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Cheer Fall",
+            "time": "3:00pm - 6:00pm",
+            "location": "@Fishers High School - FHS AUX COURT 3"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:15pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Model UN",
+            "time": "3:00pm - 4:00pm",
+            "location": "@Fishers High School - FHS LGI"
+        },
+        {
+            "title": "Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS GYM -  VARSITY"
+        },
+        {
+            "title": "Volleyball Boys",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Softball",
+            "time": "6:30pm - 8:30pm",
+            "location": "@Fishers High School - FHS Gym - Aux"
+        },
+        {
+            "title": "Wrestling: V",
+            "time": "6:30pm",
+            "location": "@Hamilton SE"
+        }
+    ],
+    "20": [
+        {
+            "title": "Semester Exams",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Breakfast",
+            "time": "7:30am - 8:30am",
+            "location": "@Fishers High School - FHS Cafe B"
+        },
+        {
+            "title": "FCA",
+            "time": "7:45am - 8:15am",
+            "location": "@Fishers High School - FHS LGI"
+        },
+        {
+            "title": "AP ART History Class",
+            "time": "8:30am - 9:53am",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Guard Class",
+            "time": "8:30am - 9:53am",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Sociology Class",
+            "time": "8:30am - 9:53am",
+            "location": "@Fishers High School - FHS LGI"
+        },
+        {
+            "title": "Athletics",
+            "time": "3:00pm - 6:00pm",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:15pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Track & Field Practice",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Mudsock Youth Athletics FHS Travel Girls Basketball Practices",
+            "time": "7:30pm - 9:00pm",
+            "location": "@Fishers High School - FHS Gym - Aux"
+        }
+    ],
+    "21": [
+        {
+            "title": "Semester Exams",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Breakfast",
+            "time": "7:30am - 8:30am",
+            "location": "@Fishers High School - FHS Cafe B"
+        },
+        {
+            "title": "Gabbard - IB TI and Employability",
+            "time": "1:30pm - 3:00pm",
+            "location": "@FHS- ACA H136 Project Lab"
+        },
+        {
+            "title": "Athletics",
+            "time": "3:00pm - 6:00pm",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Cheer Fall",
+            "time": "3:00pm - 6:00pm",
+            "location": "@Fishers High School - FHS AUX COURT 3"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:15pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Dance Team",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS AUX COURT 3"
+        },
+        {
+            "title": "Guard",
+            "time": "6:00pm - 9:00pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Mudsock Youth Athletics FHS Travel Boys Basketball",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Fishers High School - FHS Gym Aux 2"
+        }
+    ],
+    "22": [
+        {
+            "title": "Last day Before Winter Break",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Semester Exams",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Breakfast",
+            "time": "7:30am - 8:30am",
+            "location": "@Fishers High School - FHS Cafe B"
+        },
+        {
+            "title": "Athletics",
+            "time": "3:00pm - 6:00pm",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS AUX COURT 2, Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:15pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Basketball: B/Freshman",
+            "time": "6:00pm",
+            "location": "@Center Grove High School"
+        },
+        {
+            "title": "Basketball: B/JV",
+            "time": "6:00pm",
+            "location": "@Center Grove High School"
+        },
+        {
+            "title": "Guard",
+            "time": "6:00pm - 9:00pm",
+            "location": "@FHS- PA F143 PA LGI"
+        },
+        {
+            "title": "Volleyball Boys",
+            "time": "7:00pm - 9:00pm",
+            "location": "Fishers High School - FHS AUX COURT 4, Fishers High School - FHS AUX COURT 5, Fishers High School - FHS AUX COURT 6"
+        },
+        {
+            "title": "Basketball: G/V",
+            "time": "7:30pm",
+            "location": "@Carroll High School"
+        },
+        {
+            "title": "Basketball: B/V",
+            "time": "7:30pm",
+            "location": "@Center Grove High School"
+        }
+    ],
+    "23": [
+        {
+            "title": "FAST",
+            "time": "6:30am - 11:30am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Basketball Boys",
+            "time": "9:00am - 11:30am",
+            "location": "@Fishers High School - FHS GYM -  VARSITY"
+        }
+    ],
+    "25": [
+        {
+            "title": "Winter Break",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Christmas Day",
+            "time": "All Day"
+        }
+    ],
+    "26": [
+        {
+            "title": "Winter Break",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:15pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        }
+    ],
+    "27": [
+        {
+            "title": "Winter Break",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:15pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        }
+    ],
+    "28": [
+        {
+            "title": "Basketball: B/V",
+            "time": "TBD",
+            "location": "@TBA"
+        },
+        {
+            "title": "Winter Break",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Basketball Boys",
+            "time": "8:00am - 9:00pm",
+            "location": "Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Gym - Aux, Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Wrestling: V",
+            "time": "8:30am",
+            "location": "@Connersville Senior High School"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:15pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        }
+    ],
+    "29": [
+        {
+            "title": "Basketball: B/V",
+            "time": "TBD",
+            "location": "@TBA"
+        },
+        {
+            "title": "Winter Break",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "FAST",
+            "time": "5:00am - 8:00am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Basketball Boys",
+            "time": "8:00am - 9:00pm",
+            "location": "Fishers High School - FHS GYM -  VARSITY, Fishers High School - FHS Gym - Aux, Fishers High School - FHS Gym Aux 2"
+        },
+        {
+            "title": "Wrestling: V",
+            "time": "8:30am",
+            "location": "@Connersville Senior High School"
+        },
+        {
+            "title": "Basketball Girls",
+            "time": "10:30am - 12:00pm",
+            "location": "@Fishers High School - FHS Cafe A"
+        },
+        {
+            "title": "FAST",
+            "time": "3:00pm - 8:15pm",
+            "location": "Fishers High School - FHS Natatorium Diving Well, Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Volleyball Boys",
+            "time": "7:00pm - 9:00pm",
+            "location": "Fishers High School - FHS AUX COURT 4, Fishers High School - FHS AUX COURT 5, Fishers High School - FHS AUX COURT 6"
+        }
+    ],
+    "30": [
+        {
+            "title": "FAST",
+            "time": "6:30am - 11:30am",
+            "location": "Fishers High School - FHS Natatorium East, Fishers High School - FHS Natatorium West"
+        },
+        {
+            "title": "Basketball Girls",
+            "time": "9:00am - 12:00pm",
+            "location": "Fishers High School - FHS AUX COURT 1, Fishers High School - FHS GYM -  VARSITY"
+        },
+        {
+            "title": "Basketball Girls",
+            "time": "9:00am - 12:00pm",
+            "location": "@Fishers High School - FHS Gym Aux 2"
+        }
+    ],
+    "24": [
+        {
+            "title": "Christmas Eve",
+            "time": "All Day"
+        }
+    ],
+    "31": [
+        {
+            "title": "New Year's Eve",
+            "time": "All Day"
+        }
+    ]
+}

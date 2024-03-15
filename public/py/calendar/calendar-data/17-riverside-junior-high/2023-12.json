@@ -1,0 +1,281 @@
+{
+    "1": [
+        {
+            "title": "RBP",
+            "time": "4:00pm - 6:30pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "WRp",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RSI Cafeteria"
+        }
+    ],
+    "2": [
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Games",
+            "time": "9:00am - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN, Riverside - RSI GYM"
+        }
+    ],
+    "4": [
+        {
+            "title": "RBP",
+            "time": "4:00pm - 6:30pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "WRp",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RSI Cafeteria"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec/Travel Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "5": [
+        {
+            "title": "PLC",
+            "time": "7:00am",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "RBP",
+            "time": "4:00pm - 6:30pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "WRp",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RSI Cafeteria"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec/Travel Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "6": [
+        {
+            "title": "RBP",
+            "time": "4:00pm - 6:30pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "WRp",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RSI Cafeteria"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec/Travel Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "7": [
+        {
+            "title": "RBP",
+            "time": "4:00pm - 6:30pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "WRp",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RSI Cafeteria"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec/Travel Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "8": [
+        {
+            "title": "RBP",
+            "time": "4:00pm - 6:30pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "WRp",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RSI Cafeteria"
+        }
+    ],
+    "9": [
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Games",
+            "time": "9:00am - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN, Riverside - RSI GYM"
+        },
+        {
+            "title": "Show Choir",
+            "time": "9:00am - 12:00pm",
+            "location": "@Riverside - RJH AUDITERIA"
+        }
+    ],
+    "11": [
+        {
+            "title": "RBP",
+            "time": "4:00pm - 6:30pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "WRp",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RSI Cafeteria"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec/Travel Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "12": [
+        {
+            "title": "PLC",
+            "time": "7:00am",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "RBP",
+            "time": "4:00pm - 6:30pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "WRp",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RSI Cafeteria"
+        }
+    ],
+    "13": [
+        {
+            "title": "RBP",
+            "time": "4:00pm - 6:30pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "WRp",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RSI Cafeteria"
+        },
+        {
+            "title": "Band Concert is 7:00-8:00",
+            "time": "7:00pm - 9:00pm",
+            "location": "Riverside - RJH AUDITERIA, Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "14": [
+        {
+            "title": "WRp",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RSI Cafeteria"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec/Travel Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "15": [
+        {
+            "title": "RBP",
+            "time": "4:00pm - 6:30pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "RSI Hawk Party",
+            "time": "4:00pm - 8:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RSI Cafeteria, Riverside - RSI GYM"
+        }
+    ],
+    "16": [
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Games",
+            "time": "9:00am - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN, Riverside - RSI GYM"
+        }
+    ],
+    "18": [
+        {
+            "title": "RBP",
+            "time": "4:00pm - 6:30pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "WRp",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RSI Cafeteria"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec/Travel Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "19": [
+        {
+            "title": "WRp",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RSI Cafeteria"
+        },
+        {
+            "title": "Choir Concert is 7:00-8:00 PM",
+            "time": "7:00pm - 9:00pm",
+            "location": "Riverside - RJH AUDITERIA, Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "20": [
+        {
+            "title": "RBP",
+            "time": "4:00pm - 6:30pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "WRp",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RSI Cafeteria"
+        },
+        {
+            "title": "Orchestra Concert 7:00-8:00 PM",
+            "time": "7:00pm - 9:00pm",
+            "location": "Riverside - RJH AUDITERIA, Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "21": [
+        {
+            "title": "RBP",
+            "time": "4:00pm - 6:30pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        },
+        {
+            "title": "WRp",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Riverside - RSI Cafeteria"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec/Travel Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN"
+        }
+    ],
+    "24": [
+        {
+            "title": "Christmas Eve",
+            "time": "All Day"
+        }
+    ],
+    "25": [
+        {
+            "title": "Christmas Day",
+            "time": "All Day"
+        }
+    ],
+    "31": [
+        {
+            "title": "New Year's Eve",
+            "time": "All Day"
+        }
+    ]
+}
