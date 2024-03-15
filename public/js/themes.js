@@ -6,11 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
     updateVisitCounterDisplay(); // Update the display on page load
     checkConsecutiveVisits(); // Check and update consecutive visits for the dark theme
     updateConsecutiveVisitCounterDisplay(); // Update the display on page load
-    initialize2048();
 
     // Event Listeners
     attachEventListenersToThemeButtons(themeButtons);
-    attachEventListenerToThemeSelector();
     attachEventListenerToModal();
     // Setup event listener for each Check Answer button
     setupPuzzleAnswerCheckers();
@@ -57,24 +55,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     checkAnswer('ocean', 1)
                 }
             }
-            if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'library') {
-                checkAnswer('library');
-            }
-            if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'hartley') {
-                checkAnswer('hartley');
-            }
-            if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'vaporwave') {
-                checkAnswer('vaporwave');
-            }
-            if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'mountain') {
-                if (document.getElementById('part-1-mountain').style.display !== 'none') {
-                    checkAnswer('mountain')
-                } else if (document.getElementById('part-2-mountain').style.display !== 'none') {
-                    checkAnswer('mountain', 1)
-                } else if (document.getElementById('part-3-mountain').style.display !== 'none') {
-                    checkAnswer('mountain', 2)
-                }
-            }
         }
     });
 });
@@ -117,18 +97,6 @@ const themeAnswers = {
     },
     ocean: {
         parts: ['waved', 'tuvalu'] // Two parts for the ocean theme
-    },
-    vaporwave: {
-        parts: ['a bird in the hand is messy']
-    },
-    library: {
-        parts: ['8']
-    },
-    mountain: {
-        parts: ['china', 'sweden', 'spain']
-    },
-    hartley: {
-        parts: ['bitcoin']
     }
     // Add more themes and parts as needed
 };
@@ -171,12 +139,9 @@ function switchTheme(themeName) {
 
 function setActiveButton(activeTheme) {
     const themeButtons = document.querySelectorAll('.theme-button');
-    const themeShop = document.getElementById('theme_selector');
     themeButtons.forEach(button => {
         if (button.getAttribute('data-theme') === activeTheme) {
             button.classList.add('active');
-            themeShop.style.backgroundColor = button.style.backgroundColor;
-            themeShop.style.backgroundImage = button.style.backgroundImage;
         } else {
             button.classList.remove('active');
         }
@@ -418,41 +383,6 @@ function resetUnlockedThemes() {
     setActiveButton('default'); // Set default theme button as active
 }
 
-function attachEventListenerToThemeSelector() {
-    const selectorButton = document.getElementById('theme_selector');
-    // Ensure the button exists before adding an event listener
-    if (selectorButton) {
-        selectorButton.addEventListener('click', openSelector);
-    }
-
-    // Add event listener to close the selector if clicking outside
-    document.addEventListener('click', function(event) {
-        const selectorMenu = document.getElementById('themes_selector');
-        const puzzleModal = document.getElementById('puzzleModal');
-        const clickedInsideSelector = selectorMenu.contains(event.target) || puzzleModal.contains(event.target) || selectorButton.contains(event.target);
-
-        if (!clickedInsideSelector) {
-            closeSelector();
-        }
-    });
-}
-
-function openSelector() {
-    const selectorMenu = document.getElementById('themes_selector');
-    selectorMenu.classList.remove('hidden'); // Use classList for adding/removing classes
-
-    const blur = document.getElementById('themes_blur');
-    blur.classList.remove('hidden');
-}
-
-function closeSelector() {
-    const selectorMenu = document.getElementById('themes_selector');
-    selectorMenu.classList.add('hidden');
-
-    const blur = document.getElementById('themes_blur');
-    blur.classList.add('hidden');
-}
-
 function attachEventListenerToModal() {
     window.onclick = function(event) {
         if (event.target === document.getElementById('puzzleModal')) {
@@ -676,132 +606,4 @@ $(document).ready(function() {
         board.start();
     });
 });
-
-function initialize2048 (){
-    const container = document.getElementById('game2048-container-magma');
-    let board = generateEmptyBoard();
-
-    function generateEmptyBoard() {
-        return [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]];
-    }
-
-    document.addEventListener('keydown', handleKeyPress);
-
-    function handleKeyPress(e) {
-        let boardChanged = false;
-        let originalBoard = JSON.parse(JSON.stringify(board)); // Deep copy of the board for comparison
-
-        if (['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(e.key)) {
-            if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
-                board = transposeBoard(board); // Transpose for vertical movements
-            }
-
-            board.forEach((row, index) => {
-                let originalRow = [...row]; // Copy the original row/column for comparison
-
-                if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
-                    board[index] = moveTilesLeft(row);
-                } else if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
-                    board[index] = moveTilesRight(row);
-                }
-
-                if (!originalRow.every((val, idx) => val === board[index][idx])) {
-                    boardChanged = true; // The row/column changed
-                }
-            });
-
-            if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
-                board = transposeBoard(board); // Transpose back after vertical movements
-            }
-
-            if (boardChanged) {
-                addRandomTile(board);
-                drawBoard();
-                if (checkWinCondition()) {
-                    unlockTheme('magma')
-                }
-            }
-        }
-    }
-
-    function moveTilesLeft(row) {
-        let newRow = row.filter(val => val !== 0); // Remove zeros
-        for (let i = 0; i < newRow.length - 1; i++) { // Combine tiles
-            if (newRow[i] === newRow[i + 1]) {
-                newRow[i] *= 2;
-                newRow.splice(i + 1, 1); // Remove combined tile
-                newRow.push(0); // Add zero at the end
-            }
-        }
-        while (newRow.length < 4) { // Ensure row length is 4
-            newRow.push(0);
-        }
-        return newRow;
-    }
-
-    function moveTilesRight(row) {
-        row.reverse(); // Reverse to use the moveTilesLeft logic
-        let newRow = moveTilesLeft(row);
-        newRow.reverse(); // Reverse back to original order
-        return newRow;
-    }
-
-    function addRandomTile(board) {
-        let emptyTiles = [];
-        board.forEach((row, rowIndex) => {
-            row.forEach((cell, cellIndex) => {
-                if (cell === 0) emptyTiles.push([rowIndex, cellIndex]);
-            });
-        });
-        if (emptyTiles.length > 0) {
-            let [row, col] = emptyTiles[Math.floor(Math.random() * emptyTiles.length)];
-            board[row][col] = Math.random() > 0.9 ? 4 : 2;
-        }
-    }
-
-    function drawBoard() {
-        container.innerHTML = ''; // Clear previous tiles
-        const tileSize = 90; // Adjust based on your CSS
-        const tileGap = 10;  // Adjust based on your CSS
-        board.forEach((row, rowIndex) => {
-            row.forEach((cellValue, colIndex) => {
-                const tile = document.createElement('div');
-                tile.className = 'game-tile';
-                tile.textContent = cellValue || '';
-                tile.style.width = `${tileSize}px`;
-                tile.style.height = `${tileSize}px`;
-                tile.style.top = `${(tileSize + tileGap) * rowIndex}px`;
-                tile.style.left = `${(tileSize + tileGap) * colIndex}px`;
-                tile.style.backgroundColor = getTileColor(cellValue);
-                container.appendChild(tile);
-            });
-        });
-    }
-
-    function getTileColor(value) {
-        const colorMap = {
-            2: '#eee4da', 4: '#ede0c8', 8: '#f2b179', 16: '#f59563',
-            32: '#f67c5f', 64: '#f65e3b', 128: '#edcf72', 256: '#edcc61',
-            512: '#edc850'
-        };
-        return colorMap[value] || '#cdc1b4';
-    }
-
-    function checkWinCondition() {
-        return board.some(row => row.some(cell => cell === 1024));
-    }
-
-    function transposeBoard(board) {
-        return board[0].map((_, colIndex) => board.map(row => row[colIndex]));
-    }
-
-
-    document.addEventListener('keydown', handleKeyPress);
-
-
-    // Initialization
-    addRandomTile(board);
-    addRandomTile(board);
-    drawBoard();
-}
 

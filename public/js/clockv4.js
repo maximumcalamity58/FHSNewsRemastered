@@ -27,23 +27,6 @@ var lunchTimings = {
     "D": { startTime: "12:54", endTime: "13:24", periodName: "D Lunch" },
 };
 
-// 2 Hour Delay
-/** var timePeriodMapping = [
-    { startTime: "10:00", endTime: "10:30", periodName: "Passing Period" },
-    { startTime: "10:30", endTime: "11:15", periodName: "Period 1" },
-    { startTime: "11:15", endTime: "13:15", periodName: "Period 2 & Lunch" },
-    { startTime: "13:15", endTime: "13:23", periodName: "Passing Period" },
-    { startTime: "13:23", endTime: "14:08", periodName: "Period 3" },
-    { startTime: "14:08", endTime: "14:13", periodName: "Passing Period" },
-    { startTime: "14:13", endTime: "15:00", periodName: "Period 4" },
-];
-
-var lunchTimings = {
-    "A": { startTime: "11:15", endTime: "11:45", periodName: "A Lunch" },
-    "B": { startTime: "11:45", endTime: "12:15", periodName: "B Lunch" },
-    "C": { startTime: "12:15", endTime: "12:45", periodName: "C Lunch" },
-    "D": { startTime: "12:45", endTime: "13:15", periodName: "D Lunch" },
-}; **/
 
 // At the top of the file
 let currentPeriodIndex = getCurrentPeriodIndex();
@@ -311,7 +294,7 @@ function updateClock() {
     }
 
     if (timeRemaining < 0) {
-        location.reload();
+        timeRemaining = ((endTime - now) + 500) / 1000
     }
 
     // Calculate hours, minutes, seconds
