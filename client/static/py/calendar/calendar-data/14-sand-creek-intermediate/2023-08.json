@@ -1,0 +1,108 @@
+{
+    "3": [
+        {
+            "title": "Dance Practice",
+            "time": "8:00am - 4:00pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "7": [
+        {
+            "title": "SCI Open House",
+            "time": "4:30pm - 6:30pm",
+            "location": "@"
+        }
+    ],
+    "8": [
+        {
+            "title": "SCI Staff Photo",
+            "time": "10:00am - 10:30am",
+            "location": "@Sand Creek Intermediate - SCI MEDIA CENTER"
+        }
+    ],
+    "9": [
+        {
+            "title": "Convocation",
+            "time": "9:10am - 9:45am",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "15": [
+        {
+            "title": "Meet The Teacher Night",
+            "time": "5:30pm - 7:30pm",
+            "location": "@Entire Building - Sand Creek Intermediate"
+        }
+    ],
+    "21": [
+        {
+            "title": "Intramural Kickball",
+            "time": "4:00pm - 6:30pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "22": [
+        {
+            "title": "Girl Scout Troop 4949- SCI",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Sand Creek Intermediate - SCI CAFETERIA"
+        },
+        {
+            "title": "Intramural Kickball",
+            "time": "4:00pm - 6:30pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "23": [
+        {
+            "title": "Intramural Kickball",
+            "time": "4:00pm - 6:30pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "24": [
+        {
+            "title": "Intramural Kickball",
+            "time": "4:00pm - 6:30pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        },
+        {
+            "title": "Boy Scout Recruitment Night",
+            "time": "6:30pm - 8:00pm",
+            "location": "Cumberland Road Elementary - CRE CAFETERIA, Fishers Elementary - FES Cafeteria, New Britton Elementary - NBE Cafeteria, Thorpe Creek Elementary - TCE Gym, Sand Creek Intermediate - SCI GYM, Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall, Riverside - RSI GYM, Brooks School Elementary - BSE Cafeteria, Hoosier Road Elementary - HRE Cafeteria, Deer Creek Elementary  - DCE Cafeteria, Sand Creek Elementary - SCE Cafeteria, Fall Creek Elementary - FCE Cafeteria, Harrison Parkway Elementary - HPE Cafeteria, Fall Creek Intermediate - FCI Cafeteria, Lantern Road Elementary - Picnic Shelter, Geist Elementary - GES Cafeteria, Southeastern Elementary School - SES Cafeteria, Geist Elementary - GES Gym, Brooks School Elementary - BSE Gym"
+        }
+    ],
+    "28": [
+        {
+            "title": "Intramural Kickball",
+            "time": "4:00pm - 6:30pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "29": [
+        {
+            "title": "Intramural Kickball",
+            "time": "4:00pm - 6:30pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ],
+    "30": [
+        {
+            "title": "Intramural Kickball",
+            "time": "4:00pm - 6:30pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        },
+        {
+            "title": "Girl Scout Recruitment Night",
+            "time": "6:00pm - 8:00pm",
+            "location": "@Sand Creek Intermediate - SCI CAFETERIA"
+        }
+    ],
+    "31": [
+        {
+            "title": "Intramural Kickball",
+            "time": "4:00pm - 6:30pm",
+            "location": "@Sand Creek Intermediate - SCI GYM"
+        }
+    ]
+}

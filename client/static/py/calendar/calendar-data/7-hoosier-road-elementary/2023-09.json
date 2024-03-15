@@ -1,0 +1,230 @@
+{
+    "2": [
+        {
+            "title": "Parking Overflow (around 10 cars)",
+            "time": "9:00am - 7:00pm",
+            "location": "@Hoosier Road Elementary - HRE Parking Lot - Front"
+        }
+    ],
+    "4": [
+        {
+            "title": "Labor Day - No School",
+            "time": null,
+            "location": "@Entire Building - Hoosier Road Elementary"
+        }
+    ],
+    "5": [
+        {
+            "title": "PTO Read-a-thon",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary School"
+        }
+    ],
+    "6": [
+        {
+            "title": "PTO Read-a-thon",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary School"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Softball Practices",
+            "time": "6:00pm - 7:30pm",
+            "location": "@Hoosier Road Elementary - HRE SB1"
+        }
+    ],
+    "7": [
+        {
+            "title": "PTO Read-a-thon",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary School"
+        },
+        {
+            "title": "Mudsock Youth Athletics Softball Practices",
+            "time": "6:00pm - 7:30pm",
+            "location": "@Hoosier Road Elementary - HRE SB1"
+        }
+    ],
+    "8": [
+        {
+            "title": "PTO Read-a-thon",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary School"
+        }
+    ],
+    "9": [
+        {
+            "title": "Young Hoosier Book Award",
+            "time": "10:30am - 2:00pm",
+            "location": "Hoosier Road Elementary - HRE Art Room, Hoosier Road Elementary - HRE Cafeteria, Hoosier Road Elementary - HRE Media Center, Room 29"
+        }
+    ],
+    "11": [
+        {
+            "title": "PTO Read-a-thon",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary School"
+        },
+        {
+            "title": "Cub Scout Meetings Pack 110 HRE",
+            "time": "6:30pm - 7:30pm",
+            "location": "@Hoosier Road Elementary - HRE Cafeteria"
+        }
+    ],
+    "12": [
+        {
+            "title": "PTO Read-a-thon",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary School"
+        },
+        {
+            "title": "Girl Scout Meetings Troop 2383 - HRE",
+            "time": "6:00pm - 7:15pm",
+            "location": "@Hoosier Road Elementary - HRE Cafeteria"
+        }
+    ],
+    "13": [
+        {
+            "title": "PTO Read-a-thon",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary School"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Softball Practices",
+            "time": "6:00pm - 7:30pm",
+            "location": "@Hoosier Road Elementary - HRE SB1"
+        }
+    ],
+    "14": [
+        {
+            "title": "PTO Read-a-thon",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary School"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Softball Practices",
+            "time": "6:00pm - 7:30pm",
+            "location": "@Hoosier Road Elementary - HRE SB1"
+        }
+    ],
+    "15": [
+        {
+            "title": "PTO Read-a-thon",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary School"
+        },
+        {
+            "title": "Parking Lot Use for Church Event",
+            "time": "6:00pm - 10:00pm",
+            "location": "Hoosier Road Elementary - HRE Parking Lot - Front, Hoosier Road Elementary - HRE Parking Lot - Back"
+        }
+    ],
+    "16": [
+        {
+            "title": "Parking Lot Use for Church Event",
+            "time": "1:00pm - 10:00pm",
+            "location": "Hoosier Road Elementary - HRE Parking Lot - Front, Hoosier Road Elementary - HRE Parking Lot - Back"
+        }
+    ],
+    "17": [
+        {
+            "title": "Parking Lot Use for Church Event",
+            "time": "1:00pm - 5:00pm",
+            "location": "Hoosier Road Elementary - HRE Parking Lot - Front, Hoosier Road Elementary - HRE Parking Lot - Back"
+        }
+    ],
+    "18": [
+        {
+            "title": "PTO Read-a-thon",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary School"
+        }
+    ],
+    "19": [
+        {
+            "title": "PTO Read-a-thon",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary School"
+        }
+    ],
+    "20": [
+        {
+            "title": "PTO Read-a-thon",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary School"
+        },
+        {
+            "title": "Parent-Teacher Conferences",
+            "time": "3:00pm - 6:00pm",
+            "location": "@Entire Building - Hoosier Road Elementary"
+        }
+    ],
+    "21": [
+        {
+            "title": "PTO Read-a-thon",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary School"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Softball Practices",
+            "time": "6:00pm - 7:30pm",
+            "location": "@Hoosier Road Elementary - HRE SB1"
+        },
+        {
+            "title": "Cub Scout Meetings Pack 110 HRE",
+            "time": "6:30pm - 7:30pm",
+            "location": "@Hoosier Road Elementary - HRE Cafeteria"
+        }
+    ],
+    "22": [
+        {
+            "title": "PTO Read-a-thon",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary School"
+        }
+    ],
+    "25": [
+        {
+            "title": "PTO Read-a-thon",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary School"
+        }
+    ],
+    "26": [
+        {
+            "title": "PTO Read-a-thon",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary School"
+        },
+        {
+            "title": "Girl Scout Meetings Troop 2383 - HRE",
+            "time": "6:00pm - 7:15pm",
+            "location": "@Hoosier Road Elementary - HRE Cafeteria"
+        }
+    ],
+    "27": [
+        {
+            "title": "PTO Read-a-thon",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary School"
+        },
+        {
+            "title": "Parent-Teacher Conferences",
+            "time": "3:00pm - 6:00pm",
+            "location": "@Entire Building - Hoosier Road Elementary"
+        }
+    ],
+    "28": [
+        {
+            "title": "PTO Read-a-thon",
+            "time": "8:00am - 2:00pm",
+            "location": "@Hoosier Road Elementary School"
+        }
+    ],
+    "29": [
+        {
+            "title": "E-Learning Day",
+            "time": null,
+            "location": "@Entire Building - Hoosier Road Elementary"
+        }
+    ]
+}

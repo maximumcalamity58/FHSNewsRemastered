@@ -1,0 +1,77 @@
+{
+    "1": [
+        {
+            "title": "DEL Summer Program",
+            "time": "8:30am - 12:30pm",
+            "location": "@Entire Building - Geist Elementary"
+        }
+    ],
+    "2": [
+        {
+            "title": "DEL Summer Program",
+            "time": "8:30am - 12:30pm",
+            "location": "@Entire Building - Geist Elementary"
+        }
+    ],
+    "3": [
+        {
+            "title": "DEL Summer Program",
+            "time": "8:30am - 12:30pm",
+            "location": "@Entire Building - Geist Elementary"
+        }
+    ],
+    "7": [
+        {
+            "title": "Beginning of Year Events",
+            "time": "4:00pm - 7:00pm",
+            "location": "@Entire Building - New Britton Elementary"
+        },
+        {
+            "title": "Class Meetings",
+            "time": "5:30pm - 7:30pm",
+            "location": "@Entire Building - New Britton Elementary"
+        }
+    ],
+    "16": [
+        {
+            "title": "Beginning of Year Events",
+            "time": "6:00pm - 7:15pm",
+            "location": "@Entire Building - New Britton Elementary"
+        }
+    ],
+    "17": [
+        {
+            "title": "PTO Meeting",
+            "time": "6:45pm - 8:15pm",
+            "location": "@New Britton Elementary - NBE Media Center"
+        }
+    ],
+    "22": [
+        {
+            "title": "Blue and Gold Banquet Pack 106 NBE",
+            "time": "6:15pm - 8:30pm",
+            "location": "New Britton Elementary - NBE GYM, New Britton Elementary - NBE Cafeteria"
+        }
+    ],
+    "24": [
+        {
+            "title": "Boy Scout Recruitment Night",
+            "time": "6:30pm - 8:00pm",
+            "location": "Cumberland Road Elementary - CRE CAFETERIA, Fishers Elementary - FES Cafeteria, New Britton Elementary - NBE Cafeteria, Thorpe Creek Elementary - TCE Gym, Sand Creek Intermediate - SCI GYM, Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall, Riverside - RSI GYM, Brooks School Elementary - BSE Cafeteria, Hoosier Road Elementary - HRE Cafeteria, Deer Creek Elementary  - DCE Cafeteria, Sand Creek Elementary - SCE Cafeteria, Fall Creek Elementary - FCE Cafeteria, Harrison Parkway Elementary - HPE Cafeteria, Fall Creek Intermediate - FCI Cafeteria, Lantern Road Elementary - Picnic Shelter, Geist Elementary - GES Cafeteria, Southeastern Elementary School - SES Cafeteria, Geist Elementary - GES Gym, Brooks School Elementary - BSE Gym"
+        }
+    ],
+    "27": [
+        {
+            "title": "Hitmen Baseball Fall Practices",
+            "time": "6:00pm - 7:30pm",
+            "location": "@New Britton Elementary - NBE BB1"
+        }
+    ],
+    "30": [
+        {
+            "title": "Travel club",
+            "time": "2:15pm - 3:30pm",
+            "location": "@New Britton Elementary - NBE GYM"
+        }
+    ]
+}

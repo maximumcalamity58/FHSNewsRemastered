@@ -1,0 +1,430 @@
+{
+    "1": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Nature Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        },
+        {
+            "title": "Soldiers of Hope",
+            "time": "8:00am - 9:00am",
+            "location": "@Art Room 069"
+        },
+        {
+            "title": "YMI Youth Mentoring Initiative",
+            "time": "8:00am - 9:00am",
+            "location": "@Riverside - RSI LGI"
+        }
+    ],
+    "2": [
+        {
+            "title": "Mudsock Youth Athletics Cross Country Practices",
+            "time": "6:00pm - 7:15pm",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "3": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Robotics",
+            "time": "8:00am - 9:00am",
+            "location": "@Media Center"
+        }
+    ],
+    "4": [
+        {
+            "title": "Mudsock Youth Athletics Cross Country Practices",
+            "time": "10:00am - 11:15am",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practices/Games",
+            "time": "10:00am - 3:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RSI GYM"
+        }
+    ],
+    "6": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Choir Rehearsal",
+            "time": "7:30am - 9:00am",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "Robotics",
+            "time": "8:00am - 9:00am",
+            "location": "@Media Center"
+        },
+        {
+            "title": "Soldiers of Hope",
+            "time": "8:00am - 9:00am",
+            "location": "@Art Room 069"
+        },
+        {
+            "title": "Spell Bowl",
+            "time": "8:10am - 9:00am",
+            "location": "@Room 658"
+        },
+        {
+            "title": "Mudsock Youth Athletics Cross Country Practices",
+            "time": "6:00pm - 7:15pm",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN, Riverside - RSI GYM"
+        }
+    ],
+    "7": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN, Riverside - RSI GYM"
+        }
+    ],
+    "8": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Nature Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        },
+        {
+            "title": "Soldiers of Hope",
+            "time": "8:00am - 9:00am",
+            "location": "@Art Room 069"
+        },
+        {
+            "title": "YMI Youth Mentoring Initiative",
+            "time": "8:00am - 9:00am",
+            "location": "@Riverside - RSI LGI"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Choir Concert",
+            "time": "7:00pm",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "School Board Meeting",
+            "time": "7:00pm",
+            "location": null
+        }
+    ],
+    "9": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Cross Country Practices",
+            "time": "6:00pm - 7:15pm",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "10": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Robotics",
+            "time": "8:00am - 9:00am",
+            "location": "@Media Center"
+        }
+    ],
+    "11": [
+        {
+            "title": "Regional JH Honor Band",
+            "time": "8:00am - 4:00pm",
+            "location": "Riverside - RJH GYM - MAIN, Riverside - RJH CHOIR ROOM 163, Riverside - Music 070, Riverside - Music 071, Riverside - RJH LGI ROOM, Riverside - RSI Cafeteria, Riverside - RSI LGI, Riverside - RSI GYM, Riverside - RJH GYM - AUXILIARY"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practices/Games",
+            "time": "9:00am - 6:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RSI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Cross Country Practices",
+            "time": "10:00am - 11:15am",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        },
+        {
+            "title": "Veterans Day",
+            "time": "All Day"
+        }
+    ],
+    "12": [
+        {
+            "title": "Regional JH Honor Band",
+            "time": "1:00pm - 5:00pm",
+            "location": "Riverside - RJH GYM - MAIN, Riverside - RJH LGI ROOM, Riverside - RSI Cafeteria, Riverside - RSI LGI, Riverside - RSI GYM, Riverside - RJH GYM - AUXILIARY"
+        }
+    ],
+    "13": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Robotics",
+            "time": "8:00am - 9:00am",
+            "location": "@Media Center"
+        },
+        {
+            "title": "Soldiers of Hope",
+            "time": "8:00am - 9:00am",
+            "location": "@Art Room 069"
+        },
+        {
+            "title": "Spell Bowl",
+            "time": "8:10am - 9:00am",
+            "location": "@Room 658"
+        },
+        {
+            "title": "Mudsock Youth Athletics Cross Country Practices",
+            "time": "6:00pm - 7:15pm",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN, Riverside - RSI GYM"
+        }
+    ],
+    "14": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Practices",
+            "time": "6:30pm - 7:30pm",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "PTO Meeting",
+            "time": "6:30pm",
+            "location": "@Media Center"
+        },
+        {
+            "title": "Mudsock Youth Athletics FHS Travel Boys Basketball Practices",
+            "time": "7:30pm - 9:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "15": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Nature Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        },
+        {
+            "title": "Soldiers of Hope",
+            "time": "8:00am - 9:00am",
+            "location": "@Art Room 069"
+        },
+        {
+            "title": "YMI Youth Mentoring Initiative",
+            "time": "8:00am - 9:00am",
+            "location": "@Riverside - RSI LGI"
+        },
+        {
+            "title": "Best Buddies",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Riverside - RSI Cafeteria"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "16": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Cross Country Practices",
+            "time": "6:00pm - 7:15pm",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "17": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Robotics",
+            "time": "8:00am - 9:00am",
+            "location": "@Media Center"
+        }
+    ],
+    "18": [
+        {
+            "title": "Mudsock Youth Athletics Rec Boys Basketball Practices/Games",
+            "time": "9:00am - 6:00pm",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Cross Country Practices",
+            "time": "10:00am - 11:15am",
+            "location": "@Riverside - Cross Country Course Eller Loop"
+        }
+    ],
+    "20": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Robotics",
+            "time": "8:00am - 9:00am",
+            "location": "@Media Center"
+        },
+        {
+            "title": "Soldiers of Hope",
+            "time": "8:00am - 9:00am",
+            "location": "@Art Room 069"
+        }
+    ],
+    "21": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Soldiers of Hope",
+            "time": "8:00am - 9:00am",
+            "location": "@Art Room 069"
+        }
+    ],
+    "22": [
+        {
+            "title": "YMCA Holiday Camp/School's Out Camp",
+            "time": "6:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "27": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Robotics",
+            "time": "8:00am - 9:00am",
+            "location": "@Media Center"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "Riverside - RJH GYM - AUXILIARY, Riverside - RJH GYM - MAIN, Riverside - RSI GYM"
+        }
+    ],
+    "28": [
+        {
+            "title": "Girls Basketball",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "29": [
+        {
+            "title": "Nature Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        },
+        {
+            "title": "YMI Youth Mentoring Initiative",
+            "time": "8:00am - 9:00am",
+            "location": "@Riverside - RSI LGI"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "30": [
+        {
+            "title": "Girls Basketball",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Practices",
+            "time": "6:30pm - 9:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "25": [
+        {
+            "title": "Thanksgiving Day",
+            "time": "All Day"
+        }
+    ]
+}

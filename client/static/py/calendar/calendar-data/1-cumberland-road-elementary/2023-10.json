@@ -1,0 +1,43 @@
+{
+    "2": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "Cumberland Road Elementary - CRE AF1A + B, Cumberland Road Elementary - CRE AF2A + B , Cumberland Road Elementary - CRE BB1"
+        }
+    ],
+    "4": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Book Fair",
+            "time": "3:00pm - 7:00pm",
+            "location": "@Cumberland Road Elementary - CRE Media Center"
+        },
+        {
+            "title": "Mudsock Youth Athletics Fall Football Practices",
+            "time": "6:00pm - 8:00pm",
+            "location": "Cumberland Road Elementary - CRE AF1A + B, Cumberland Road Elementary - CRE AF2A + B , Cumberland Road Elementary - CRE BB1"
+        }
+    ],
+    "25": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "Picture Re-take Day",
+            "time": null,
+            "location": null
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "10": [
+        {
+            "title": "Robotics Cllub",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Media Center"
+        }
+    ],
+    "16": [
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "17": [
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Culture Club",
+            "time": "2:10pm - 3:00pm",
+            "location": "Geist Elementary - GES Music Room, Room 26"
+        }
+    ],
+    "18": [
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Martin Luther King Jr. Day",
+            "time": "All Day"
+        }
+    ],
+    "19": [
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Choir Rehearsal",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Geist Elementary - GES Music Room"
+        }
+    ],
+    "22": [
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Science Bowl",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "23": [
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Science Bowl",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "24": [
+        {
+            "title": "Field Trip",
+            "time": null,
+            "location": "@Off-Site"
+        },
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Science Bowl",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "25": [
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Science Bowl",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "26": [
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Choir Rehearsal",
+            "time": "2:10pm - 3:15pm",
+            "location": "@Geist Elementary - GES Music Room"
+        }
+    ],
+    "29": [
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "30": [
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "31": [
+        {
+            "title": "Testing - WIDA",
+            "time": "8:00am - 2:00pm",
+            "location": "@Classrooms"
+        },
+        {
+            "title": "Culture Club",
+            "time": "2:10pm - 3:00pm",
+            "location": "Geist Elementary - GES Music Room, Room 26"
+        },
+        {
+            "title": "Robotics Cllub",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Media Center"
+        }
+    ],
+    "01": [
+        {
+            "title": "New Year's Day",
+            "time": "All Day"
+        }
+    ]
+}

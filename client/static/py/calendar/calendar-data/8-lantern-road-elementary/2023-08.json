@@ -1,0 +1,71 @@
+{
+    "7": [
+        {
+            "title": "Beginning of Year Events",
+            "time": "3:45pm - 7:15pm",
+            "location": "@Entire Building - Lantern Road Elementary"
+        },
+        {
+            "title": "Beginning of Year Events",
+            "time": "3:45pm - 7:15pm",
+            "location": "@Entire Building - Lantern Road Elementary"
+        },
+        {
+            "title": "Beginning of Year Events",
+            "time": "3:45pm - 7:15pm",
+            "location": "@Entire Building - Lantern Road Elementary"
+        },
+        {
+            "title": "Open House",
+            "time": "4:00pm - 6:00pm",
+            "location": "@Entire Building - Lantern Road Elementary"
+        },
+        {
+            "title": "Kindergarten Meet the Teacher Night",
+            "time": "6:00pm - 7:00pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "16": [
+        {
+            "title": "Meet the Teacher Night 1st-4th",
+            "time": "5:30pm - 6:30pm",
+            "location": "@Classrooms"
+        }
+    ],
+    "18": [
+        {
+            "title": "Mudsock Youth Athletics Soccer Practice",
+            "time": "6:00pm - 7:30pm",
+            "location": "@Lantern Road Elementary - LRE AF1A + B"
+        }
+    ],
+    "22": [
+        {
+            "title": "2nd Gr. Field Trip",
+            "time": "9:30am - 1:30pm",
+            "location": "@Fishers AgriPark"
+        }
+    ],
+    "24": [
+        {
+            "title": "Boy Scout Recruitment Night",
+            "time": "6:30pm - 8:00pm",
+            "location": "Cumberland Road Elementary - CRE CAFETERIA, Fishers Elementary - FES Cafeteria, New Britton Elementary - NBE Cafeteria, Thorpe Creek Elementary - TCE Gym, Sand Creek Intermediate - SCI GYM, Hamilton Southeastern Junior High/Intermediate - HJH Auditeria Panther Hall, Riverside - RSI GYM, Brooks School Elementary - BSE Cafeteria, Hoosier Road Elementary - HRE Cafeteria, Deer Creek Elementary  - DCE Cafeteria, Sand Creek Elementary - SCE Cafeteria, Fall Creek Elementary - FCE Cafeteria, Harrison Parkway Elementary - HPE Cafeteria, Fall Creek Intermediate - FCI Cafeteria, Lantern Road Elementary - Picnic Shelter, Geist Elementary - GES Cafeteria, Southeastern Elementary School - SES Cafeteria, Geist Elementary - GES Gym, Brooks School Elementary - BSE Gym"
+        }
+    ],
+    "25": [
+        {
+            "title": "Picture Day",
+            "time": "8:00am - 2:00pm",
+            "location": "@Lantern Road Elementary - LRE Gym"
+        }
+    ],
+    "30": [
+        {
+            "title": "Spell Bowl",
+            "time": "2:15pm - 3:00pm",
+            "location": "@Room 28"
+        }
+    ]
+}

@@ -1,0 +1,229 @@
+{
+    "2": [
+        {
+            "title": "YMCA Holiday Camp/School's Out Camp",
+            "time": "6:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "3": [
+        {
+            "title": "YMCA Holiday Camp/School's Out Camp",
+            "time": "6:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "4": [
+        {
+            "title": "YMCA Holiday Camp/School's Out Camp",
+            "time": "6:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "5": [
+        {
+            "title": "YMCA Holiday Camp/School's Out Camp",
+            "time": "6:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "8": [
+        {
+            "title": "YMCA Holiday Camp/School's Out Camp",
+            "time": "6:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "9": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "PTO Meeting",
+            "time": "6:30pm",
+            "location": "@Media Center"
+        }
+    ],
+    "10": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Musical",
+            "time": "8:00am - 9:00am",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "Nature Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        },
+        {
+            "title": "School Board Meeting",
+            "time": "7:00pm",
+            "location": null
+        }
+    ],
+    "11": [
+        {
+            "title": "Girls Basketball",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "12": [
+        {
+            "title": "Boys Basketball",
+            "time": "7:15am - 9:00am",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Robotics",
+            "time": "8:00am - 9:00am",
+            "location": "@Media Center"
+        }
+    ],
+    "15": [
+        {
+            "title": "YMCA Holiday Camp/School's Out Camp",
+            "time": "6:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "16": [
+        {
+            "title": "Girls Basketball",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "17": [
+        {
+            "title": "Musical",
+            "time": "8:00am - 9:00am",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "Nature Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        }
+    ],
+    "18": [
+        {
+            "title": "Girls Basketball",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "Martin Luther King Jr. Day",
+            "time": "All Day"
+        }
+    ],
+    "19": [
+        {
+            "title": "Robotics",
+            "time": "8:00am - 9:00am",
+            "location": "@Media Center"
+        }
+    ],
+    "22": [
+        {
+            "title": "Musical",
+            "time": "8:00am - 9:00am",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "Robotics",
+            "time": "8:00am - 9:00am",
+            "location": "@Media Center"
+        }
+    ],
+    "23": [
+        {
+            "title": "Girls Basketball",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "24": [
+        {
+            "title": "Musical",
+            "time": "8:00am - 9:00am",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "Nature Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        },
+        {
+            "title": "Best Buddies",
+            "time": "4:00pm - 5:00pm",
+            "location": "@Riverside - RSI GYM"
+        },
+        {
+            "title": "School Board Meeting",
+            "time": "7:00pm",
+            "location": null
+        }
+    ],
+    "26": [
+        {
+            "title": "Robotics",
+            "time": "8:00am - 9:00am",
+            "location": "@Media Center"
+        }
+    ],
+    "29": [
+        {
+            "title": "Musical",
+            "time": "8:00am - 9:00am",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "Robotics",
+            "time": "8:00am - 9:00am",
+            "location": "@Media Center"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "30": [
+        {
+            "title": "Girls Basketball",
+            "time": "4:00pm - 5:30pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "31": [
+        {
+            "title": "Musical",
+            "time": "8:00am - 9:00am",
+            "location": "@Riverside - RJH AUDITERIA"
+        },
+        {
+            "title": "Nature Club",
+            "time": "8:00am - 9:00am",
+            "location": null
+        }
+    ],
+    "01": [
+        {
+            "title": "New Year's Day",
+            "time": "All Day"
+        }
+    ]
+}

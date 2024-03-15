@@ -1,0 +1,5 @@
+# Issues with Namecheap
+
+Need upgraded OpenSSL to work with urllib3
+
+ImportError: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'OpenSSL 1.0.2u-fips  20 Dec 2019'. See: https://github.com/urllib3/urllib3/issues/2168

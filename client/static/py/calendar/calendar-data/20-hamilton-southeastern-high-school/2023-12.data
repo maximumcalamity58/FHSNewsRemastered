@@ -1,0 +1,1501 @@
+{
+    "1": [
+        {
+            "title": "HSE Swim Practice",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "SSC",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Best Buddies",
+            "time": "1:30pm - 3:00pm",
+            "location": "@HHS - HSE HS CCA Cafe E"
+        },
+        {
+            "title": "Riley Dance Marathon",
+            "time": "1:30pm - 3:00pm",
+            "location": "@HHS - HSE Cafe A"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Riley Event",
+            "time": "5:30pm - 8:00pm",
+            "location": "@HHS - HSE Cafe D"
+        }
+    ],
+    "2": [
+        {
+            "title": "SAMS",
+            "time": "6:00am - 7:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "7:00am - 9:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "9:00am - 3:00pm",
+            "location": "HHS - Cardio Room - D116, HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "SSC",
+            "time": "9:00am - 2:00pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Games",
+            "time": "12:00pm - 6:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Boys Soccer Banquet",
+            "time": "4:00pm - 9:00pm",
+            "location": "@HHS - HSE HS CCA Cafe E"
+        },
+        {
+            "title": "Swimming/Dive Meets- Boys/Girls",
+            "time": "4:00pm - 8:45pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys JV/V Basketball Games",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        }
+    ],
+    "3": [
+        {
+            "title": "HSE Boys Basketball Host Date",
+            "time": "10:00am - 6:00pm",
+            "location": "HHS - HSE HS GYM - VARSITY, HHS - HSE HS Gym - Auxiliary Gym 2, HHS - HSE HS GYM - AUXILIARY"
+        }
+    ],
+    "4": [
+        {
+            "title": "SAMS",
+            "time": "5:00am - 5:45am",
+            "location": null
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "SSC",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Choir Rehearsal",
+            "time": "8:30am - 3:00pm",
+            "location": "@HHS - HSE Leonard Auditorium"
+        },
+        {
+            "title": "Class",
+            "time": "8:30am - 10:00am",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Meeting",
+            "time": "1:45pm - 3:00pm",
+            "location": "@Small Office Conference Room"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys & Girls Track Open Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Girls 9th Basketball Games",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "We The People",
+            "time": "6:00pm - 8:30pm",
+            "location": "@Library"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Rec Basketball Practices",
+            "time": "8:00pm - 9:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec/Travel Boys Basketball Practices",
+            "time": "8:00pm - 9:00pm",
+            "location": "HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        }
+    ],
+    "5": [
+        {
+            "title": "SAMS",
+            "time": "5:00am - 5:45am",
+            "location": null
+        },
+        {
+            "title": "SSC",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Nat'l Honor Society",
+            "time": "7:50am - 8:15am",
+            "location": "@HHS - HSE Cafe D"
+        },
+        {
+            "title": "Choir Rehearsal",
+            "time": "8:30am - 1:30pm",
+            "location": "@HHS - HSE Leonard Auditorium"
+        },
+        {
+            "title": "Girls Freshman Basketball Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Nat'l Honor Society",
+            "time": "3:00pm - 3:30pm",
+            "location": "@HHS - HSE Cafe D"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Speech & Debate Team",
+            "time": "5:00pm - 7:00pm",
+            "location": "HHS - HSE HS CCA Gathering Stairs, Room K101 - Soft Seating, Room K101A, Room K101B, Room K101C, Room K102, Room K102A, Room K102B"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "5:30pm - 7:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 1 OLD AUX, HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Boys Volleyball open gym",
+            "time": "6:30pm - 8:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Girls Lacrosse Conditioning",
+            "time": "6:30pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Rec Basketball Practices",
+            "time": "8:00pm - 9:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        }
+    ],
+    "6": [
+        {
+            "title": "Chemistry PLC Curriculum Writing",
+            "time": "8:00am - 3:00pm",
+            "location": "@Room J232 CCA Lab"
+        },
+        {
+            "title": "Choir Rehearsal",
+            "time": "8:30am - 3:00pm",
+            "location": "@HHS - HSE Leonard Auditorium"
+        },
+        {
+            "title": "Class",
+            "time": "8:30am - 10:00am",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Office Staff Meeting",
+            "time": "1:00pm - 2:00pm",
+            "location": "@Library Conference Room"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Girls Freshman Basketball Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys & Girls Track Open Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Girls Lacrosse",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE Cafe A, HHS - HSE Cafe B, HHS - HSE Cafe C"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Boys Lacrosse Parent Meeting",
+            "time": "7:00pm - 9:00pm",
+            "location": "@Royal Den"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "7:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Rec Basketball Practices",
+            "time": "8:00pm - 9:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        }
+    ],
+    "7": [
+        {
+            "title": "SAMS",
+            "time": "5:00am - 5:45am",
+            "location": null
+        },
+        {
+            "title": "SSC",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Counsler Workshop",
+            "time": "7:30am - 8:15am",
+            "location": "@HHS - HSE Cafe D"
+        },
+        {
+            "title": "Guiding Coalition",
+            "time": "7:30am - 8:30am",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Choir Rehearsal",
+            "time": "8:30am - 3:00pm",
+            "location": "@HHS - HSE Leonard Auditorium"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Girls Freshman Basketball Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Speech & Debate Team",
+            "time": "5:00pm - 7:00pm",
+            "location": "HHS - HSE HS CCA Gathering Stairs, Room K101 - Soft Seating, Room K101A, Room K101B, Room K101C, Room K102, Room K102A, Room K102B"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "5:30pm - 7:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": null
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Boys Volleyball open gym",
+            "time": "6:30pm - 8:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Girls Lacrosse Conditioning",
+            "time": "6:30pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Choir Holiday Show",
+            "time": "7:00pm - 10:00pm",
+            "location": "@HHS - HSE Leonard Auditorium"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Rec Basketball Practices",
+            "time": "8:00pm - 9:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        }
+    ],
+    "8": [
+        {
+            "title": "HSE Swim Practice",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "SSC",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Choir Rehearsal",
+            "time": "8:30am - 3:00pm",
+            "location": "@HHS - HSE Leonard Auditorium"
+        },
+        {
+            "title": "Class",
+            "time": "8:30am - 10:00am",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Choir Holiday Show",
+            "time": "7:00pm - 10:00pm",
+            "location": "@HHS - HSE Leonard Auditorium"
+        }
+    ],
+    "9": [
+        {
+            "title": "SAMS",
+            "time": "6:00am - 7:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "7:00am - 9:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Nat'l Honor Society",
+            "time": "8:00am - 12:00pm",
+            "location": "@HHS - HSE Cafe D"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "9:00am - 12:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "SSC",
+            "time": "9:00am - 2:00pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Games",
+            "time": "12:00pm - 6:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        }
+    ],
+    "10": [
+        {
+            "title": "We The People",
+            "time": "2:00pm - 5:00pm",
+            "location": "@Library"
+        }
+    ],
+    "11": [
+        {
+            "title": "SAMS",
+            "time": "5:00am - 5:45am",
+            "location": null
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "SSC",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Girls Freshman Basketball Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys & Girls Track Open Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Rec Basketball Practices",
+            "time": "8:00pm - 9:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        }
+    ],
+    "12": [
+        {
+            "title": "SAMS",
+            "time": "5:00am - 5:45am",
+            "location": null
+        },
+        {
+            "title": "SSC",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Class",
+            "time": "8:30am - 10:00am",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Girls Freshman Basketball Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "5:30pm - 7:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 1 OLD AUX, HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Girls Lacrosse Conditioning",
+            "time": "6:30pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Wrestling Matches (JV/V)",
+            "time": "6:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Orchestra Concert",
+            "time": "7:00pm - 10:00pm",
+            "location": "@HHS - HSE Leonard Auditorium"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Rec Basketball Practices",
+            "time": "8:00pm - 9:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        }
+    ],
+    "13": [
+        {
+            "title": "We The People",
+            "time": "9:00am - 5:00pm",
+            "location": "@Off site location please see notes"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Girls Freshman Basketball Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys & Girls Track Open Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Boys Volleyball open gym",
+            "time": "6:30pm - 8:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Band Concert",
+            "time": "7:00pm - 10:00pm",
+            "location": "@HHS - HSE Leonard Auditorium"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "7:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Rec Basketball Practices",
+            "time": "8:00pm - 9:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        }
+    ],
+    "14": [
+        {
+            "title": "SAMS",
+            "time": "5:00am - 5:45am",
+            "location": null
+        },
+        {
+            "title": "SSC",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Class",
+            "time": "8:30am - 10:00am",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Class Ring",
+            "time": "11:30am - 1:30pm",
+            "location": "@HHS - Leonard Auditorium Lobby"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "5:30pm - 7:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": null
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Boys Volleyball open gym",
+            "time": "6:30pm - 8:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Girls Lacrosse Conditioning",
+            "time": "6:30pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Band & Orchestra Holiday Show",
+            "time": "7:00pm - 10:00pm",
+            "location": "@HHS - HSE Leonard Auditorium"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Rec Basketball Practices",
+            "time": "8:00pm - 9:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        }
+    ],
+    "15": [
+        {
+            "title": "HSE Swim Practice",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "SSC",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Royal Pride",
+            "time": "9:00am - 11:00am",
+            "location": "@Library Conference Room"
+        },
+        {
+            "title": "Asian Student Union",
+            "time": "1:37pm - 3:00pm",
+            "location": "@Room J132 CCA Lab"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Girls Freshman Basketball Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "HHS - HSE HS Aux Court 1 OLD AUX, HHS - HSE HS AUX COURT 2"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys JV/V Basketball Games",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        }
+    ],
+    "16": [
+        {
+            "title": "SAMS",
+            "time": "6:00am - 7:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "7:00am - 9:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Swimming/Dive Meets- Boys/Girls",
+            "time": "7:00am - 2:00pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "SSC",
+            "time": "9:00am - 2:00pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Basketball Rec Games",
+            "time": "12:00pm - 6:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Mudsock Game",
+            "time": "6:00pm - 9:00pm",
+            "location": "@Off site location please see notes"
+        }
+    ],
+    "17": [
+        {
+            "title": "HSE Boys Basketball Host Date",
+            "time": "10:00am - 6:00pm",
+            "location": "HHS - HSE HS GYM - VARSITY, HHS - HSE HS Gym - Auxiliary Gym 2, HHS - HSE HS GYM - AUXILIARY"
+        }
+    ],
+    "18": [
+        {
+            "title": "SAMS",
+            "time": "5:00am - 5:45am",
+            "location": null
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "SSC",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Meeting",
+            "time": "1:45pm - 3:00pm",
+            "location": "@Small Office Conference Room"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Girls Freshman Basketball Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys & Girls Track Open Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - HSE HS Aux Court 1 OLD AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Wrestling",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS LGI C120"
+        },
+        {
+            "title": "Football Speed & Strength Academy",
+            "time": "6:30pm - 7:45pm",
+            "location": "HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Mudsock Youth Athletics Rec/Travel Boys Basketball Practices",
+            "time": "7:45pm - 9:00pm",
+            "location": "HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Rec Basketball Practices",
+            "time": "8:00pm - 9:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        }
+    ],
+    "19": [
+        {
+            "title": "SAMS",
+            "time": "5:00am - 5:45am",
+            "location": null
+        },
+        {
+            "title": "SSC",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Girls Freshman Basketball Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS Aux Court 4"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Speech & Debate Team",
+            "time": "5:00pm - 7:00pm",
+            "location": "HHS - HSE HS CCA Gathering Stairs, Room K101 - Soft Seating, Room K101A, Room K101B, Room K101C, Room K102, Room K102A, Room K102B"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "5:30pm - 7:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Dance Team Practice",
+            "time": "6:00pm - 8:30pm",
+            "location": "@HHS - Cardio Room - D116"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 1 OLD AUX, HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Boys Volleyball open gym",
+            "time": "6:30pm - 8:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Girls Lacrosse Conditioning",
+            "time": "6:30pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Rec Basketball Practices",
+            "time": "8:00pm - 9:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        }
+    ],
+    "20": [
+        {
+            "title": "Exceptional Learners Final Exams",
+            "time": "8:00am - 3:00pm",
+            "location": "@Room J232 CCA Lab"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys & Girls Track Open Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "6:00pm - 7:30pm",
+            "location": "@HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Girls Basketball",
+            "time": "7:30pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Rec Basketball Practices",
+            "time": "8:00pm - 9:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        }
+    ],
+    "21": [
+        {
+            "title": "SAMS",
+            "time": "5:00am - 5:45am",
+            "location": null
+        },
+        {
+            "title": "SSC",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Exceptional Learners Final Exams",
+            "time": "8:00am - 3:00pm",
+            "location": "@Room J232 CCA Lab"
+        },
+        {
+            "title": "Exceptional Learners Final Exams",
+            "time": "8:00am - 3:00pm",
+            "location": "@Room J232 CCA Lab"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Girls Freshman Basketball Practice",
+            "time": "3:00pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "Football/Competition Cheer Practice",
+            "time": "3:30pm - 5:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Speech & Debate Team",
+            "time": "5:00pm - 7:00pm",
+            "location": "HHS - HSE HS CCA Gathering Stairs, Room K101 - Soft Seating, Room K101A, Room K101B, Room K101C, Room K102, Room K102A, Room K102B"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Basketball Cheer",
+            "time": "5:30pm - 7:30pm",
+            "location": "@HHS - HSE HS Aux Court 6 NEW AUX"
+        },
+        {
+            "title": "Lacrosse Workouts",
+            "time": "6:00pm - 8:00pm",
+            "location": "HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Boys Volleyball open gym",
+            "time": "6:30pm - 8:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "Girls Lacrosse Conditioning",
+            "time": "6:30pm - 8:00pm",
+            "location": "HHS - HSE HS Aux Court 4, HHS - HSE HS Aux Court 5"
+        },
+        {
+            "title": "Mudsock Youth Athletics Boys Rec Basketball Practices",
+            "time": "8:00pm - 9:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        }
+    ],
+    "22": [
+        {
+            "title": "HSE Swim Practice",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "SSC",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Exceptional Learners Final Exams",
+            "time": "8:00am - 3:00pm",
+            "location": "@Room J232 CCA Lab"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "3:00pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - AUXILIARY"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "3:15pm - 6:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Mudsock Youth Athletics HHS Travel Boys Basketball Practices",
+            "time": "7:30pm - 9:00pm",
+            "location": "@HHS - HSE HS Aux Court 6"
+        }
+    ],
+    "23": [
+        {
+            "title": "SAMS",
+            "time": "6:00am - 7:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "7:00am - 9:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "SSC",
+            "time": "9:00am - 2:00pm",
+            "location": "@Natatorium"
+        }
+    ],
+    "25": [
+        {
+            "title": "HSE Swim Practice",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Christmas Day",
+            "time": "All Day"
+        }
+    ],
+    "26": [
+        {
+            "title": "SAMS",
+            "time": "5:00am - 5:45am",
+            "location": null
+        },
+        {
+            "title": "SSC",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "2:00pm - 4:00pm",
+            "location": "HHS - HSE HS Aux Court 1 OLD AUX, HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "2:00pm - 4:00pm",
+            "location": null
+        },
+        {
+            "title": "Boys JV/Varsity Basketball Practice",
+            "time": "2:00pm - 4:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "5:00pm - 7:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        }
+    ],
+    "27": [
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "9:00am - 11:00am",
+            "location": "HHS - HSE HS Aux Court 1 OLD AUX, HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "12:00pm - 2:30pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Track/Field Practice",
+            "time": "6:00pm - 8:00pm",
+            "location": "@HHS - HSE HS Gym - Auxiliary Gym 2"
+        }
+    ],
+    "28": [
+        {
+            "title": "SAMS",
+            "time": "5:00am - 5:45am",
+            "location": null
+        },
+        {
+            "title": "SSC",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Boys 9th BBall Practice",
+            "time": "9:00am - 11:00am",
+            "location": "HHS - HSE HS Aux Court 1 OLD AUX, HHS - HSE HS AUX COURT 2, HHS - HSE HS AUX COURT 3"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "9:30am - 12:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        }
+    ],
+    "29": [
+        {
+            "title": "HSE Swim Practice",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "SSC",
+            "time": "5:45am - 8:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Girls Basketball",
+            "time": "10:00am - 12:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        },
+        {
+            "title": "HSE Swim Practice",
+            "time": "3:10pm - 5:20pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "SSC",
+            "time": "5:20pm - 8:30pm",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "Girls JV/V Basketball Games",
+            "time": "6:00pm - 9:00pm",
+            "location": "@HHS - HSE HS GYM - VARSITY"
+        }
+    ],
+    "30": [
+        {
+            "title": "SAMS",
+            "time": "6:00am - 7:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "SSC Super Splash",
+            "time": "6:00am - 10:00am",
+            "location": null
+        },
+        {
+            "title": "SSC Super Splash",
+            "time": "8:00am - 11:00am",
+            "location": "@Natatorium"
+        },
+        {
+            "title": "SSC Super Splash",
+            "time": "8:00am - 11:00am",
+            "location": null
+        },
+        {
+            "title": "Girls Freshman Basketball Practice",
+            "time": "10:00am - 12:00pm",
+            "location": "HHS - HSE HS Aux Court 1 OLD AUX, HHS - HSE HS AUX COURT 2"
+        }
+    ],
+    "24": [
+        {
+            "title": "Christmas Eve",
+            "time": "All Day"
+        }
+    ],
+    "31": [
+        {
+            "title": "New Year's Eve",
+            "time": "All Day"
+        }
+    ]
+}

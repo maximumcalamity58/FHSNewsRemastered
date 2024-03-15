@@ -1,0 +1,422 @@
+@font-face {
+	font-family: 'robotobold';
+	src: url('../fonts/roboto-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'robotoregular';
+	src: url('../fonts/roboto-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-image: var(--background-image);
+	background-color: var(--background-color);
+	background-size: cover; /* Updated this line */
+	background-attachment: fixed;
+	background-position: center center; /* Added this line */
+	overflow-y: scroll;
+	margin: 0;
+	font-family: var(--norm-font);
+	color: var(--container-text-color);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.hidden {
+	display: none !important;
+}
+
+a:link {
+	color: var(--anchor-color);
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: var(--anchor-hover);
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:active {
+	color: var(--anchor-hover);
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a.a--no-underline {
+	text-decoration: none;
+}
+
+button {
+	outline: none;
+	border: none;
+	cursor: pointer;
+	font-family: var(--norm-font);
+	background-color: var(--button-background-color);
+	color: var(--button-text-color);
+}
+
+button:hover {
+	background-color: var(--button-hover-background);
+	color: var(--button-hover-text);
+}
+
+.wrapper {
+	min-height: 100%;
+	margin-bottom: -15vw;
+}
+
+.block {
+	position: relative;
+	height: auto;
+	text-align: center;
+	margin-bottom: 5vw;
+}
+
+#main-content {
+	margin: auto;
+	padding: 2vw;
+	padding-bottom: 14vw;
+}
+
+.row {
+	position: relative;
+	height: auto;
+	text-align: center;
+	margin-bottom: 1vw;
+}
+
+.container {
+	background: var(--container-background-color);
+	color: var(--container-text-color);
+	text-align: center;
+}
+
+.l-margin {
+	margin-left: 1vw;
+}
+
+.r-margin {
+	margin-right: 1vw;
+}
+
+body.fullsize-content {
+	overflow: auto;
+
+}
+
+body.fullsize-content #main-content {
+	height: calc(100vh - 14.25vw - 12vw - 2px);
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	position: relative;
+	height: 12vw;
+	width: 100%;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin: auto;
+	text-align: center;
+	background-color: var(--header-background-color);
+	z-index: 999;
+	transition: 0.3s;
+
+}
+
+header a:link {
+	color: var(--header-text-color);
+}
+
+ #header__anchor {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  font-family: var(--bold-font);
+  text-decoration: none;
+  font-size: 7.5vw;
+  line-height: 7.5vw;
+  font-weight: bold;
+  color: var(--header-text-color);
+  background-color: transparent;
+  transform: translate(-50%,-50%);
+}
+
+nav {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	border-top: solid 2px var(--navigation-icon-color);
+	z-index: 10;
+}
+
+#nav-tabs {
+	height: 12vw;
+	background: var(--navigation-background-color);
+	transition: 0.3s;
+	text-align: center;
+}
+
+body.fullsize-content #nav-tabs {
+	background-color: var(--navigation-active-icon-color);
+}
+
+#nav-tabs a,
+header a {
+	text-decoration: none;
+	font-size: 0;
+}
+
+#nav-tabs a div,
+header a div {
+	display: inline-block;
+	width: calc(100% / 3);
+	height: 100%;
+}
+
+header a div img {
+	margin: 0 12px 0
+}
+
+#nav-tabs a div svg,
+header a div svg {
+	margin: 1.5vh 0 0;
+	fill: var(--navigation-icon-color);
+}
+
+#nav-tabs a div img {
+	margin: 1000px;
+}
+
+header a div img {
+	fill: var(--header-icon-color);
+}
+
+#nav-tabs a.selected div svg,
+header a.selected div svg {
+	fill: var(--navigation-active-icon-color);
+}
+
+header a div {
+	height: 14.25vw;
+	width: auto;
+	top: 0;
+	right: 5px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+}
+
+#question-mark-svg {
+	transform: scale(1.3);
+	transform-origin: center;
+}
+
+.modal-polygon {
+	fill: var(--navigation-active-icon-color);
+}
+
+footer {
+	background-color: var(--navigation-background-color);
+	border-top: solid 5px white;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 12px;
+	padding: 10px 0;
+}
+
+footer svg {
+	width: 200px;
+	margin: 0 auto 10px;
+}
+
+img.svg-mask-only {
+	position: relative;
+	box-sizing: border-box;
+}
+
+img.svg-mask-only:after {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	content: "\u00a0";
+	background: currentColor;
+}
+#main_body {
+	padding-top: 70px;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 12vw; /* Adjust the height as needed */
+	background-color: var(--header-background-color);
+	z-index: 1000; /* Ensure the header is above the content */
+}
+
+#main-content {
+	padding-top: 12vw; /* Add top padding equal to the height of the header */
+}
+
+
+@media screen and (min-width: 0px) {
+	.wrapper {
+		margin-top: 30px;
+		margin-bottom: -75px;
+	}
+
+	#main-content {
+		padding-top: 90px;
+		padding-bottom: 75px;
+	}
+
+	header {
+		height: 71.25px;
+		padding-top: 0;
+	}
+
+	header p {
+		top: -3.75px;
+		font-size: 12.5px;
+	}
+
+	#header__anchor {
+		font-size: 37.5px;
+		line-height: 37.5px;
+	}
+
+	.text, .shadow {
+		top: 5px;
+		font-size: 50px;
+	}
+
+	nav {
+		width: 100%;
+	}
+
+	#nav-tabs {
+		height: 6vw;
+		min-height: 80px;
+	}
+
+	#nav-tabs a div {
+		text-align: center;
+	}
+
+	#nav-tabs a div {
+	  position: relative;
+	}
+
+	#nav-tabs a div::before {
+	  content: "";
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  background-color: #333;
+	  opacity: 0;
+	  pointer-events: none;  /* So it doesn't interfere with interactions */
+	  transition: opacity 0.3s;
+	}
+
+	#nav-tabs a div:hover::before {
+	  opacity: 0.3;
+	}
+
+	#nav-tabs a div span {
+		display: block;
+		font-size: 20px;  /* You can adjust this */
+		align-content: start;
+		justify-content: center;
+		color: var(--container-text-color);  /* Set the text color */
+	}
+
+	header a div {
+		height: 71.25px;
+	}
+
+	#nav-tabs a div svg,
+	header a div svg {
+		height: 5vh;
+	}
+
+	.block {
+		margin: auto auto 25px;
+		width: calc(50% + 240px);
+	}
+
+	.row {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 5px;
+	}
+
+	.l-margin {
+		margin-left: 5px;
+	}
+
+	.r-margin {
+		margin-right: 5px;
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.wrapper:before {
+		content: '';
+		height: 0;
+		width: 100%;
+		display: block;
+		background: rgba(200, 200, 200, 1);
+		background: linear-gradient(90deg, transparent 25%, rgba(200, 200, 200, 1) 25%, rgba(200, 200, 200, 1) 37.5%, transparent 37.5%, transparent 62.5%, rgba(200, 200, 200, 1) 62.5%, rgba(200, 200, 200, 1) 75%, transparent 75%);
+		transition: height 0.5s ease-out;
+		animation: loading 2.5s infinite linear;
+		background-size: 400% 100%;
+	}
+
+	.wrapper.loading:before {
+		height: 6px;
+	}
+
+	@keyframes loading {
+		0% {
+			background-position: 100% 0%;
+		}
+		35% {
+			background-position: 50% 0%;
+		}
+		100% {
+			background-position: 0% 0%;
+		}
+	}
+}
+
+svg {
+	fill: currentColor;
+}
+
+canvas {
+	pointer-events: none;
+	z-index: 5;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+}

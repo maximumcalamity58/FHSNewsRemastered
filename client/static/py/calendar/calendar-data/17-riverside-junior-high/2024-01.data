@@ -1,0 +1,45 @@
+{
+    "13": [
+        {
+            "title": "Show Choir",
+            "time": "9:00am - 12:00pm",
+            "location": "@Riverside - RJH AUDITERIA"
+        }
+    ],
+    "18": [
+        {
+            "title": "RJHA",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "Martin Luther King Jr. Day",
+            "time": "All Day"
+        }
+    ],
+    "23": [
+        {
+            "title": "Club Photo Day",
+            "time": "9:30am - 4:00pm",
+            "location": "@Riverside - RJH AUDITERIA"
+        }
+    ],
+    "29": [
+        {
+            "title": "RJHA",
+            "time": "5:30pm - 9:00pm",
+            "location": null
+        },
+        {
+            "title": "RJHA",
+            "time": "5:30pm - 9:00pm",
+            "location": "@Riverside - RSI GYM"
+        }
+    ],
+    "01": [
+        {
+            "title": "New Year's Day",
+            "time": "All Day"
+        }
+    ]
+}

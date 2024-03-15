@@ -1,0 +1,42 @@
+{
+    "10": [
+        {
+            "title": "ORFF",
+            "time": "2:15pm - 3:30pm",
+            "location": "@Cumberland Road Elementary - CRE Gym"
+        }
+    ],
+    "17": [
+        {
+            "title": "ORFF",
+            "time": "2:15pm - 3:30pm",
+            "location": "@Cumberland Road Elementary - CRE Gym"
+        }
+    ],
+    "24": [
+        {
+            "title": "ORFF",
+            "time": "2:15pm - 3:30pm",
+            "location": "@Cumberland Road Elementary - CRE Gym"
+        }
+    ],
+    "31": [
+        {
+            "title": "ORFF",
+            "time": "2:15pm - 3:30pm",
+            "location": "@Cumberland Road Elementary - CRE Gym"
+        }
+    ],
+    "01": [
+        {
+            "title": "New Year's Day",
+            "time": "All Day"
+        }
+    ],
+    "18": [
+        {
+            "title": "Martin Luther King Jr. Day",
+            "time": "All Day"
+        }
+    ]
+}

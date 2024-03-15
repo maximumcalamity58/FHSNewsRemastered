@@ -1,0 +1,50 @@
+:root {
+  --norm-font: "robotoregular";
+  --light-font: "robotolight";
+  --bold-font: "robotobold";
+
+  --background-image: url('../img/forest.png');
+  --secondary-background-color: rgb(210,210,210);
+  --container-background-color: rgba(255, 255, 255, 0.5);
+  --container-text-color: black;
+  --countdown-text-color: #080;
+  --gallery-dot-color: #D3D3D3;
+
+  --button-background-color: white;
+  --button-text-color: black;
+  --button-text-color-alt: white;
+  --button-hover-background: rgba(196, 196, 196, 0.5);
+  --button-hover-background-alt: rgb(0, 136, 0);
+  --button-hover-text: black;
+  --button-active-color: rgba(255, 255, 255, 0.5);
+
+  --soft-color: #5cbd5c;
+
+  --calendar-red: lightcoral;
+  --calendar-green: lightgreen;
+  --calendar-blue: #9dd7e6;
+  --calendar-yellow: #ffffc0;
+  --calendar-silver: #e3e3e3;
+  --calendar-purple: #e3b0fb;
+  --calendar-gray: lightgrey;
+  --calendar-white: white;
+
+
+  --header-background-color: #080;
+  --header-text-color: white;
+  --header-icon-color: white;
+  --navigation-background-color: white;
+  --navigation-icon-color: rgb(100,100,100);
+  --navigation-active-icon-color: #080;
+
+	--error-bg: rgb(50,150,100);
+
+  --active-color: #080;
+  --active-hover-color: rgb(50,160,110);
+  --dark-color: darkgreen;
+
+  --outline-color: rgb(180,180,180);
+
+  --anchor-color: #080;
+  --anchor-hover: black;
+}

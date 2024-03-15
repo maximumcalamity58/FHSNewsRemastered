@@ -1,0 +1,61 @@
+{
+    "10": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "ORFF",
+            "time": "2:15pm - 3:30pm",
+            "location": "@Cumberland Road Elementary - CRE Gym"
+        }
+    ],
+    "17": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "ORFF",
+            "time": "2:15pm - 3:30pm",
+            "location": "@Cumberland Road Elementary - CRE Gym"
+        }
+    ],
+    "24": [
+        {
+            "title": "Red day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "ORFF",
+            "time": "2:15pm - 3:30pm",
+            "location": "@Cumberland Road Elementary - CRE Gym"
+        }
+    ],
+    "31": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "ORFF",
+            "time": "2:15pm - 3:30pm",
+            "location": "@Cumberland Road Elementary - CRE Gym"
+        }
+    ],
+    "01": [
+        {
+            "title": "Silver day",
+            "time": null,
+            "location": null
+        },
+        {
+            "title": "New Year's Day",
+            "time": "All Day"
+        }
+    ]
+}
