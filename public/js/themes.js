@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initializeThemes(themeButtons);
     incrementDailyVisits(); // Increment the visit count if it's a new day
     updateVisitCounterDisplay(); // Update the display on page load
+    updateThemeCounterDisplay(); // Update the display on page load
     checkConsecutiveVisits(); // Check and update consecutive visits for the midnight theme
     updateConsecutiveVisitCounterDisplay(); // Update the display on page load
     initialize2048();
@@ -18,6 +19,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Event listener for the "Check Answer" button for the purple theme
     document.getElementById('check-answer-purple').addEventListener('click', () => {
         checkVisitsAndUnlockTheme('purple');
+    });
+
+    // Event listener for the "Check Answer" button for the purple theme
+    document.getElementById('check-answer-shaded').addEventListener('click', () => {
+        checkNumberOfUnlockedThemesShaded()
     });
 
     // Event listener for the "Check Answer" button for the midnight theme
@@ -77,6 +83,9 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'sunset') {
                 checkAnswer('sunset');
+            }
+            if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'shaded') {
+                checkNumberOfUnlockedThemesShaded();
             }
         }
     });
@@ -299,6 +308,15 @@ function updateVisitCounterDisplay() {
     }
 }
 
+function updateThemeCounterDisplay() {
+    const visitCounterElement = document.getElementById('theme-counter-shaded');
+
+    // Update the visit counter display
+    if (visitCounterElement) {
+        visitCounterElement.textContent = `${getAllUnlockedThemes()}/10`;
+    }
+}
+
 function checkVisitsAndUnlockTheme(theme) {
     const visitKey = 'dailyVisits';
     const themeUnlockedKey = `themeUnlocked-${theme}`;
@@ -337,6 +355,43 @@ function checkSnowThemeUnlock() {
 
         if (feedbackElement) feedbackElement.textContent = 'The Snow theme can only be unlocked in December.';
     }
+}
+
+function checkNumberOfUnlockedThemesShaded() {
+    const feedbackElement = document.getElementById(`feedback-message-shaded}`); // Ensure you have a unique feedback element for each theme
+
+    // If the user has visited the site on 5 different days
+    if (getAllUnlockedThemes() >= 5) {
+        localStorage.setItem('themeUnlocked-shaded', 'true'); // Unlock the theme
+        meepMorp('shaded'); // Update the UI to reflect the unlocked theme
+        runConfetti();
+    } else {
+        // Shake the modal and clear the input
+        const modalContent = document.querySelector('.modal-content');
+        modalContent.classList.add('shakeThemes');
+        setTimeout(() => modalContent.classList.remove('shakeThemes'), 500); // Remove class after animation
+
+        // Clear the input box and show feedback
+        if (feedbackElement) feedbackElement.textContent = 'Not enough total visits.';
+    }
+}
+
+function getAllUnlockedThemes() {
+    const unlockedThemes = [];
+    // Loop through all the items in localStorage
+    for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        // Check if the key starts with 'themeUnlocked-'
+        if (key.startsWith('themeUnlocked-')) {
+            // Extract the theme name by removing the prefix
+            const themeName = key.replace('themeUnlocked-', '');
+            // Optionally, check if the theme is marked as true/unlocked
+            if (localStorage.getItem(key) === 'true') {
+                unlockedThemes.push(themeName);
+            }
+        }
+    }
+    return unlockedThemes.length;
 }
 
 function getYesterdayDateString() {
@@ -412,6 +467,7 @@ function meepMorp(theme) {
     localStorage.setItem(`themeUnlocked-${theme}`, true);
     document.querySelector(`.theme-button[data-theme="${theme}"]`).classList.remove('locked-theme');
     closePuzzle();
+    updateThemeCounterDisplay();
     switchTheme(theme); // Switch to the newly unlocked theme
     setActiveButton(theme); // Set the newly unlocked theme button as active
 }

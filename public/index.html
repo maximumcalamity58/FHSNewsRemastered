@@ -79,6 +79,7 @@
 					<a class="theme-button" data-theme="mountain" style="background-image: url('img/mountains.svg'); background-repeat: no-repeat; background-position: center; background-color: #898989"></a>
 					<a class="theme-button" data-theme="hartley" style="background-image: url('img/bitcoin.svg'); background-repeat: no-repeat; background-position: center; background-color: #f7931a;"></a>
 					<a class="theme-button" data-theme="sunset" style="background-image: url('img/sunset.svg'); background-repeat: no-repeat; background-position: center; background-color: #ea720e;"></a>
+					<a class="theme-button" data-theme="shaded" style="background-image: url('img/shaded.svg'); background-repeat: no-repeat; background-position: center; background-color: #297585;"></a>
 			</section>
 
 			<div id="puzzleModal" class="modal">
@@ -228,7 +229,14 @@
                     <button data-theme="sunset" class="puzzle-answer-button">Unlock Theme</button>
                     <div id="feedback-message-sunset" class="feedback-message"></div>
 				</div>
-			  </div>
+                <div id="puzzle-shaded" class="puzzle" data-theme="shaded">
+					<h2>Unlock Shaded Theme</h2>
+					<p>Unlock 10 different themes to unlock this theme.</p>
+					<p id="theme-counter-shaded">Themes Unlocked: NaN/10</p>
+					<button id="check-answer-shaded">Unlock Theme</button>
+					<div id="feedback-message-shaded" class="feedback-message"></div>
+			    </div>
+              </div>
 			</div>
 		</div>
 

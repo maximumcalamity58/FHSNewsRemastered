@@ -1,0 +1,50 @@
+:root {
+  --norm-font: "robotoregular";
+  --light-font: "robotolight";
+  --bold-font: "robotobold";
+
+  --background-image: url('../img/shaded.png');
+  --secondary-background-color: rgb(210,210,210);
+  --container-background-color: rgba(0, 0, 0, 0.5);
+  --container-text-color: #ccc;
+  --countdown-text-color: #a6e1c2;
+  --gallery-dot-color: #888;
+
+  --button-background-color: white;
+  --button-text-color: black;
+  --button-text-color-alt: white;
+  --button-hover-background: rgba(196, 196, 196, 0.5);
+  --button-hover-background-alt: rgba(100, 237, 169, 0.8);
+  --button-hover-text: black;
+  --button-active-color: rgba(255, 255, 255, 0.5);
+
+  --soft-color: #733;
+
+  --calendar-red: #c04040;
+  --calendar-green: #50be50;
+  --calendar-blue: #5da7b6;
+  --calendar-yellow: #cfcf80;
+  --calendar-silver: #a3a3a3;
+  --calendar-purple: #9360cb;
+  --calendar-gray: #737373;
+  --calendar-white: #ccc;
+
+
+  --header-background-color: #59737a;
+  --header-text-color: white;
+  --header-icon-color: white;
+  --navigation-background-color: #478991;
+  --navigation-icon-color: rgb(107, 213, 217);
+  --navigation-active-icon-color: #26c0ae;
+
+	--error-bg: rgb(155,155,155);
+
+  --active-color: #0fd9e0;
+  --active-hover-color: rgb(150,150,150);
+  --dark-color: #555;
+
+  --outline-color: rgb(180,180,180);
+
+  --anchor-color: #e8e8e8;
+  --anchor-hover: black;
+}
