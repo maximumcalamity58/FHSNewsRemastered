@@ -383,7 +383,7 @@ function checkNumberOfUnlockedThemesShaded() {
     const feedbackElement = document.getElementById(`feedback-message-shaded}`); // Ensure you have a unique feedback element for each theme
 
     // If the user has visited the site on 5 different days
-    if (getAllUnlockedThemes() >= 5) {
+    if (getAllUnlockedThemes() >= 10) {
         localStorage.setItem('themeUnlocked-shaded', 'true'); // Unlock the theme
         meepMorp('shaded'); // Update the UI to reflect the unlocked theme
         runConfetti();
