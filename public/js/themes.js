@@ -57,6 +57,9 @@ document.addEventListener('DOMContentLoaded', () => {
             if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'purple') {
                 checkVisitsAndUnlockTheme('purple');
             }
+            if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'green') {
+                checkVisitsAndUnlockTheme('green');
+            }
             if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'midnight') {
                 checkConsecutiveVisitsAndUnlockTheme('midnight');
             }
