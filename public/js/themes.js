@@ -317,10 +317,12 @@ function updateVisitCounterDisplay() {
     const visitKey = 'dailyVisits';
     let dailyVisits = parseInt(localStorage.getItem(visitKey), 10) || 0;
     const visitCounterElement = document.getElementById('visit-counter-purple');
+    const visitCounterElement2 = document.getElementById('visit-counter-green');
 
     // Update the visit counter display
     if (visitCounterElement) {
         visitCounterElement.textContent = `${dailyVisits}/5`;
+        visitCounterElement2.textContent = `${dailyVisits}/10`;
     }
 }
 
@@ -340,7 +342,11 @@ function checkVisitsAndUnlockTheme(theme) {
     const feedbackElement = document.getElementById(`feedback-message-${theme}`); // Ensure you have a unique feedback element for each theme
 
     // If the user has visited the site on 5 different days
-    if (dailyVisits >= 5) {
+    if (dailyVisits >= 5 && theme === "purple") {
+        localStorage.setItem(themeUnlockedKey, 'true'); // Unlock the theme
+        meepMorp(theme); // Update the UI to reflect the unlocked theme
+        runConfetti();
+    } else if (dailyVisits >= 10 && theme === "green") {
         localStorage.setItem(themeUnlockedKey, 'true'); // Unlock the theme
         meepMorp(theme); // Update the UI to reflect the unlocked theme
         runConfetti();
