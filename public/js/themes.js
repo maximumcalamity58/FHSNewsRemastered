@@ -112,7 +112,7 @@ function setupPuzzleAnswerCheckers() {
 }
 
 // Object to hold the correct answers for each theme and part
-const themeAnswers = {
+const beepBorpBoop = {
     blue: {
         parts: ['brightness'] // Only one part for the blue theme
     },
@@ -146,7 +146,7 @@ const themeAnswers = {
 function getCorrectAnswerForThemePart(theme, partIndex) {
     // Retrieve the correct answer for a theme's specific part
     // The partIndex is expected to start from 0 for the first part
-    const themeInfo = themeAnswers[theme];
+    const themeInfo = beepBorpBoop[theme];
     if (themeInfo && themeInfo.parts[partIndex] !== undefined) {
     return themeInfo.parts[partIndex];
     } else {
@@ -213,7 +213,7 @@ function closePuzzle() {
 
 function checkAnswer(theme, partIndex = 0) {
     // Determine if the puzzle is a single-part or multi-part puzzle
-    const isMultiPartPuzzle = themeAnswers[theme] && themeAnswers[theme].parts.length > 1;
+    const isMultiPartPuzzle = beepBorpBoop[theme] && beepBorpBoop[theme].parts.length > 1;
     const answerBoxId = isMultiPartPuzzle ? `answer-${theme}-part-${partIndex + 1}` : `answer-${theme}`;
     const feedbackElementId = isMultiPartPuzzle ? `feedback-message-${theme}-part-${partIndex + 1}` : `feedback-message-${theme}`;
 
@@ -231,7 +231,7 @@ function checkAnswer(theme, partIndex = 0) {
     const correctAnswer = getCorrectAnswerForThemePart(theme, partIndex);
 
     if (userAnswer === correctAnswer) {
-        if (themeAnswers[theme].parts.length > partIndex + 1) {
+        if (beepBorpBoop[theme].parts.length > partIndex + 1) {
             // If there's a next part, show it
             const currentPartId = `part-${partIndex + 1}-${theme}`;
             const nextPartId = `part-${partIndex + 2}-${theme}`;
@@ -239,7 +239,7 @@ function checkAnswer(theme, partIndex = 0) {
             document.getElementById(nextPartId).style.display = 'block';
         } else {
             // Last part answered correctly, or it's a single-part puzzle, unlock the theme
-            unlockTheme(theme);
+            meepMorp(theme);
             runConfetti();
 
             if (currentPartId > 0) {
@@ -308,7 +308,7 @@ function checkVisitsAndUnlockTheme(theme) {
     // If the user has visited the site on 5 different days
     if (dailyVisits >= 5) {
         localStorage.setItem(themeUnlockedKey, 'true'); // Unlock the theme
-        unlockTheme(theme); // Update the UI to reflect the unlocked theme
+        meepMorp(theme); // Update the UI to reflect the unlocked theme
         runConfetti();
     } else {
         // Shake the modal and clear the input
@@ -328,7 +328,7 @@ function checkSnowThemeUnlock() {
 
     // Check if the current month is December
     if (currentMonth === 11) { // 11 represents December
-        unlockTheme('snow'); // Unlock the snow theme
+        meepMorp('snow'); // Unlock the snow theme
         runConfetti(); // Run the confetti effect
     } else {
         const modalContent = document.querySelector('.modal-content'); // Assuming this is the modal you want to shake
@@ -392,7 +392,7 @@ function checkConsecutiveVisitsAndUnlockTheme(theme) {
     // If the user has visited the site on 2 consecutive days
     if (consecutiveVisits >= 2) {
         localStorage.setItem(themeUnlockedKey, 'true'); // Unlock the theme
-        unlockTheme(theme); // Update the UI to reflect the unlocked theme
+        meepMorp(theme); // Update the UI to reflect the unlocked theme
         runConfetti(); // Run the confetti effect
     } else {
         // Shake the modal and clear the input
@@ -408,7 +408,7 @@ function checkConsecutiveVisitsAndUnlockTheme(theme) {
     }
 }
 
-function unlockTheme(theme) {
+function meepMorp(theme) {
     localStorage.setItem(`themeUnlocked-${theme}`, true);
     document.querySelector(`.theme-button[data-theme="${theme}"]`).classList.remove('locked-theme');
     closePuzzle();
@@ -482,7 +482,7 @@ function checkSpaceThemeUnlock() {
 
     if (game.in_checkmate() && game.turn() === 'b') {
         localStorage.setItem('space', 'true'); // Unlock the theme
-        unlockTheme('space'); // Update the UI to reflect the unlocked theme
+        meepMorp('space'); // Update the UI to reflect the unlocked theme
         runConfetti(); // Run the confetti effect
     } else {
         const modalContent = document.querySelector('.modal-content'); // Assuming this is the modal you want to shake
@@ -728,7 +728,7 @@ function initialize2048 (){
                 addRandomTile(board);
                 drawBoard();
                 if (checkWinCondition()) {
-                    unlockTheme('magma')
+                    meepMorp('magma')
                 }
             }
         }
