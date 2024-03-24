@@ -70,6 +70,7 @@ body {
 
 .gallery-dot.active {
     background-color: var(--active-color);
+	background-image: var(--active-gradient);
 }
 
 .gallery-dot:before {
@@ -132,6 +133,7 @@ body {
 	width: 0%;
 	height: 2.5vw;
 	background-color: var(--active-color);
+	background-image: var(--active-gradient);
 	transition: width 1s linear;
 }
 
@@ -276,22 +278,28 @@ p {
 }
 
 #theme_selector {
-  display: inline-block;
-  position: relative;
-  width: 215px;
-  height: 30px;
-  font-size: 20px;
-  text-align: center;
-  text-decoration: none;
-  font-family: robotobold;
-  cursor: pointer;
-  color: var(--button-text-color-alt);
-  pointer-events: visible;
-  background-size: 26px; /* Reduces the size of the background image to create a 2px border around it */
-  background-position: 4px 50%;
-  border: 2px solid black;
-  margin-left: 5px;
-  margin-right: 5px;
+	display: inline-block;
+	position: relative;
+	width: 215px;
+	height: 30px;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-family: robotobold;
+	cursor: pointer;
+	color: var(--button-text-color-alt);
+	pointer-events: visible;
+	background-size: 26px; /* Reduces the size of the background image to create a 2px border around it */
+	background-position: 4px 50%;
+	border: 2px solid black;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/* Assuming a direct gradient definition for demonstration */
+.theme-button[data-theme="gradient"] {
+    background-size: cover;
+    background-position: center; /* Centers the gradient */
 }
 
 #themes_blur {

@@ -81,18 +81,13 @@ class Calendar {
         const yearMonth = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`; // Format: 'YYYY-MM'
         const filePath = `/py/calendar/calendar-data/${this.schoolFolder}/${yearMonth}.json`;
 
-        console.log("Fetching from filePath:", filePath);  // Debugging line
-
         let eventData = [];
         try {
             const response = await fetch(filePath);
-            console.log("Response headers:", response.headers);  // Debugging line
-            console.log("Response status:", response.status);    // Debugging line
             if (!response.ok) {
                 throw new Error('Network response was not ok ' + response.statusText);
             }
             const data = await response.json();
-            console.log("Data received:", data);  // Debugging line
             eventData = data[date.getDate()] || [];
             // Hide the loading bar
             this.hideLoadingBar()
@@ -140,7 +135,6 @@ class Calendar {
 
 
         const displayData = formattedEvents || "No Events";
-        console.log(formattedEvents)
 
         // Update the modal content
         document.getElementById("eventContent").innerHTML = `

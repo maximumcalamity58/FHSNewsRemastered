@@ -56,11 +56,11 @@
 	</header>
 	<article id="main-content">
 		<section class="block" id="themes_shop_container">
-			<a id="theme_selector" style="background-repeat: no-repeat;">Theme Selector</a>
+			<a id="theme_selector">Theme Selector</a>
 		</section>
 
 		<div class="hidden" id="themes_blur">
-			<section class="block hidden" id="themes_selector">
+			<section class="block hidden" style="background-repeat: no-repeat" id="themes_selector">
 					<h1>Theme Selector</h1>
 
 					<!-- Container for the main theme buttons -->
@@ -69,6 +69,7 @@
 					<a class="theme-button" data-theme="purple" style="background-color: purple;"></a>
 					<a class="theme-button" data-theme="dark" style="background-color: #444;"></a>
 					<a class="theme-button" data-theme="midnight" style="background-color: #111;"></a>
+					<a class="theme-button" data-theme="gradient" style="background-image: linear-gradient(50deg, #ff0000, #0000ff);"></a>
 					<a class="theme-button" data-theme="snow" style="background-image: url('img/snowflake.svg'); background-repeat: no-repeat; background-position: center; background-color: #9dd7e6"></a>
 					<a class="theme-button" data-theme="forest" style="background-image: url('img/tree.svg'); background-repeat: no-repeat; background-position: center; background-color: #90ee90"></a>
 					<a class="theme-button" data-theme="ocean" style="background-image: url('img/wave.svg'); background-repeat: no-repeat; background-position: center; background-color: #87cefa"></a>
@@ -110,6 +111,13 @@
 					<p id="consecutive-visit-counter-midnight">Consecutive visits: NaN/2</p>
 					<button id="check-answer-midnight">Unlock Theme</button>
 					<div id="feedback-message-midnight" class="feedback-message"></div>
+				</div>
+                  <div id="puzzle-gradient" class="puzzle" data-theme="gradient">
+					<h2>Unlock Gradient Theme</h2>
+					<p>Log in for 4 consecutive days to unlock this theme</p>
+					<p id="consecutive-visit-counter-gradient">Consecutive visits: NaN/4</p>
+					<button id="check-answer-gradient">Unlock Theme</button>
+					<div id="feedback-message-gradient" class="feedback-message"></div>
 				</div>
 				<div id="puzzle-snow" class="puzzle" data-theme="snow">
 					<h2>Unlock Snow Theme</h2>
@@ -335,7 +343,6 @@
 		if (typeof init === "function") {
 			initializeCountdown();
 		}
-		console.log("Default: the basic theme");
 	}
 
 	window.addEventListener('load', function() {
@@ -359,24 +366,6 @@
 			console.error("Error fetching the SVG: ", error);
 		  });
 	  });
-	});
-
-	document.addEventListener('DOMContentLoaded', function() {
-		document.getElementById('more-themes-toggle').addEventListener('click', function() {
-			const toggle = this;
-			const additionalThemes = document.getElementById('additional-themes');
-			const isOpen = toggle.getAttribute('data-open') === 'true';
-
-			if (isOpen) {
-				// Hide additional themes by resetting the max-height
-				additionalThemes.style.maxHeight = '0';
-				toggle.setAttribute('data-open', 'false');
-			} else {
-				// Show additional themes by setting a max-height large enough to contain all additional buttons
-				additionalThemes.style.maxHeight = '35px'; // Adjust max-height as necessary
-				toggle.setAttribute('data-open', 'true');
-			}
-		});
 	});
 
 

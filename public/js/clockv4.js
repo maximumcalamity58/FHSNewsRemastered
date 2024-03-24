@@ -76,7 +76,6 @@ function to12HourFormat(timeStr) {
 
 window.advanceToNextPeriod = function() {
     manualNavigation = true;
-    console.log("a")
     if (currentPeriodIndex < timePeriodMapping.length - 1) {
         currentPeriodIndex++;
         updatePeriod();
@@ -88,7 +87,6 @@ window.advanceToNextPeriod = function() {
 
 window.advanceToPreviousPeriod = function() {
     manualNavigation = true;
-    console.log("b")
     if (currentPeriodIndex > -1) {
         currentPeriodIndex--;
         updatePeriod();
@@ -179,8 +177,6 @@ function updatePeriod() {
             lunchButtons.classList.add("hidden");
         }
 
-        console.log(currentPeriodMapping.periodName);
-
         updateProgressBar(periodStartTime, endTime);
     } else {
         endTime = new Date(now);
@@ -194,8 +190,6 @@ function updatePeriod() {
         }
         manualNavigation = false; // Reset the flag
     }
-
-    console.log("sup")
 
     // Update gallery dots
     let gallery = document.getElementById("period__gallery");

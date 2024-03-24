@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("sup");
-
     // Get the modal
     var modal = document.getElementById("clubModal");
 

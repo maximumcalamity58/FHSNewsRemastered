@@ -32,6 +32,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Event listener for the "Check Answer" button for the midnight theme
+    document.getElementById('check-answer-gradient').addEventListener('click', () => {
+        checkConsecutiveVisitsAndUnlockTheme('gradient');
+    });
+
+    // Event listener for the "Check Answer" button for the midnight theme
     document.getElementById('check-answer-snow').addEventListener('click', () => {
         checkSnowThemeUnlock('snow');
     });
@@ -49,6 +54,9 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'midnight') {
                 checkConsecutiveVisitsAndUnlockTheme('midnight');
+            }
+            if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'gradient') {
+                checkConsecutiveVisitsAndUnlockTheme('gradient');
             }
             if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'snow') {
                 checkSnowThemeUnlock();
@@ -194,6 +202,14 @@ function setActiveButton(activeTheme) {
     themeButtons.forEach(button => {
         if (button.getAttribute('data-theme') === activeTheme) {
             button.classList.add('active');
+            if (activeTheme === 'gradient') {
+                themeShop.style.backgroundSize = "cover";
+                themeShop.style.backgroundPosition = "0px 50%";
+            } else {
+                themeShop.style.backgroundSize = "26px";
+                themeShop.style.backgroundPosition = "4px 50%";
+                themeShop.style.backgroundRepeat = "no-repeat";
+            }
             themeShop.style.backgroundColor = button.style.backgroundColor;
             themeShop.style.backgroundImage = button.style.backgroundImage;
         } else {
@@ -431,10 +447,12 @@ function updateConsecutiveVisitCounterDisplay() {
     const visitKey = 'consecutiveVisits';
     const consecutiveVisits = parseInt(localStorage.getItem(visitKey), 10) || 1;
     const visitCounterElement = document.getElementById('consecutive-visit-counter-midnight');
+    const visitCounterElement2 = document.getElementById('consecutive-visit-counter-gradient');
 
     // Update the visit counter display
     if (visitCounterElement) {
         visitCounterElement.textContent = `Consecutive visits: ${consecutiveVisits}/2`;
+        visitCounterElement2.textContent = `Consecutive visits: ${consecutiveVisits}/4`;
     }
 }
 
@@ -445,7 +463,11 @@ function checkConsecutiveVisitsAndUnlockTheme(theme) {
     const feedbackElement = document.getElementById(`feedback-message-${theme}`); // Ensure you have a unique feedback element for each theme
 
     // If the user has visited the site on 2 consecutive days
-    if (consecutiveVisits >= 2) {
+    if (consecutiveVisits >= 2 && theme === "midnight") {
+        localStorage.setItem(themeUnlockedKey, 'true'); // Unlock the theme
+        meepMorp(theme); // Update the UI to reflect the unlocked theme
+        runConfetti(); // Run the confetti effect
+    } else if (consecutiveVisits >= 4 && theme === "gradient") {
         localStorage.setItem(themeUnlockedKey, 'true'); // Unlock the theme
         meepMorp(theme); // Update the UI to reflect the unlocked theme
         runConfetti(); // Run the confetti effect

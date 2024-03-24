@@ -130,6 +130,7 @@ header {
 	margin: auto;
 	text-align: center;
 	background-color: var(--header-background-color);
+	background-image: var(--header-background-color);
 	z-index: 999;
 	transition: 0.3s;
 
