@@ -520,6 +520,21 @@ p {
 	outline: 2px solid var(--active-color);
 }
 
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--dark-color); /* Adjusted for proper syntax */
+    background-color: var(--active-color);
+    color: var(--button-text-color-alt);
+    max-width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    width: 200px;
+    text-decoration: none !important; /* Ensures the text does not have an underline */
+    cursor: pointer; /* Makes the mouse cursor change to a pointer, indicating it's clickable */
+}
+
 .marginal {
 	margin-top: -20px;
 }
