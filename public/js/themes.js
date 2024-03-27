@@ -462,11 +462,13 @@ function updateConsecutiveVisitCounterDisplay() {
     const consecutiveVisits = parseInt(localStorage.getItem(visitKey), 10) || 1;
     const visitCounterElement = document.getElementById('consecutive-visit-counter-midnight');
     const visitCounterElement2 = document.getElementById('consecutive-visit-counter-gradient');
+    const visitCounterElement3 = document.getElementById('consecutive-visit-counter');
 
     // Update the visit counter display
     if (visitCounterElement) {
         visitCounterElement.textContent = `Consecutive visits: ${consecutiveVisits}/2`;
         visitCounterElement2.textContent = `Consecutive visits: ${consecutiveVisits}/4`;
+        visitCounterElement3.textContent = `Current Streak: ${consecutiveVisits} Days`;
     }
 }
 
