@@ -516,6 +516,8 @@ p {
 	width: calc(200px + 30vw);
 	margin: -50px auto 100px;
 	padding: 2px 2px 18px;
+	border-radius: 5px;
+	outline: 2px solid var(--active-color);
 }
 
 .marginal {
