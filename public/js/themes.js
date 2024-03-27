@@ -21,6 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
         checkVisitsAndUnlockTheme('purple');
     });
 
+        // Event listener for the "Check Answer" button for the purple theme
+    document.getElementById('check-answer-green').addEventListener('click', () => {
+        checkVisitsAndUnlockTheme('green');
+    });
+
     // Event listener for the "Check Answer" button for the purple theme
     document.getElementById('check-answer-shaded').addEventListener('click', () => {
         checkNumberOfUnlockedThemesShaded()
