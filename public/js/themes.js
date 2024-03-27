@@ -863,17 +863,15 @@ function initialize2048 (){
 
     function drawBoard() {
         container.innerHTML = ''; // Clear previous tiles
-        const tileSize = 90; // Adjust based on your CSS
-        const tileGap = 10;  // Adjust based on your CSS
+        const tileSize = 4; // Adjust based on your CSS
+        const tileGap = 0.5;  // Adjust based on your CSS
         board.forEach((row, rowIndex) => {
             row.forEach((cellValue, colIndex) => {
                 const tile = document.createElement('div');
                 tile.className = 'game-tile';
                 tile.textContent = cellValue || '';
-                tile.style.width = `${tileSize}px`;
-                tile.style.height = `${tileSize}px`;
-                tile.style.top = `${(tileSize + tileGap) * rowIndex}px`;
-                tile.style.left = `${(tileSize + tileGap) * colIndex}px`;
+                tile.style.top = `${(tileSize + tileGap) * rowIndex}vw`;
+                tile.style.left = `${(tileSize + tileGap) * colIndex}vw`;
                 tile.style.backgroundColor = getTileColor(cellValue);
                 container.appendChild(tile);
             });
@@ -900,6 +898,12 @@ function initialize2048 (){
 
     document.addEventListener('keydown', handleKeyPress);
 
+    document.getElementById('startBtnMagma').addEventListener('click', function () {
+        board = board.map(row => row.map(() => 0)); // Reset each tile to 0
+        addRandomTile(board);
+        addRandomTile(board); // Add two random tiles
+        drawBoard(); // Redraw the board
+    });
 
     // Initialization
     addRandomTile(board);

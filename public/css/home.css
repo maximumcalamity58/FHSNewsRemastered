@@ -399,22 +399,26 @@ p {
 .game-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    width: 400px; /* Adjust based on your design */
-    height: 400px; /* Adjust based on your design */
-    margin: auto;
+    gap: 0.5vh;
+    width: 50vh; /* Responsive width */
+    height: 50vh; /* Responsive height, keeps the aspect ratio */
+
+	max-width: 90%;
+	max-height: 90%;
+    margin: auto auto 10px;
     background-color: #bbada0;
-    padding: 10px;
+    padding: 0.5vw;
     border-radius: 10px;
     grid-auto-rows: 1fr;
 }
 
-
 .game-tile {
     background-color: #cdc1b4;
     text-align: center;
-    line-height: 90px;
-    font-size: 55px;
+    line-height: 4.5vw; /* Responsive line-height */
+    font-size: 2.5vw; /* Responsive font-size */
+	width: 100%;
+	height: auto;
     font-weight: bold;
     border-radius: 5px;
 	color: white;
@@ -506,6 +510,12 @@ p {
   top: 0;
   bottom: 0;
   font-family: var(--bold-font);
+}
+
+#feedback-form {
+	width: calc(200px + 30vw);
+	margin: -50px auto 100px;
+	padding: 2px 2px 18px;
 }
 
 .marginal {
