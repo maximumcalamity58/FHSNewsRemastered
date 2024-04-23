@@ -3,22 +3,23 @@
   --light-font: "robotolight";
   --bold-font: "robotobold";
 
-  --background-image: url('../img/shaded.jpg');
+  --background-color: #FDB927;
+  --background-image: url('../img/lebron.png');
   --secondary-background-color: rgb(210,210,210);
   --container-background-color: rgba(0, 0, 0, 0.5);
-  --container-text-color: #ccc;
-  --countdown-text-color: #a6e1c2;
-  --gallery-dot-color: #888;
+  --container-text-color: #fff;
+  --countdown-text-color: #b0a5d2;
+  --gallery-dot-color: #D3D3D3;
 
   --button-background-color: white;
   --button-text-color: black;
   --button-text-color-alt: white;
   --button-hover-background: rgba(196, 196, 196, 0.5);
-  --button-hover-background-alt: rgba(100, 237, 169, 0.8);
+  --button-hover-background-alt: rgba(175, 100, 237, 0.8);
   --button-hover-text: black;
-  --button-active-color: rgba(255, 255, 255, 0.5);
+  --button-active-color: rgba(0, 0, 0, 0.5);
 
-  --soft-color: #733;
+  --soft-color: #a78ac5;
 
   --calendar-red: #c04040;
   --calendar-green: #50be50;
@@ -29,22 +30,21 @@
   --calendar-gray: #737373;
   --calendar-white: #ccc;
 
-
-  --header-background-color: #59737a;
+  --header-background-color: #552583;
   --header-text-color: white;
   --header-icon-color: white;
-  --navigation-background-color: #478991;
-  --navigation-icon-color: rgb(107, 213, 217);
-  --navigation-active-icon-color: #26c0ae;
+  --navigation-background-color: #3d1a5e;
+  --navigation-icon-color: rgb(80, 38, 112);
+  --navigation-active-icon-color: #7532b4;
 
-	--error-bg: rgb(155,155,155);
+	--error-bg: rgb(145, 125, 205);
 
-  --active-color: #0fd9e0;
-  --active-hover-color: rgb(150,150,150);
-  --dark-color: #555;
+  --active-color: #552583;
+  --active-hover-color: rgb(156, 120, 200);
+  --dark-color: #3f1765;
 
   --outline-color: rgb(180,180,180);
 
-  --anchor-color: #e8e8e8;
+  --anchor-color: #9b64ed;
   --anchor-hover: black;
 }

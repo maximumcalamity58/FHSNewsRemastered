@@ -6,6 +6,14 @@ const port = process.env.PORT || 3005;
 // Serve static files from the "public" directory
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use((req, res, next) => {
+    if (req.hostname.startsWith('www.')) {
+        return res.redirect(`https://${req.hostname.slice(4)}${req.url}`);
+    }
+    next();
+});
+
+
 // Specific route for /calendar
 app.get('/calendar', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/html/calendar.html'));

@@ -103,6 +103,9 @@ document.addEventListener('DOMContentLoaded', () => {
             if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'shaded') {
                 checkNumberOfUnlockedThemesShaded();
             }
+            if (openedPuzzle && openedPuzzle.getAttribute('data-theme') === 'lebron') {
+                checkAnswer('lebron');
+            }
         }
     });
 });
@@ -164,6 +167,9 @@ const beepBorpBoop = {
     },
     sunset: {
         parts: ['55']
+    },
+    lebron: {
+        parts: ['3']
     }
     // Add more themes and parts as needed
 };
