@@ -29,6 +29,10 @@ app.get('/info', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/html/info.html'));
 });
 
+// Redirect /kart to an external URL
+app.get('/kart', (req, res) => {
+    res.redirect('https://mkpc.malahieude.net/mariokart.php');
+});
 
 // Catch-all route to handle all other requests and return the index.html file
 app.get('*', (req, res) => {
