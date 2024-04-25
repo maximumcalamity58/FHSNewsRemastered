@@ -6,25 +6,26 @@ const port = process.env.PORT || 3005;
 // Serve static files from the "public" directory
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Redirection middleware to remove 'www.'
 app.use((req, res, next) => {
-    if (req.hostname.startsWith('www.')) {
-        return res.redirect(`https://${req.hostname.slice(4)}${req.url}`);
+    if (req.headers.host.slice(0, 4) === 'www.') {
+        const newHost = req.headers.host.slice(4);
+        return res.redirect(301, `https://${newHost}${req.originalUrl}`);
     }
     next();
 });
-
 
 // Specific route for /calendar
 app.get('/calendar', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/html/calendar.html'));
 });
 
-// Specific route for /calendar
+// Specific route for /clubs
 app.get('/clubs', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/html/clubs.html'));
 });
 
-// Specific route for /calendar
+// Specific route for /info
 app.get('/info', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/html/info.html'));
 });
@@ -36,18 +37,16 @@ app.get('/kart', (req, res) => {
 
 // Catch-all route to handle all other requests and return the index.html file
 app.get('*', (req, res) => {
-  // Only serve index.html if the request path does not contain a file extension
-  // This allows other static files to be accessed
-  if (path.extname(req.path).length > 0) {
-    res.status(404).end();
-  } else {
-    res.sendFile(path.join(__dirname, 'public/index.html'));
-  }
+    if (path.extname(req.path).length > 0) {
+        res.status(404).end();
+    } else {
+        res.sendFile(path.join(__dirname, 'public/index.html'));
+    }
 });
 
 const { exec } = require('child_process');
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}/`);
+    console.log(`Server running at http://localhost:${port}/`);
 });
