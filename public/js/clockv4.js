@@ -331,6 +331,35 @@ function updateClock() {
     }
 }
 
+function initializeEndOfYearCountdown() {
+    const endOfYearCountdown = document.getElementById("end_year_countdown");
+    const endOfYear = new Date(now.getFullYear(), 4, 29, 15, 0, 0); // May 29 at 3:00 PM
+
+    function updateEndOfYearCountdown() {
+        now = new Date();
+        let timeRemaining = (endOfYear - now) / 1000; // in seconds
+
+        if (timeRemaining < 0) {
+            endOfYearCountdown.textContent = "00:00:00:00"; // Countdown ended
+        } else {
+            const days = Math.floor(timeRemaining / 86400);
+            timeRemaining %= 86400;
+            const hours = Math.floor(timeRemaining / 3600);
+            timeRemaining %= 3600;
+            const minutes = Math.floor(timeRemaining / 60);
+            const seconds = Math.floor(timeRemaining % 60);
+            endOfYearCountdown.textContent = `${days < 10 ? '0' : ''}${days}:${hours < 10 ? '0' : ''}${hours}:${minutes < 10 ? '0' : ''}${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+        }
+    }
+
+    function tickEndOfYear() {
+        updateEndOfYearCountdown();
+        requestAnimationFrame(tickEndOfYear);
+    }
+
+    tickEndOfYear();
+}
+
 
 // main loop
 function tick() {
@@ -338,4 +367,7 @@ function tick() {
     requestAnimationFrame(tick);
 }
 
-window.addEventListener("DOMContentLoaded", initializeCountdown);
+window.addEventListener("DOMContentLoaded", () => {
+    initializeCountdown();
+    initializeEndOfYearCountdown();
+});

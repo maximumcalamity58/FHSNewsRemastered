@@ -335,6 +335,13 @@ p {
 	box-sizing: border-box;  /* To include padding and border in the element's total width and height */
 }
 
+#end_year_countdown {
+    margin-top: -10px;
+    font-size: 20px;
+    font-family: robotobold;
+    color: var(--header-text-color);
+}
+
 .theme-button {
   display: inline-block;
   position: relative;

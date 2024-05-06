@@ -122,8 +122,7 @@ body.fullsize-content #main-content {
 }
 
 header {
-	position: relative;
-	height: 12vw;
+	position: fixed;
 	width: 100%;
 	padding-top: 0;
 	padding-bottom: 0;
@@ -271,10 +270,6 @@ header {
 	z-index: 1000; /* Ensure the header is above the content */
 }
 
-#main-content {
-	padding-top: 12vw; /* Add top padding equal to the height of the header */
-}
-
 
 @media screen and (min-width: 0px) {
 	.wrapper {
@@ -283,12 +278,12 @@ header {
 	}
 
 	#main-content {
-		padding-top: 75px;
+		padding-top: 96px;
 		padding-bottom: 75px;
 	}
 
 	header {
-		height: 71.25px;
+		height: auto;
 		padding-top: 0;
 	}
 
